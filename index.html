@@ -109,6 +109,8 @@ footer a{color:var(--muted)}
     </details>
     <div class="frow cbar fhead"><span class="flabel">Niveau</span><button class="link" type="button" data-all="lvl">Tout sélectionner</button><button class="link" type="button" data-none="lvl">Tout désélectionner</button></div>
     <div class="chips" id="levels"></div>
+    <div class="frow cbar fhead"><span class="flabel">Féminin / Masculin</span><button class="link" type="button" data-all="gen">Tout sélectionner</button><button class="link" type="button" data-none="gen">Tout désélectionner</button></div>
+    <div class="chips" id="genres"></div>
     <div class="frow cbar fhead"><span class="flabel">Mes sports</span><button class="link" type="button" data-all="sport">Tout sélectionner</button><button class="link" type="button" data-none="sport">Tout désélectionner</button></div>
     <div class="chips" id="sports"></div>
     <div id="divrow" class="dep"><div class="frow cbar fhead"><span class="flabel">Division (football)</span><button class="link" type="button" data-all="div">Tout sélectionner</button><button class="link" type="button" data-none="div">Tout désélectionner</button></div><div class="chips" id="divs"></div></div>
@@ -145,6 +147,9 @@ footer a{color:var(--muted)}
 function start(DATA){
   DATA.zones = DATA.zones||[]; DATA.suivi = DATA.suivi||[]; DATA.editions = DATA.editions||[];
   const LEVELS = ['National','Régional'];
+  const GENRES = ['Féminin','Masculin'];
+  // a match is « Féminin » when its competition says so, or when one of its teams is a women's team in the catalogue
+  const FEM_COMP = /f[ée]minin|\bLF2\b|\bLFB\b|\bNF[123]\b|\bN[123] ?F\b|\bPNF\b|\bRF[123]\b|\bPRF\b|Arkema|Seconde Ligue|\bD[23] f/i;
   const DIVS = ['National','R1','R2','R3'];
   const divOf = r=>{ if(r.sport!=='Football') return null; if(r.div) return r.div; if((r.level||'')==='National') return 'National'; const m=/R(?:é|e)gional\s*([123])|\bR([123])\b/i.exec(r.comp||''); return m?('R'+(m[1]||m[2])):null; };
   const norm = t=>String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
@@ -163,16 +168,16 @@ function start(DATA){
     const sports = new Set(PRIO); DATA.suivi.forEach(s=>sports.add(s.sport)); rows.forEach(r=>sports.add(r.sport)); // the team sports always show, even before a club or result exists
     allSports = [...sports].sort(sportOrder);
     clubMap = new Map();
-    DATA.suivi.forEach(s=>clubMap.set(s.club,{sport:s.sport,zone:s.zone,div:divOf(s)}));
+    DATA.suivi.forEach(s=>clubMap.set(s.club,{sport:s.sport,zone:s.zone,div:divOf(s),genre:s.genre==='F'?'Féminin':'Masculin'}));
     rows.forEach(r=>{ const d=divOf(r); if(r.hz && !clubMap.has(r.home)) clubMap.set(r.home,{sport:r.sport,zone:r.hz,div:d}); if(r.az && !clubMap.has(r.away)) clubMap.set(r.away,{sport:r.sport,zone:r.az,div:d}); });
     allClubs = [...clubMap.keys()].sort((a,b)=>sportOrder(clubMap.get(a).sport,clubMap.get(b).sport)||a.localeCompare(b,'fr'));
   }
   catalogue();
 
   // reader preferences: everything ON by default; we store what the reader switched OFF so new entries appear
-  let offZ = new Set(store.get('rsh2-offz',[])), offL = new Set(store.get('rsh2-offl',[])), offS = new Set(store.get('rsh2-offs',[])), offC = new Set(store.get('rsh2-offc',[])), offD = new Set(store.get('rsh2-offd',[]));
+  let offZ = new Set(store.get('rsh2-offz',[])), offL = new Set(store.get('rsh2-offl',[])), offS = new Set(store.get('rsh2-offs',[])), offC = new Set(store.get('rsh2-offc',[])), offD = new Set(store.get('rsh2-offd',[])), offG = new Set(store.get('rsh2-offg',[]));
   let q='';
-  const save=()=>{store.set('rsh2-offz',[...offZ]);store.set('rsh2-offl',[...offL]);store.set('rsh2-offs',[...offS]);store.set('rsh2-offc',[...offC]);store.set('rsh2-offd',[...offD]);};
+  const save=()=>{store.set('rsh2-offz',[...offZ]);store.set('rsh2-offl',[...offL]);store.set('rsh2-offs',[...offS]);store.set('rsh2-offc',[...offC]);store.set('rsh2-offd',[...offD]);store.set('rsh2-offg',[...offG]);};
   let cur = eds[0];
   const zoneOf = k=>DATA.zones.find(z=>z.k===k);
 
@@ -181,7 +186,7 @@ function start(DATA){
   fillEditions();
   edSel.addEventListener('change',()=>{cur=eds.find(e=>e.id===edSel.value)||eds[0];render();});
 
-  const visClubs = ()=>allClubs.filter(c=>{const m=clubMap.get(c);return !offS.has(m.sport)&&!offZ.has(m.zone)&&!(m.sport==='Football'&&m.div&&offD.has(m.div))&&matchQ(c);});
+  const visClubs = ()=>allClubs.filter(c=>{const m=clubMap.get(c);return !offS.has(m.sport)&&!offZ.has(m.zone)&&!(m.sport==='Football'&&m.div&&offD.has(m.div))&&!offG.has(m.genre||'Masculin')&&matchQ(c);});
   // club search: every typed word must appear in the name, in any order; dots, dashes and accents are ignored
   const flat=t=>norm(t).replace(/[^a-z0-9]+/g,' ').trim();
   const matchQ=c=>{ if(!q) return true; const n=' '+flat(c)+' '; return flat(q).split(' ').every(w=>n.includes(w)); };
@@ -196,6 +201,7 @@ function start(DATA){
     $('deps').innerHTML = deps.filter(d=>DATA.zones.some(z=>z.dep===d)).map(d=>`<button type="button" class="chip" data-dep="${esc(d)}" aria-pressed="${depState(d)}">${esc(d)}</button>`).join('');
     const zon = DATA.zones.filter(z=>!offZ.has(z.k)).length;
     $('zsum').textContent = zon===DATA.zones.length?`toutes (${zon})`:`${zon} sur ${DATA.zones.length}`;
+    $('genres').innerHTML = GENRES.map(g=>`<button type="button" class="chip" data-g="${esc(g)}" aria-pressed="${!offG.has(g)}">${esc(g)}</button>`).join('');
     $('levels').innerHTML = LEVELS.map(l=>`<button type="button" class="chip" data-l="${esc(l)}" aria-pressed="${!offL.has(l)}">${esc(l)}</button>`).join('');
     $('sports').innerHTML = allSports.map(s=>`<button type="button" class="chip" data-s="${esc(s)}" aria-pressed="${!offS.has(s)}">${esc(s)}</button>`).join('');
     $('divrow').hidden = offS.has('Football');
@@ -208,6 +214,7 @@ function start(DATA){
   const tog=(set,v)=>{set.has(v)?set.delete(v):set.add(v);save();render();};
   $('zones').addEventListener('click',e=>{const p=e.target.closest('[data-dep]');if(p){togDep(p.dataset.dep);return;}const b=e.target.closest('[data-z]');if(b)tog(offZ,b.dataset.z);});
   $('deps').addEventListener('click',e=>{const b=e.target.closest('[data-dep]');if(b)togDep(b.dataset.dep);});
+  $('genres').addEventListener('click',e=>{const b=e.target.closest('[data-g]');if(b)tog(offG,b.dataset.g);});
   $('levels').addEventListener('click',e=>{const b=e.target.closest('[data-l]');if(b)tog(offL,b.dataset.l);});
   $('sports').addEventListener('click',e=>{const b=e.target.closest('[data-s]');if(b)tog(offS,b.dataset.s);});
   $('divs').addEventListener('click',e=>{const b=e.target.closest('[data-d]');if(b)tog(offD,b.dataset.d);});
@@ -218,13 +225,14 @@ function start(DATA){
   $('c-all').addEventListener('click',()=>{visClubs().forEach(c=>offC.delete(c));save();render();});
   $('c-none').addEventListener('click',()=>{visClubs().forEach(c=>offC.add(c));save();render();});
   // « tout sélectionner / tout désélectionner » for départements, niveaux and sports
-  const bulk={dep:[offZ,()=>DATA.zones.map(z=>z.k)],lvl:[offL,()=>LEVELS],sport:[offS,()=>allSports],div:[offD,()=>DIVS]};
+  const bulk={dep:[offZ,()=>DATA.zones.map(z=>z.k)],lvl:[offL,()=>LEVELS],sport:[offS,()=>allSports],div:[offD,()=>DIVS],gen:[offG,()=>GENRES]};
   document.querySelectorAll('[data-all],[data-none]').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.all||b.dataset.none,[set,all]=bulk[k]; if(b.dataset.all) set.clear(); else all().forEach(v=>set.add(v)); save(); render();}));
-  $('all').addEventListener('click',()=>{offZ.clear();offL.clear();offS.clear();offC.clear();offD.clear();save();render();});
+  $('all').addEventListener('click',()=>{offZ.clear();offL.clear();offS.clear();offC.clear();offD.clear();offG.clear();save();render();});
 
   // a match shows when its sport and level are on, and at least one of its two teams is in a chosen zone and not switched off
   const sideOn=(name,z)=>z && !offZ.has(z) && !offC.has(name);
-  const keep=r=>{const d=divOf(r); return !offS.has(r.sport)&&!offL.has(r.level||'National')&&!(d&&offD.has(d))&&(sideOn(r.home,r.hz)||sideOn(r.away,r.az));};
+  const genreOf=r=>{ if(r.genre==='F') return 'Féminin'; if(r.genre==='M') return 'Masculin'; if(FEM_COMP.test(r.comp||'')) return 'Féminin'; const h=clubMap.get(r.home), a=clubMap.get(r.away); return (h&&h.genre==='Féminin')||(a&&a.genre==='Féminin')?'Féminin':'Masculin'; };
+  const keep=r=>{const d=divOf(r); return !offG.has(genreOf(r))&&!offS.has(r.sport)&&!offL.has(r.level||'National')&&!(d&&offD.has(d))&&(sideOn(r.home,r.hz)||sideOn(r.away,r.az));};
   const zoneNames=r=>[...new Set([r.hz,r.az].filter(Boolean))].map(k=>(zoneOf(k)||{l:k}).l).join(' · ');
 
   function render(){

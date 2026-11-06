@@ -245,7 +245,8 @@
    "sport": "Football",
    "zone": "reims",
    "level": "National",
-   "div": "National"
+   "div": "National",
+   "genre": "F"
   },
   {
    "club": "ESTAC Troyes",
@@ -266,7 +267,8 @@
    "sport": "Football",
    "zone": "troyes",
    "level": "National",
-   "div": "National"
+   "div": "National",
+   "genre": "F"
   },
   {
    "club": "Charleville Prix OAM",
@@ -735,7 +737,8 @@
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
-   "div": "Féminines"
+   "div": "Féminines",
+   "genre": "F"
   },
   {
    "club": "Reims Métropole Futsal",
@@ -753,13 +756,15 @@
    "club": "Champagne Basket Féminin",
    "sport": "Basket",
    "zone": "reims",
-   "level": "National"
+   "level": "National",
+   "genre": "F"
   },
   {
    "club": "Champagne Basket Féminin B",
    "sport": "Basket",
    "zone": "reims",
-   "level": "National"
+   "level": "National",
+   "genre": "F"
   },
   {
    "club": "Recy-Saint-Martin",
@@ -777,7 +782,8 @@
    "club": "Reims Champagne Handball",
    "sport": "Handball",
    "zone": "reims",
-   "level": "National"
+   "level": "National",
+   "genre": "F"
   },
   {
    "club": "Reims Volley 51",
@@ -795,7 +801,8 @@
    "club": "Reims Volley 51 F",
    "sport": "Volley",
    "zone": "reims",
-   "level": "National"
+   "level": "National",
+   "genre": "F"
   },
   {
    "club": "Chaumont VB 52",
@@ -921,7 +928,8 @@
    "club": "SD2MO féminines",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Chaumont VB 52 (Élite Avenir)",
@@ -948,12 +956,6 @@
    "zone": "chthierry",
    "level": "Régional",
    "div": "R3"
-  },
-  {
-   "club": "ELITE AXONAISE HANDBALL U18M (SOISSONS)",
-   "sport": "Handball",
-   "zone": "soissons",
-   "level": "Régional"
   },
   {
    "club": "SAINT QUENTIN HANDBALL",
@@ -1090,18 +1092,6 @@
    "level": "Régional"
   },
   {
-   "club": "ENT SAVINO CHAPELAIN/US STE MAURE U17M",
-   "sport": "Handball",
-   "zone": "troyes",
-   "level": "Régional"
-  },
-  {
-   "club": "ENT STE MAURE TROYES/ARCIS/SAVINO CHAPELAIN U15F",
-   "sport": "Handball",
-   "zone": "troyes",
-   "level": "Régional"
-  },
-  {
    "club": "ENT US STE MAURE /SAVINO CHAPELAIN",
    "sport": "Handball",
    "zone": "troyes",
@@ -1201,19 +1191,8 @@
    "club": "Reims Bezannes Féminin",
    "sport": "Football",
    "zone": "reims",
-   "level": "Régional"
-  },
-  {
-   "club": "ALLIANCE 51 U15F",
-   "sport": "Handball",
-   "zone": "reims",
-   "level": "Régional"
-  },
-  {
-   "club": "ALLIANCE 51 U17F",
-   "sport": "Handball",
-   "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "ASPTT HANDBALL CHALONS EN CHAMPAGNE",
@@ -1225,37 +1204,8 @@
    "club": "ENTENTE EPERN'AY SF PN",
    "sport": "Handball",
    "zone": "epernay",
-   "level": "Régional"
-  },
-  {
-   "club": "ENTENTE EPERN'AY U17F",
-   "sport": "Handball",
-   "zone": "epernay",
-   "level": "Régional"
-  },
-  {
-   "club": "ENTENTE EPERN'AY U17M",
-   "sport": "Handball",
-   "zone": "epernay",
-   "level": "Régional"
-  },
-  {
-   "club": "ENTENTE EPRN'AY U15F",
-   "sport": "Handball",
-   "zone": "epernay",
-   "level": "Régional"
-  },
-  {
-   "club": "ENTENTE MARNE HB U15M",
-   "sport": "Handball",
-   "zone": "reims",
-   "level": "Régional"
-  },
-  {
-   "club": "ENTENTE MARNE HB U17M",
-   "sport": "Handball",
-   "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "TAISSY CLUB HANDBALL",
@@ -1313,12 +1263,6 @@
   },
   {
    "club": "CHAUMONT HANDBALL",
-   "sport": "Handball",
-   "zone": "chaumont",
-   "level": "Régional"
-  },
-  {
-   "club": "ENT CHAUMONT/FRONCLES U15M",
    "sport": "Handball",
    "zone": "chaumont",
    "level": "Régional"
@@ -1467,13 +1411,15 @@
    "club": "AS Saint-Brice-Courcelles Basket",
    "sport": "Basket",
    "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Champagne Basket Féminin (RF2)",
    "sport": "Basket",
    "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Éveil laïque Witry-lès-Reims Basket 2",
@@ -1485,13 +1431,15 @@
    "club": "Éveil laïque Witry-lès-Reims Basket (féminines)",
    "sport": "Basket",
    "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "SQBB - JSC",
    "sport": "Basket",
    "zone": "stquentin",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "SQBB - JSC 2",
@@ -1503,7 +1451,8 @@
    "club": "ESC Tergnier 2",
    "sport": "Basket",
    "zone": "laon",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "ESC Tergnier 3",
@@ -1545,7 +1494,8 @@
    "club": "FC Belleu Basket Ball",
    "sport": "Basket",
    "zone": "soissons",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "FC Belleu Basket Ball 2",
@@ -1557,7 +1507,8 @@
    "club": "Pals Athletic Club Guise",
    "sport": "Basket",
    "zone": "thierache",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Pals Athletic Club Guise 2",
@@ -1569,31 +1520,36 @@
    "club": "Laon BB",
    "sport": "Basket",
    "zone": "laon",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "ASG Gauchy 2",
    "sport": "Basket",
    "zone": "stquentin",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "AAE Bohain",
    "sport": "Basket",
    "zone": "stquentin",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Soissons Cuffies Aisne BB 2",
    "sport": "Basket",
    "zone": "soissons",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Gricourt Basket",
    "sport": "Basket",
    "zone": "stquentin",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "RC Epernay HB 2",
@@ -1617,7 +1573,8 @@
    "club": "Reims Champagne Handball 2",
    "sport": "Handball",
    "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Reims Champagne Handball (masculins)",
@@ -1629,19 +1586,22 @@
    "club": "Hand Ball Club Laonnois",
    "sport": "Handball",
    "zone": "laon",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Hand Ball Club Laonnois 2",
    "sport": "Handball",
    "zone": "laon",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Elite Axonaise Handball (féminines)",
    "sport": "Handball",
    "zone": "soissons",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Reims Volley 51 – 4",
@@ -1677,7 +1637,8 @@
    "club": "Chaumont VB 52 féminines",
    "sport": "Volley",
    "zone": "chaumont",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "PLVB Troyes 2",
@@ -1695,7 +1656,8 @@
    "club": "Troyes (volley féminines)",
    "sport": "Volley",
    "zone": "troyes",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Saint-Quentin Volley 2",
@@ -1708,6 +1670,20 @@
    "sport": "Rugby",
    "zone": "epernay",
    "level": "National"
+  },
+  {
+   "club": "Hand Sedan Ardennes (féminines)",
+   "sport": "Handball",
+   "zone": "charleville",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Chaumont Handball (féminines)",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional",
+   "genre": "F"
   }
  ],
  "editions": [
@@ -1941,7 +1917,8 @@
      "sh": 4,
      "sa": 6,
      "note": "Au stade Vastag de Taissy.",
-     "url": "https://www.sportclub-reims.fr/2026/11/les-joueuses-de-taissy-a-la-fois-si-proches-et-si-loin-de-lestac-en-coupe/"
+     "url": "https://www.sportclub-reims.fr/2026/11/les-joueuses-de-taissy-a-la-fois-si-proches-et-si-loin-de-lestac-en-coupe/",
+     "genre": "F"
     },
     {
      "sport": "Futsal",
@@ -1983,7 +1960,8 @@
      "sh": 71,
      "sa": 63,
      "note": "",
-     "url": "https://www.sportclub-reims.fr/2026/10/le-champagne-basket-feminin-sest-fait-peur-mais-retrouve-la-gagne-contre-geispolsheim/"
+     "url": "https://www.sportclub-reims.fr/2026/10/le-champagne-basket-feminin-sest-fait-peur-mais-retrouve-la-gagne-contre-geispolsheim/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -2011,7 +1989,8 @@
      "sh": 74,
      "sa": 65,
      "note": "",
-     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -2081,7 +2060,8 @@
      "sh": 3,
      "sa": 0,
      "note": "",
-     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+     "genre": "F"
     },
     {
      "sport": "Roller hockey",
@@ -2223,7 +2203,8 @@
      "sh": 1,
      "sa": 1,
      "note": "Qualification de SD2MO aux tirs au but (4-5).",
-     "url": "https://jhm.fr/laventure-bragarde-continue/"
+     "url": "https://jhm.fr/laventure-bragarde-continue/",
+     "genre": "F"
     },
     {
      "sport": "Volley",
@@ -3116,7 +3097,8 @@
      "az": "reims",
      "comp": "Régionale féminine 2 · Poule B · J4",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -3129,7 +3111,8 @@
      "az": null,
      "comp": "Régionale féminine 2 · Poule B · J4",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -3142,7 +3125,8 @@
      "az": null,
      "comp": "Pré-nationale féminine · Poule A · J3",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -3155,7 +3139,8 @@
      "az": null,
      "comp": "Nationale féminine 3 · Poule F · J8",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -3233,7 +3218,8 @@
      "az": "laon",
      "comp": "Pré-régionale féminine (Aisne) · J3",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -3246,7 +3232,8 @@
      "az": "laon",
      "comp": "Pré-régionale féminine (Aisne) · J3",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -3259,7 +3246,8 @@
      "az": "stquentin",
      "comp": "Pré-régionale féminine (Aisne) · J3",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Basket",
@@ -3272,7 +3260,8 @@
      "az": "thierache",
      "comp": "Pré-régionale féminine (Aisne) · J3",
      "place": "",
-     "url": "https://competitions.ffbb.com/"
+     "url": "https://competitions.ffbb.com/",
+     "genre": "F"
     },
     {
      "sport": "Handball",
@@ -3285,7 +3274,8 @@
      "az": "reims",
      "comp": "Nationale 3 territoriale féminine · J5",
      "place": "",
-     "url": "https://www.ffhandball.fr/"
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F"
     },
     {
      "sport": "Handball",
