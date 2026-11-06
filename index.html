@@ -1,0 +1,249 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body><title id="t-title">Résultats Sport Hebdo</title>
+<meta id="t-meta" name="claude:viewport-fit-sides" content="cover">
+<link id="t-pc1" rel="preconnect" href="https://fonts.googleapis.com">
+<link id="t-pc2" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link id="t-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&amp;family=Archivo:wght@400;500;600&amp;display=swap">
+<style id="css">
+/* Layout: one reading column; scoreboard masthead, filter panel (département > zone > niveau > sport > club), results grouped by sport, week fixtures. Content comes from data.json, edited on admin.html */
+:root{
+  --bg:#f6f4f3; --surface:#ffffff; --ink:#1d1a1b; --muted:#6c6466; --line:#e4dfdf;
+  --accent:#b3122b; --accent-ink:#ffffff; --gold:#a97c2b; --chip:#efeaea; --scorebg:#1d1a1b; --scoreink:#ffffff;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141213; --surface:#1d1a1b; --ink:#f1eded; --muted:#a39a9c; --line:#322c2e;
+  --accent:#e0435a; --accent-ink:#1a0a0d; --gold:#d6ad62; --chip:#2a2527; --scorebg:#f1eded; --scoreink:#141213; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141213; --surface:#1d1a1b; --ink:#f1eded; --muted:#a39a9c; --line:#322c2e;
+  --accent:#e0435a; --accent-ink:#1a0a0d; --gold:#d6ad62; --chip:#2a2527; --scorebg:#f1eded; --scoreink:#141213; color-scheme:dark}
+
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:760px;margin:0 auto;padding-block:20px 56px;display:flex;flex-direction:column;gap:26px}
+
+.mast{display:flex;flex-direction:column;gap:10px;border-bottom:3px solid var(--ink);padding-bottom:14px}
+.mast-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.brand{font:800 clamp(38px,8vw,60px)/.9 var(--display);letter-spacing:-.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+.brand span{color:var(--accent)}
+.tag{margin:0;font:600 13px var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.edition{font:600 13px/1.2 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:8px;align-items:center}
+select,input{font:500 14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:6px 8px;min-width:0}
+.edition select{font:600 13px var(--display);letter-spacing:.08em;text-transform:uppercase}
+.edito{margin:0;max-width:62ch}
+
+.filters{display:flex;flex-direction:column;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.flabel{font:600 12px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.frow{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:600 14px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:8px 11px;border-radius:999px;cursor:pointer}
+.chip small{font-weight:500;opacity:.75;margin-left:4px;letter-spacing:.04em}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chip.small{font-size:13px;padding:6px 10px;text-transform:none;letter-spacing:.02em}
+.dep{display:flex;flex-direction:column;gap:5px}
+.dep + .dep{margin-top:4px}
+.dep-name{font:600 11px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+details.box summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:baseline}
+details.box summary::-webkit-details-marker{display:none}
+details.box summary::before{content:"▸";color:var(--muted);font-size:12px}
+details.box[open] summary::before{content:"▾"}
+.csum{font-size:13px;color:var(--muted)}
+.cbar{justify-content:flex-start;gap:14px;margin-block:8px 6px}
+#c-search{flex:1 1 180px;max-width:280px}
+.scroll{max-height:42vh;overflow:auto}
+.link{background:none;border:0;color:var(--muted);font:500 13px var(--body);text-decoration:underline;cursor:pointer;padding:0}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+h2{font:800 26px/1 var(--display);text-transform:uppercase;margin:0 0 12px;display:flex;align-items:baseline;gap:10px}
+h2 small{font:600 13px var(--display);letter-spacing:.12em;color:var(--muted)}
+.sport{display:flex;flex-direction:column;gap:8px}
+.sport + .sport{margin-top:18px}
+.sport h3{font:700 15px/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0;padding-bottom:6px;border-bottom:1px solid var(--line)}
+
+.res{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;font:600 12px var(--display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.lvl{color:var(--gold)}
+.score{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;font:700 19px/1.15 var(--display)}
+.score .h{text-align:right}
+.score .num{font-variant-numeric:tabular-nums;background:var(--scorebg);color:var(--scoreink);padding:2px 9px;border-radius:3px;letter-spacing:.04em;white-space:nowrap}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;align-items:baseline}
+.note{margin:0;color:var(--muted);font-size:14px;max-width:62ch}
+.zones-of{font-size:12.5px;color:var(--muted)}
+a.read{font:600 13px var(--body);color:var(--accent);text-decoration:none;white-space:nowrap}
+a.read:hover{text-decoration:underline}
+
+.fx{display:grid;grid-template-columns:84px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.fx:last-child{border-bottom:0}
+.when{font:700 15px/1.15 var(--display);text-transform:uppercase;letter-spacing:.04em}
+.when span{display:block;color:var(--accent);font-size:20px;font-variant-numeric:tabular-nums}
+.fx-main{min-width:0;display:flex;flex-direction:column;gap:2px}
+.fx-match{font:700 18px/1.2 var(--display)}
+.fx-meta{color:var(--muted);font-size:13.5px}
+
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:6px;padding:16px;color:var(--muted)}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:6px}
+footer a{color:var(--muted)}
+
+.adminl{margin:0;font-size:13.5px}.adminl a{color:var(--accent);font-weight:600}
+@media (max-width:460px){.fx{grid-template-columns:70px 1fr}.score{font-size:17px}}
+</style>
+<div class="wrap" id="root">
+  <header class="mast">
+    <div class="mast-top">
+      <h1 class="brand">Résultats <span>Sport</span> Hebdo</h1>
+      <label class="edition" for="ed">Édition <select id="ed"></select></label>
+    </div>
+    <p class="tag">Sports collectifs · niveaux régional et national · Marne, Ardennes, Aube, Haute-Marne, Aisne</p>
+    <p class="edito" id="edito"></p>
+  </header>
+
+  <nav class="filters" aria-label="Filtres">
+    <span class="flabel">Département</span>
+    <div class="chips" id="deps"></div>
+    <details class="box" id="zbox">
+      <summary><span class="flabel">Ma zone (bassins)</span> <span class="csum" id="zsum"></span></summary>
+      <div class="frow cbar"><button class="link" id="z-all" type="button">Toutes</button><button class="link" id="z-none" type="button">Aucune</button><button class="link" id="all" type="button">Réinitialiser tous les filtres</button></div>
+      <div id="zones"></div>
+    </details>
+    <span class="flabel">Niveau</span>
+    <div class="chips" id="levels"></div>
+    <span class="flabel">Mes sports</span>
+    <div class="chips" id="sports"></div>
+    <div id="divrow" class="dep"><span class="flabel">Division (football)</span><div class="chips" id="divs"></div></div>
+    <details class="box" id="cbox">
+      <summary><span class="flabel">Mes clubs</span> <span class="csum" id="csum"></span></summary>
+      <div class="frow cbar"><input id="c-search" type="search" placeholder="Rechercher un club…" aria-label="Rechercher un club"><button class="link" id="c-all" type="button">Tous</button><button class="link" id="c-none" type="button">Aucun</button></div>
+      <div class="chips scroll" id="clubs"></div>
+    </details>
+  </nav>
+
+  <section aria-labelledby="h-res">
+    <h2 id="h-res">Résultats <small id="res-count"></small></h2>
+    <div id="results"></div>
+  </section>
+
+  <section aria-labelledby="h-fx">
+    <h2 id="h-fx">À l'affiche <small>cette semaine</small></h2>
+    <div id="fixtures"></div>
+  </section>
+
+  <p id="admin-link" class="adminl" hidden><a href="admin.html">Ouvrir l'administration de la newsletter ↗</a></p>
+
+  <footer>
+    <span>Chaque lundi matin : les résultats du week-end et le programme de la semaine.</span>
+    <span id="sources"></span>
+  </footer>
+</div>
+<script id="t-datajs" src="data.js"></script>
+<script id="app">
+// content lives in data.js (window.RSH_DATA, published next to this page by the admin page and the Monday update); data.json is a fallback copy
+(window.RSH_DATA ? Promise.resolve(window.RSH_DATA) : fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})).then(start).catch(()=>{
+  document.getElementById('results').innerHTML='<div class="empty">Le contenu de la newsletter n\'a pas pu être chargé. Recharge la page dans un instant.</div>';
+});
+function start(DATA){
+  DATA.zones = DATA.zones||[]; DATA.suivi = DATA.suivi||[]; DATA.editions = DATA.editions||[];
+  const LEVELS = ['National','Régional'];
+  const DIVS = ['National','R1','R2','R3'];
+  const divOf = r=>{ if(r.sport!=='Football') return null; if(r.div) return r.div; if((r.level||'')==='National') return 'National'; const m=/R(?:é|e)gional\s*([123])|\bR([123])\b/i.exec(r.comp||''); return m?('R'+(m[1]||m[2])):null; };
+  const norm = t=>String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const PRIO = ['Football','Futsal','Basket','Handball','Volley','Rugby','Hockey sur glace','Roller hockey','Water-polo'];
+  const rank = s=>{const i=PRIO.indexOf(s);return i<0?99:i};
+  const sportOrder = (a,b)=>rank(a)-rank(b)||a.localeCompare(b,'fr');
+  const store = {get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+  const $ = id=>document.getElementById(id);
+  const esc = s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const safeUrl = u=>/^https?:\/\//i.test(u||'')?u:'';
+
+  let eds, allSports, clubMap, allClubs;
+  function catalogue(){
+    eds = DATA.editions.slice().sort((a,b)=>b.id.localeCompare(a.id));
+    const rows = eds.flatMap(e=>[...(e.results||[]),...(e.agenda||[])]);
+    const sports = new Set(DATA.suivi.map(s=>s.sport)); rows.forEach(r=>sports.add(r.sport));
+    allSports = [...sports].sort(sportOrder);
+    clubMap = new Map();
+    DATA.suivi.forEach(s=>clubMap.set(s.club,{sport:s.sport,zone:s.zone,div:divOf(s)}));
+    rows.forEach(r=>{ const d=divOf(r); if(r.hz && !clubMap.has(r.home)) clubMap.set(r.home,{sport:r.sport,zone:r.hz,div:d}); if(r.az && !clubMap.has(r.away)) clubMap.set(r.away,{sport:r.sport,zone:r.az,div:d}); });
+    allClubs = [...clubMap.keys()].sort((a,b)=>sportOrder(clubMap.get(a).sport,clubMap.get(b).sport)||a.localeCompare(b,'fr'));
+  }
+  catalogue();
+
+  // reader preferences: everything ON by default; we store what the reader switched OFF so new entries appear
+  let offZ = new Set(store.get('rsh2-offz',[])), offL = new Set(store.get('rsh2-offl',[])), offS = new Set(store.get('rsh2-offs',[])), offC = new Set(store.get('rsh2-offc',[])), offD = new Set(store.get('rsh2-offd',[]));
+  let q='';
+  const save=()=>{store.set('rsh2-offz',[...offZ]);store.set('rsh2-offl',[...offL]);store.set('rsh2-offs',[...offS]);store.set('rsh2-offc',[...offC]);store.set('rsh2-offd',[...offD]);};
+  let cur = eds[0];
+  const zoneOf = k=>DATA.zones.find(z=>z.k===k);
+
+  const edSel=$('ed');
+  function fillEditions(){ edSel.innerHTML = eds.map(e=>`<option value="${esc(e.id)}">${esc(e.label)}</option>`).join(''); }
+  fillEditions();
+  edSel.addEventListener('change',()=>{cur=eds.find(e=>e.id===edSel.value)||eds[0];render();});
+
+  const visClubs = ()=>allClubs.filter(c=>{const m=clubMap.get(c);return !offS.has(m.sport)&&!offZ.has(m.zone)&&!(m.sport==='Football'&&m.div&&offD.has(m.div))&&(!q||norm(c).includes(q));});
+  // a département chip is pressed when all its zones are on, "mixed" when only some are
+  const depZones = d=>DATA.zones.filter(z=>z.dep===d);
+  const depState = d=>{const zs=depZones(d), on=zs.filter(z=>!offZ.has(z.k)).length; return on===zs.length?'true':(on?'mixed':'false');};
+  const togDep = d=>{const zs=depZones(d), all=depState(d)==='true'; zs.forEach(z=>all?offZ.add(z.k):offZ.delete(z.k)); save(); render();};
+  function filters(){
+    const deps = DATA.departements||[...new Set(DATA.zones.map(z=>z.dep))];
+    $('zones').innerHTML = deps.map(d=>{const zs=DATA.zones.filter(z=>z.dep===d); if(!zs.length) return '';
+      return `<div class="dep"><span class="dep-name">${esc(d)}</span><div class="chips"><button type="button" class="chip small" data-dep="${esc(d)}" aria-pressed="${depState(d)}">Tout le département</button>${zs.map(z=>`<button type="button" class="chip" data-z="${esc(z.k)}" aria-pressed="${!offZ.has(z.k)}">${esc(z.l)}</button>`).join('')}</div></div>`}).join('');
+    $('deps').innerHTML = deps.filter(d=>DATA.zones.some(z=>z.dep===d)).map(d=>`<button type="button" class="chip" data-dep="${esc(d)}" aria-pressed="${depState(d)}">${esc(d)}</button>`).join('');
+    const zon = DATA.zones.filter(z=>!offZ.has(z.k)).length;
+    $('zsum').textContent = zon===DATA.zones.length?`toutes (${zon})`:`${zon} sur ${DATA.zones.length}`;
+    $('levels').innerHTML = LEVELS.map(l=>`<button type="button" class="chip" data-l="${esc(l)}" aria-pressed="${!offL.has(l)}">${esc(l)}</button>`).join('');
+    $('sports').innerHTML = allSports.map(s=>`<button type="button" class="chip" data-s="${esc(s)}" aria-pressed="${!offS.has(s)}">${esc(s)}</button>`).join('');
+    $('divrow').hidden = offS.has('Football');
+    $('divs').innerHTML = DIVS.map(d=>`<button type="button" class="chip" data-d="${esc(d)}" aria-pressed="${!offD.has(d)}">${esc(d)}</button>`).join('');
+    const vc=visClubs();
+    $('clubs').innerHTML = vc.length? vc.map(c=>`<button type="button" class="chip small" data-c="${esc(c)}" aria-pressed="${!offC.has(c)}">${esc(c)}</button>`).join('') : (q ? '<span class="csum">Aucun club trouvé avec les filtres actuels (zone, sport, division).</span>' : '<span class="csum">Choisis d\'abord une zone et un sport.</span>');
+    const on=vc.filter(c=>!offC.has(c)).length;
+    $('csum').textContent = vc.length?(on===vc.length?`tous (${vc.length})`:`${on} sur ${vc.length}`):'';
+  }
+  const tog=(set,v)=>{set.has(v)?set.delete(v):set.add(v);save();render();};
+  $('zones').addEventListener('click',e=>{const p=e.target.closest('[data-dep]');if(p){togDep(p.dataset.dep);return;}const b=e.target.closest('[data-z]');if(b)tog(offZ,b.dataset.z);});
+  $('deps').addEventListener('click',e=>{const b=e.target.closest('[data-dep]');if(b)togDep(b.dataset.dep);});
+  $('levels').addEventListener('click',e=>{const b=e.target.closest('[data-l]');if(b)tog(offL,b.dataset.l);});
+  $('sports').addEventListener('click',e=>{const b=e.target.closest('[data-s]');if(b)tog(offS,b.dataset.s);});
+  $('divs').addEventListener('click',e=>{const b=e.target.closest('[data-d]');if(b)tog(offD,b.dataset.d);});
+  $('c-search').addEventListener('input',e=>{q=norm(e.target.value.trim());filters();});
+  $('clubs').addEventListener('click',e=>{const b=e.target.closest('[data-c]');if(b)tog(offC,b.dataset.c);});
+  $('z-all').addEventListener('click',()=>{offZ.clear();save();render();});
+  $('z-none').addEventListener('click',()=>{DATA.zones.forEach(z=>offZ.add(z.k));save();render();});
+  $('c-all').addEventListener('click',()=>{visClubs().forEach(c=>offC.delete(c));save();render();});
+  $('c-none').addEventListener('click',()=>{visClubs().forEach(c=>offC.add(c));save();render();});
+  $('all').addEventListener('click',()=>{offZ.clear();offL.clear();offS.clear();offC.clear();offD.clear();save();render();});
+
+  // a match shows when its sport and level are on, and at least one of its two teams is in a chosen zone and not switched off
+  const sideOn=(name,z)=>z && !offZ.has(z) && !offC.has(name);
+  const keep=r=>{const d=divOf(r); return !offS.has(r.sport)&&!offL.has(r.level||'National')&&!(d&&offD.has(d))&&(sideOn(r.home,r.hz)||sideOn(r.away,r.az));};
+  const zoneNames=r=>[...new Set([r.hz,r.az].filter(Boolean))].map(k=>(zoneOf(k)||{l:k}).l).join(' · ');
+
+  function render(){
+    filters();
+    if(!cur){ $('results').innerHTML='<div class="empty">Aucune édition publiée pour l\'instant.</div>'; $('fixtures').innerHTML=''; return; }
+    $('edito').textContent = cur.edito||'';
+    const res=(cur.results||[]).filter(keep);
+    $('res-count').textContent = res.length?res.length+' match'+(res.length>1?'s':''):'';
+    const by={}; res.forEach(r=>(by[r.sport]=by[r.sport]||[]).push(r));
+    const order=Object.keys(by).sort(sportOrder);
+    $('results').innerHTML = order.length? order.map(s=>`<div class="sport"><h3>${esc(s)}</h3>${by[s].map(r=>{const u=safeUrl(r.url);return `
+      <article class="res">
+        <div class="meta"><span>${esc(r.comp)}</span><span>${esc(r.date)}</span><span class="lvl">${esc(r.level||'')}</span></div>
+        <div class="score"><span class="h">${esc(r.home)}</span><span class="num">${esc(r.sh)}–${esc(r.sa)}</span><span>${esc(r.away)}</span></div>
+        <div class="foot"><span class="zones-of">${esc(zoneNames(r))}</span>${u?`<a class="read" href="${esc(u)}" target="_blank" rel="noopener">Lire l'article ↗</a>`:''}</div>
+        ${r.note?`<p class="note">${esc(r.note)}</p>`:''}
+      </article>`}).join('')}</div>`).join('') : '<div class="empty">Aucun résultat pour cette sélection. Ajoute une zone, un niveau, un sport ou un club dans les filtres.</div>';
+    const fx=(cur.agenda||[]).filter(keep);
+    $('fixtures').innerHTML = fx.length? fx.map(f=>{const u=safeUrl(f.url);return `<div class="fx"><div class="when">${esc(f.day)}<span>${esc(f.time)}</span></div>
+      <div class="fx-main"><span class="fx-match">${esc(f.home)} – ${esc(f.away)}</span><span class="fx-meta">${esc(f.sport)} · ${esc(f.comp)} · ${esc(f.place)}${u?` · <a class="read" href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}</span></div></div>`}).join('') : '<div class="empty">Pas de match annoncé pour cette sélection.</div>';
+    $('sources').innerHTML = 'Sources : '+(DATA.sources||[]).map(s=>{const u=safeUrl(s.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name)}</a>`:esc(s.name)}).join(' · ');
+  }
+
+  render();
+  // the admin link shows only to people who can edit the artifact
+  if(window.claude && claude.use){
+    claude.use('user').then(async u=>{ if(u && await u.canEdit()) $('admin-link').hidden=false; }).catch(()=>{});
+  }
+}
+</script></body></html>
