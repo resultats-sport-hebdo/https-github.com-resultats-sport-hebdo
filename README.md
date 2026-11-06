@@ -6,3 +6,5 @@ Résultats hebdomadaires des sports collectifs (niveaux régional et national) d
 - `data.js` / `data.json` : le contenu (clubs, zones, éditions). Mis à jour chaque lundi.
 
 Site publié : https://resultats-sport-hebdo.netlify.app/
+
+Mise à jour automatique : chaque lundi matin.
