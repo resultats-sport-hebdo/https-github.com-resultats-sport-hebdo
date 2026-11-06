@@ -208,7 +208,7 @@ window.RSH_DATA = {
    "club": "Stade de Reims",
    "sport": "Football",
    "zone": "reims",
-   "level": "Régional",
+   "level": "National",
    "div": "National"
   },
   {
@@ -222,7 +222,7 @@ window.RSH_DATA = {
    "club": "ESTAC Troyes",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Régional",
+   "level": "National",
    "div": "National"
   },
   {
@@ -243,7 +243,7 @@ window.RSH_DATA = {
    "club": "O. Charleville Prix AM",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Régional",
+   "level": "National",
    "div": "National"
   },
   {
@@ -709,13 +709,6 @@ window.RSH_DATA = {
    "div": "R1"
   },
   {
-   "club": "Ent. Itancourt-Neuville",
-   "sport": "Football",
-   "zone": "stquentin",
-   "level": "Régional",
-   "div": "R1"
-  },
-  {
    "club": "Taissy (féminines)",
    "sport": "Football",
    "zone": "reims",
@@ -762,13 +755,13 @@ window.RSH_DATA = {
    "club": "Reims Champagne Handball",
    "sport": "Handball",
    "zone": "reims",
-   "level": "Régional"
+   "level": "National"
   },
   {
    "club": "Reims Volley 51",
    "sport": "Volley",
    "zone": "reims",
-   "level": "Régional"
+   "level": "National"
   },
   {
    "club": "Reims Volley 51 C",
@@ -786,7 +779,7 @@ window.RSH_DATA = {
    "club": "Chaumont VB 52",
    "sport": "Volley",
    "zone": "chaumont",
-   "level": "Régional"
+   "level": "National"
   },
   {
    "club": "Stade de Reims Rugby",
@@ -869,12 +862,6 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "Coteaux Sud",
-   "sport": "Football",
-   "zone": "reims",
-   "level": "Régional"
-  },
-  {
    "club": "US Laon",
    "sport": "Football",
    "zone": "laon",
@@ -885,8 +872,8 @@ window.RSH_DATA = {
    "club": "Olympique Saint-Quentin",
    "sport": "Football",
    "zone": "stquentin",
-   "level": "Régional",
-   "div": "R2"
+   "level": "National",
+   "div": "National"
   },
   {
    "club": "Olympique Saint-Quentinois 2",
@@ -894,13 +881,6 @@ window.RSH_DATA = {
    "zone": "stquentin",
    "level": "Régional",
    "div": "R2"
-  },
-  {
-   "club": "Int. Château-Thierry Étampes",
-   "sport": "Football",
-   "zone": "chthierry",
-   "level": "Régional",
-   "div": "R3"
   },
   {
    "club": "Soissons IFC 2",
@@ -919,7 +899,7 @@ window.RSH_DATA = {
    "club": "Entente Troyes Aube Champagne Handball",
    "sport": "Handball",
    "zone": "troyes",
-   "level": "Régional"
+   "level": "National"
   },
   {
    "club": "SD2MO féminines",
@@ -932,13 +912,6 @@ window.RSH_DATA = {
    "sport": "Volley",
    "zone": "chaumont",
    "level": "National"
-  },
-  {
-   "club": "Epernay",
-   "sport": "Rugby",
-   "zone": "epernay",
-   "level": "National",
-   "div": "National"
   },
   {
    "club": "Soissons Cuffies Aisne BB",
@@ -1012,12 +985,6 @@ window.RSH_DATA = {
    "club": "VILLERS COTTERETS",
    "sport": "Volley",
    "zone": "soissons",
-   "level": "Régional"
-  },
-  {
-   "club": "Étoile de Charleville-Mézières",
-   "sport": "Basket",
-   "zone": "charleville",
    "level": "Régional"
   },
   {
@@ -1295,12 +1262,6 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "RC EPERNAY HB",
-   "sport": "Handball",
-   "zone": "epernay",
-   "level": "Régional"
-  },
-  {
    "club": "TAISSY CLUB HANDBALL",
    "sport": "Handball",
    "zone": "reims",
@@ -1401,20 +1362,6 @@ window.RSH_DATA = {
    "sport": "Volley",
    "zone": "stdizier",
    "level": "Régional"
-  },
-  {
-   "club": "Charleville Prix OAM 2",
-   "sport": "Football",
-   "zone": "charleville",
-   "level": "Régional",
-   "div": "R1"
-  },
-  {
-   "club": "Charleville Prix OAM",
-   "sport": "Football",
-   "zone": "charleville",
-   "level": "National",
-   "div": "National"
   }
  ],
  "editions": [
