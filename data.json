@@ -737,7 +737,7 @@
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
-   "div": "Féminines",
+   "div": "R2",
    "genre": "F"
   },
   {
@@ -1009,13 +1009,16 @@
    "club": "AMC Charleville",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
-   "club": "US Flize",
+   "club": "Flize US",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F",
+   "div": "R2"
   },
   {
    "club": "Ardennes Futsal",
@@ -1068,22 +1071,28 @@
    "div": "R1"
   },
   {
-   "club": "JS Vaudoise",
+   "club": "Vaudoise JS",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F",
+   "div": "R2"
   },
   {
-   "club": "Saint-André Foot",
+   "club": "St André Foot",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F",
+   "div": "R2"
   },
   {
-   "club": "Saint-Gilles FC",
+   "club": "St Gilles F.C.",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F",
+   "div": "R2"
   },
   {
    "club": "ENT SAVINO CHAPELAIN/US STE MAURE SM PN",
@@ -1164,35 +1173,36 @@
    "level": "Régional"
   },
   {
-   "club": "AS Gueux",
+   "club": "Gueux AS",
    "sport": "Football",
    "zone": "reims",
-   "level": "Régional"
-  },
-  {
-   "club": "AS Taissy",
-   "sport": "Football",
-   "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F",
+   "div": "R2"
   },
   {
    "club": "Olympique Rémoise",
    "sport": "Football",
    "zone": "reims",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F",
+   "div": "R2"
   },
   {
-   "club": "Olympique Saint-Memmie",
+   "club": "St Memmie O.",
    "sport": "Football",
    "zone": "chalons",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F",
+   "div": "R2"
   },
   {
    "club": "Reims Bezannes Féminin",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
-   "genre": "F"
+   "genre": "F",
+   "div": "R2"
   },
   {
    "club": "ASPTT HANDBALL CHALONS EN CHAMPAGNE",
@@ -1241,25 +1251,29 @@
    "club": "Ent. SDMO/BLD",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "FC Ouest 52",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "St Dizier 2MO",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Sud Haut Marnais",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "CHAUMONT HANDBALL",
@@ -1682,6 +1696,84 @@
    "club": "Chaumont Handball (féminines)",
    "sport": "Handball",
    "zone": "chaumont",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Charleville Prix OAM (féminines)",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "Sedan Ardennes CS (féminines)",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "Bétheny FC (féminines)",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "Romilly Champagne FC (féminines)",
+   "sport": "Football",
+   "zone": "romilly",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "Chapelains RCS (féminines)",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "Neuvillette Jamin (féminines)",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "ASM2RA",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "St Dizier 2MO 2",
+   "sport": "Football",
+   "zone": "stdizier",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F"
+  },
+  {
+   "club": "Ardennes Futsal (féminines)",
+   "sport": "Futsal",
+   "zone": "charleville",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Reims Métropole Futsal (féminines)",
+   "sport": "Futsal",
+   "zone": "reims",
    "level": "Régional",
    "genre": "F"
   }
@@ -2875,6 +2967,65 @@
      "sa": 27,
      "note": "Équipe réserve d'Épernay.",
      "url": "https://competitions.ffr.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "comp": "Régional 2 féminin · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Flize US",
+     "hz": "charleville",
+     "away": "Charleville Prix OAM (féminines)",
+     "az": "charleville",
+     "sh": 2,
+     "sa": 4,
+     "note": "",
+     "url": "https://epreuves.fff.fr/",
+     "genre": "F"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "comp": "Régional 2 féminin · Poule B",
+     "date": "Dim. 1er nov.",
+     "home": "St Memmie O.",
+     "hz": "chalons",
+     "away": "St Dizier 2MO 2",
+     "az": "stdizier",
+     "sh": 8,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/",
+     "genre": "F"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "comp": "Régional 2 féminin · Poule C",
+     "date": "Dim. 1er nov.",
+     "home": "St Gilles F.C.",
+     "hz": "troyes",
+     "away": "ASM2RA",
+     "az": "chaumont",
+     "sh": 0,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/",
+     "genre": "F"
+    },
+    {
+     "sport": "Futsal",
+     "level": "Régional",
+     "comp": "Régional 1 futsal",
+     "date": "Dim. 1er nov.",
+     "home": "Magny RS",
+     "hz": null,
+     "away": "Ardennes Futsal",
+     "az": "charleville",
+     "sh": 4,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
     }
    ],
    "agenda": [
@@ -3315,6 +3466,34 @@
      "comp": "Prénationale masculine Grand Est · J5",
      "place": "",
      "url": "https://www.ffhandball.fr/"
+    },
+    {
+     "sport": "Futsal",
+     "level": "Régional",
+     "genre": "F",
+     "day": "Sam. 7 nov.",
+     "time": "15:00",
+     "home": "Behonne Longevill. US",
+     "hz": null,
+     "away": "Reims Métropole Futsal (féminines)",
+     "az": "reims",
+     "comp": "Régional 1 futsal féminin",
+     "place": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Futsal",
+     "level": "Régional",
+     "genre": "F",
+     "day": "Sam. 7 nov.",
+     "time": "16:00",
+     "home": "Futsal St Privat",
+     "hz": null,
+     "away": "Ardennes Futsal (féminines)",
+     "az": "charleville",
+     "comp": "Régional 1 futsal féminin",
+     "place": "",
+     "url": "https://epreuves.fff.fr/"
     }
    ]
   }

@@ -147,7 +147,7 @@ footer a{color:var(--muted)}
 function start(DATA){
   DATA.zones = DATA.zones||[]; DATA.suivi = DATA.suivi||[]; DATA.editions = DATA.editions||[];
   const LEVELS = ['National','Régional'];
-  const GENRES = ['Féminin','Masculin'];
+  const GENRES = ['Masculin','Féminin'];
   // a match is « Féminin » when its competition says so, or when one of its teams is a women's team in the catalogue
   const FEM_COMP = /f[ée]minin|\bLF2\b|\bLFB\b|\bNF[123]\b|\bN[123] ?F\b|\bPNF\b|\bRF[123]\b|\bPRF\b|Arkema|Seconde Ligue|\bD[23] f/i;
   const DIVS = ['National','R1','R2','R3'];
