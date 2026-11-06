@@ -64,7 +64,8 @@
    "villes": [
     "Sézanne",
     "Esternay",
-    "Anglure"
+    "Anglure",
+    "Fère-Champenoise"
    ]
   },
   {
@@ -167,7 +168,11 @@
     "Itancourt",
     "Neuville-Saint-Amand",
     "Ribemont",
-    "Mézières-sur-Oise"
+    "Mézières-sur-Oise",
+    "Grugies",
+    "Gauchy",
+    "Bohain-en-Vermandois",
+    "Gricourt"
    ]
   },
   {
@@ -178,7 +183,9 @@
     "Laon",
     "Chauny",
     "Prémontré",
-    "Saint-Gobain"
+    "Saint-Gobain",
+    "Tergnier",
+    "Anizy-le-Château"
    ]
   },
   {
@@ -186,7 +193,10 @@
    "l": "Soissons",
    "dep": "Aisne (02)",
    "villes": [
-    "Soissons"
+    "Soissons",
+    "Villers-Cotterêts",
+    "Belleu",
+    "Cuffies"
    ]
   },
   {
@@ -217,7 +227,8 @@
     "Guise",
     "Vervins",
     "Origny-en-Thiérache",
-    "La Capelle"
+    "La Capelle",
+    "Saint-Michel"
    ]
   }
  ],
@@ -861,10 +872,10 @@
    "level": "National"
   },
   {
-   "club": "Racing Club Épernay Handball",
+   "club": "RC Epernay HB",
    "sport": "Handball",
    "zone": "epernay",
-   "level": "Régional"
+   "level": "National"
   },
   {
    "club": "Laon US",
@@ -1409,6 +1420,288 @@
    "zone": "thierache",
    "level": "Régional",
    "div": "R3"
+  },
+  {
+   "club": "Étoile de Charleville-Mézières Basket 2",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Association Cormontreuil Champagne Basket",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Association Cormontreuil Champagne Basket 2",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Amicale des Jeunes de Bétheny",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Espé Basket Châlons-en-Champagne",
+   "sport": "Basket",
+   "zone": "chalons",
+   "level": "Régional"
+  },
+  {
+   "club": "Villers Semeuse Basket",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "La Fertonne Fère-Champenoise",
+   "sport": "Basket",
+   "zone": "sezanne",
+   "level": "Régional"
+  },
+  {
+   "club": "AS Saint-Brice-Courcelles Basket",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Champagne Basket Féminin (RF2)",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Éveil laïque Witry-lès-Reims Basket 2",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Éveil laïque Witry-lès-Reims Basket (féminines)",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "SQBB - JSC",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "SQBB - JSC 2",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "ESC Tergnier 2",
+   "sport": "Basket",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "ESC Tergnier 3",
+   "sport": "Basket",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Saint Michel",
+   "sport": "Basket",
+   "zone": "thierache",
+   "level": "Régional"
+  },
+  {
+   "club": "BB Cotterézien",
+   "sport": "Basket",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Grugies Basket-Ball",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Château-Thierry Basket Ball",
+   "sport": "Basket",
+   "zone": "chthierry",
+   "level": "Régional"
+  },
+  {
+   "club": "Club Cantonal Anizien Basket",
+   "sport": "Basket",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "FC Belleu Basket Ball",
+   "sport": "Basket",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "FC Belleu Basket Ball 2",
+   "sport": "Basket",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Pals Athletic Club Guise",
+   "sport": "Basket",
+   "zone": "thierache",
+   "level": "Régional"
+  },
+  {
+   "club": "Pals Athletic Club Guise 2",
+   "sport": "Basket",
+   "zone": "thierache",
+   "level": "Régional"
+  },
+  {
+   "club": "Laon BB",
+   "sport": "Basket",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "ASG Gauchy 2",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "AAE Bohain",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Soissons Cuffies Aisne BB 2",
+   "sport": "Basket",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Gricourt Basket",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "RC Epernay HB 2",
+   "sport": "Handball",
+   "zone": "epernay",
+   "level": "Régional"
+  },
+  {
+   "club": "AS St Brice 2",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "National"
+  },
+  {
+   "club": "AS St Brice 3",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Reims Champagne Handball 2",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Reims Champagne Handball (masculins)",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Hand Ball Club Laonnois",
+   "sport": "Handball",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "Hand Ball Club Laonnois 2",
+   "sport": "Handball",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "Elite Axonaise Handball (féminines)",
+   "sport": "Handball",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Reims Volley 51 – 4",
+   "sport": "Volley",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Reims Volley 51 – 5",
+   "sport": "Volley",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Tinqueux Volley-Ball 2",
+   "sport": "Volley",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Chaumont VB 52 – 3",
+   "sport": "Volley",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "Chaumont VB 52 – 4",
+   "sport": "Volley",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "Chaumont VB 52 féminines",
+   "sport": "Volley",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "PLVB Troyes 2",
+   "sport": "Volley",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "PLVB Troyes 3",
+   "sport": "Volley",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "Troyes (volley féminines)",
+   "sport": "Volley",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "Saint-Quentin Volley 2",
+   "sport": "Volley",
+   "zone": "stquentin",
+   "level": "Régional"
   }
  ],
  "editions": [
@@ -2567,6 +2860,20 @@
      "sa": 1,
      "note": "",
      "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Basket",
+     "level": "National",
+     "comp": "Betclic Élite · J6",
+     "date": "Dim. 1er nov.",
+     "home": "Saint-Quentin Basket-Ball",
+     "hz": "stquentin",
+     "away": "ASVEL",
+     "az": null,
+     "sh": 99,
+     "sa": 94,
+     "note": "",
+     "url": "https://competitions.ffbb.com/"
     }
    ],
    "agenda": [
@@ -2660,6 +2967,344 @@
      "comp": "Régional 2 · Poule B",
      "place": "Avize",
      "url": "https://www.sportcorico.com/clubs/rc-epernay-champagne"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "17:15",
+     "home": "Éveil Recy Saint-Martin Basket",
+     "hz": "chalons",
+     "away": "Association Cormontreuil Champagne Basket",
+     "az": "reims",
+     "comp": "Pré-nationale masculine · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:30",
+     "home": "Éveil laïque Witry-lès-Reims Basket",
+     "hz": "reims",
+     "away": "Étoile de Charleville-Mézières Basket 2",
+     "az": "charleville",
+     "comp": "Pré-nationale masculine · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:30",
+     "home": "Amicale des Jeunes de Bétheny",
+     "hz": "reims",
+     "away": "Reims Champagne Basket",
+     "az": "reims",
+     "comp": "Pré-nationale masculine · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "15:30",
+     "home": "CTC T-A-A-C Basket – Énergie Troyenne",
+     "hz": "troyes",
+     "away": "Espé Basket Châlons-en-Champagne",
+     "az": "chalons",
+     "comp": "Pré-nationale masculine · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "18:00",
+     "home": "Éveil laïque Witry-lès-Reims Basket 2",
+     "hz": "reims",
+     "away": "BCV Verdun",
+     "az": null,
+     "comp": "Régionale masculine 2 · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:30",
+     "home": "US Silvange Basket",
+     "hz": null,
+     "away": "Gauloise de Vitry-le-François",
+     "az": "vitry",
+     "comp": "Régionale masculine 2 · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:30",
+     "home": "Basket Sancéo Troyen",
+     "hz": "troyes",
+     "away": "Villers Semeuse Basket",
+     "az": "charleville",
+     "comp": "Régionale masculine 2 · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:30",
+     "home": "Entente Chaumontaise AC Basket",
+     "hz": "chaumont",
+     "away": "La Fertonne Fère-Champenoise",
+     "az": "sezanne",
+     "comp": "Régionale masculine 2 · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "16:00",
+     "home": "Thionville BC",
+     "hz": null,
+     "away": "Association Cormontreuil Champagne Basket 2",
+     "az": "reims",
+     "comp": "Régionale masculine 2 · Poule A · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "13:15",
+     "home": "ASP Ste Marie aux Chênes 2",
+     "hz": null,
+     "away": "Champagne Basket Féminin (RF2)",
+     "az": "reims",
+     "comp": "Régionale féminine 2 · Poule B · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "16:00",
+     "home": "Éveil laïque Witry-lès-Reims Basket (féminines)",
+     "hz": "reims",
+     "away": "Rombas OC",
+     "az": null,
+     "comp": "Régionale féminine 2 · Poule B · J4",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "16:00",
+     "home": "AS Saint-Brice-Courcelles Basket",
+     "hz": "reims",
+     "away": "AS Haut du Lièvre Nancy",
+     "az": null,
+     "comp": "Pré-nationale féminine · Poule A · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "National",
+     "day": "Dim. 8 nov.",
+     "time": "15:30",
+     "home": "Champagne Basket Féminin B",
+     "hz": "reims",
+     "away": "Aulnoye AS 2",
+     "az": null,
+     "comp": "Nationale féminine 3 · Poule F · J8",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "18:00",
+     "home": "SQBB - JSC 2",
+     "hz": "stquentin",
+     "away": "ESC Tergnier 3",
+     "az": "laon",
+     "comp": "Pré-régionale masculine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:00",
+     "home": "BC Saint Michel",
+     "hz": "thierache",
+     "away": "Soissons Cuffies Aisne BB",
+     "az": "soissons",
+     "comp": "Pré-régionale masculine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:00",
+     "home": "BB Cotterézien",
+     "hz": "soissons",
+     "away": "Grugies Basket-Ball",
+     "az": "stquentin",
+     "comp": "Pré-régionale masculine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:00",
+     "home": "Château-Thierry Basket Ball",
+     "hz": "chthierry",
+     "away": "Club Cantonal Anizien Basket",
+     "az": "laon",
+     "comp": "Pré-régionale masculine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "16:00",
+     "home": "FC Belleu Basket Ball 2",
+     "hz": "soissons",
+     "away": "Pals Athletic Club Guise 2",
+     "az": "thierache",
+     "comp": "Pré-régionale masculine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:00",
+     "home": "Soissons Cuffies Aisne BB 2",
+     "hz": "soissons",
+     "away": "Laon BB",
+     "az": "laon",
+     "comp": "Pré-régionale féminine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "13:30",
+     "home": "ASG Gauchy 2",
+     "hz": "stquentin",
+     "away": "ESC Tergnier 2",
+     "az": "laon",
+     "comp": "Pré-régionale féminine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "14:00",
+     "home": "FC Belleu Basket Ball",
+     "hz": "soissons",
+     "away": "AAE Bohain",
+     "az": "stquentin",
+     "comp": "Pré-régionale féminine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "14:00",
+     "home": "SQBB - JSC",
+     "hz": "stquentin",
+     "away": "Pals Athletic Club Guise",
+     "az": "thierache",
+     "comp": "Pré-régionale féminine (Aisne) · J3",
+     "place": "",
+     "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:30",
+     "home": "Epinal HB",
+     "hz": null,
+     "away": "Reims Champagne Handball 2",
+     "az": "reims",
+     "comp": "Nationale 3 territoriale féminine · J5",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "",
+     "home": "Plobsheim",
+     "hz": null,
+     "away": "ENT SAVINO CHAPELAIN/US STE MAURE SM PN",
+     "az": "troyes",
+     "comp": "Prénationale masculine Grand Est · J5",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "",
+     "home": "TAISSY CLUB HANDBALL",
+     "hz": "reims",
+     "away": "ASCA Wittelsheim",
+     "az": null,
+     "comp": "Prénationale masculine Grand Est · J5",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "",
+     "home": "ENT BOGNY-HTE RIVIERES/FUMAY SM PN",
+     "hz": "charleville",
+     "away": "Ent Burnhaupt/Lynx",
+     "az": null,
+     "comp": "Prénationale masculine Grand Est · J5",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
     }
    ]
   }
@@ -2732,6 +3377,18 @@
   {
    "name": "SportCorico",
    "url": "https://www.sportcorico.com/"
+  },
+  {
+   "name": "FFBB Compétitions",
+   "url": "https://competitions.ffbb.com/"
+  },
+  {
+   "name": "FFHandball",
+   "url": "https://www.ffhandball.fr/"
+  },
+  {
+   "name": "FFVolley",
+   "url": "https://www.ffvbbeach.org/"
   }
  ]
 }
