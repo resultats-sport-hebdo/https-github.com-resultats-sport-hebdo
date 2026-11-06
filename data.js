@@ -165,7 +165,9 @@ window.RSH_DATA = {
    "villes": [
     "Saint-Quentin",
     "Itancourt",
-    "Neuville-Saint-Amand"
+    "Neuville-Saint-Amand",
+    "Ribemont",
+    "Mézières-sur-Oise"
    ]
   },
   {
@@ -173,7 +175,10 @@ window.RSH_DATA = {
    "l": "Laon",
    "dep": "Aisne (02)",
    "villes": [
-    "Laon"
+    "Laon",
+    "Chauny",
+    "Prémontré",
+    "Saint-Gobain"
    ]
   },
   {
@@ -200,6 +205,19 @@ window.RSH_DATA = {
     "Strasbourg",
     "Metz",
     "Nancy"
+   ]
+  },
+  {
+   "k": "thierache",
+   "l": "Thiérache (Hirson – Guise – Vervins)",
+   "dep": "Aisne (02)",
+   "villes": [
+    "Hirson",
+    "Buire",
+    "Guise",
+    "Vervins",
+    "Origny-en-Thiérache",
+    "La Capelle"
    ]
   }
  ],
@@ -856,21 +874,21 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "US Laon",
+   "club": "Laon US",
    "sport": "Football",
    "zone": "laon",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "Olympique Saint-Quentin",
+   "club": "St Quentin O.",
    "sport": "Football",
    "zone": "stquentin",
    "level": "National",
    "div": "National"
   },
   {
-   "club": "Olympique Saint-Quentinois 2",
+   "club": "St Quentin O. 2",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
@@ -914,14 +932,14 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "Entente Itancourt-Neuville",
+   "club": "Itancourt Neuville",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
    "div": "R1"
   },
   {
-   "club": "International Château-Thierry Étampes",
+   "club": "Château T. Étampes I",
    "sport": "Football",
    "zone": "chthierry",
    "level": "Régional",
@@ -1363,6 +1381,55 @@ window.RSH_DATA = {
    "sport": "Handball",
    "zone": "reims",
    "level": "National"
+  },
+  {
+   "club": "Laon US 2",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Régional",
+   "div": "R3"
+  },
+  {
+   "club": "Chauny US",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Régional",
+   "div": "R3"
+  },
+  {
+   "club": "Premontre St Gobain",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Régional",
+   "div": "R3"
+  },
+  {
+   "club": "Ribemont Mezieres US",
+   "sport": "Football",
+   "zone": "stquentin",
+   "level": "Régional",
+   "div": "R3"
+  },
+  {
+   "club": "Itancourt Neuville 2",
+   "sport": "Football",
+   "zone": "stquentin",
+   "level": "Régional",
+   "div": "R3"
+  },
+  {
+   "club": "Buire Hirson US",
+   "sport": "Football",
+   "zone": "thierache",
+   "level": "Régional",
+   "div": "R3"
+  },
+  {
+   "club": "Origny Thierache SC",
+   "sport": "Football",
+   "zone": "thierache",
+   "level": "Régional",
+   "div": "R3"
   }
  ],
  "editions": [
@@ -1444,8 +1511,8 @@ window.RSH_DATA = {
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 1 · J9",
-     "date": "Week-end 30 oct.–1er nov.",
+     "comp": "Régional 1 Homiris · Poule A · J9",
+     "date": "Dim. 1er nov.",
      "home": "Bogny FC",
      "hz": "charleville",
      "away": "Neuvillette Jamin",
@@ -1453,13 +1520,14 @@ window.RSH_DATA = {
      "sh": 1,
      "sa": 1,
      "note": "",
-     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+     "div": "R1"
     },
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 2 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
+     "comp": "Régional 2 · Poule A · J7",
+     "date": "Dim. 1er nov.",
      "home": "Plantières UL",
      "hz": null,
      "away": "St Brice Courcelles",
@@ -1467,7 +1535,8 @@ window.RSH_DATA = {
      "sh": 1,
      "sa": 3,
      "note": "",
-     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+     "div": "R2"
     },
     {
      "sport": "Football",
@@ -1500,8 +1569,8 @@ window.RSH_DATA = {
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 2 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
+     "comp": "Régional 2 · Poule A · J7",
+     "date": "Dim. 1er nov.",
      "home": "Sedan Ardennes CS 2",
      "hz": "charleville",
      "away": "Reims Ste Anne",
@@ -1509,7 +1578,8 @@ window.RSH_DATA = {
      "sh": 1,
      "sa": 1,
      "note": "",
-     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+     "div": "R2"
     },
     {
      "sport": "Football",
@@ -1810,7 +1880,7 @@ window.RSH_DATA = {
      "level": "National",
      "comp": "National 2",
      "date": "Sam. 31 oct.",
-     "home": "Olympique Saint-Quentin",
+     "home": "St Quentin O.",
      "hz": "stquentin",
      "away": "Trouville-Deauville",
      "az": null,
@@ -1852,7 +1922,7 @@ window.RSH_DATA = {
      "sport": "Football",
      "level": "Régional",
      "div": "R2",
-     "comp": "Régional 2",
+     "comp": "Régional 2 · Poule B",
      "date": "Dim. 1er nov.",
      "home": "Chaumont FC",
      "hz": "chaumont",
@@ -2170,6 +2240,366 @@ window.RSH_DATA = {
      "az": "charleville",
      "sh": 3,
      "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R1",
+     "comp": "Régional 1 Homiris · Poule A · J9",
+     "date": "Dim. 1er nov.",
+     "home": "Uckange USAG",
+     "hz": null,
+     "away": "St Méziéry FC",
+     "az": "troyes",
+     "sh": 2,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/competition/engagement/449966-regional-1-homiris/phase/1/1/accueil"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Val de l'Orne FC",
+     "hz": null,
+     "away": "Rethel SF",
+     "az": "rethel",
+     "sh": 3,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 · Poule B",
+     "date": "Dim. 1er nov.",
+     "home": "Vitry FC",
+     "hz": "vitry",
+     "away": "Nogentais FC",
+     "az": "romilly",
+     "sh": 1,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 · Poule B",
+     "date": "Dim. 1er nov.",
+     "home": "Alliance Sud Ouest F",
+     "hz": "sezanne",
+     "away": "Chartreux AS",
+     "az": "troyes",
+     "sh": 0,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Bazeilles US",
+     "hz": "charleville",
+     "away": "Godbrange Hussig. CS",
+     "az": null,
+     "sh": 1,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Torcy Sedan Olymp.",
+     "hz": "charleville",
+     "away": "Longwy USB",
+     "az": null,
+     "sh": 4,
+     "sa": 4,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Blagny Carignan FC",
+     "hz": "charleville",
+     "away": "Saulnes Longlaville",
+     "az": null,
+     "sh": 2,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule C · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Bar Essoyes CFC",
+     "hz": "barsuraube",
+     "away": "St Martin la VE FC",
+     "az": "chalons",
+     "sh": 2,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule C · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Fontaine OV FC",
+     "hz": "romilly",
+     "away": "Étoile Chapelaine",
+     "az": "troyes",
+     "sh": 2,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule C · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Troyes Municipaux ES",
+     "hz": "troyes",
+     "away": "Romilly Champagne FC",
+     "az": "romilly",
+     "sh": 3,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule D · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Diane Eurv. Bienv.",
+     "hz": "stdizier",
+     "away": "St Geosmois FC",
+     "az": "chaumont",
+     "sh": 1,
+     "sa": 7,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule D · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Vaux sur Blaise USI",
+     "hz": "stdizier",
+     "away": "Bologne FC",
+     "az": "chaumont",
+     "sh": 5,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R1",
+     "comp": "Régional 1 Hauts-de-France · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Soissons IFC",
+     "hz": "soissons",
+     "away": "Béthune Stade",
+     "az": null,
+     "sh": 2,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R1",
+     "comp": "Régional 1 Hauts-de-France · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Itancourt Neuville",
+     "hz": "stquentin",
+     "away": "Hazebrouck SC",
+     "az": null,
+     "sh": 1,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 Hauts-de-France · Poule B",
+     "date": "Dim. 1er nov.",
+     "home": "Anzin St Aubin ES",
+     "hz": null,
+     "away": "Laon US",
+     "az": "laon",
+     "sh": 0,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 Hauts-de-France · Poule B",
+     "date": "Dim. 1er nov.",
+     "home": "Choisy au Bac US",
+     "hz": null,
+     "away": "St Quentin O. 2",
+     "az": "stquentin",
+     "sh": 3,
+     "sa": 3,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule A",
+     "date": "Ven. 30 oct.",
+     "home": "Buire Hirson US",
+     "hz": "thierache",
+     "away": "Rousies Cœur Sambre",
+     "az": null,
+     "sh": 2,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Roye US",
+     "hz": null,
+     "away": "Origny Thierache SC",
+     "az": "thierache",
+     "sh": 4,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Laon US 2",
+     "hz": "laon",
+     "away": "Berlaimont US",
+     "az": null,
+     "sh": 1,
+     "sa": 3,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule B",
+     "date": "Sam. 31 oct.",
+     "home": "Chauny US",
+     "hz": "laon",
+     "away": "Balagny US",
+     "az": null,
+     "sh": 4,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule B",
+     "date": "Dim. 1er nov.",
+     "home": "Péronne ECAFC",
+     "hz": null,
+     "away": "Premontre St Gobain",
+     "az": "laon",
+     "sh": 0,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule B",
+     "date": "Dim. 1er nov.",
+     "home": "Ribemont Mezieres US",
+     "hz": "stquentin",
+     "away": "Itancourt Neuville 2",
+     "az": "stquentin",
+     "sh": 1,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule C",
+     "date": "Sam. 31 oct.",
+     "home": "Méru US",
+     "hz": null,
+     "away": "Soissons IFC 2",
+     "az": "soissons",
+     "sh": 2,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 Hauts-de-France · Poule C",
+     "date": "Dim. 1er nov.",
+     "home": "Château T. Étampes I",
+     "hz": "chthierry",
+     "away": "Hermes Berthecourt",
+     "az": null,
+     "sh": 3,
+     "sa": 1,
      "note": "",
      "url": "https://epreuves.fff.fr/"
     }
