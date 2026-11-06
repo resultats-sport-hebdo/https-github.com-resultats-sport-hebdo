@@ -1702,6 +1702,12 @@ window.RSH_DATA = {
    "sport": "Volley",
    "zone": "stquentin",
    "level": "Régional"
+  },
+  {
+   "club": "Rugby Épernay Champagne (Excellence B)",
+   "sport": "Rugby",
+   "zone": "epernay",
+   "level": "National"
   }
  ],
  "editions": [
@@ -2250,9 +2256,9 @@ window.RSH_DATA = {
     {
      "sport": "Rugby",
      "level": "National",
-     "comp": "Fédérale 3 · Poule 2 · J6",
+     "comp": "Fédérale 3 · J6",
      "date": "Dim. 1er nov.",
-     "home": "Pontault-Combault",
+     "home": "Stade Pontellois",
      "hz": null,
      "away": "Rugby Épernay Champagne",
      "az": "epernay",
@@ -2874,6 +2880,20 @@ window.RSH_DATA = {
      "sa": 94,
      "note": "",
      "url": "https://competitions.ffbb.com/"
+    },
+    {
+     "sport": "Rugby",
+     "level": "National",
+     "comp": "Excellence B · J6",
+     "date": "Dim. 1er nov.",
+     "home": "Stade Pontellois",
+     "hz": null,
+     "away": "Rugby Épernay Champagne (Excellence B)",
+     "az": "epernay",
+     "sh": 32,
+     "sa": 27,
+     "note": "Équipe réserve d'Épernay.",
+     "url": "https://competitions.ffr.fr/"
     }
    ],
    "agenda": [
@@ -3389,6 +3409,10 @@ window.RSH_DATA = {
   {
    "name": "FFVolley",
    "url": "https://www.ffvbbeach.org/"
+  },
+  {
+   "name": "FFR Compétitions",
+   "url": "https://competitions.ffr.fr/"
   }
  ]
 };
