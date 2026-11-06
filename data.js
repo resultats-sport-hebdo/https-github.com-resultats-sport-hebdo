@@ -261,14 +261,14 @@ window.RSH_DATA = {
    "div": "R1"
   },
   {
-   "club": "CS Sedan Ardennes",
+   "club": "Sedan Ardennes CS",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R1"
   },
   {
-   "club": "FCF La Neuvillette-Jamin",
+   "club": "Neuvillette Jamin",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -282,14 +282,14 @@ window.RSH_DATA = {
    "div": "R1"
   },
   {
-   "club": "RC Épernay Champagne",
+   "club": "Épernay Champagne RC",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
    "div": "R1"
   },
   {
-   "club": "SC Marnaval",
+   "club": "Marnaval SC",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
@@ -303,35 +303,35 @@ window.RSH_DATA = {
    "div": "R1"
   },
   {
-   "club": "AS Saint-Brice-Courcelles",
+   "club": "St Brice Courcelles",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "AS Val de l'Aisne",
+   "club": "Val de l'Aisne AS",
    "sport": "Football",
    "zone": "rethel",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "CS Sedan Ardennes 2",
+   "club": "Sedan Ardennes CS 2",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "ES Fagnières",
+   "club": "Fagnières ES",
    "sport": "Football",
    "zone": "chalons",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "Reims FC Christo",
+   "club": "Reims Christo FC",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -345,7 +345,7 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "Reims Sainte-Anne",
+   "club": "Reims Ste Anne",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -359,7 +359,7 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "AS Chartreux",
+   "club": "Chartreux AS",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -380,35 +380,35 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "FC Côte des Blancs",
+   "club": "Côte des Blancs FC",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "FC Nogentais",
+   "club": "Nogentais FC",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "JS Saint-Julien FC",
+   "club": "St Julien JSFC",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "RC Épernay Champagne 2",
+   "club": "Épernay Champagne RC 2",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "US Avize-Grauves",
+   "club": "Avize Grauves US",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
@@ -422,21 +422,21 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "CA Villers-Semeuse",
+   "club": "Villers Semeuse CA",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "CO Cheveuges",
+   "club": "Cheveuges CO",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Blagny-Carignan",
+   "club": "Blagny Carignan FC",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -450,35 +450,35 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Olympique Sedan-Torcy",
+   "club": "Torcy Sedan Olymp.",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "US Bazeilles",
+   "club": "Bazeilles US",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "US Les Ayvelles",
+   "club": "Les Ayvelles US",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "AS Bourg-Rocroi",
+   "club": "Bourg Rocroi AS",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "AS Tournes-Renwez",
+   "club": "Tournes Ren. Maz. AS",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -492,7 +492,7 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "FCO Châlons",
+   "club": "Châlons FCO",
    "sport": "Football",
    "zone": "chalons",
    "level": "Régional",
@@ -506,70 +506,70 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "ES Coteaux Sud",
+   "club": "ES des Coteaux Sud",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Espérance Rémoise",
+   "club": "Rémoise Espérance",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Porcien",
+   "club": "Porcien FC",
    "sport": "Football",
    "zone": "rethel",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Tinqueux Champagne",
+   "club": "Tinqueux Champ. FC",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FCF La Neuvillette-Jamin 2",
+   "club": "Neuvillette Jamin 2",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Reims Sainte-Anne 2",
+   "club": "Reims Ste Anne 2",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "USA Le Chesne",
+   "club": "Le Chesne USA",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "AS Pont-Sainte-Marie",
+   "club": "Pont Ste Marie AS",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "ASPTT Châlons",
+   "club": "Châlons ASPTT",
    "sport": "Football",
    "zone": "chalons",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "ES Troyes Municipaux",
+   "club": "Troyes Municipaux ES",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -583,63 +583,63 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "FC Saint-Martin-La Veuve",
+   "club": "St Martin la VE FC",
    "sport": "Football",
    "zone": "chalons",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Nogentais 2",
+   "club": "Nogentais FC 2",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Romilly Champagne",
+   "club": "Romilly Champagne FC",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Vallant-Fontaine",
+   "club": "Fontaine OV FC",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Foyer Bar-Essoyes",
+   "club": "Bar Essoyes CFC",
    "sport": "Football",
    "zone": "barsuraube",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "OS Rosières",
+   "club": "Rosières OS",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "RCS Chapelle",
+   "club": "Chapelains RCS",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "SC Sézannais",
+   "club": "Sézannais SC",
    "sport": "Football",
    "zone": "sezanne",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "AS Sarrey-Montigny",
+   "club": "Sarrey Montigny AS",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
@@ -653,49 +653,49 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "DS Eurville-Bienville",
+   "club": "Diane Eurv. Bienv.",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Bar-sur-Aube",
+   "club": "Bar-sur-Aube FC",
    "sport": "Football",
    "zone": "barsuraube",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Bologne",
+   "club": "Bologne FC",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "FC Saint-Geosmois",
+   "club": "St Geosmois FC",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Stade Chevillon",
+   "club": "Chevillon Stade",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "US Éclaron",
+   "club": "Éclaron US",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "USIB Vaux-sur-Blaise",
+   "club": "Vaux sur Blaise USI",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
@@ -1043,7 +1043,7 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "FC Saint-Méziéry",
+   "club": "St Méziéry FC",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -1362,6 +1362,13 @@ window.RSH_DATA = {
    "sport": "Volley",
    "zone": "stdizier",
    "level": "Régional"
+  },
+  {
+   "club": "Alliance Sud Ouest F",
+   "sport": "Football",
+   "zone": "sezanne",
+   "level": "Régional",
+   "div": "R2"
   }
  ],
  "editions": [
@@ -1430,7 +1437,7 @@ window.RSH_DATA = {
      "sport": "Football",
      "level": "Régional",
      "comp": "Régional 1 · J9",
-     "date": "Week-end 30 oct.–1er nov.",
+     "date": "Dim. 1er nov.",
      "home": "Cormontreuil FC",
      "hz": "reims",
      "away": "Stade de Reims 2",
@@ -1447,7 +1454,7 @@ window.RSH_DATA = {
      "date": "Week-end 30 oct.–1er nov.",
      "home": "Bogny FC",
      "hz": "charleville",
-     "away": "FCF La Neuvillette-Jamin",
+     "away": "Neuvillette Jamin",
      "az": "reims",
      "sh": 1,
      "sa": 1,
@@ -1459,9 +1466,9 @@ window.RSH_DATA = {
      "level": "Régional",
      "comp": "Régional 2 · J7",
      "date": "Week-end 30 oct.–1er nov.",
-     "home": "UL Plantières",
+     "home": "Plantières UL",
      "hz": null,
-     "away": "AS Saint-Brice-Courcelles",
+     "away": "St Brice Courcelles",
      "az": "reims",
      "sh": 1,
      "sa": 3,
@@ -1471,11 +1478,11 @@ window.RSH_DATA = {
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 2 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
-     "home": "Reims FC Christo",
+     "comp": "Régional 2 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Reims Christo FC",
      "hz": "reims",
-     "away": "CS Veymerange",
+     "away": "Veymerange CS",
      "az": null,
      "sh": 0,
      "sa": 4,
@@ -1485,9 +1492,9 @@ window.RSH_DATA = {
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 2 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
-     "home": "US Étain-Buzy",
+     "comp": "Régional 2 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Étain Buzy US",
      "hz": null,
      "away": "Reims Murigny FP",
      "az": "reims",
@@ -1501,9 +1508,9 @@ window.RSH_DATA = {
      "level": "Régional",
      "comp": "Régional 2 · J7",
      "date": "Week-end 30 oct.–1er nov.",
-     "home": "CS Sedan Ardennes 2",
+     "home": "Sedan Ardennes CS 2",
      "hz": "charleville",
-     "away": "Reims Sainte-Anne",
+     "away": "Reims Ste Anne",
      "az": "reims",
      "sh": 1,
      "sa": 1,
@@ -1515,9 +1522,9 @@ window.RSH_DATA = {
      "level": "Régional",
      "comp": "Régional 3 · J7",
      "date": "Week-end 30 oct.–1er nov.",
-     "home": "Reims Sainte-Anne 2",
+     "home": "Reims Ste Anne 2",
      "hz": "reims",
-     "away": "AS Tournes-Renwez",
+     "away": "Tournes Ren. Maz. AS",
      "az": "charleville",
      "sh": 2,
      "sa": 1,
@@ -1528,10 +1535,10 @@ window.RSH_DATA = {
      "sport": "Football",
      "level": "Régional",
      "comp": "Régional 3 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
-     "home": "FC Porcien",
+     "date": "Dim. 1er nov.",
+     "home": "Porcien FC",
      "hz": "rethel",
-     "away": "FCF La Neuvillette-Jamin 2",
+     "away": "Neuvillette Jamin 2",
      "az": "reims",
      "sh": 3,
      "sa": 1,
@@ -1543,7 +1550,7 @@ window.RSH_DATA = {
      "level": "Régional",
      "comp": "Régional 3 · J7",
      "date": "Week-end 30 oct.–1er nov.",
-     "home": "FCO Châlons",
+     "home": "Châlons FCO",
      "hz": "chalons",
      "away": "Cormontreuil FC 2",
      "az": "reims",
@@ -1556,10 +1563,10 @@ window.RSH_DATA = {
      "sport": "Football",
      "level": "Régional",
      "comp": "Régional 3 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
+     "date": "Dim. 1er nov.",
      "home": "Bétheny FC",
      "hz": "reims",
-     "away": "Espérance Rémoise",
+     "away": "Rémoise Espérance",
      "az": "reims",
      "sh": 2,
      "sa": 2,
@@ -1570,10 +1577,10 @@ window.RSH_DATA = {
      "sport": "Football",
      "level": "Régional",
      "comp": "Régional 3 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
-     "home": "FC Tinqueux Champagne",
+     "date": "Dim. 1er nov.",
+     "home": "Tinqueux Champ. FC",
      "hz": "reims",
-     "away": "USA Le Chesne",
+     "away": "Le Chesne USA",
      "az": "charleville",
      "sh": 1,
      "sa": 1,
@@ -1838,9 +1845,9 @@ window.RSH_DATA = {
      "div": "R1",
      "comp": "Régional 1 · J9",
      "date": "Dim. 1er nov.",
-     "home": "Hettange-Grande",
+     "home": "Hettange Gde FC",
      "hz": null,
-     "away": "SC Marnaval",
+     "away": "Marnaval SC",
      "az": "stdizier",
      "sh": 0,
      "sa": 0,
@@ -1855,7 +1862,7 @@ window.RSH_DATA = {
      "date": "Dim. 1er nov.",
      "home": "Chaumont FC",
      "hz": "chaumont",
-     "away": "US Avize-Grauves",
+     "away": "Avize Grauves US",
      "az": "epernay",
      "sh": 2,
      "sa": 3,
@@ -1938,7 +1945,7 @@ window.RSH_DATA = {
      "div": "R1",
      "comp": "Régional 1 Homiris · Poule A · J9",
      "date": "Dim. 1er nov.",
-     "home": "CS Sedan Ardennes",
+     "home": "Sedan Ardennes CS",
      "hz": "charleville",
      "away": "Amnéville CSO",
      "az": null,
@@ -1953,14 +1960,209 @@ window.RSH_DATA = {
      "div": "R1",
      "comp": "Régional 1 Homiris · Poule A · J9",
      "date": "Dim. 1er nov.",
-     "home": "US Thionville Lusitanos 2",
+     "home": "Thionville Lusitanos 2",
      "hz": null,
-     "away": "RC Épernay Champagne",
+     "away": "Épernay Champagne RC",
      "az": "epernay",
      "sh": 1,
      "sa": 0,
      "note": "",
      "url": "https://www.sportcorico.com/match/thionville-lusitanos-seniors-2-epernay-champagne-rc-seniors-1-tqanc"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R1",
+     "comp": "Régional 1 Homiris · Poule A · J9",
+     "date": "Dim. 1er nov.",
+     "home": "Villerupt Thil ES",
+     "hz": null,
+     "away": "Charleville Prix OAM 2",
+     "az": "charleville",
+     "sh": 2,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/competition/engagement/449966-regional-1-homiris/phase/1/1/accueil"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Val de l'Aisne AS",
+     "hz": "rethel",
+     "away": "Fagnières ES",
+     "az": "chalons",
+     "sh": 0,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 · Poule B",
+     "date": "Sam. 31 oct.",
+     "home": "Épernay Champagne RC 2",
+     "hz": "epernay",
+     "away": "Côte des Blancs FC",
+     "az": "epernay",
+     "sh": 2,
+     "sa": 3,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R2",
+     "comp": "Régional 2 · Poule B",
+     "date": "Sam. 31 oct.",
+     "home": "St Julien JSFC",
+     "hz": "troyes",
+     "away": "Centre Ornain Ent.",
+     "az": null,
+     "sh": 2,
+     "sa": 4,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule A · J7",
+     "date": "Sam. 31 oct.",
+     "home": "Nord Ardennes",
+     "hz": "charleville",
+     "away": "Audun JS",
+     "az": null,
+     "sh": 1,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Villerupt Thil ES 2",
+     "hz": null,
+     "away": "Cheveuges CO",
+     "az": "charleville",
+     "sh": 3,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule A · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Villers Semeuse CA",
+     "hz": "charleville",
+     "away": "Les Ayvelles US",
+     "az": "charleville",
+     "sh": 7,
+     "sa": 0,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule C · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Rosières OS",
+     "hz": "troyes",
+     "away": "Châlons ASPTT",
+     "az": "chalons",
+     "sh": 0,
+     "sa": 3,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule C · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Chapelains RCS",
+     "hz": "troyes",
+     "away": "Pont Ste Marie AS",
+     "az": "troyes",
+     "sh": 1,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule C · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Nogentais FC 2",
+     "hz": "romilly",
+     "away": "Sézannais SC",
+     "az": "sezanne",
+     "sh": 1,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule D · J7",
+     "date": "Sam. 31 oct.",
+     "home": "Bar-sur-Aube FC",
+     "hz": "barsuraube",
+     "away": "Sarrey Montigny AS",
+     "az": "chaumont",
+     "sh": 1,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule D · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Chevillon Stade",
+     "hz": "stdizier",
+     "away": "Chaumont FC 2",
+     "az": "chaumont",
+     "sh": 0,
+     "sa": 2,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule D · J7",
+     "date": "Dim. 1er nov.",
+     "home": "Treveray AS",
+     "hz": null,
+     "away": "Éclaron US",
+     "az": "stdizier",
+     "sh": 1,
+     "sa": 4,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
     }
    ],
    "agenda": [
@@ -2034,7 +2236,7 @@ window.RSH_DATA = {
      "level": "Régional",
      "day": "Sam. 7 nov.",
      "time": "18:30",
-     "home": "RC Épernay Champagne",
+     "home": "Épernay Champagne RC",
      "hz": "epernay",
      "away": "US Uckange",
      "az": null,
@@ -2047,9 +2249,9 @@ window.RSH_DATA = {
      "level": "Régional",
      "day": "Dim. 8 nov.",
      "time": "14:30",
-     "home": "US Avize-Grauves",
+     "home": "Avize Grauves US",
      "hz": "epernay",
-     "away": "RC Épernay Champagne 2",
+     "away": "Épernay Champagne RC 2",
      "az": "epernay",
      "comp": "Régional 2 · Poule B",
      "place": "Avize",
