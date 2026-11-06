@@ -158,7 +158,7 @@ function start(DATA){
   function catalogue(){
     eds = DATA.editions.slice().sort((a,b)=>b.id.localeCompare(a.id));
     const rows = eds.flatMap(e=>[...(e.results||[]),...(e.agenda||[])]);
-    const sports = new Set(DATA.suivi.map(s=>s.sport)); rows.forEach(r=>sports.add(r.sport));
+    const sports = new Set(PRIO); DATA.suivi.forEach(s=>sports.add(s.sport)); rows.forEach(r=>sports.add(r.sport)); // the team sports always show, even before a club or result exists
     allSports = [...sports].sort(sportOrder);
     clubMap = new Map();
     DATA.suivi.forEach(s=>clubMap.set(s.club,{sport:s.sport,zone:s.zone,div:divOf(s)}));
