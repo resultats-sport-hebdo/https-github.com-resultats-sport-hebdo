@@ -20,7 +20,10 @@ window.RSH_DATA = {
     "Saint-Brice-Courcelles",
     "Taissy",
     "Witry-lès-Reims",
-    "Bezannes"
+    "Bezannes",
+    "Gueux",
+    "Cernay-lès-Reims",
+    "Berru"
    ]
   },
   {
@@ -46,7 +49,8 @@ window.RSH_DATA = {
     "Dizy",
     "Avize",
     "Grauves",
-    "Côte des Blancs"
+    "Côte des Blancs",
+    "Oiry"
    ]
   },
   {
@@ -86,7 +90,13 @@ window.RSH_DATA = {
     "Rocroi",
     "Les Ayvelles",
     "Cheveuges",
-    "Givet"
+    "Givet",
+    "Nouvion-sur-Meuse",
+    "Vivier-au-Court",
+    "Boulzicourt",
+    "Haybes",
+    "Liart",
+    "Signy-l'Abbaye"
    ]
   },
   {
@@ -97,7 +107,9 @@ window.RSH_DATA = {
     "Rethel",
     "Château-Porcien",
     "Attigny",
-    "Vouziers"
+    "Vouziers",
+    "Asfeld",
+    "Buzancy"
    ]
   },
   {
@@ -111,7 +123,8 @@ window.RSH_DATA = {
     "La Chapelle-Saint-Luc",
     "Pont-Sainte-Marie",
     "Saint-Julien-les-Villas",
-    "Rosières-près-Troyes"
+    "Rosières-près-Troyes",
+    "Vaudes"
    ]
   },
   {
@@ -131,7 +144,8 @@ window.RSH_DATA = {
    "villes": [
     "Bar-sur-Aube",
     "Bar-sur-Seine",
-    "Essoyes"
+    "Essoyes",
+    "Dienville"
    ]
   },
   {
@@ -144,7 +158,10 @@ window.RSH_DATA = {
     "Eurville-Bienville",
     "Chevillon",
     "Éclaron",
-    "Vaux-sur-Blaise"
+    "Vaux-sur-Blaise",
+    "Joinville",
+    "Montier-en-Der",
+    "Chancenay"
    ]
   },
   {
@@ -156,7 +173,10 @@ window.RSH_DATA = {
     "Langres",
     "Bologne",
     "Saint-Geosmes",
-    "Sarrey"
+    "Sarrey",
+    "Bourmont",
+    "Andelot-Blancheville",
+    "Neuilly-l'Évêque"
    ]
   },
   {
@@ -172,7 +192,8 @@ window.RSH_DATA = {
     "Grugies",
     "Gauchy",
     "Bohain-en-Vermandois",
-    "Gricourt"
+    "Gricourt",
+    "Seboncourt"
    ]
   },
   {
@@ -185,7 +206,11 @@ window.RSH_DATA = {
     "Prémontré",
     "Saint-Gobain",
     "Tergnier",
-    "Anizy-le-Château"
+    "Anizy-le-Château",
+    "La Fère",
+    "Crécy-sur-Serre",
+    "Bruyères-et-Montbérault",
+    "Guignicourt"
    ]
   },
   {
@@ -196,7 +221,8 @@ window.RSH_DATA = {
     "Soissons",
     "Villers-Cotterêts",
     "Belleu",
-    "Cuffies"
+    "Cuffies",
+    "Courmelles"
    ]
   },
   {
@@ -1803,6 +1829,443 @@ window.RSH_DATA = {
    "sport": "Handball",
    "zone": "soissons",
    "level": "Régional"
+  },
+  {
+   "club": "Stade de Reims Natation",
+   "sport": "Water-polo",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Water-Polo Épernay-Champagne",
+   "sport": "Water-polo",
+   "zone": "epernay",
+   "level": "Régional"
+  },
+  {
+   "club": "St-Quentin Natation",
+   "sport": "Water-polo",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "FC Laon Water-Polo",
+   "sport": "Water-polo",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "St Geosmois FC 2",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Joinville Vecque FC",
+   "sport": "Football",
+   "zone": "stdizier",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Sarrey Montigny AS 2",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Langres CO",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Montier en Der US",
+   "sport": "Football",
+   "zone": "stdizier",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Prez Bourmont FC",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Ornel Chanc SL",
+   "sport": "Football",
+   "zone": "stdizier",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Vaux sur Blaise USIB 2",
+   "sport": "Football",
+   "zone": "stdizier",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Andelot Rim ES",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Neuilly SR",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "ECMR",
+   "sport": "Football",
+   "zone": "chaumont",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Marnaval SC 2",
+   "sport": "Football",
+   "zone": "stdizier",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Itancourt Neuville 3",
+   "sport": "Football",
+   "zone": "stquentin",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Tergnier FC",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "La Fère US",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Crécois ICS",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Guise US",
+   "sport": "Football",
+   "zone": "thierache",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "St Quentin Portugais",
+   "sport": "Football",
+   "zone": "stquentin",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Bruyères Montbérault",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Courmelles FC",
+   "sport": "Football",
+   "zone": "soissons",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Belleu US",
+   "sport": "Football",
+   "zone": "soissons",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Bohain RC",
+   "sport": "Football",
+   "zone": "stquentin",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Seboncourt US",
+   "sport": "Football",
+   "zone": "stquentin",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Guignicourt US",
+   "sport": "Football",
+   "zone": "laon",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Charleville ES",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Villers Semeuse CA 2",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Liart/Signy FC",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Charleville Prix OAM 3",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Tournes Ren. Maz. AS 2",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Bazeilles US 2",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Nouvion USC",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Vivarois SC",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Boulzicourt",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Asfeld AS",
+   "sport": "Football",
+   "zone": "rethel",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Buzancy SOS",
+   "sport": "Football",
+   "zone": "rethel",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "FC de Haybes",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "St Méziéry FC 2",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Rosières OS 2",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Morgendois FC",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "St Julien JSFC 2",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Aube UFC",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "AS Chartreux Port",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "SAF",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Chartreux AS 2",
+   "sport": "Football",
+   "zone": "troyes",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Nord Aubois ES",
+   "sport": "Football",
+   "zone": "romilly",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "USVD",
+   "sport": "Football",
+   "zone": "barsuraube",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Nogent / Port AS",
+   "sport": "Football",
+   "zone": "romilly",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Neuvillette Jamin 3",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "St Brice Courcelles 2",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Oiry US",
+   "sport": "Football",
+   "zone": "epernay",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Reims Espérance 2",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Nord Champagne FC",
+   "sport": "Football",
+   "zone": "chalons",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Avize Grauves US 2",
+   "sport": "Football",
+   "zone": "epernay",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Vitry FC 2",
+   "sport": "Football",
+   "zone": "vitry",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Witry les Reims ES",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Argonne FC",
+   "sport": "Football",
+   "zone": "chalons",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Fagnières ES 2",
+   "sport": "Football",
+   "zone": "chalons",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Reims Christo FC 2",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Départemental",
+   "div": "D1"
+  },
+  {
+   "club": "Cernay Berru Lava AS",
+   "sport": "Football",
+   "zone": "reims",
+   "level": "Départemental",
+   "div": "D1"
   }
  ],
  "editions": [
@@ -3053,6 +3516,456 @@ window.RSH_DATA = {
      "sa": 2,
      "note": "",
      "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Haute-Marne",
+     "date": "Sam. 31 oct.",
+     "home": "St Geosmois FC 2",
+     "hz": "chaumont",
+     "away": "Joinville Vecque FC",
+     "az": "stdizier",
+     "sh": 1,
+     "sa": 2,
+     "note": "",
+     "url": "https://hautemarne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Haute-Marne",
+     "date": "Sam. 31 oct.",
+     "home": "Sarrey Montigny AS 2",
+     "hz": "chaumont",
+     "away": "Langres CO",
+     "az": "chaumont",
+     "sh": 0,
+     "sa": 2,
+     "note": "",
+     "url": "https://hautemarne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Haute-Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Montier en Der US",
+     "hz": "stdizier",
+     "away": "Prez Bourmont FC",
+     "az": "chaumont",
+     "sh": 2,
+     "sa": 0,
+     "note": "",
+     "url": "https://hautemarne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Haute-Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Ornel Chanc SL",
+     "hz": "stdizier",
+     "away": "Vaux sur Blaise USIB 2",
+     "az": "stdizier",
+     "sh": 2,
+     "sa": 1,
+     "note": "",
+     "url": "https://hautemarne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Haute-Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Andelot Rim ES",
+     "hz": "chaumont",
+     "away": "Neuilly SR",
+     "az": "chaumont",
+     "sh": 4,
+     "sa": 2,
+     "note": "",
+     "url": "https://hautemarne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Haute-Marne",
+     "date": "Dim. 1er nov.",
+     "home": "ECMR",
+     "hz": "chaumont",
+     "away": "Marnaval SC 2",
+     "az": "stdizier",
+     "sh": 3,
+     "sa": 0,
+     "note": "",
+     "url": "https://hautemarne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aisne · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Itancourt Neuville 3",
+     "hz": "stquentin",
+     "away": "Tergnier FC",
+     "az": "laon",
+     "sh": 1,
+     "sa": 1,
+     "note": "",
+     "url": "https://aisne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aisne · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "La Fère US",
+     "hz": "laon",
+     "away": "Crécois ICS",
+     "az": "laon",
+     "sh": 0,
+     "sa": 4,
+     "note": "",
+     "url": "https://aisne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aisne · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Guise US",
+     "hz": "thierache",
+     "away": "St Quentin Portugais",
+     "az": "stquentin",
+     "sh": 1,
+     "sa": 0,
+     "note": "",
+     "url": "https://aisne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aisne · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Bruyères Montbérault",
+     "hz": "laon",
+     "away": "Courmelles FC",
+     "az": "soissons",
+     "sh": 0,
+     "sa": 2,
+     "note": "",
+     "url": "https://aisne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aisne · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Belleu US",
+     "hz": "soissons",
+     "away": "Bohain RC",
+     "az": "stquentin",
+     "sh": 0,
+     "sa": 2,
+     "note": "",
+     "url": "https://aisne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aisne · Poule A",
+     "date": "Dim. 1er nov.",
+     "home": "Seboncourt US",
+     "hz": "stquentin",
+     "away": "Guignicourt US",
+     "az": "laon",
+     "sh": 0,
+     "sa": 2,
+     "note": "",
+     "url": "https://aisne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "D1 Ardennes",
+     "date": "Sam. 31 oct.",
+     "home": "Charleville ES",
+     "hz": "charleville",
+     "away": "Villers Semeuse CA 2",
+     "az": "charleville",
+     "sh": 2,
+     "sa": 0,
+     "note": "",
+     "url": "https://districtfoot08.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "D1 Ardennes",
+     "date": "Sam. 31 oct.",
+     "home": "Liart/Signy FC",
+     "hz": "charleville",
+     "away": "Charleville Prix OAM 3",
+     "az": "charleville",
+     "sh": 2,
+     "sa": 0,
+     "note": "",
+     "url": "https://districtfoot08.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "D1 Ardennes",
+     "date": "Dim. 1er nov.",
+     "home": "Tournes Ren. Maz. AS 2",
+     "hz": "charleville",
+     "away": "Bazeilles US 2",
+     "az": "charleville",
+     "sh": 3,
+     "sa": 0,
+     "note": "",
+     "url": "https://districtfoot08.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "D1 Ardennes",
+     "date": "Dim. 1er nov.",
+     "home": "Nouvion USC",
+     "hz": "charleville",
+     "away": "Vivarois SC",
+     "az": "charleville",
+     "sh": 2,
+     "sa": 0,
+     "note": "",
+     "url": "https://districtfoot08.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "D1 Ardennes",
+     "date": "Dim. 1er nov.",
+     "home": "Boulzicourt",
+     "hz": "charleville",
+     "away": "Asfeld AS",
+     "az": "rethel",
+     "sh": 1,
+     "sa": 1,
+     "note": "",
+     "url": "https://districtfoot08.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "D1 Ardennes",
+     "date": "Dim. 1er nov.",
+     "home": "Buzancy SOS",
+     "hz": "rethel",
+     "away": "FC de Haybes",
+     "az": "charleville",
+     "sh": 2,
+     "sa": 3,
+     "note": "",
+     "url": "https://districtfoot08.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aube",
+     "date": "Dim. 1er nov.",
+     "home": "St Méziéry FC 2",
+     "hz": "troyes",
+     "away": "Rosières OS 2",
+     "az": "troyes",
+     "sh": 7,
+     "sa": 1,
+     "note": "",
+     "url": "https://district-aube.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aube",
+     "date": "Dim. 1er nov.",
+     "home": "Morgendois FC",
+     "hz": "troyes",
+     "away": "St Julien JSFC 2",
+     "az": "troyes",
+     "sh": 1,
+     "sa": 3,
+     "note": "",
+     "url": "https://district-aube.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aube",
+     "date": "Dim. 1er nov.",
+     "home": "Aube UFC",
+     "hz": "troyes",
+     "away": "AS Chartreux Port",
+     "az": "troyes",
+     "sh": 1,
+     "sa": 0,
+     "note": "",
+     "url": "https://district-aube.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aube",
+     "date": "Dim. 1er nov.",
+     "home": "Vaudoise JS",
+     "hz": "troyes",
+     "away": "SAF",
+     "az": "troyes",
+     "sh": 1,
+     "sa": 4,
+     "note": "",
+     "url": "https://district-aube.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aube",
+     "date": "Dim. 1er nov.",
+     "home": "Chartreux AS 2",
+     "hz": "troyes",
+     "away": "Nord Aubois ES",
+     "az": "romilly",
+     "sh": 1,
+     "sa": 0,
+     "note": "",
+     "url": "https://district-aube.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "Départemental 1 Aube",
+     "date": "Dim. 1er nov.",
+     "home": "USVD",
+     "hz": "barsuraube",
+     "away": "Nogent / Port AS",
+     "az": "romilly",
+     "sh": 1,
+     "sa": 2,
+     "note": "",
+     "url": "https://district-aube.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "District 1 Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Neuvillette Jamin 3",
+     "hz": "reims",
+     "away": "Gueux AS",
+     "az": "reims",
+     "sh": 2,
+     "sa": 2,
+     "note": "",
+     "url": "https://marne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "District 1 Marne",
+     "date": "Dim. 1er nov.",
+     "home": "St Brice Courcelles 2",
+     "hz": "reims",
+     "away": "Oiry US",
+     "az": "epernay",
+     "sh": 3,
+     "sa": 0,
+     "note": "",
+     "url": "https://marne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "District 1 Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Reims Espérance 2",
+     "hz": "reims",
+     "away": "Nord Champagne FC",
+     "az": "chalons",
+     "sh": 1,
+     "sa": 5,
+     "note": "",
+     "url": "https://marne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "District 1 Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Avize Grauves US 2",
+     "hz": "epernay",
+     "away": "Vitry FC 2",
+     "az": "vitry",
+     "sh": 2,
+     "sa": 4,
+     "note": "",
+     "url": "https://marne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "District 1 Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Witry les Reims ES",
+     "hz": "reims",
+     "away": "Argonne FC",
+     "az": "chalons",
+     "sh": 2,
+     "sa": 1,
+     "note": "",
+     "url": "https://marne.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Départemental",
+     "div": "D1",
+     "comp": "District 1 Marne",
+     "date": "Dim. 1er nov.",
+     "home": "Fagnières ES 2",
+     "hz": "chalons",
+     "away": "Reims Christo FC 2",
+     "az": "reims",
+     "sh": 2,
+     "sa": 3,
+     "note": "",
+     "url": "https://marne.fff.fr/"
     }
    ],
    "agenda": [
@@ -3548,6 +4461,19 @@ window.RSH_DATA = {
      "comp": "Honneur régionale masculine Hauts-de-France · Poule 2 · J6",
      "place": "",
      "url": "https://www.ffhandball.fr/"
+    },
+    {
+     "sport": "Water-polo",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "20:30",
+     "home": "Pelican Club de Valenciennes",
+     "hz": null,
+     "away": "St-Quentin Natation",
+     "az": "stquentin",
+     "comp": "Nationale 3 Hauts-de-France · Poule B · J1",
+     "place": "Valenciennes",
+     "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=223"
     }
    ]
   }
@@ -3636,6 +4562,38 @@ window.RSH_DATA = {
   {
    "name": "FFR Compétitions",
    "url": "https://competitions.ffr.fr/"
+  },
+  {
+   "name": "FFN Extranat – Stade de Reims Natation (water-polo)",
+   "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=111"
+  },
+  {
+   "name": "FFN Extranat – WP Épernay-Champagne",
+   "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=96"
+  },
+  {
+   "name": "FFN Extranat – St-Quentin Natation",
+   "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=223"
+  },
+  {
+   "name": "District de football (52) – Départemental 1",
+   "url": "https://hautemarne.fff.fr/"
+  },
+  {
+   "name": "District de football (02) – Départemental 1",
+   "url": "https://aisne.fff.fr/"
+  },
+  {
+   "name": "District de football (08) – Départemental 1",
+   "url": "https://districtfoot08.fff.fr/"
+  },
+  {
+   "name": "District de football (10) – Départemental 1",
+   "url": "https://district-aube.fff.fr/"
+  },
+  {
+   "name": "District de football (51) – Départemental 1",
+   "url": "https://marne.fff.fr/"
   }
  ]
 };

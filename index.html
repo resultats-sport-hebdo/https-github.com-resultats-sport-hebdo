@@ -3,141 +3,208 @@
 <meta id="t-meta" name="claude:viewport-fit-sides" content="cover">
 <link id="t-pc1" rel="preconnect" href="https://fonts.googleapis.com">
 <link id="t-pc2" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link id="t-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&amp;family=Archivo:wght@400;500;600&amp;display=swap">
+<link id="t-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
 <style id="css">
-/* Layout: one reading column; scoreboard masthead, filter panel (département > zone > niveau > sport > club), results grouped by sport, week fixtures. Content comes from data.json, edited on admin.html */
+/* Layout « journal local », bleu marine : bandeau marine (titre, semaine, rubriques), volet de filtres repliable, « À la une », résultats en colonnes par sport, affiches. Responsive : colonnes auto-fit, menu qui défile, filtres repliés sur téléphone. Données : data.js, éditées dans admin.html */
 :root{
-  --bg:#f6f4f3; --surface:#ffffff; --ink:#1d1a1b; --muted:#6c6466; --line:#e4dfdf;
-  --accent:#b3122b; --accent-ink:#ffffff; --gold:#a97c2b; --chip:#efeaea; --scorebg:#1d1a1b; --scoreink:#ffffff;
-  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
-  --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --bg:#ffffff; --ink:#12233d; --muted:#56657e; --line:#dce3ee; --soft:#f3f6fb;
+  --navy:#12233d; --navy-ink:#ffffff; --navy-muted:#c3cedf;
+  --accent:#1f5fbf; --accent-ink:#ffffff; --chip:#f3f6fb;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#141213; --surface:#1d1a1b; --ink:#f1eded; --muted:#a39a9c; --line:#322c2e;
-  --accent:#e0435a; --accent-ink:#1a0a0d; --gold:#d6ad62; --chip:#2a2527; --scorebg:#f1eded; --scoreink:#141213; color-scheme:dark}}
+  --bg:#0d1828; --ink:#e7edf6; --muted:#a3b1c6; --line:#24354f; --soft:#132238;
+  --navy:#081221; --navy-ink:#ffffff; --navy-muted:#a9b8cf;
+  --accent:#6ea3ff; --accent-ink:#081221; --chip:#132238; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#141213; --surface:#1d1a1b; --ink:#f1eded; --muted:#a39a9c; --line:#322c2e;
-  --accent:#e0435a; --accent-ink:#1a0a0d; --gold:#d6ad62; --chip:#2a2527; --scorebg:#f1eded; --scoreink:#141213; color-scheme:dark}
+  --bg:#0d1828; --ink:#e7edf6; --muted:#a3b1c6; --line:#24354f; --soft:#132238;
+  --navy:#081221; --navy-ink:#ffffff; --navy-muted:#a9b8cf;
+  --accent:#6ea3ff; --accent-ink:#081221; --chip:#132238; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.in{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 
-body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);
-  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.wrap{max-width:760px;margin:0 auto;padding-block:20px 56px;display:flex;flex-direction:column;gap:26px}
+/* bandeau */
+.band{background:var(--navy);color:var(--navy-ink)}
+.band .in{padding-top:18px;display:flex;flex-direction:column;gap:10px}
+.topline{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 16px;font-size:13px;color:var(--navy-muted);text-transform:uppercase;letter-spacing:.1em}
+.topline label{display:flex;align-items:center;gap:8px}
+.topline select{font:600 13px var(--body);letter-spacing:.04em;color:var(--navy-ink);background:transparent;border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:6px 8px;max-width:100%}
+.topline select option{color:#12233d}
+.brand{margin:0;text-align:center;font:800 clamp(28px,6vw,48px)/1 var(--serif);padding:4px 0 0;text-wrap:balance}
+.rythme{margin:0;text-align:center;font-size:13px;color:var(--navy-muted)}
+.rubriques{display:flex;gap:4px 22px;overflow-x:auto;scrollbar-width:none;justify-content:safe center;padding:2px 0 6px;-webkit-overflow-scrolling:touch}
+.rubriques::-webkit-scrollbar{display:none}
+.rubriques button{flex:0 0 auto;background:none;border:0;border-bottom:3px solid transparent;color:var(--navy-ink);font:600 14px var(--body);padding:10px 2px;min-height:44px;cursor:pointer;white-space:nowrap}
+.rubriques button[aria-current="true"]{border-bottom-color:var(--accent)}
+.stripe{height:4px;background:var(--accent)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .rubriques button[aria-current="true"]{border-bottom-color:#6ea3ff}}
 
-.mast{display:flex;flex-direction:column;gap:10px;border-bottom:3px solid var(--ink);padding-bottom:14px}
-.mast-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
-.brand{font:800 clamp(38px,8vw,60px)/.9 var(--display);letter-spacing:-.01em;text-transform:uppercase;margin:0;text-wrap:balance}
-.brand span{color:var(--accent)}
-.tag{margin:0;font:600 13px var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-.edition{font:600 13px/1.2 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:8px;align-items:center}
-select,input{font:500 14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:6px 8px;min-width:0}
-.edition select{font:600 13px var(--display);letter-spacing:.08em;text-transform:uppercase}
-.edito{margin:0;max-width:62ch}
-
-.filters{display:flex;flex-direction:column;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line)}
-.flabel{font:600 12px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.frow{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font:600 14px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:8px 11px;border-radius:999px;cursor:pointer}
-.chip small{font-weight:500;opacity:.75;margin-left:4px;letter-spacing:.04em}
-.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.chip.small{font-size:13px;padding:6px 10px;text-transform:none;letter-spacing:.02em}
+/* filtres */
+.layout{display:flex;flex-wrap:wrap;align-items:flex-start;gap:24px 28px;padding-top:20px;padding-bottom:40px}
+.side{flex:0 0 290px;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;background:var(--soft);border:1px solid var(--line);padding:2px 14px 10px;overscroll-behavior:contain}
+.content{flex:1 1 520px;min-width:0;display:flex;flex-direction:column;gap:28px}
+@media (max-width:899px){
+  .layout{padding-top:0}
+  .side{flex:1 1 100%;top:0;z-index:5;max-height:72vh;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));border-width:0 0 1px;padding:0 max(16px,env(safe-area-inset-left,0px)) 8px;box-shadow:0 6px 12px -10px rgba(18,35,61,.5)}
+}
+details.fbox>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;min-height:44px;padding:4px 0}
+details.fbox>summary::-webkit-details-marker{display:none}
+.fbtn{display:inline-flex;align-items:center;gap:8px;font:700 14px var(--body);color:var(--ink)}
+.fbtn::before{content:"▸";font-size:12px;color:var(--muted)}
+@media (min-width:900px){.fbtn::before,details.fbox[open] .fbtn::before{content:none}details.fbox>summary{cursor:default}}
+@media (min-width:900px){
+  .side{top:10px;max-height:calc(100vh - 20px);scrollbar-width:none;padding:0 12px 6px}
+  .side::-webkit-scrollbar{display:none}
+  .side details.fbox>summary{min-height:34px;padding:2px 0}
+  .side .filters{gap:7px;padding-bottom:2px}
+  .side .fgroup{gap:3px}
+  .side .chips{gap:4px}
+  .side .chip{font-size:12px;padding:4px 8px;min-height:25px}
+  .side .chip.small{font-size:11.5px;padding:3px 7px;min-height:23px}
+  .side .flabel,.side .dep-name{font-size:10.5px}
+}
+details.fbox[open] .fbtn::before{content:"▾"}
+.fsum{font-size:13px;color:var(--muted)}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px 24px;padding:0 0 6px}
+.side .filters{grid-template-columns:minmax(0,1fr)}
+@media (max-width:899px){.side .filters{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}}
+.fgroup{display:flex;flex-direction:column;gap:5px;min-width:0}
+.fgroup.wide{grid-column:1/-1}
+.flabel{font:700 11px var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.frow{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font:600 13px/1 var(--body);border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:6px 10px;min-height:32px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:var(--navy-ink)}
+.chip[aria-pressed="mixed"]{border-color:var(--navy);box-shadow:inset 0 0 0 1px var(--navy)}
+.chip.small{font-size:12.5px;padding:5px 9px;min-height:30px}
 .dep{display:flex;flex-direction:column;gap:5px}
-.dep + .dep{margin-top:4px}
-.dep-name{font:600 11px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
-details.box summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:baseline}
+.dep + .dep{margin-top:6px}
+.dep-name{font:700 11px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+details.box summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:baseline;min-height:36px;align-items:center}
 details.box summary::-webkit-details-marker{display:none}
 details.box summary::before{content:"▸";color:var(--muted);font-size:12px}
 details.box[open] summary::before{content:"▾"}
 .csum{font-size:13px;color:var(--muted)}
-.cbar{justify-content:flex-start;gap:14px;margin-block:8px 6px}
-.fhead{margin-block:4px 0;gap:6px 14px}
-.fhead .flabel{margin-right:4px}
-#c-search{flex:1 1 180px;max-width:280px}
+.cbar{gap:14px;margin-block:6px 6px}
+#c-search{flex:1 1 180px;max-width:320px;font:500 15px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:8px 10px}
 .scroll{max-height:42vh;overflow:auto}
-.link{background:none;border:0;color:var(--muted);font:500 13px var(--body);text-decoration:underline;cursor:pointer;padding:0}
-:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.link{background:none;border:0;color:var(--accent);font:600 12px var(--body);text-decoration:underline;cursor:pointer;padding:4px 0}
 
-h2{font:800 26px/1 var(--display);text-transform:uppercase;margin:0 0 12px;display:flex;align-items:baseline;gap:10px}
-h2 small{font:600 13px var(--display);letter-spacing:.12em;color:var(--muted)}
-.sport{display:flex;flex-direction:column;gap:8px}
-.sport + .sport{margin-top:18px}
-.sport h3{font:700 15px/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0;padding-bottom:6px;border-bottom:1px solid var(--line)}
+/* contenu */
 
-.res{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
-.meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;font:600 12px var(--display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.lvl{color:var(--gold)}
-.score{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;font:700 19px/1.15 var(--display)}
-.score .h{text-align:right}
-.score .num{font-variant-numeric:tabular-nums;background:var(--scorebg);color:var(--scoreink);padding:2px 9px;border-radius:3px;letter-spacing:.04em;white-space:nowrap}
-.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;align-items:baseline}
-.note{margin:0;color:var(--muted);font-size:14px;max-width:62ch}
-.zones-of{font-size:12.5px;color:var(--muted)}
-a.read{font:600 13px var(--body);color:var(--accent);text-decoration:none;white-space:nowrap}
-a.read:hover{text-decoration:underline}
-
-.fx{display:grid;grid-template-columns:84px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
-.fx:last-child{border-bottom:0}
-.when{font:700 15px/1.15 var(--display);text-transform:uppercase;letter-spacing:.04em}
-.when span{display:block;color:var(--accent);font-size:20px;font-variant-numeric:tabular-nums}
-.fx-main{min-width:0;display:flex;flex-direction:column;gap:2px}
-.fx-match{font:700 18px/1.2 var(--display)}
-.fx-meta{color:var(--muted);font-size:13.5px}
-
-.empty{background:var(--surface);border:1px dashed var(--line);border-radius:6px;padding:16px;color:var(--muted)}
-footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:6px}
+.une{display:flex;flex-wrap:wrap;gap:14px 18px;background:var(--soft);border:1px solid var(--line);padding:14px 16px}
+.une-txt{flex:1 1 340px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.kicker{font:700 11px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.une h2{margin:0;font:800 clamp(19px,2.4vw,23px)/1.15 var(--serif);text-wrap:balance}
+.une p{margin:0;font-size:14px;line-height:1.45;color:var(--muted)}
+.une-score{flex:0 1 200px;max-width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:8px;background:var(--navy);color:var(--navy-ink);padding:14px}
+.une-score .teams{font-size:11.5px;text-transform:uppercase;letter-spacing:.08em}
+.une-score .big{font:800 clamp(32px,4.5vw,40px)/1 var(--serif);font-variant-numeric:tabular-nums}
+.une-score .when{font-size:12px;color:var(--navy-muted)}
+.sec-title{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;margin:0 0 4px;font:800 clamp(22px,3vw,26px)/1.1 var(--serif)}
+.sec-title small{font:600 14px var(--body);color:var(--muted)}
+.cols{display:grid;grid-template-columns:1fr;gap:24px}
+@media (min-width:640px){.cols{display:block;columns:2;column-gap:28px}.cols>.col{display:block;margin-bottom:24px}.cols>.col h3{break-after:avoid}.cols .m{break-inside:avoid}.cols>.empty{column-span:all}}
+.col{display:flex;flex-direction:column;border-top:3px solid var(--accent);min-width:0}
+.col h3{margin:0;padding:8px 0 2px;font:700 19px/1.2 var(--serif)}
+.m{display:flex;flex-direction:column;gap:2px;padding:10px 0;border-bottom:1px solid var(--line)}
+.m .meta{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.m .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:15px}
+.m .row span{min-width:0;overflow-wrap:anywhere}
+.m .row strong{font-variant-numeric:tabular-nums;font-size:16px}
+.m .win{font-weight:700}
+.m .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;font-size:12px;color:var(--muted);margin-top:2px}
+.m .note{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.read{font-weight:700;text-decoration:none;white-space:nowrap}
+.read:hover{text-decoration:underline}
+.affiche{background:var(--soft);border:1px solid var(--line);padding:20px 24px}
+.fxgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:4px 28px}
+.fx{display:grid;grid-template-columns:92px minmax(0,1fr);gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.fx .when{font-weight:700;color:var(--accent);line-height:1.25}
+.fx .when span{display:block;font-weight:600;color:var(--ink)}
+.fx-match{font-weight:600}
+.fx-meta{display:block;font-size:12.5px;color:var(--muted)}
+.empty{border:1px dashed var(--line);padding:16px;color:var(--muted)}
+.adminl{margin:0;font-size:14px}.adminl a{font-weight:700}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+footer .in{padding-top:16px;padding-bottom:28px;display:flex;flex-direction:column;gap:6px}
 footer a{color:var(--muted)}
-
-.adminl{margin:0;font-size:13.5px}.adminl a{color:var(--accent);font-weight:600}
-@media (max-width:460px){.fx{grid-template-columns:70px 1fr}.score{font-size:17px}}
+@media (max-width:560px){.une{padding:14px}.affiche{padding:16px}.fx{grid-template-columns:78px minmax(0,1fr)}}
 </style>
-<div class="wrap" id="root">
-  <header class="mast">
-    <div class="mast-top">
-      <h1 class="brand">Résultats <span>Sport</span> Hebdo</h1>
-      <label class="edition" for="ed">Édition <select id="ed"></select></label>
+<div id="root">
+<div class="band">
+  <header class="in">
+    <div class="topline">
+      <label for="ed">Semaine <select id="ed"></select></label>
+      <span>Marne · Ardennes · Aube · Haute-Marne · Aisne</span>
     </div>
-    <p class="tag">Sports collectifs · niveaux régional et national · Marne, Ardennes, Aube, Haute-Marne, Aisne</p>
-    <p class="edito" id="edito"></p>
+    <h1 class="brand">Résultats Sport Hebdo</h1>
+    <p class="rythme">Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine.</p>
+    <nav class="rubriques" id="rubs" aria-label="Rubriques"></nav>
   </header>
+  <div class="stripe"></div>
+</div>
 
-  <nav class="filters" aria-label="Filtres">
-    <div class="frow cbar fhead"><span class="flabel">Département</span><button class="link" type="button" data-all="dep">Tout sélectionner</button><button class="link" type="button" data-none="dep">Tout désélectionner</button></div>
-    <div class="chips" id="deps"></div>
-    <details class="box" id="zbox">
-      <summary><span class="flabel">Ma zone (bassins)</span> <span class="csum" id="zsum"></span></summary>
-      <div class="frow cbar"><button class="link" id="z-all" type="button">Toutes</button><button class="link" id="z-none" type="button">Aucune</button><button class="link" id="all" type="button">Réinitialiser tous les filtres</button></div>
-      <div id="zones"></div>
-    </details>
-    <div class="frow cbar fhead"><span class="flabel">Niveau</span><button class="link" type="button" data-all="lvl">Tout sélectionner</button><button class="link" type="button" data-none="lvl">Tout désélectionner</button></div>
-    <div class="chips" id="levels"></div>
-    <div class="frow cbar fhead"><span class="flabel">Féminin / Masculin</span><button class="link" type="button" data-all="gen">Tout sélectionner</button><button class="link" type="button" data-none="gen">Tout désélectionner</button></div>
-    <div class="chips" id="genres"></div>
-    <div class="frow cbar fhead"><span class="flabel">Mes sports</span><button class="link" type="button" data-all="sport">Tout sélectionner</button><button class="link" type="button" data-none="sport">Tout désélectionner</button></div>
-    <div class="chips" id="sports"></div>
-    <div id="divrow" class="dep"><div class="frow cbar fhead"><span class="flabel">Division (football)</span><button class="link" type="button" data-all="div">Tout sélectionner</button><button class="link" type="button" data-none="div">Tout désélectionner</button></div><div class="chips" id="divs"></div></div>
-    <details class="box" id="cbox">
-      <summary><span class="flabel">Mes clubs</span> <span class="csum" id="csum"></span></summary>
-      <div class="frow cbar"><input id="c-search" type="search" placeholder="Rechercher un club…" aria-label="Rechercher un club"><button class="link" id="c-all" type="button">Tous</button><button class="link" id="c-none" type="button">Aucun</button></div>
-      <div class="chips scroll" id="clubs"></div>
-    </details>
-  </nav>
-
+<div class="layout in">
+<aside class="side" aria-label="Filtres">
+  <details class="fbox" id="fbox">
+    <summary><span class="fbtn">Filtres</span><span class="fsum" id="fsum"></span></summary>
+    <div class="filters" aria-label="Filtres">
+      <div class="fgroup">
+        <div class="frow"><span class="flabel">Département</span><button class="link" type="button" data-all="dep">Tous</button><button class="link" type="button" data-none="dep">Aucun</button></div>
+        <div class="chips" id="deps"></div>
+        <details class="box" id="zbox">
+          <summary><span class="flabel">Ma zone (bassins)</span> <span class="csum" id="zsum"></span></summary>
+          <div class="frow cbar"><button class="link" id="z-all" type="button">Toutes</button><button class="link" id="z-none" type="button">Aucune</button></div>
+          <div id="zones"></div>
+        </details>
+      </div>
+      <div class="fgroup">
+        <div class="frow"><span class="flabel">Niveau</span><button class="link" type="button" data-all="lvl">Tous</button><button class="link" type="button" data-none="lvl">Aucun</button></div>
+        <div class="chips" id="levels"></div>
+        <div class="frow"><span class="flabel">Masculin / Féminin</span><button class="link" type="button" data-all="gen">Tous</button><button class="link" type="button" data-none="gen">Aucun</button></div>
+        <div class="chips" id="genres"></div>
+      </div>
+      <div class="fgroup">
+        <div class="frow"><span class="flabel">Sports</span><button class="link" type="button" data-all="sport">Tous</button><button class="link" type="button" data-none="sport">Aucun</button></div>
+        <div class="chips" id="sports"></div>
+        <div id="divrow" class="dep"><div class="frow"><span class="flabel">Division (football)</span><button class="link" type="button" data-all="div">Tous</button><button class="link" type="button" data-none="div">Aucun</button></div><div class="chips" id="divs"></div></div>
+      </div>
+      <div class="fgroup wide">
+        <details class="box" id="cbox">
+          <summary><span class="flabel">Mes clubs</span> <span class="csum" id="csum"></span></summary>
+          <div class="frow cbar"><input id="c-search" type="search" placeholder="Rechercher un club…" aria-label="Rechercher un club"><button class="link" id="c-all" type="button">Tous</button><button class="link" id="c-none" type="button">Aucun</button></div>
+          <div class="chips scroll" id="clubs"></div>
+        </details>
+        <div class="frow"><button class="link" id="all" type="button">Réinitialiser tous les filtres</button></div>
+      </div>
+    </div>
+  </details>
+</aside>
+<main class="content">
+  <section id="une" aria-label="À la une"></section>
   <section aria-labelledby="h-res">
-    <h2 id="h-res">Résultats <small id="res-count"></small></h2>
-    <div id="results"></div>
+    <h2 class="sec-title" id="h-res">Résultats <small id="res-count"></small></h2>
+    <div class="cols" id="results"></div>
   </section>
-
-  <section aria-labelledby="h-fx">
-    <h2 id="h-fx">À l'affiche <small>les prochains matchs</small></h2>
-    <div id="fixtures"></div>
+  <section class="affiche" id="affiche" aria-labelledby="h-fx">
+    <h2 class="sec-title" id="h-fx">À l'affiche <small>les prochains matchs</small></h2>
+    <div class="fxgrid" id="fixtures"></div>
   </section>
+  <p id="admin-link" class="adminl" hidden><a href="admin.html">Ouvrir l'administration du site ↗</a></p>
+</main>
+</div>
 
-  <p id="admin-link" class="adminl" hidden><a href="admin.html">Ouvrir l'administration de la newsletter ↗</a></p>
-
-  <footer>
-    <span>Chaque lundi matin : les résultats du week-end et le programme de la semaine.</span>
+<footer>
+  <div class="in">
+    <span>Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine.</span>
     <span id="sources"></span>
-  </footer>
+  </div>
+</footer>
 </div>
 <script id="t-datajs" src="data.js"></script>
 <script id="app">
@@ -147,14 +214,14 @@ footer a{color:var(--muted)}
 });
 function start(DATA){
   DATA.zones = DATA.zones||[]; DATA.suivi = DATA.suivi||[]; DATA.editions = DATA.editions||[];
-  const LEVELS = ['National','Régional'];
+  const LEVELS = ['National','Régional','Départemental'];
   const GENRES = ['Masculin','Féminin'];
   // a match is « Féminin » when its competition says so, or when one of its teams is a women's team in the catalogue
   const FEM_COMP = /f[ée]minin|\bLF2\b|\bLFB\b|\bNF[123]\b|\bN[123] ?F\b|\bPNF\b|\bRF[123]\b|\bPRF\b|Arkema|Seconde Ligue|\bD[23] f/i;
-  const DIVS = ['National','R1','R2','R3'];
-  const divOf = r=>{ if(r.sport!=='Football') return null; if(r.div) return r.div; if((r.level||'')==='National') return 'National'; const m=/R(?:é|e)gional\s*([123])|\bR([123])\b/i.exec(r.comp||''); return m?('R'+(m[1]||m[2])):null; };
+  const DIVS = ['National','R1','R2','R3','D1'];
+  const divOf = r=>{ if(r.sport!=='Football') return null; if(r.div) return r.div; if((r.level||'')==='National') return 'National'; const m=/R(?:é|e)gional\s*([123])|\bR([123])\b/i.exec(r.comp||''); if(m) return 'R'+(m[1]||m[2]); if((r.level||'')==='Départemental'||/\bD(?:istrict|épartemental)?\s*1\b/i.test(r.comp||'')) return 'D1'; return null; };
   const norm = t=>String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-  const PRIO = ['Football','Futsal','Basket','Handball','Volley','Rugby','Hockey sur glace','Roller hockey','Water-polo'];
+  const PRIO = ['Football','Basket','Handball','Volley','Rugby','Futsal','Hockey sur glace','Roller hockey','Water-polo'];
   const rank = s=>{const i=PRIO.indexOf(s);return i<0?99:i};
   const sportOrder = (a,b)=>rank(a)-rank(b)||a.localeCompare(b,'fr');
   const store = {get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
@@ -203,7 +270,7 @@ function start(DATA){
     const zon = DATA.zones.filter(z=>!offZ.has(z.k)).length;
     $('zsum').textContent = zon===DATA.zones.length?`toutes (${zon})`:`${zon} sur ${DATA.zones.length}`;
     $('genres').innerHTML = GENRES.map(g=>`<button type="button" class="chip" data-g="${esc(g)}" aria-pressed="${!offG.has(g)}">${esc(g)}</button>`).join('');
-    $('levels').innerHTML = LEVELS.map(l=>`<button type="button" class="chip" data-l="${esc(l)}" aria-pressed="${!offL.has(l)}">${esc(l)}</button>`).join('');
+    $('levels').innerHTML = LEVELS.map(l=>`<button type="button" class="chip" data-l="${esc(l)}" aria-pressed="${!offL.has(l)}">${esc(l==='Départemental'?'Départemental (foot)':l)}</button>`).join('');
     $('sports').innerHTML = allSports.map(s=>`<button type="button" class="chip" data-s="${esc(s)}" aria-pressed="${!offS.has(s)}">${esc(s)}</button>`).join('');
     $('divrow').hidden = offS.has('Football');
     $('divs').innerHTML = DIVS.map(d=>`<button type="button" class="chip" data-d="${esc(d)}" aria-pressed="${!offD.has(d)}">${esc(d)}</button>`).join('');
@@ -212,7 +279,7 @@ function start(DATA){
     const on=vc.filter(c=>!offC.has(c)).length;
     $('csum').textContent = vc.length?(on===vc.length?`tous (${vc.length})`:`${on} sur ${vc.length}`):'';
   }
-  const tog=(set,v)=>{set.has(v)?set.delete(v):set.add(v);save();render();};
+  const tog=(set,v)=>{set.has(v)?set.delete(v):set.add(v);rub='';store.set('rsh2-rub','');save();render();};
   $('zones').addEventListener('click',e=>{const p=e.target.closest('[data-dep]');if(p){togDep(p.dataset.dep);return;}const b=e.target.closest('[data-z]');if(b)tog(offZ,b.dataset.z);});
   $('deps').addEventListener('click',e=>{const b=e.target.closest('[data-dep]');if(b)togDep(b.dataset.dep);});
   $('genres').addEventListener('click',e=>{const b=e.target.closest('[data-g]');if(b)tog(offG,b.dataset.g);});
@@ -236,27 +303,69 @@ function start(DATA){
   const keep=r=>{const d=divOf(r); return !offG.has(genreOf(r))&&!offS.has(r.sport)&&!offL.has(r.level||'National')&&!(d&&offD.has(d))&&(sideOn(r.home,r.hz)||sideOn(r.away,r.az));};
   const zoneNames=r=>[...new Set([r.hz,r.az].filter(Boolean))].map(k=>(zoneOf(k)||{l:k}).l).join(' · ');
 
+  // rubriques : « À la une » = tout, un sport = ce sport seul, « Sport féminin » = matchs féminins seuls
+  let rub = store.get('rsh2-rub','une');
+  const setRub=k=>{ rub=k; store.set('rsh2-rub',k);
+    if(k==='une'){ offS.clear(); offG.clear(); }
+    else if(k==='fem'){ offS.clear(); offG.clear(); offG.add('Masculin'); }
+    else if(k==='affiche'){ const el=$('affiche'); if(el) el.scrollIntoView({behavior:'smooth',block:'start'}); return renderRubs(); }
+    else { offG.clear(); offS.clear(); allSports.forEach(x=>{ if(x!==k) offS.add(x); }); }
+    save(); render(); };
+  function renderRubs(){
+    const items=[['une','À la une'],...allSports.map(x=>[x,x]),['fem','Sport féminin'],['affiche','À l’affiche']];
+    $('rubs').innerHTML=items.map(([k,l])=>`<button type="button" data-rub="${esc(k)}" aria-current="${rub===k}">${esc(l)}</button>`).join('');
+  }
+  $('rubs').addEventListener('click',e=>{const b=e.target.closest('[data-rub]'); if(b) setRub(b.dataset.rub);});
+  // filters open by default on wide screens, folded on phones
+  // filters sit beside the results: always open on a computer, folded into a sticky bar on a phone
+  const wide=window.matchMedia('(min-width: 900px)');
+  const syncPanel=()=>{ $('fbox').open = wide.matches; };
+  syncPanel(); try{ wide.addEventListener('change',syncPanel); }catch(e){}
+  $('fbox').querySelector('summary').addEventListener('click',e=>{ if(wide.matches) e.preventDefault(); });
+  function filterSummary(){
+    const bits=[];
+    const zon=DATA.zones.filter(z=>!offZ.has(z.k)).length; if(zon<DATA.zones.length) bits.push(`${zon} zone${zon>1?'s':''} sur ${DATA.zones.length}`);
+    const sp=allSports.filter(x=>!offS.has(x)); if(sp.length<allSports.length) bits.push(sp.length?sp.join(', '):'aucun sport');
+    LEVELS.forEach(l=>{ if(offL.has(l)) bits.push('sans '+l.toLowerCase()); });
+    if(offG.size===1) bits.push(offG.has('Masculin')?'féminin seul':'masculin seul');
+    if(offD.size) bits.push('divisions : '+DIVS.filter(d=>!offD.has(d)).join(', '));
+    if(offC.size) bits.push(offC.size+' club(s) masqué(s)');
+    return bits.length? 'Sélection : '+bits.join(' · ') : 'Tout est affiché';
+  }
+  const score=(r,side)=>{ const a=+r.sh, b=+r.sa; if(isNaN(a)||isNaN(b)||a===b) return ''; return (side==='h'?a>b:b>a)?' class="win"':''; };
+  const rank2=r=>(r.level==='National'?0:r.level==='Départemental'?20:10)+rank(r.sport)+(r.note?0:0.5);
+
   function render(){
     filters();
-    if(!cur){ $('results').innerHTML='<div class="empty">Aucune édition publiée pour l\'instant.</div>'; $('fixtures').innerHTML=''; return; }
-    $('edito').textContent = cur.edito||'';
+    renderRubs();
+    $('fsum').textContent=filterSummary();
+    if(!cur){ $('une').innerHTML=''; $('results').innerHTML='<div class="empty">Aucune édition publiée pour l\'instant.</div>'; $('fixtures').innerHTML=''; return; }
     const res=(cur.results||[]).filter(keep);
+    // à la une : le premier match national (dans l'ordre des sports), sinon le premier résultat
+    const top=res.slice().sort((a,b)=>rank2(a)-rank2(b))[0];
+    $('une').innerHTML = top ? `<article class="une">
+        <div class="une-txt"><span class="kicker">À la une · ${esc(top.comp)}</span>
+          <h2>${esc(top.home)} – ${esc(top.away)}</h2>
+          ${cur.edito?`<p>${esc(cur.edito)}</p>`:''}
+          ${safeUrl(top.url)?`<a class="read" href="${esc(safeUrl(top.url))}" target="_blank" rel="noopener">Lire l'article ↗</a>`:''}</div>
+        <div class="une-score" aria-label="Score"><span class="teams">${esc(top.home)} · ${esc(top.away)}</span><span class="big">${esc(top.sh)} – ${esc(top.sa)}</span><span class="when">${esc(top.date)}</span></div>
+      </article>` : (cur.edito?`<article class="une"><div class="une-txt"><span class="kicker">À la une</span><p>${esc(cur.edito)}</p></div></article>`:'');
     $('res-count').textContent = res.length?res.length+' match'+(res.length>1?'s':''):'';
     const by={}; res.forEach(r=>(by[r.sport]=by[r.sport]||[]).push(r));
     const order=Object.keys(by).sort(sportOrder);
-    $('results').innerHTML = order.length? order.map(s=>`<div class="sport"><h3>${esc(s)}</h3>${by[s].map(r=>{const u=safeUrl(r.url);return `
-      <article class="res">
-        <div class="meta"><span>${esc(r.comp)}</span><span>${esc(r.date)}</span><span class="lvl">${esc(r.level||'')}</span></div>
-        <div class="score"><span class="h">${esc(r.home)}</span><span class="num">${esc(r.sh)}–${esc(r.sa)}</span><span>${esc(r.away)}</span></div>
-        <div class="foot"><span class="zones-of">${esc(zoneNames(r))}</span>${u?`<a class="read" href="${esc(u)}" target="_blank" rel="noopener">Lire l'article ↗</a>`:''}</div>
+    $('results').innerHTML = order.length? order.map(s=>`<section class="col"><h3>${esc(s)}</h3>${by[s].map(r=>{const u=safeUrl(r.url);return `
+      <article class="m">
+        <span class="meta">${esc(r.comp)} · ${esc(r.date)}${genreOf(r)==='Féminin'?' · Féminin':''}</span>
+        <div class="row"><span${score(r,'h')}>${esc(r.home)}</span><strong>${esc(r.sh)}</strong></div>
+        <div class="row"><span${score(r,'a')}>${esc(r.away)}</span><strong>${esc(r.sa)}</strong></div>
+        <div class="foot"><span>${esc(zoneNames(r))} · ${esc(r.level||'')}</span>${u?`<a class="read" href="${esc(u)}" target="_blank" rel="noopener">Lire l'article ↗</a>`:''}</div>
         ${r.note?`<p class="note">${esc(r.note)}</p>`:''}
-      </article>`}).join('')}</div>`).join('') : '<div class="empty">Aucun résultat pour cette sélection. Ajoute une zone, un niveau, un sport ou un club dans les filtres.</div>';
-    // fixtures in chronological order: « Sam. 7 nov. » + « 18:30 »
+      </article>`}).join('')}</section>`).join('') : '<div class="empty">Aucun résultat cette semaine pour cette sélection. Modifie les filtres pour ajouter une zone, un niveau, un sport ou un club.</div>';
     const MOIS={janv:1,fevr:2,mars:3,avr:4,mai:5,juin:6,juil:7,aout:8,sept:9,oct:10,nov:11,dec:12};
     const when=f=>{const m=/(\d{1,2})(?:er)?\s+([a-zéû]+)/i.exec(norm(f.day||'')); const mo=m?(MOIS[m[2].replace(/\.$/,'').slice(0,4)]||MOIS[m[2].slice(0,3)]||0):0; return (mo<8?mo+12:mo)*10000+(m?+m[1]:0)*100+parseInt((f.time||'0').replace(':',''),10)/100;};
     const fx=(cur.agenda||[]).filter(keep).slice().sort((a,b)=>when(a)-when(b));
     $('fixtures').innerHTML = fx.length? fx.map(f=>{const u=safeUrl(f.url);return `<div class="fx"><div class="when">${esc(f.day)}<span>${esc(f.time)}</span></div>
-      <div class="fx-main"><span class="fx-match">${esc(f.home)} – ${esc(f.away)}</span><span class="fx-meta">${esc(f.sport)} · ${esc(f.comp)} · ${esc(f.place)}${u?` · <a class="read" href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}</span></div></div>`}).join('') : '<div class="empty">Pas de match annoncé pour cette sélection.</div>';
+      <div><span class="fx-match">${esc(f.home)} – ${esc(f.away)}</span><span class="fx-meta">${esc(f.sport)} · ${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a class="read" href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}</span></div></div>`}).join('') : '<div class="empty">Pas de match annoncé pour cette sélection.</div>';
     $('sources').innerHTML = 'Sources : '+(DATA.sources||[]).map(s=>{const u=safeUrl(s.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name)}</a>`:esc(s.name)}).join(' · ');
   }
 
