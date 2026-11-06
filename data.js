@@ -850,12 +850,6 @@ window.RSH_DATA = {
    "level": "National"
   },
   {
-   "club": "AS Saint-Brice-Courcelles Handball",
-   "sport": "Handball",
-   "zone": "reims",
-   "level": "National"
-  },
-  {
    "club": "Racing Club Épernay Handball",
    "sport": "Handball",
    "zone": "epernay",
@@ -1214,12 +1208,6 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "AS ST BRICE",
-   "sport": "Handball",
-   "zone": "reims",
-   "level": "Régional"
-  },
-  {
    "club": "ASPTT HANDBALL CHALONS EN CHAMPAGNE",
    "sport": "Handball",
    "zone": "chalons",
@@ -1369,6 +1357,12 @@ window.RSH_DATA = {
    "zone": "sezanne",
    "level": "Régional",
    "div": "R2"
+  },
+  {
+   "club": "AS St Brice",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "National"
   }
  ],
  "editions": [
@@ -1886,11 +1880,11 @@ window.RSH_DATA = {
     {
      "sport": "Handball",
      "level": "National",
-     "comp": "Nationale 1 · J6",
+     "comp": "Nationale 1 masculine · J6",
      "date": "Date non précisée",
-     "home": "Beaune HB",
+     "home": "Beaune Handball",
      "hz": null,
-     "away": "AS Saint-Brice-Courcelles Handball",
+     "away": "AS St Brice",
      "az": "reims",
      "sh": 26,
      "sa": 25,
