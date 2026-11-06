@@ -125,7 +125,7 @@ footer a{color:var(--muted)}
   </section>
 
   <section aria-labelledby="h-fx">
-    <h2 id="h-fx">À l'affiche <small>cette semaine</small></h2>
+    <h2 id="h-fx">À l'affiche <small>les prochains matchs</small></h2>
     <div id="fixtures"></div>
   </section>
 
@@ -242,7 +242,10 @@ function start(DATA){
         <div class="foot"><span class="zones-of">${esc(zoneNames(r))}</span>${u?`<a class="read" href="${esc(u)}" target="_blank" rel="noopener">Lire l'article ↗</a>`:''}</div>
         ${r.note?`<p class="note">${esc(r.note)}</p>`:''}
       </article>`}).join('')}</div>`).join('') : '<div class="empty">Aucun résultat pour cette sélection. Ajoute une zone, un niveau, un sport ou un club dans les filtres.</div>';
-    const fx=(cur.agenda||[]).filter(keep);
+    // fixtures in chronological order: « Sam. 7 nov. » + « 18:30 »
+    const MOIS={janv:1,fevr:2,mars:3,avr:4,mai:5,juin:6,juil:7,aout:8,sept:9,oct:10,nov:11,dec:12};
+    const when=f=>{const m=/(\d{1,2})(?:er)?\s+([a-zéû]+)/i.exec(norm(f.day||'')); const mo=m?(MOIS[m[2].replace(/\.$/,'').slice(0,4)]||MOIS[m[2].slice(0,3)]||0):0; return (mo<8?mo+12:mo)*10000+(m?+m[1]:0)*100+parseInt((f.time||'0').replace(':',''),10)/100;};
+    const fx=(cur.agenda||[]).filter(keep).slice().sort((a,b)=>when(a)-when(b));
     $('fixtures').innerHTML = fx.length? fx.map(f=>{const u=safeUrl(f.url);return `<div class="fx"><div class="when">${esc(f.day)}<span>${esc(f.time)}</span></div>
       <div class="fx-main"><span class="fx-match">${esc(f.home)} – ${esc(f.away)}</span><span class="fx-meta">${esc(f.sport)} · ${esc(f.comp)} · ${esc(f.place)}${u?` · <a class="read" href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}</span></div></div>`}).join('') : '<div class="empty">Pas de match annoncé pour cette sélection.</div>';
     $('sources').innerHTML = 'Sources : '+(DATA.sources||[]).map(s=>{const u=safeUrl(s.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name)}</a>`:esc(s.name)}).join(' · ');

@@ -1927,20 +1927,6 @@
      "url": "https://jhm.fr/laventure-bragarde-continue/"
     },
     {
-     "sport": "Handball",
-     "level": "National",
-     "comp": "Nationale 1 masculine · J6",
-     "date": "Sam. 24 oct.",
-     "home": "Beaune Handball",
-     "hz": null,
-     "away": "AS St Brice",
-     "az": "reims",
-     "sh": 26,
-     "sa": 25,
-     "note": "Prochain match : Sélestat, samedi 14 novembre à 20h15.",
-     "url": "https://www.handstbrice.fr/"
-    },
-    {
      "sport": "Volley",
      "level": "National",
      "comp": "Coupe de France · 1er tour",
@@ -2656,7 +2642,7 @@
      "time": "18:30",
      "home": "Épernay Champagne RC",
      "hz": "epernay",
-     "away": "US Uckange",
+     "away": "Uckange USAG",
      "az": null,
      "comp": "Régional 1 Homiris · J10",
      "place": "Épernay",
