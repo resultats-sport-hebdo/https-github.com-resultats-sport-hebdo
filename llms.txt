@@ -1,0 +1,447 @@
+# Résultats Sport Hebdo
+
+> Résultats hebdomadaires des sports collectifs (football, basket, handball, volley, rugby, futsal, hockey, water-polo) des clubs de la Marne (51), des Ardennes (08), de l'Aube (10), de la Haute-Marne (52) et de l'Aisne (02), équipes seniors masculines et féminines, du niveau national au niveau régional, plus le Départemental 1 en football. Mis à jour chaque lundi matin.
+
+## Pages
+
+- [Accueil, à la une](https://resultats-sport-hebdo.netlify.app/)
+- [Résultats football](https://resultats-sport-hebdo.netlify.app/football/)
+- [Résultats basket](https://resultats-sport-hebdo.netlify.app/basket/)
+- [Résultats handball](https://resultats-sport-hebdo.netlify.app/handball/)
+- [Résultats volley](https://resultats-sport-hebdo.netlify.app/volley/)
+- [Résultats rugby](https://resultats-sport-hebdo.netlify.app/rugby/)
+- [Résultats futsal](https://resultats-sport-hebdo.netlify.app/futsal/)
+- [Résultats hockey sur glace](https://resultats-sport-hebdo.netlify.app/hockey-sur-glace/)
+- [Résultats roller hockey](https://resultats-sport-hebdo.netlify.app/roller-hockey/)
+- [Résultats water-polo](https://resultats-sport-hebdo.netlify.app/water-polo/)
+- [Le week-end prochain : programme des 7 jours suivants](https://resultats-sport-hebdo.netlify.app/week-end-prochain/)
+
+## Résultats · Semaine du 30 oct. au 5 nov.
+
+### Football
+
+- Lun. 2 nov. · Ligue 2 · J11 : Stade de Reims 2–0 Sochaux (source : https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-domine-sochaux-et-retrouve-le-podium/)
+- Sam. 31 oct. · Ligue 1 · J9 : ESTAC Troyes 2–0 Le Mans (source : https://www.eurofootnews.net/lestac-troyes-simpose-a-domicile-face-au-mans-fc-en-ligue-1-2-0/31/10/2026/)
+- Dim. 1er nov. · Ligue 1 · J9 : RC Strasbourg 5–1 Auxerre (source : https://www.alsasports.fr/calendrier-resultats-classement-racing/)
+- Lun. 2 nov. · Ligue 2 · J11 : Red Star 1–4 AS Nancy Lorraine (source : https://www.ici.fr/grand-est/meurthe-et-moselle-54/nancy/direct-ligue-2-vivez-le-deplacement-de-l-as-nancy-lorraine-au-red-star-a-partir-de-20h45-sur-ici-lorraine-3980910)
+- Dim. 1er nov. · Régional 1 · Poule A · J9 : Cormontreuil FC 1–0 Stade de Reims 2 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 1 Homiris · Poule A · J9 : Bogny FC 1–1 Neuvillette Jamin (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 2 · Poule A · J7 : Plantières UL 1–3 St Brice Courcelles (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 2 · Poule A · J7 : Reims Christo FC 0–4 Veymerange CS (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 2 · Poule A · J7 : Étain Buzy US 2–1 Reims Murigny FP (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 2 · Poule A · J7 : Sedan Ardennes CS 2 1–1 Reims Ste Anne (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 3 · Poule B · J7 : Reims Ste Anne 2 2–1 Tournes Ren. Maz. AS (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 3 · Poule B · J7 : Porcien FC 3–1 Neuvillette Jamin 2 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 3 · Poule B · J7 : Châlons FCO 2–2 Cormontreuil FC 2 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 3 · Poule B · J7 : Bétheny FC 2–2 Rémoise Espérance (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 3 · Poule B · J7 : Tinqueux Champ. FC 1–1 Le Chesne USA (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Coupe de France féminine · finale régionale Grand Est : AS Taissy (féminines) 4–6 ESTAC Troyes féminines (source : https://www.sportclub-reims.fr/2026/11/les-joueuses-de-taissy-a-la-fois-si-proches-et-si-loin-de-lestac-en-coupe/)
+- Sam. 31 oct. · National 2 · Poule D : St Quentin O. 3–0 AS Trouville-Deauville (source : https://www.footmercato.net/live/2026-10-31)
+- Sam. 31 oct. · National 2 · Poule E : US Torcy PVM 1–1 Charleville Prix OAM (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · National 1 · Poule C : Bourges FC 2–3 ESTAC Troyes 2 (source : https://www.footmercato.net/live/2026-10-31)
+- Dim. 1er nov. · Régional 1 · Poule A · J9 : Hettange Gde FC 0–0 Marnaval SC (source : https://jhm.fr/un-bon-point-de-pris-pour-marnaval/)
+- Dim. 1er nov. · Régional 2 · Poule B : Chaumont FC 2–3 Avize Grauves US (source : https://jhm.fr/les-chaumontais-subissent-une-quatrieme-defaite-de-suite/)
+- Dim. 1er nov. · Coupe de France féminine · 4e tour : Haguenau 1–1 SD2MO féminines (source : https://jhm.fr/laventure-bragarde-continue/)
+- Dim. 1er nov. · Régional 1 Homiris · Poule A · J9 : Sedan Ardennes CS 3–1 Amnéville CSO (source : https://www.sportcorico.com/clubs/cs-sedan-ardennes/cs-sedan-ardennes-2)
+- Dim. 1er nov. · Régional 1 Homiris · Poule A · J9 : Thionville Lusitanos 2 1–0 Épernay Champagne RC (source : https://www.sportcorico.com/match/thionville-lusitanos-seniors-2-epernay-champagne-rc-seniors-1-tqanc)
+- Dim. 1er nov. · Régional 1 Homiris · Poule A · J9 : Villerupt Thil ES 2–1 Charleville Prix OAM 2 (source : https://epreuves.fff.fr/competition/engagement/449966-regional-1-homiris/phase/1/1/accueil)
+- Dim. 1er nov. · Régional 2 · Poule A · J7 : Val de l'Aisne AS 0–1 Fagnières ES (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · Régional 2 · Poule B : Épernay Champagne RC 2 2–3 Côte des Blancs FC (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · Régional 2 · Poule B : St Julien JSFC 2–4 Centre Ornain Ent. (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · Régional 3 · Poule A · J7 : Nord Ardennes 1–2 Audun JS (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule A · J7 : Villerupt Thil ES 2 3–0 Cheveuges CO (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule A · J7 : Villers Semeuse CA 7–0 Les Ayvelles US (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule C · J7 : Rosières OS 0–3 Châlons ASPTT (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule C · J7 : Chapelains RCS 1–1 Pont Ste Marie AS (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule C · J7 : Nogentais FC 2 1–2 Sézannais SC (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · Régional 3 · Poule D · J7 : Bar-sur-Aube FC 1–2 Sarrey Montigny AS (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule D · J7 : Chevillon Stade 0–2 Chaumont FC 2 (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule D · J7 : Treveray AS 1–4 Éclaron US (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule B · J7 : ES des Coteaux Sud 3–0 Bourg Rocroi AS (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 1 Homiris · Poule A · J9 : Uckange USAG 2–2 St Méziéry FC (source : https://epreuves.fff.fr/competition/engagement/449966-regional-1-homiris/phase/1/1/accueil)
+- Dim. 1er nov. · Régional 2 · Poule A · J7 : Val de l'Orne FC 3–0 Rethel SF (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 2 · Poule B : Vitry FC 1–1 Nogentais FC (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 2 · Poule B : Alliance Sud Ouest F 0–0 Chartreux AS (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule A · J7 : Bazeilles US 1–2 Godbrange Hussig. CS (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule A · J7 : Torcy Sedan Olymp. 4–4 Longwy USB (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule A · J7 : Blagny Carignan FC 2–1 Saulnes Longlaville (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule C · J7 : Bar Essoyes CFC 2–2 St Martin la VE FC (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule C · J7 : Fontaine OV FC 2–2 Étoile Chapelaine (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule C · J7 : Troyes Municipaux ES 3–0 Romilly Champagne FC (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule D · J7 : Diane Eurv. Bienv. 1–7 St Geosmois FC (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 · Poule D · J7 : Vaux sur Blaise USI 5–0 Bologne FC (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 1 Hauts-de-France · Poule A : Soissons IFC 2–2 Béthune Stade (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 1 Hauts-de-France · Poule A : Itancourt Neuville 1–1 Hazebrouck SC (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 2 Hauts-de-France · Poule B : Anzin St Aubin ES 0–0 Laon US (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 2 Hauts-de-France · Poule B : Choisy au Bac US 3–3 St Quentin O. 2 (source : https://epreuves.fff.fr/)
+- Ven. 30 oct. · Régional 3 Hauts-de-France · Poule A : Buire Hirson US 2–0 Rousies Cœur Sambre (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 Hauts-de-France · Poule A : Roye US 4–0 Origny Thierache SC (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 Hauts-de-France · Poule A : Laon US 2 1–3 Berlaimont US (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · Régional 3 Hauts-de-France · Poule B : Chauny US 4–1 Balagny US (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 Hauts-de-France · Poule B : Péronne ECAFC 0–1 Premontre St Gobain (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 Hauts-de-France · Poule B : Ribemont Mezieres US 1–2 Itancourt Neuville 2 (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · Régional 3 Hauts-de-France · Poule C : Méru US 2–1 Soissons IFC 2 (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 3 Hauts-de-France · Poule C : Château T. Étampes I 3–1 Hermes Berthecourt (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 2 féminin · Poule A : Flize US 2–4 Charleville Prix OAM (féminines) (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 2 féminin · Poule B : St Memmie O. 8–1 St Dizier 2MO 2 (source : https://epreuves.fff.fr/)
+- Dim. 1er nov. · Régional 2 féminin · Poule C : St Gilles F.C. 0–0 ASM2RA (source : https://epreuves.fff.fr/)
+- Sam. 31 oct. · Départemental 1 Haute-Marne : St Geosmois FC 2 1–2 Joinville Vecque FC (source : https://hautemarne.fff.fr/)
+- Sam. 31 oct. · Départemental 1 Haute-Marne : Sarrey Montigny AS 2 0–2 Langres CO (source : https://hautemarne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Haute-Marne : Montier en Der US 2–0 Prez Bourmont FC (source : https://hautemarne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Haute-Marne : Ornel Chanc SL 2–1 Vaux sur Blaise USIB 2 (source : https://hautemarne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Haute-Marne : Andelot Rim ES 4–2 Neuilly SR (source : https://hautemarne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Haute-Marne : ECMR 3–0 Marnaval SC 2 (source : https://hautemarne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aisne : Itancourt Neuville 3 1–1 Tergnier FC (source : https://aisne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aisne : La Fère US 0–4 Crécois ICS (source : https://aisne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aisne : Guise US 1–0 St Quentin Portugais (source : https://aisne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aisne : Bruyères Montbérault 0–2 Courmelles FC (source : https://aisne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aisne : Belleu US 0–2 Bohain RC (source : https://aisne.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aisne : Seboncourt US 0–2 Guignicourt US (source : https://aisne.fff.fr/)
+- Sam. 31 oct. · D1 Ardennes : Charleville ES 2–0 Villers Semeuse CA 2 (source : https://districtfoot08.fff.fr/)
+- Sam. 31 oct. · D1 Ardennes : Liart/Signy FC 2–0 Charleville Prix OAM 3 (source : https://districtfoot08.fff.fr/)
+- Dim. 1er nov. · D1 Ardennes : Tournes Ren. Maz. AS 2 3–0 Bazeilles US 2 (source : https://districtfoot08.fff.fr/)
+- Dim. 1er nov. · D1 Ardennes : Nouvion USC 2–0 Vivarois SC (source : https://districtfoot08.fff.fr/)
+- Dim. 1er nov. · D1 Ardennes : Boulzicourt 1–1 Asfeld AS (source : https://districtfoot08.fff.fr/)
+- Dim. 1er nov. · D1 Ardennes : Buzancy SOS 2–3 FC de Haybes (source : https://districtfoot08.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aube : St Méziéry FC 2 7–1 Rosières OS 2 (source : https://district-aube.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aube : Morgendois FC 1–3 St Julien JSFC 2 (source : https://district-aube.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aube : Aube UFC 1–0 AS Chartreux Port (source : https://district-aube.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aube : Vaudoise JS 1–4 SAF (source : https://district-aube.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aube : Chartreux AS 2 1–0 Nord Aubois ES (source : https://district-aube.fff.fr/)
+- Dim. 1er nov. · Départemental 1 Aube : USVD 1–2 Nogent / Port AS (source : https://district-aube.fff.fr/)
+- Dim. 1er nov. · District 1 Marne : Neuvillette Jamin 3 2–2 Gueux AS (source : https://marne.fff.fr/)
+- Dim. 1er nov. · District 1 Marne : St Brice Courcelles 2 3–0 Oiry US (source : https://marne.fff.fr/)
+- Dim. 1er nov. · District 1 Marne : Reims Espérance 2 1–5 Nord Champagne FC (source : https://marne.fff.fr/)
+- Dim. 1er nov. · District 1 Marne : Avize Grauves US 2 2–4 Vitry FC 2 (source : https://marne.fff.fr/)
+- Dim. 1er nov. · District 1 Marne : Witry les Reims ES 2–1 Argonne FC (source : https://marne.fff.fr/)
+- Dim. 1er nov. · District 1 Marne : Fagnières ES 2 2–3 Reims Christo FC 2 (source : https://marne.fff.fr/)
+
+### Basket
+
+- Ven. 30 oct. · Elite 2 · J7 : Champagne Basket 95–89 Levallois (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Sam. 31 oct. · LF2 · J6 : Champagne Basket Féminin 71–63 Geispolsheim (source : https://www.sportclub-reims.fr/2026/10/le-champagne-basket-feminin-sest-fait-peur-mais-retrouve-la-gagne-contre-geispolsheim/)
+- Week-end 30 oct.–1er nov. · Nationale 2 M · J8 : Tremblay 73–63 Recy-Saint-Martin (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Week-end 30 oct.–1er nov. · Nationale 3 F · J7 : Ermont 74–65 Champagne Basket Féminin B (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Sam. 31 oct. · Betclic Élite : SIG Strasbourg 88–82 Cholet (source : https://www.bebasket.fr/equipe/strasbourg/calendrier)
+- Dim. 1er nov. · Betclic Élite · J6 : Saint-Quentin Basket-Ball 99–94 ASVEL (source : https://competitions.ffbb.com/)
+
+### Handball
+
+- Sam. 31 oct. · Ligue Butagaz Énergie : Metz Handball 38–25 Dijon (source : https://www.radiomelodie.com/a/flash/19327-metz-handball-fait-un-sans-faute-et-garde-la-tete-de-la-ligue-butagaz-energie)
+
+### Volley
+
+- Sam. 31 oct. · Division 2 M · J4 : Martigues 3–0 Reims Volley 51 (source : https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-a-subi-son-premiers-revers-a-martigues/)
+- Week-end 30 oct.–1er nov. · Nationale 2 M · J5 : Reims Volley 51 C 1–3 Paris Amicale Camou (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Week-end 30 oct.–1er nov. · Nationale 3 F · J5 : Boulogne-Billancourt 3–0 Reims Volley 51 F (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Sam. 31 oct. · Ligue AM (Alterna Volstar) · J4 : Chaumont VB 52 3–2 Royan (source : https://cvb52.com/2026/10/31/cvb52-royan-victoire-3-2-4e-journee-alterna-volstar/)
+- Mar. 3 nov. · Coupe de France · 1er tour : Paris Volley 1–3 Chaumont VB 52 (source : https://jhm.fr/le-chaumont-vb-poursuit-sa-marche-en-avant/)
+- Dim. 1er nov. · Élite Avenir · J4 : Poitiers 3–0 Chaumont VB 52 (Élite Avenir) (source : https://jhm.fr/chaumont-repousse-a-poitiers/)
+- Début nov. · Coupe de France : Reims Volley 51 2–3 Saint-Nazaire (source : https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-si-pres-dun-exploit-contre-saint-nazaire-en-coupe-de-france/)
+
+### Rugby
+
+- Week-end 30 oct.–1er nov. · Régionale 1 · J6 : Colmar 55–20 Stade de Reims Rugby (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Fédérale 3 · J6 : Stade Pontellois 28–24 Rugby Épernay Champagne (source : https://rugbyamateur.fr/federale-3-resultats-31-octobre-1-novembre-2026/)
+- Dim. 1er nov. · Excellence B · J6 : Stade Pontellois 32–27 Rugby Épernay Champagne (Excellence B) (source : https://competitions.ffr.fr/)
+
+### Futsal
+
+- Week-end 30 oct.–1er nov. · D2 · J4 : Diamant Futsal 5–2 Reims Métropole Futsal (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Dim. 1er nov. · Régional 1 futsal : Magny RS 4–2 Ardennes Futsal (source : https://epreuves.fff.fr/)
+
+### Hockey sur glace
+
+- Week-end 30 oct.–1er nov. · Division 2 · J5 : Phénix de Reims 3–1 Luxembourg (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Sam. 31 oct. · Division 2 · J5 : Gaulois de Châlons-en-Champagne 5–2 Français Volants (source : https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728)
+
+### Roller hockey
+
+- Week-end 30 oct.–1er nov. · Nationale 1 M · J6 : Cherbourg 7–6 Rapaces de Reims (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+- Week-end 30 oct.–1er nov. · Nationale 3 M · J4 : Rapaces de Reims B 2–3 Collégien B (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/)
+
+## Le week-end prochain
+
+- Ven. 6 nov. 19:30 · Volley · Ligue AM (Alterna Volstar) : Nice – Chaumont VB 52 (Nice)
+- Ven. 6 nov. 20:00 · Football · Ligue 2 · J12 : Grenoble – Stade de Reims (Stade des Alpes)
+- Ven. 6 nov. 20:00 · Basket · Elite 2 : Champagne Basket – Evreux (Reims Arena)
+- Ven. 6 nov. 20:45 · Football · Ligue 1 · J10 : Toulouse – RC Strasbourg (Stadium de Toulouse)
+- Dim. 8 nov. 19:00 · Basket · Betclic Élite : SIG Strasbourg – Le Mans (Rhénus Sport)
+- Sam. 7 nov. 18:30 · Football · Régional 1 Homiris · J10 : Épernay Champagne RC – Uckange USAG (Épernay)
+- Dim. 8 nov. 14:30 · Football · Régional 2 · Poule B : Avize Grauves US – Épernay Champagne RC 2 (Avize)
+- Sam. 7 nov. 17:15 · Basket · Pré-nationale masculine · Poule A · J4 : Éveil Recy Saint-Martin Basket – Association Cormontreuil Champagne Basket
+- Sam. 7 nov. 20:30 · Basket · Pré-nationale masculine · Poule A · J4 : Éveil laïque Witry-lès-Reims Basket – Étoile de Charleville-Mézières Basket 2
+- Sam. 7 nov. 20:30 · Basket · Pré-nationale masculine · Poule A · J4 : Amicale des Jeunes de Bétheny – Reims Champagne Basket
+- Dim. 8 nov. 15:30 · Basket · Pré-nationale masculine · Poule A · J4 : CTC T-A-A-C Basket – Énergie Troyenne – Espé Basket Châlons-en-Champagne
+- Sam. 7 nov. 18:00 · Basket · Régionale masculine 2 · Poule A · J4 : Éveil laïque Witry-lès-Reims Basket 2 – BCV Verdun
+- Sam. 7 nov. 20:30 · Basket · Régionale masculine 2 · Poule A · J4 : US Silvange Basket – Gauloise de Vitry-le-François
+- Sam. 7 nov. 20:30 · Basket · Régionale masculine 2 · Poule A · J4 : Basket Sancéo Troyen – Villers Semeuse Basket
+- Sam. 7 nov. 20:30 · Basket · Régionale masculine 2 · Poule A · J4 : Entente Chaumontaise AC Basket – La Fertonne Fère-Champenoise
+- Dim. 8 nov. 16:00 · Basket · Régionale masculine 2 · Poule A · J4 : Thionville BC – Association Cormontreuil Champagne Basket 2
+- Dim. 8 nov. 13:15 · Basket · Régionale féminine 2 · Poule B · J4 : ASP Ste Marie aux Chênes 2 – Champagne Basket Féminin (RF2)
+- Dim. 8 nov. 16:00 · Basket · Régionale féminine 2 · Poule B · J4 : Éveil laïque Witry-lès-Reims Basket (féminines) – Rombas OC
+- Dim. 8 nov. 16:00 · Basket · Pré-nationale féminine · Poule A · J3 : AS Saint-Brice-Courcelles Basket – AS Haut du Lièvre Nancy
+- Dim. 8 nov. 15:30 · Basket · Nationale féminine 3 · Poule F · J8 : Champagne Basket Féminin B – Aulnoye AS 2
+- Sam. 7 nov. 18:00 · Basket · Pré-régionale masculine (Aisne) · J3 : SQBB - JSC 2 – ESC Tergnier 3
+- Sam. 7 nov. 20:00 · Basket · Pré-régionale masculine (Aisne) · J3 : BC Saint Michel – Soissons Cuffies Aisne BB
+- Sam. 7 nov. 20:00 · Basket · Pré-régionale masculine (Aisne) · J3 : BB Cotterézien – Grugies Basket-Ball
+- Sam. 7 nov. 20:00 · Basket · Pré-régionale masculine (Aisne) · J3 : Château-Thierry Basket Ball – Club Cantonal Anizien Basket
+- Dim. 8 nov. 16:00 · Basket · Pré-régionale masculine (Aisne) · J3 : FC Belleu Basket Ball 2 – Pals Athletic Club Guise 2
+- Sam. 7 nov. 20:00 · Basket · Pré-régionale féminine (Aisne) · J3 : Soissons Cuffies Aisne BB 2 – Laon BB
+- Dim. 8 nov. 13:30 · Basket · Pré-régionale féminine (Aisne) · J3 : ASG Gauchy 2 – ESC Tergnier 2
+- Dim. 8 nov. 14:00 · Basket · Pré-régionale féminine (Aisne) · J3 : FC Belleu Basket Ball – AAE Bohain
+- Dim. 8 nov. 14:00 · Basket · Pré-régionale féminine (Aisne) · J3 : SQBB - JSC – Pals Athletic Club Guise
+- Sam. 7 nov. 20:30 · Handball · Nationale 3 territoriale féminine · J5 : Epinal HB – Reims Champagne Handball 2
+- Sam. 7 nov.  · Handball · Prénationale masculine Grand Est · J5 : Plobsheim – ENT SAVINO CHAPELAIN/US STE MAURE SM PN
+- Sam. 7 nov.  · Handball · Prénationale masculine Grand Est · J5 : TAISSY CLUB HANDBALL – ASCA Wittelsheim
+- Sam. 7 nov.  · Handball · Prénationale masculine Grand Est · J5 : ENT BOGNY-HTE RIVIERES/FUMAY SM PN – Ent Burnhaupt/Lynx
+- Sam. 7 nov. 15:00 · Futsal · Régional 1 futsal féminin : Behonne Longevill. US – Reims Métropole Futsal (féminines)
+- Sam. 7 nov. 16:00 · Futsal · Régional 1 futsal féminin : Futsal St Privat – Ardennes Futsal (féminines)
+- Sam. 7 nov. 19:00 · Handball · Nationale 2 féminine · Poule 5 · J7 : Handball Club de Gagny – Reims Champagne Handball
+- Sam. 7 nov. 19:00 · Handball · Honneur régionale masculine Hauts-de-France · Poule 2 · J6 : Pévèle Handball Club 2 – Elite Axonaise Handball (Honneur M)
+- Sam. 7 nov. 20:30 · Water-polo · Nationale 3 Hauts-de-France · Poule B · J1 : Pelican Club de Valenciennes – St-Quentin Natation (Valenciennes)
+- Sam. 7 nov. 18:00 · Hockey sur glace · Division 2 · J6 : Orléans – Gaulois de Châlons-en-Champagne (Orléans, patinoire municipale)
+- Sam. 7 nov. 18:45 · Hockey sur glace · Division 2 · J6 : Hogly – Phénix de Reims (La Roche-sur-Yon, patinoire Arago)
+
+## Classements
+
+### Football · National 1 · Poule C (après la journée du 31 oct.)
+
+1. Nîmes Olympique — 17 pts, 8 matchs joués
+2. GFA RV — 15 pts, 8 matchs joués
+3. Hyères FC — 14 pts, 8 matchs joués
+4. Sporting Club Toulon — 13 pts, 8 matchs joués
+5. Hauts Lyonnais — 13 pts, 8 matchs joués
+6. ESTAC Troyes 2 — 13 pts, 8 matchs joués
+7. EFC Fréjus St Raph — 12 pts, 7 matchs joués
+8. Andrézieux-Bouthéon — 12 pts, 8 matchs joués
+9. Union Foot Touraine — 12 pts, 7 matchs joués
+10. St-Priest — 10 pts, 8 matchs joués
+11. Grand Ouest Associat — 9 pts, 7 matchs joués
+12. FCLDSD — 7 pts, 7 matchs joués
+13. Lyon La Duchère — 7 pts, 8 matchs joués
+14. Bourges FC — 4 pts, 7 matchs joués
+15. Istres FC — 4 pts, 7 matchs joués
+16. Berri Châteauroux — 3 pts, 7 matchs joués
+17. Canet Roussillon FC — 3 pts, 7 matchs joués
+
+### Football · National 2 · Poule D (après la journée du 31 oct.)
+
+1. LOSC Lille 2 — 15 pts, 6 matchs joués
+2. FC Balagne — 11 pts, 6 matchs joués
+3. Croix FIC — 11 pts, 6 matchs joués
+4. St Quentin O. — 10 pts, 6 matchs joués
+5. Versailles 78 FC 2 — 9 pts, 6 matchs joués
+6. Red Star FC 2 — 8 pts, 6 matchs joués
+7. SC Bastia 2 — 8 pts, 6 matchs joués
+8. CMS Oissel — 8 pts, 6 matchs joués
+9. St Ouen l'Aumône AS — 7 pts, 6 matchs joués
+10. Steenvoorde AS — 7 pts, 6 matchs joués
+11. AS Trouville-Deauville — 6 pts, 6 matchs joués
+12. St Amand FC — 5 pts, 6 matchs joués
+13. C Chartres F. — 5 pts, 6 matchs joués
+14. Vimy US — 4 pts, 6 matchs joués
+
+### Football · National 2 · Poule E (après la journée du 1er nov.)
+
+1. Metz APM FC — 15 pts, 6 matchs joués
+2. Nancy Lorraine AS 2 — 13 pts, 6 matchs joués
+3. Strasbourg Alsace RC 2 — 13 pts, 6 matchs joués
+4. Neuilly Marne SFC — 12 pts, 6 matchs joués
+5. Aubervilliers FCM — 9 pts, 6 matchs joués
+6. US Torcy PVM — 8 pts, 6 matchs joués
+7. FC Metz 2 — 7 pts, 6 matchs joués
+8. US Ivry Football — 7 pts, 6 matchs joués
+9. Charleville Prix OAM — 7 pts, 6 matchs joués
+10. JA Drancy — 6 pts, 6 matchs joués
+11. Belfortaine ASM FC — 6 pts, 6 matchs joués
+12. Mulhouse FC — 6 pts, 6 matchs joués
+13. Thaon ES — 3 pts, 6 matchs joués
+14. Sochaux Montb. FC 2 — 2 pts, 6 matchs joués
+
+### Football · Régional 1 · Poule A (relevé le 6 nov. sur Sportcorico)
+
+1. Sedan Ardennes CS — 24 pts, 8 matchs joués
+2. Stade de Reims 2 — 22 pts, 9 matchs joués
+3. Cormontreuil FC — 15 pts, 8 matchs joués
+4. Épernay Champagne RC — 13 pts, 8 matchs joués
+5. Uckange USAG — 12 pts, 8 matchs joués
+6. Villerupt Thil ES — 10 pts, 8 matchs joués
+7. Thionville Lusitanos 2 — 10 pts, 9 matchs joués
+8. Charleville Prix OAM 2 — 10 pts, 8 matchs joués
+9. Hettange Gde FC — 9 pts, 9 matchs joués
+10. Neuvillette Jamin — 8 pts, 8 matchs joués
+11. Bogny FC — 8 pts, 8 matchs joués
+12. Amnéville CSO — 8 pts, 8 matchs joués
+13. Marnaval SC — 7 pts, 8 matchs joués
+14. St Méziéry FC — 5 pts, 9 matchs joués
+
+### Football · Régional 2 · Poule A (relevé le 6 nov. sur Sportcorico)
+
+1. Étain Buzy US — 17 pts, 7 matchs joués
+2. St Brice Courcelles — 16 pts, 7 matchs joués
+3. Sedan Ardennes CS 2 — 14 pts, 7 matchs joués
+4. Reims Ste Anne — 13 pts, 7 matchs joués
+5. Veymerange CS — 11 pts, 6 matchs joués
+6. Fagnières ES — 8 pts, 7 matchs joués
+7. Val de l'Aisne AS — 7 pts, 7 matchs joués
+8. Val de l'Orne FC — 7 pts, 6 matchs joués
+9. Plantières UL — 5 pts, 6 matchs joués
+10. Reims Murigny FP — 4 pts, 6 matchs joués
+11. Reims Christo FC — 4 pts, 7 matchs joués
+12. Rethel SF — 3 pts, 7 matchs joués
+
+### Football · Départemental 1 Haute-Marne (après la journée du 1er nov.)
+
+1. Ornel Chanc SL — 16 pts, 7 matchs joués
+2. Joinville Vecque FC — 15 pts, 7 matchs joués
+3. Langres CO — 14 pts, 6 matchs joués
+4. Marnaval SC 2 — 12 pts, 7 matchs joués
+5. Montier en Der US — 11 pts, 7 matchs joués
+6. Sarrey Montigny AS 2 — 10 pts, 7 matchs joués
+7. Andelot Rim ES — 8 pts, 7 matchs joués
+8. ECMR — 6 pts, 6 matchs joués
+9. Neuilly SR — 6 pts, 7 matchs joués
+10. Vaux sur Blaise USIB 2 — 5 pts, 6 matchs joués
+11. St Geosmois FC 2 — 5 pts, 5 matchs joués
+12. Prez Bourmont FC — 1 pts, 6 matchs joués
+
+### Football · D1 Ardennes (après la journée du 1er nov.)
+
+1. Asfeld AS — 20 pts, 9 matchs joués
+2. Nouvion USC — 17 pts, 7 matchs joués
+3. Liart/Signy FC — 16 pts, 9 matchs joués
+4. Charleville Prix OAM 3 — 14 pts, 8 matchs joués
+5. FC de Haybes — 14 pts, 8 matchs joués
+6. Boulzicourt — 11 pts, 7 matchs joués
+7. Tournes Ren. Maz. AS 2 — 10 pts, 8 matchs joués
+8. Charleville ES — 9 pts, 9 matchs joués
+9. Villers Semeuse CA 2 — 9 pts, 8 matchs joués
+10. Vivarois SC — 8 pts, 8 matchs joués
+11. Buzancy SOS — 7 pts, 9 matchs joués
+12. Bazeilles US 2 — 3 pts, 8 matchs joués
+
+### Football · Départemental 1 Aube (après la journée du 1er nov.)
+
+1. St Méziéry FC 2 — 18 pts, 7 matchs joués
+2. SAF — 18 pts, 6 matchs joués
+3. Chartreux AS 2 — 15 pts, 7 matchs joués
+4. Nogent / Port AS — 13 pts, 7 matchs joués
+5. Vaudoise JS — 10 pts, 7 matchs joués
+6. USVD — 10 pts, 7 matchs joués
+7. Morgendois FC — 8 pts, 7 matchs joués
+8. AS Chartreux Port — 7 pts, 7 matchs joués
+9. Aube UFC — 7 pts, 7 matchs joués
+10. Nord Aubois ES — 7 pts, 7 matchs joués
+11. St Julien JSFC 2 — 4 pts, 7 matchs joués
+12. Rosières OS 2 — 1 pts, 6 matchs joués
+
+### Football · District 1 Marne (après la journée du 1er nov.)
+
+1. Nord Champagne FC — 17 pts, 7 matchs joués
+2. Gueux AS — 13 pts, 5 matchs joués
+3. Vitry FC 2 — 13 pts, 5 matchs joués
+4. St Brice Courcelles 2 — 12 pts, 5 matchs joués
+5. Witry les Reims ES — 12 pts, 5 matchs joués
+6. Oiry US — 11 pts, 7 matchs joués
+7. Reims Christo FC 2 — 8 pts, 6 matchs joués
+8. Neuvillette Jamin 3 — 8 pts, 6 matchs joués
+9. Cernay Berru Lava AS — 4 pts, 6 matchs joués
+10. Argonne FC — 4 pts, 6 matchs joués
+11. Avize Grauves US 2 — 4 pts, 7 matchs joués
+12. Fagnières ES 2 — 3 pts, 7 matchs joués
+13. Reims Espérance 2 — 1 pts, 6 matchs joués
+
+### Football · Régional 2 féminin Hauts-de-France · Poule A (après la journée du 25 oct.)
+
+1. GPT Féminin BCV Laon — 12 pts, 4 matchs joués
+2. Noyelles s/Lens US — 12 pts, 5 matchs joués
+3. Pont Ste Maxence US — 10 pts, 4 matchs joués
+4. Villeneuve d'Ascq FF 2 — 6 pts, 4 matchs joués
+5. St Leu Esserent USE — 5 pts, 4 matchs joués
+6. Avion US CHTS — 5 pts, 4 matchs joués
+7. Longueau ESC — 3 pts, 5 matchs joués
+8. Vermelles US — 2 pts, 4 matchs joués
+9. Ent. Souchez Neuville — 1 pts, 4 matchs joués
+10. Amiens SCF 2 — 0 pts, 4 matchs joués
+
+### Football · Régional 1 Hauts-de-France · Poule A (relevé le 6 nov. sur Sportcorico)
+
+1. Hazebrouck SC — 14 pts, 7 matchs joués
+2. AFC Compiègne — 13 pts, 7 matchs joués
+3. US Boulogne CO 2 — 13 pts, 7 matchs joués
+4. Amiens SC 2 — 12 pts, 7 matchs joués
+5. Bondues FC — 12 pts, 7 matchs joués
+6. Soissons IFC — 11 pts, 7 matchs joués
+7. Itancourt Neuville — 11 pts, 7 matchs joués
+8. O. Grande-Synthe — 10 pts, 7 matchs joués
+9. FC Chambly Oise 2 — 8 pts, 7 matchs joués
+10. Béthune Stade — 8 pts, 7 matchs joués
+11. US Gravelines — 7 pts, 7 matchs joués
+12. US Maubeuge — 6 pts, 7 matchs joués
+13. Le Touquet AC — 4 pts, 7 matchs joués
+14. Stade Orchies — 4 pts, 7 matchs joués
+
+### Football · Régional 3 · Poule B (relevé le 6 nov. sur Sportcorico)
+
+1. Châlons FCO — 17 pts, 7 matchs joués
+2. Cormontreuil FC 2 — 14 pts, 7 matchs joués
+3. Tinqueux Champ. FC — 14 pts, 7 matchs joués
+4. Neuvillette Jamin 2 — 12 pts, 7 matchs joués
+5. Reims Ste Anne 2 — 9 pts, 7 matchs joués
+6. Tournes Ren. Maz. AS — 8 pts, 7 matchs joués
+7. Le Chesne USA — 8 pts, 6 matchs joués
+8. Porcien FC — 8 pts, 7 matchs joués
+9. Rémoise Espérance — 7 pts, 7 matchs joués
+10. ES des Coteaux Sud — 7 pts, 6 matchs joués
+11. Bétheny FC — 6 pts, 7 matchs joués
+12. Bourg Rocroi AS — 4 pts, 7 matchs joués
+
+### Football · Régional 3 · Poule C (relevé le 6 nov. sur Sportcorico)
+
+1. Sézannais SC — 19 pts, 7 matchs joués
+2. Étoile Chapelaine — 17 pts, 7 matchs joués
+3. Troyes Municipaux ES — 13 pts, 7 matchs joués
+4. St Martin la VE FC — 13 pts, 7 matchs joués
+5. Châlons ASPTT — 12 pts, 7 matchs joués
+6. Fontaine OV FC — 11 pts, 7 matchs joués
+7. Pont Ste Marie AS — 8 pts, 7 matchs joués
+8. Rosières OS — 8 pts, 7 matchs joués
+9. Romilly Champagne FC — 6 pts, 7 matchs joués
+10. Bar Essoyes CFC — 5 pts, 7 matchs joués
+11. Nogentais FC 2 — 4 pts, 7 matchs joués
+12. Chapelains RCS — 1 pts, 7 matchs joués
+
+## Sources
+
+- [Sport Club Reims](https://www.sportclub-reims.fr/)
+- [Ligue du Grand Est de football – groupes 2026-2027](https://lgef.fff.fr/wp-content/uploads/sites/14/2026/07/GROUPES-LGEF-26-27-SENIORSS.pdf)
+- [Rugby Amateur](https://rugbyamateur.fr/regionales/hauts-de-france/regionale-1/classement/)
+- [Champagne Basket](https://champagne-basket.fr/)
+- [Eurofootnews](https://www.eurofootnews.net/lestac-troyes-simpose-a-domicile-face-au-mans-fc-en-ligue-1-2-0/31/10/2026/)
+- [Alsa'Sports](https://www.alsasports.fr/calendrier-resultats-classement-racing/)
+- [BeBasket](https://www.bebasket.fr/equipe/strasbourg/calendrier)
+- [Radio Mélodie](https://www.radiomelodie.com/a/flash/19327-metz-handball-fait-un-sans-faute-et-garde-la-tete-de-la-ligue-butagaz-energie)
+- [CVB 52](https://cvb52.com/)
+- [Ligue de Football des Hauts-de-France (classements)](https://www.liguesdefoot.fr/)
+- [Étoile de Charleville-Mézières Basket](https://www.etoile-charleville.fr/)
+- [ETAC Handball](https://etac-handball.clubeo.com/)
+- [JHM](https://jhm.fr/)
+- [Rugby Amateur](https://rugbyamateur.fr/)
+- [Foot Mercato](https://www.footmercato.net/)
+- [AS Saint-Brice-Courcelles Handball](https://www.handstbrice.fr/)
+- [SportCorico](https://www.sportcorico.com/)
+- [FFBB Compétitions](https://competitions.ffbb.com/)
+- [FFHandball](https://www.ffhandball.fr/)
+- [FFVolley](https://www.ffvbbeach.org/)
+- [FFR Compétitions](https://competitions.ffr.fr/)
+- [FFN Extranat – Stade de Reims Natation (water-polo)](https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=111)
+- [FFN Extranat – WP Épernay-Champagne](https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=96)
+- [FFN Extranat – St-Quentin Natation](https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=223)
+- [District de football (52) – Départemental 1](https://hautemarne.fff.fr/)
+- [District de football (02) – Départemental 1](https://aisne.fff.fr/)
+- [District de football (08) – Départemental 1](https://districtfoot08.fff.fr/)
+- [District de football (10) – Départemental 1](https://district-aube.fff.fr/)
+- [District de football (51) – Départemental 1](https://marne.fff.fr/)
+- [Score'n'co – Gaulois de Châlons (hockey sur glace)](https://scorenco.com/hockey-sur-glace/clubs/les-gaulois-chalons-en-champagne-3erk/1-5xqd)
+- [FFHG – Division 2, calendrier et résultats](https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728)

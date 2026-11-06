@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="fr" ><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title id="t-title">Résultats rugby – Marne, Ardennes, Aube, Haute-Marne et Aisne · Semaine du 30 oct. au 5 nov. | Résultats Sport Hebdo</title>
+<meta id="m-desc" name="description" content="Tous les résultats de rugby du week-end (Semaine du 30 oct. au 5 nov.) des clubs de la Marne, Ardennes, Aube, Haute-Marne et Aisne, du national au régional, poule par poule.">
+<meta name="theme-color" content="#8a1c3c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Résultats Sport Hebdo">
+<meta id="og-title" property="og:title" content="Résultats rugby – Marne, Ardennes, Aube, Haute-Marne et Aisne · Semaine du 30 oct. au 5 nov. | Résultats Sport Hebdo">
+<meta id="og-desc" property="og:description" content="Tous les résultats de rugby du week-end (Semaine du 30 oct. au 5 nov.) des clubs de la Marne, Ardennes, Aube, Haute-Marne et Aisne, du national au régional, poule par poule.">
+<meta id="og-url" property="og:url" content="https://resultats-sport-hebdo.netlify.app/rugby/">
+<meta property="og:image" content="https://resultats-sport-hebdo.netlify.app/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<link id="canon" rel="canonical" href="https://resultats-sport-hebdo.netlify.app/rugby/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
+<style>
+/* Résultats Sport Hebdo — site public. One page, one route per sport (#football, #basket… or /football/ on the static Netlify build).
+   Data: data.js (window.RSH_DATA), edited from admin.html and by the Monday task. */
+:root{
+  --bg:#eef1f6; --card:#ffffff; --ink:#0f1a2e; --muted:#5a6478; --line:#dfe4ec; --soft:#f5f7fa;
+  --sport:#12233d; --sport-d:#0b1729; --on:#ffffff; --star:#e8a317; --fem:#c2185b;
+  --head:'Barlow Condensed','Arial Narrow',sans-serif; --body:'Source Sans 3',system-ui,-apple-system,'Segoe UI',sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#0b111c; --card:#141c2b; --ink:#e8edf6; --muted:#9aa6bc; --line:#253148; --soft:#1a2436; --fem:#ff7fb0; color-scheme:dark; } }
+:root[data-theme="dark"]{ --bg:#0b111c; --card:#141c2b; --ink:#e8edf6; --muted:#9aa6bc; --line:#253148; --soft:#1a2436; --fem:#ff7fb0; color-scheme:dark; }
+*{box-sizing:border-box}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,select,input{font:inherit;color:inherit}
+.in{max-width:1180px;margin:0 auto;padding:0 20px}
+.divs[hidden],[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ——— hero ——— */
+.hero{position:relative;overflow:hidden;background:var(--sport);color:var(--on);transition:background .35s ease}
+.hero svg.pat{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero .in{position:relative}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:14px}
+.logo b{font-weight:700}
+.logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font:700 17px var(--head);letter-spacing:.04em;text-transform:uppercase}
+.logo i{width:34px;height:34px;border-radius:9px;background:var(--on);color:var(--sport);display:grid;place-items:center;font:800 15px var(--head);font-style:normal;letter-spacing:0}
+.week{display:inline-flex;align-items:center;gap:8px;font-size:14px}
+.week select{appearance:none;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);color:var(--on);border-radius:999px;padding:7px 30px 7px 14px;font-weight:600;cursor:pointer;background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);background-position:calc(100% - 15px) 52%,calc(100% - 10px) 52%;background-size:5px 5px;background-repeat:no-repeat}
+.week select option{color:#0f1a2e}
+.headline{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 24px;padding:26px 0 18px}
+.headline .kick{display:block;margin:0 0 8px;font:700 13px var(--body);letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.8)}
+.headline h1{margin:0;font:800 clamp(52px,11vw,118px)/.86 var(--head);letter-spacing:-.01em;text-transform:none}
+.headline h1.long{font-size:clamp(44px,7.4vw,88px);line-height:.92}
+.headline p{margin:10px 0 0;max-width:620px;font-size:16.5px;color:rgba(255,255,255,.86)}
+.headline .when{font:700 clamp(18px,2.2vw,24px)/1.1 var(--head);letter-spacing:.02em;text-align:right}
+.headline .when small{display:block;font:600 13px var(--body);letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+.illu{position:absolute;right:20px;top:52px;width:210px;height:210px;pointer-events:none;filter:drop-shadow(0 10px 18px rgba(0,0,0,.28))}
+.illu img{width:100%;height:100%;display:block;object-fit:contain}
+@media (prefers-reduced-motion:no-preference){ .illu img{animation:bob 4s ease-in-out infinite} @keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(-3deg)}} }
+.headline{padding-right:240px}
+@media (max-width:760px){ .illu{width:96px;height:96px;top:56px;right:12px} .headline{padding-right:96px} }
+.tabs{display:flex;align-items:flex-end;gap:5px;overflow-x:auto;scrollbar-width:none;padding:4px 0 0;margin:0 -20px;padding-left:20px;padding-right:20px}
+.tabs::-webkit-scrollbar{display:none}
+@media (min-width:761px){ .tabs{flex-wrap:wrap;overflow:visible;row-gap:5px} }
+.tab{flex:none;display:inline-flex;align-items:center;gap:8px;padding:10px 11px 11px;border-radius:12px 12px 0 0;text-decoration:none;font:700 17px/1 var(--head);letter-spacing:.01em;color:var(--on);background:rgba(0,0,0,.18);transition:background .15s ease}
+.tab:hover{background:rgba(0,0,0,.3)}
+.tab .n{font:600 12px var(--body);padding:2px 7px;border-radius:999px;background:rgba(255,255,255,.18)}
+.tab[aria-current="page"]{background:var(--bg);color:var(--ink)}
+.tab[aria-current="page"] .n{background:var(--sport);color:var(--on)}
+.tab .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+
+/* ——— toolbar ——— */
+.tools{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.tools.lift{box-shadow:0 6px 18px rgba(15,26,46,.08)}
+.tools .in{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding-top:10px;padding-bottom:10px}
+.seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg button{border:0;background:none;padding:7px 12px;border-radius:999px;font-size:14px;font-weight:600;color:var(--muted);cursor:pointer;white-space:nowrap}
+.seg button:hover{color:var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--card)}
+.pop{position:relative}
+.pop>summary{list-style:none;display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
+.pop>summary::-webkit-details-marker{display:none}
+.pop>summary::after{content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);opacity:.6}
+.pop[open]>summary{border-color:var(--ink)}
+.pop .panel{position:absolute;top:calc(100% + 8px);left:0;z-index:30;width:min(360px,calc(100vw - 32px));max-height:min(70vh,520px);overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 18px 40px rgba(15,26,46,.18);padding:14px}
+.pop.right .panel{left:auto;right:0}
+.panel h3{margin:0 0 8px;font:700 13px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:8px}
+.panel h3 span{display:flex;gap:10px}
+.lnk{border:0;background:none;padding:0;color:var(--sport);font-weight:700;font-size:13px;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+:root[data-theme="dark"] .lnk{color:var(--ink)}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) .lnk{color:var(--ink)} }
+.chk{display:flex;align-items:center;gap:10px;padding:7px 4px;border-radius:8px;cursor:pointer;font-size:15px}
+.chk:hover{background:var(--soft)}
+.chk input{width:18px;height:18px;accent-color:var(--sport);margin:0}
+.chk.dep{font-weight:700}
+.chk.zone{padding-left:30px;font-size:14px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--sport);border-color:var(--sport);color:var(--on)}
+.moref{display:contents}
+.ftog{display:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:700;cursor:pointer}
+.ftog span{margin-left:6px;padding:1px 7px;border-radius:999px;background:var(--sport);color:var(--on);font-size:12px}
+.ftog span:empty{display:none}
+.search{flex:1 1 220px;min-width:0;display:flex;align-items:center;gap:8px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.search input{flex:1;min-width:0;border:0;background:none;padding:9px 0;outline:none;font-size:15px}
+.search:focus-within{border-color:var(--ink)}
+.divs{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.divs .lbl{font-size:13px;font-weight:700;color:var(--muted);margin-right:2px}
+.fav-on>summary{background:var(--star);border-color:var(--star);color:#1a1200}
+.clubs{display:flex;flex-direction:column;gap:2px;margin-top:8px}
+.club{display:flex;align-items:center;gap:10px;padding:6px 4px;border-radius:8px;font-size:14.5px}
+.club:hover{background:var(--soft)}
+.club small{margin-left:auto;color:var(--muted);font-size:12px}
+.starb{border:0;background:none;padding:2px;cursor:pointer;font-size:17px;line-height:1;color:var(--muted)}
+.starb[aria-pressed="true"]{color:var(--star)}
+.panel input[type=search]{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}
+
+/* ——— content ——— */
+main{padding:22px 0 50px}
+.summary{display:flex;align-items:baseline;gap:12px;margin:0 0 18px}
+.summary b{font:800 44px/1 var(--head)}
+.summary span{color:var(--muted);font-size:15px}
+.reset{margin-left:auto}
+.fam{margin:0 0 30px}
+.fam>h2{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px;padding-left:12px;border-left:4px solid var(--sport);font:800 clamp(26px,3.4vw,34px)/1 var(--head)}
+.badge{font:700 12px var(--body);letter-spacing:.04em;padding:3px 9px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted)}
+.badge.f{color:var(--fem);border-color:currentColor}
+.fam>h2 .cnt{font:600 14px var(--body);color:var(--muted)}
+.cards{columns:2;column-gap:16px}
+.cards.solo{columns:auto}
+.cards.solo .card ul{columns:2;column-gap:0;column-rule:1px solid var(--line)}
+.cards.solo .card ul .m{break-inside:avoid}
+.cards.solo .m{break-inside:avoid}
+.card{break-inside:avoid;margin:0 0 16px;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.card>header{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 16px;border-bottom:1px solid var(--line);font:700 19px/1.1 var(--head);letter-spacing:.01em}
+.card>header small{font:600 12px var(--body);color:var(--muted)}
+.card ul{list-style:none;margin:0;padding:0}
+.m{padding:12px 14px 10px;border-bottom:1px solid var(--line)}
+.m:last-child{border-bottom:0}
+.m.fav{background:linear-gradient(90deg,rgba(232,163,23,.14),transparent 70%)}
+.line{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px}
+.t{display:flex;align-items:center;gap:4px;font-size:15.5px;min-width:0}
+.t.h{justify-content:flex-end;text-align:right}
+.t span{overflow-wrap:anywhere}
+.t.w{font-weight:700}
+.sc{display:inline-flex;align-items:center;gap:5px}
+.sc b{min-width:38px;height:38px;padding:0 6px;display:grid;place-items:center;border-radius:8px;border:1.5px solid var(--line);background:var(--card);font:800 25px/1 var(--head)}
+.sc b.w{background:var(--sport);border-color:var(--sport);color:var(--on)}
+.sc i{font-style:normal;color:var(--muted)}
+.meta{margin-top:6px;text-align:center;font-size:12.5px;color:var(--muted)}
+.meta a{color:var(--muted);font-weight:600}
+.meta .fem{color:var(--fem);font-weight:700}
+.note{margin:6px 0 0;text-align:center;font-size:13.5px;color:var(--ink)}
+.t .starb{font-size:14px;opacity:.45}
+.t .starb[aria-pressed="true"]{opacity:1}
+.m:hover .t .starb{opacity:1}
+
+/* home */
+.une{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:18px;align-items:center;margin:0 0 18px;padding:24px;border-radius:20px;background:var(--card);border:1px solid var(--line)}
+.une .k{font:700 12px var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.une h2{margin:6px 0 8px;font:800 clamp(30px,4.2vw,46px)/1 var(--head)}
+.une p{margin:0;color:var(--muted)}
+.une .big{display:flex;align-items:center;justify-content:center;gap:12px;padding:20px;border-radius:16px;background:var(--c);color:#fff}
+.une .big b{font:800 clamp(56px,8vw,84px)/1 var(--head)}
+.une .big span{font:600 14px var(--body);opacity:.85;text-align:center;max-width:120px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 28px}
+.stat{padding:16px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+.stat b{display:block;font:800 38px/1 var(--head)}
+.stat span{font-size:13.5px;color:var(--muted)}
+.teasers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.teaser{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;border-top:5px solid var(--c)}
+.teaser>header{display:flex;justify-content:space-between;align-items:baseline;padding:12px 16px 4px}
+.teaser>header h2{margin:0;font:800 26px var(--head)}
+.teaser>header a{font-size:14px;font-weight:700;color:var(--c);text-decoration:none}
+.teaser .sc b.w{background:var(--c);border-color:var(--c)}
+.more{display:block;padding:11px 16px;border-top:1px solid var(--line);font-weight:700;font-size:14.5px;text-decoration:none;color:var(--c)}
+:root[data-theme="dark"] .teaser>header a, :root[data-theme="dark"] .more{color:var(--ink)}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) .teaser>header a, :root:not([data-theme="light"]) .more{color:var(--ink)} }
+.sport{margin:0 0 34px}
+.sport>.sh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:8px 0 14px;padding:12px 16px;border-radius:14px;background:var(--sport);color:#fff;font:800 32px/1 var(--head)}
+.sport>.sh a{color:#fff;text-decoration:none}
+.sport>.sh .cnt{font:600 14px var(--body);opacity:.85}
+.sport>.sh .go{margin-left:auto;font:700 14px var(--body)}
+.sport .fam>h2{font-size:26px}
+details.cl{border-top:1px solid var(--line)}
+details.cl>summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 16px;cursor:pointer;font-weight:700;font-size:14.5px;background:var(--soft)}
+details.cl>summary::-webkit-details-marker{display:none}
+details.cl>summary small{font-weight:600;color:var(--muted);font-size:13px;margin-left:auto}
+details.cl>summary::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin-left:4px;transition:transform .15s}
+details.cl[open]>summary::after{transform:rotate(225deg)}
+.cl table{width:100%;border-collapse:collapse;font-size:14px}
+.cl th{font-size:12px;font-weight:700;color:var(--muted);text-align:center;padding:8px 6px;border-bottom:1px solid var(--line)}
+.cl td{text-align:center;padding:7px 6px;border-bottom:1px solid var(--line)}
+.cl .tm{text-align:left}
+.cl tr.our td{font-weight:600}
+.cl tr.our td:first-child{box-shadow:inset 3px 0 0 var(--sport)}
+.cl tr.fav td{background:rgba(232,163,23,.14)}
+.cl td b{font:800 17px var(--head)}
+.clsrc{margin:0;padding:8px 16px;font-size:12px;color:var(--muted)}
+.clsrc a{color:var(--muted)}
+.tab.alt{background:#ffd23f;color:#1a1200;margin-left:auto;padding-top:6px;padding-bottom:6px;gap:6px}
+.tab .two{display:block;font-size:15px;line-height:1.02;text-align:left}
+.tab.alt:hover{background:#ffe066}
+.tab.alt[aria-current="page"]{background:var(--bg);color:var(--ink);box-shadow:inset 0 4px 0 #ffd23f}
+h2.sec{margin:34px 0 12px;font:800 32px var(--head)}
+
+/* fixtures */
+.days{columns:2;column-gap:16px}
+.days>.card{break-inside:avoid}
+.fx{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.fx:last-child{border-bottom:0}
+.fx .h{font:800 22px/1 var(--head)}
+.fx .h small{display:block;font:600 11px var(--body);color:var(--muted);margin-top:3px}
+.fx strong{display:block;font-size:15.5px}
+.fx span{font-size:13px;color:var(--muted)}
+.empty{padding:28px;border:1px dashed var(--line);border-radius:16px;text-align:center;color:var(--muted);background:var(--card)}
+
+footer{border-top:1px solid var(--line);background:var(--card);padding:28px 0 40px;font-size:14px;color:var(--muted)}
+footer .in{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px}
+footer h2{margin:0 0 8px;font:800 22px var(--head);color:var(--ink)}
+footer p{margin:0 0 8px}
+footer a{color:var(--muted)}
+
+@media (max-width:820px){
+  .une{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .teasers{grid-template-columns:1fr}
+  footer .in{grid-template-columns:1fr}
+  .headline .when{text-align:left}
+}
+@media (max-width:760px){
+  .cards,.days,.cards.solo .card ul{columns:1}
+  .ftog{display:inline-flex;align-items:center}
+  .moref{display:none;flex-basis:100%;flex-wrap:wrap;gap:6px;padding-top:4px}
+  .moref.open{display:flex}
+  .search{flex:1 1 160px;order:0}
+  .pop .panel{position:fixed;left:12px!important;right:12px!important;top:auto;bottom:12px;width:auto;max-height:70vh}
+  .logo b{display:none}
+}
+@media (max-width:560px){
+  .in{padding:0 14px}
+  .tabs{margin:0 -14px;padding-left:14px;padding-right:14px}
+  .tab{font-size:16px;padding:10px 12px 11px}
+  .tools .in{gap:6px}
+  .seg button{padding:6px 10px;font-size:13.5px}
+  .t{font-size:14.5px}
+  .sc b{min-width:32px;height:34px;font-size:21px}
+  .summary b{font-size:36px}
+  .t .starb:not([aria-pressed="true"]){display:none}
+  .stat{padding:12px 14px}
+  .stat b{font-size:30px}
+  .une{padding:16px}
+  .fam>h2{font-size:26px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .card,.teaser,.stat,.une{animation:rise .35s ease both}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+}
+</style>
+<script id="ld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://resultats-sport-hebdo.netlify.app/#site","name":"Résultats Sport Hebdo","url":"https://resultats-sport-hebdo.netlify.app/","inLanguage":"fr-FR","description":"Résultats hebdomadaires des sports collectifs en Marne, Ardennes, Aube, Haute-Marne et Aisne."},{"@type":"CollectionPage","name":"Résultats rugby – Marne, Ardennes, Aube, Haute-Marne et Aisne · Semaine du 30 oct. au 5 nov. | Résultats Sport Hebdo","url":"https://resultats-sport-hebdo.netlify.app/rugby/","isPartOf":{"@id":"https://resultats-sport-hebdo.netlify.app/#site"},"inLanguage":"fr-FR","about":"Rugby","spatialCoverage":[{"@type":"AdministrativeArea","name":"Marne"},{"@type":"AdministrativeArea","name":"Ardennes"},{"@type":"AdministrativeArea","name":"Aube"},{"@type":"AdministrativeArea","name":"Haute-Marne"},{"@type":"AdministrativeArea","name":"Aisne"}],"dateModified":"2026-11-06"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://resultats-sport-hebdo.netlify.app/"},{"@type":"ListItem","position":2,"name":"Rugby","item":"https://resultats-sport-hebdo.netlify.app/rugby/"}]},{"@type":"ItemList","name":"Résultats","numberOfItems":3,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"SportsEvent","name":"Stade Pontellois – Rugby Épernay Champagne","sport":"Rugby","startDate":"2026-11-01","eventStatus":"https://schema.org/EventScheduled","homeTeam":{"@type":"SportsTeam","name":"Stade Pontellois"},"awayTeam":{"@type":"SportsTeam","name":"Rugby Épernay Champagne"},"location":{"@type":"Place","name":"Épernay","address":{"@type":"PostalAddress","addressCountry":"FR"}},"description":"Fédérale 3 · J6 : Stade Pontellois 28 – 24 Rugby Épernay Champagne","url":"https://rugbyamateur.fr/federale-3-resultats-31-octobre-1-novembre-2026/"}},{"@type":"ListItem","position":2,"item":{"@type":"SportsEvent","name":"Stade Pontellois – Rugby Épernay Champagne (Excellence B)","sport":"Rugby","startDate":"2026-11-01","eventStatus":"https://schema.org/EventScheduled","homeTeam":{"@type":"SportsTeam","name":"Stade Pontellois"},"awayTeam":{"@type":"SportsTeam","name":"Rugby Épernay Champagne (Excellence B)"},"location":{"@type":"Place","name":"Épernay","address":{"@type":"PostalAddress","addressCountry":"FR"}},"description":"Excellence B · J6 : Stade Pontellois 32 – 27 Rugby Épernay Champagne (Excellence B)","url":"https://competitions.ffr.fr/"}},{"@type":"ListItem","position":3,"item":{"@type":"SportsEvent","name":"Colmar – Stade de Reims Rugby","sport":"Rugby","startDate":"2026-10-30","eventStatus":"https://schema.org/EventScheduled","homeTeam":{"@type":"SportsTeam","name":"Colmar"},"awayTeam":{"@type":"SportsTeam","name":"Stade de Reims Rugby"},"location":{"@type":"Place","name":"Reims","address":{"@type":"PostalAddress","addressCountry":"FR"}},"description":"Régionale 1 · J6 : Colmar 55 – 20 Stade de Reims Rugby","url":"https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/"}}]}]}</script>
+</head>
+<body>
+<header class="hero" id="hero">
+  <svg class="pat" id="pat" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g fill="none" stroke="rgba(255,255,255,.17)" stroke-width="3"><path d="M760 20 v380 M840 20 v380 M760 250 h80"></path><path d="M1040 20 v380 M1120 20 v380 M1040 250 h80"></path><line x1="600" y1="380" x2="1200" y2="380"></line><line x1="940" y1="40" x2="940" y2="380" stroke-dasharray="16 14"></line><path d="M120 20 v380 M200 20 v380 M120 250 h80"></path></g></svg>
+  <div class="in">
+    <div class="bar">
+      <a class="logo" id="home-link" href="/" data-go=""><i>RSH</i><b>Résultats Sport Hebdo</b></a>
+      <label class="week"><span class="sr">Choisir la semaine</span><select id="ed"><option value="2026-11-06">Semaine du 30 oct. au 5 nov.</option></select></label>
+    </div>
+    <div class="illu" id="illu" aria-hidden="true"><img src="/img/rugby.png" alt="" width="450" height="450" decoding="async"></div>
+    <div class="headline">
+      <div>
+        <span class="kick" id="kick">Résultats · Semaine du 30 oct. au 5 nov.</span>
+        <h1 id="h1" class="">Rugby</h1>
+        <p id="lede">Fédérales et Régionales : les scores de nos clubs de rugby.</p>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Sports"><a class="tab" href="/" data-go="" data-view="res">À la une</a><a class="tab" style="--c:#16794a" href="/football/" data-go="football" data-view="res">Football</a><a class="tab" style="--c:#b4471b" href="/basket/" data-go="basket" data-view="res">Basket</a><a class="tab" style="--c:#1f55b3" href="/handball/" data-go="handball" data-view="res">Handball</a><a class="tab" style="--c:#9a6312" href="/volley/" data-go="volley" data-view="res">Volley</a><a class="tab" style="--c:#8a1c3c" href="/rugby/" data-go="rugby" data-view="res" aria-current="page">Rugby</a><a class="tab" style="--c:#5b3fb0" href="/futsal/" data-go="futsal" data-view="res">Futsal</a><a class="tab" style="--c:#0f6f8f" href="/hockey-sur-glace/" data-go="hockey-sur-glace" data-view="res">Hockey sur glace</a><a class="tab" style="--c:#a8306a" href="/roller-hockey/" data-go="roller-hockey" data-view="res">Roller hockey</a><a class="tab" style="--c:#0b7a7a" href="/water-polo/" data-go="water-polo" data-view="res">Water-polo</a><a class="tab alt" href="/rugby/week-end-prochain/" data-go="rugby" data-view="next"><span aria-hidden="true">📅</span><span class="two">Le week-end<br>prochain</span></a></nav>
+  </div>
+</header>
+
+<div class="tools" id="tools">
+  <div class="in" role="toolbar" aria-label="Filtres">
+    <div class="seg" id="view" aria-label="Affichage"><button type="button" data-v="res" aria-pressed="true">Résultats</button><button type="button" data-v="next" aria-pressed="false">Le week-end prochain</button></div>
+    <button type="button" class="ftog" id="ftog" aria-expanded="false" aria-controls="moref">Filtres<span id="fcount"></span></button>
+    <div class="moref" id="moref">
+    <div class="seg" id="lvl" aria-label="Niveau"><button type="button" data-l="all" aria-pressed="true">Tous niveaux</button><button type="button" data-l="National" aria-pressed="false">National</button><button type="button" data-l="Régional" aria-pressed="false">Régional</button></div>
+    <div class="seg" id="gen" aria-label="Masculin ou féminin"><button type="button" data-g="all" aria-pressed="true">Tous</button><button type="button" data-g="Masculin" aria-pressed="false">Masculin</button><button type="button" data-g="Féminin" aria-pressed="false">Féminin</button></div>
+    <details class="pop" id="dpop"><summary id="dsum">📍 Tous les départements</summary><div class="panel" id="dpanel"><h3>Départements <span><button type="button" class="lnk" data-zall="">Tous</button><button type="button" class="lnk" data-znone="">Aucun</button></span></h3><label class="chk dep"><input type="checkbox" data-dep="Marne (51)" checked="">Marne (51)</label>
+        <details data-dep="Marne (51)"><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">Choisir une zone</summary>
+        <label class="chk zone"><input type="checkbox" data-z="reims" checked="">Reims</label><label class="chk zone"><input type="checkbox" data-z="chalons" checked="">Châlons-en-Champagne</label><label class="chk zone"><input type="checkbox" data-z="epernay" checked="">Épernay</label><label class="chk zone"><input type="checkbox" data-z="vitry" checked="">Vitry-le-François</label><label class="chk zone"><input type="checkbox" data-z="sezanne" checked="">Sézanne</label></details><label class="chk dep"><input type="checkbox" data-dep="Ardennes (08)" checked="">Ardennes (08)</label>
+        <details data-dep="Ardennes (08)"><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">Choisir une zone</summary>
+        <label class="chk zone"><input type="checkbox" data-z="charleville" checked="">Charleville-Mézières – Sedan</label><label class="chk zone"><input type="checkbox" data-z="rethel" checked="">Rethel</label></details><label class="chk dep"><input type="checkbox" data-dep="Aube (10)" checked="">Aube (10)</label>
+        <details data-dep="Aube (10)"><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">Choisir une zone</summary>
+        <label class="chk zone"><input type="checkbox" data-z="troyes" checked="">Troyes</label><label class="chk zone"><input type="checkbox" data-z="romilly" checked="">Romilly – Nogent-sur-Seine</label><label class="chk zone"><input type="checkbox" data-z="barsuraube" checked="">Bar-sur-Aube – Bar-sur-Seine</label></details><label class="chk dep"><input type="checkbox" data-dep="Haute-Marne (52)" checked="">Haute-Marne (52)</label>
+        <details data-dep="Haute-Marne (52)"><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">Choisir une zone</summary>
+        <label class="chk zone"><input type="checkbox" data-z="stdizier" checked="">Saint-Dizier</label><label class="chk zone"><input type="checkbox" data-z="chaumont" checked="">Chaumont – Langres</label></details><label class="chk dep"><input type="checkbox" data-dep="Aisne (02)" checked="">Aisne (02)</label>
+        <details data-dep="Aisne (02)"><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">Choisir une zone</summary>
+        <label class="chk zone"><input type="checkbox" data-z="stquentin" checked="">Saint-Quentin</label><label class="chk zone"><input type="checkbox" data-z="laon" checked="">Laon</label><label class="chk zone"><input type="checkbox" data-z="soissons" checked="">Soissons</label><label class="chk zone"><input type="checkbox" data-z="chthierry" checked="">Château-Thierry</label><label class="chk zone"><input type="checkbox" data-z="thierache" checked="">Thiérache (Hirson – Guise – Vervins)</label></details><label class="chk dep"><input type="checkbox" data-dep="Hors région" checked="">Hors région</label>
+        <details data-dep="Hors région"><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">Choisir une zone</summary>
+        <label class="chk zone"><input type="checkbox" data-z="grandest" checked="">Clubs pros du Grand Est</label></details></div></details>
+    <div class="divs" id="divs" hidden=""><span class="lbl">Division</span><button type="button" class="chip" data-d="National" aria-pressed="true">National</button><button type="button" class="chip" data-d="R1" aria-pressed="true">R1</button><button type="button" class="chip" data-d="R2" aria-pressed="true">R2</button><button type="button" class="chip" data-d="R3" aria-pressed="true">R3</button><button type="button" class="chip" data-d="D1" aria-pressed="true">D1</button><button type="button" class="lnk" data-dall="">Tous</button><button type="button" class="lnk" data-dnone="">Aucun</button></div>
+    <details class="pop right" id="fpop"><summary id="fsum">★ Mes clubs</summary><div class="panel" id="fpanel"><h3>Mes clubs <span><button type="button" class="lnk" data-fclear="">Tout retirer</button></span></h3>
+      <label class="chk"><input type="checkbox" id="only" disabled="">N'afficher que mes clubs</label>
+      <input type="search" id="fq" placeholder="Trouver un club…" value="" style="margin:8px 0 4px">
+      <div class="clubs"><div class="club"><button type="button" class="starb" data-fav="Amical Club de Soissons" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Amical Club de Soissons</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Club Ovalie de Saint-Dizier" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Club Ovalie de Saint-Dizier</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Club Rugby Aube Champagne Ossey Marigny" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Club Rugby Aube Champagne Ossey Marigny</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="CO Châlonnais" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>CO Châlonnais</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Entente Soissons" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Entente Soissons</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Entente Sud Haute-Marne" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Entente Sud Haute-Marne</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="RC Laon" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>RC Laon</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="RC Saint-André-les-Vergers" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>RC Saint-André-les-Vergers</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Rethel S Rugby XV" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Rethel S Rugby XV</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Rugby Épernay Champagne" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Rugby Épernay Champagne</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Rugby Épernay Champagne (Excellence B)" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Rugby Épernay Champagne (Excellence B)</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Saint-Quentin Rugby" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Saint-Quentin Rugby</span><small>Rugby</small></div><div class="club"><button type="button" class="starb" data-fav="Stade de Reims Rugby" aria-pressed="false" title="Ajouter à mes clubs">☆</button><span>Stade de Reims Rugby</span><small>Rugby</small></div></div>
+      <p style="margin:8px 0 0;font-size:12.5px;color:var(--muted)">Tes clubs sont gardés sur cet appareil et mis en avant dans les résultats.</p></div></details>
+    </div>
+    <label class="search"><span aria-hidden="true">🔎</span><span class="sr">Rechercher</span><input id="q" type="search" placeholder="Club, ville, compétition…" autocomplete="off"></label>
+  </div>
+</div>
+
+<main class="in" id="main" aria-live="polite"><section class="fam"><h2>Fédérale 3 <span class="badge">National</span><span class="cnt">1 match</span></h2><div class="cards solo"><article class="card"><ul><li class="m">
+      <div class="line"><span class="t h w"><span>Stade Pontellois</span></span>
+      <span class="sc" aria-label="Score 28 à 24"><b class="w">28</b><i>–</i><b class="">24</b></span>
+      <span class="t a"><span>Rugby Épernay Champagne</span><button type="button" class="starb" data-fav="Rugby Épernay Champagne" aria-pressed="false" title="Ajouter à mes clubs">☆</button></span></div>
+      <div class="meta">Dim. 1er nov. · journée 6 · <a href="https://rugbyamateur.fr/federale-3-resultats-31-octobre-1-novembre-2026/" target="_blank" rel="noopener">Article ↗</a></div></li></ul></article></div></section><section class="fam"><h2>Excellence B <span class="badge">National</span><span class="cnt">1 match</span></h2><div class="cards solo"><article class="card"><ul><li class="m">
+      <div class="line"><span class="t h w"><span>Stade Pontellois</span></span>
+      <span class="sc" aria-label="Score 32 à 27"><b class="w">32</b><i>–</i><b class="">27</b></span>
+      <span class="t a"><span>Rugby Épernay Champagne (Excellence B)</span><button type="button" class="starb" data-fav="Rugby Épernay Champagne (Excellence B)" aria-pressed="false" title="Ajouter à mes clubs">☆</button></span></div>
+      <div class="meta">Dim. 1er nov. · journée 6 · <a href="https://competitions.ffr.fr/" target="_blank" rel="noopener">Source ↗</a></div><p class="note">Équipe réserve d'Épernay.</p></li></ul></article></div></section><section class="fam"><h2>Régionale 1 <span class="badge">Régional</span><span class="cnt">1 match</span></h2><div class="cards solo"><article class="card"><ul><li class="m">
+      <div class="line"><span class="t h w"><span>Colmar</span></span>
+      <span class="sc" aria-label="Score 55 à 20"><b class="w">55</b><i>–</i><b class="">20</b></span>
+      <span class="t a"><span>Stade de Reims Rugby</span><button type="button" class="starb" data-fav="Stade de Reims Rugby" aria-pressed="false" title="Ajouter à mes clubs">☆</button></span></div>
+      <div class="meta">Week-end 30 oct.–1er nov. · journée 6 · <a href="https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/" target="_blank" rel="noopener">Article ↗</a></div></li></ul></article></div></section></main>
+
+<footer>
+  <div class="in">
+    <div>
+      <h2>À propos</h2>
+      <p>Résultats Sport Hebdo rassemble chaque lundi matin les résultats des sports collectifs du week-end (football, basket, handball, volley, rugby, futsal, hockey, water-polo) et le programme des 7 jours suivants, pour les équipes seniors masculines et féminines des clubs de la Marne (51), des Ardennes (08), de l'Aube (10), de la Haute-Marne (52) et de l'Aisne (02), du niveau national au niveau régional, plus le Départemental 1 en football.</p>
+      <p>Les scores viennent des fédérations, des ligues, des districts, des clubs et de la presse locale ; chaque résultat renvoie à sa source.</p>
+      <p id="admin-link" hidden=""><a href="admin.html">Ouvrir l'administration du site ↗</a></p>
+    </div>
+    <div>
+      <h2>Sources</h2>
+      <p id="sources"><a href="https://www.sportclub-reims.fr/" target="_blank" rel="noopener">Sport Club Reims</a> · <a href="https://lgef.fff.fr/wp-content/uploads/sites/14/2026/07/GROUPES-LGEF-26-27-SENIORSS.pdf" target="_blank" rel="noopener">Ligue du Grand Est de football – groupes 2026-2027</a> · <a href="https://rugbyamateur.fr/regionales/hauts-de-france/regionale-1/classement/" target="_blank" rel="noopener">Rugby Amateur</a> · <a href="https://champagne-basket.fr/" target="_blank" rel="noopener">Champagne Basket</a> · <a href="https://www.eurofootnews.net/lestac-troyes-simpose-a-domicile-face-au-mans-fc-en-ligue-1-2-0/31/10/2026/" target="_blank" rel="noopener">Eurofootnews</a> · <a href="https://www.alsasports.fr/calendrier-resultats-classement-racing/" target="_blank" rel="noopener">Alsa'Sports</a> · <a href="https://www.bebasket.fr/equipe/strasbourg/calendrier" target="_blank" rel="noopener">BeBasket</a> · <a href="https://www.radiomelodie.com/a/flash/19327-metz-handball-fait-un-sans-faute-et-garde-la-tete-de-la-ligue-butagaz-energie" target="_blank" rel="noopener">Radio Mélodie</a> · <a href="https://cvb52.com/" target="_blank" rel="noopener">CVB 52</a> · <a href="https://www.liguesdefoot.fr/" target="_blank" rel="noopener">Ligue de Football des Hauts-de-France (classements)</a> · <a href="https://www.etoile-charleville.fr/" target="_blank" rel="noopener">Étoile de Charleville-Mézières Basket</a> · <a href="https://etac-handball.clubeo.com/" target="_blank" rel="noopener">ETAC Handball</a> · <a href="https://jhm.fr/" target="_blank" rel="noopener">JHM</a> · <a href="https://rugbyamateur.fr/" target="_blank" rel="noopener">Rugby Amateur</a> · <a href="https://www.footmercato.net/" target="_blank" rel="noopener">Foot Mercato</a> · <a href="https://www.handstbrice.fr/" target="_blank" rel="noopener">AS Saint-Brice-Courcelles Handball</a> · <a href="https://www.sportcorico.com/" target="_blank" rel="noopener">SportCorico</a> · <a href="https://competitions.ffbb.com/" target="_blank" rel="noopener">FFBB Compétitions</a> · <a href="https://www.ffhandball.fr/" target="_blank" rel="noopener">FFHandball</a> · <a href="https://www.ffvbbeach.org/" target="_blank" rel="noopener">FFVolley</a> · <a href="https://competitions.ffr.fr/" target="_blank" rel="noopener">FFR Compétitions</a> · <a href="https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&amp;structure=111" target="_blank" rel="noopener">FFN Extranat – Stade de Reims Natation (water-polo)</a> · <a href="https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&amp;structure=96" target="_blank" rel="noopener">FFN Extranat – WP Épernay-Champagne</a> · <a href="https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&amp;structure=223" target="_blank" rel="noopener">FFN Extranat – St-Quentin Natation</a> · <a href="https://hautemarne.fff.fr/" target="_blank" rel="noopener">District de football (52) – Départemental 1</a> · <a href="https://aisne.fff.fr/" target="_blank" rel="noopener">District de football (02) – Départemental 1</a> · <a href="https://districtfoot08.fff.fr/" target="_blank" rel="noopener">District de football (08) – Départemental 1</a> · <a href="https://district-aube.fff.fr/" target="_blank" rel="noopener">District de football (10) – Départemental 1</a> · <a href="https://marne.fff.fr/" target="_blank" rel="noopener">District de football (51) – Départemental 1</a> · <a href="https://scorenco.com/hockey-sur-glace/clubs/les-gaulois-chalons-en-champagne-3erk/1-5xqd" target="_blank" rel="noopener">Score'n'co – Gaulois de Châlons (hockey sur glace)</a> · <a href="https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&amp;equipe=&amp;poule=728" target="_blank" rel="noopener">FFHG – Division 2, calendrier et résultats</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>window.RSH_STATIC=1;</script><script id="t-datajs" src="/data.js"></script>
+<script id="app">
+(window.RSH_DATA ? Promise.resolve(window.RSH_DATA) : fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})).then(d=>{ try{ start(d); }catch(e){ console.error(e); rshFail(e); } }).catch(()=>{
+  document.getElementById('main').innerHTML='<div class="empty">Les résultats n\'ont pas pu être chargés. Recharge la page dans un instant.</div>';
+});
+// safety net: if one part of the page fails, show the reason instead of an empty page
+function rshFail(e){ try{ const m=document.getElementById('main'); if(m) m.insertAdjacentHTML('afterbegin','<div class="empty">Un problème d\'affichage est survenu ('+String(e&&e.message||e).replace(/[<>&]/g,'')+'). Recharge la page.</div>'); }catch(x){} }
+function start(DATA){
+  DATA.zones=DATA.zones||[]; DATA.suivi=DATA.suivi||[]; DATA.editions=DATA.editions||[];
+  const SITE='https://resultats-sport-hebdo.netlify.app/';
+  const STATIC=!!window.RSH_STATIC;                 // set by build.js on the Netlify pages: real paths instead of #hash
+  const $=id=>document.getElementById(id);
+  const setA=(el,k,v)=>{ if(el) el.setAttribute(k,v); };
+  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const norm=t=>String(t||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+  const flat=t=>norm(t).replace(/[^a-z0-9]+/g,' ').trim();
+  const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'';
+  const isHome=u=>{try{return new URL(u).pathname.replace(/\/+$/,'')==='';}catch(e){return false;}};
+  const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+  // ——— sports: order of the menu = order everywhere ———
+  const SP={
+    'Football':{slug:'football',c:'#16794a',pat:'foot',unit:'buts',lede:'Du National à la D1 : tous les matchs de nos clubs, poule par poule.'},
+    'Basket':{slug:'basket',c:'#b4471b',pat:'basket',unit:'points',lede:'De la Betclic Élite aux championnats régionaux, masculins et féminins.'},
+    'Handball':{slug:'handball',c:'#1f55b3',pat:'hand',unit:'buts',lede:'De la Starligue à la Prénationale : les scores de nos équipes.'},
+    'Volley':{slug:'volley',c:'#9a6312',pat:'volley',unit:'sets',lede:'De la Ligue AM aux Nationales : les résultats set par set.'},
+    'Rugby':{slug:'rugby',c:'#8a1c3c',pat:'rugby',unit:'points',lede:'Fédérales et Régionales : les scores de nos clubs de rugby.'},
+    'Futsal':{slug:'futsal',c:'#5b3fb0',pat:'foot',unit:'buts',lede:'D2 et Régional : le futsal de nos clubs.'},
+    'Hockey sur glace':{slug:'hockey-sur-glace',c:'#0f6f8f',pat:'ice',unit:'buts',lede:'Le hockey sur glace de nos clubs, de la Division 2 aux équipes réserves.'},
+    'Roller hockey':{slug:'roller-hockey',c:'#a8306a',pat:'ice',unit:'buts',lede:'Le roller hockey de nos clubs, Nationale 1 et Nationale 3.'},
+    'Water-polo':{slug:'water-polo',c:'#0b7a7a',pat:'pool',unit:'buts',lede:'La Nationale 3 Grand Est et Hauts-de-France : les matchs de nos clubs.'}
+  };
+  const HOME={c:'#12233d',pat:'home'};
+  const PRIO=Object.keys(SP);
+  const rank=s=>{const i=PRIO.indexOf(s);return i<0?99:i};
+  const bySlug=sl=>PRIO.find(s=>SP[s].slug===sl)||null;
+
+  const FEM_COMP=/f[ée]minin|\bLF2\b|\bLFB\b|\bNF[123]\b|\bN[123] ?F\b|\bPNF\b|\bRF[123]\b|\bPRF\b|Arkema|Seconde Ligue|\bD[23] f/i;
+  const DIVS=['National','R1','R2','R3','D1'];
+  const divOf=r=>{ if(r.sport!=='Football') return null; if(r.div) return r.div; if((r.level||'')==='National') return 'National'; const m=/R(?:é|e)gional\s*([123])|\bR([123])\b/i.exec(r.comp||''); if(m) return 'R'+(m[1]||m[2]); if(/\bD(?:istrict|épartemental)?\s*1\b/i.test(r.comp||'')) return 'D1'; return null; };
+  // championship ladder, highest first; cups at the end of their sport
+  const LADDER=[[/coupe|troph[ée]e/i,99],[/ligue 1\b|betclic|ligue am\b|ligue a\b|butagaz|starligue|magnus|arkema|premi[èe]re ligue|top 14/i,0],[/ligue 2\b|[ée]lite 2|pro ?b\b|ligue b\b|proligue|\blf2\b|seconde ligue|\bd2 ?f\b|division 1\b|pro d2/i,1],[/[ée]lite/i,1.5],[/nationale? 1\b|\bnf1\b|\bn1\b|f[ée]d[ée]rale 1|division 2\b|^d2\b/i,2],[/nationale? 2\b|\bnf2\b|\bn2\b|f[ée]d[ée]rale 2|division 3\b|\bd3\b/i,3],[/nationale? 3\b|\bnf3\b|\bn3\b|f[ée]d[ée]rale 3/i,4],[/excellence b/i,4.5],[/pr[ée][- ]?nationale/i,5],[/r[ée]gional(?:e)? ?1\b|\bR1\b/i,6],[/r[ée]gional(?:e)? ?2\b|\bR2\b/i,7],[/r[ée]gional(?:e)? ?3\b|\bR3\b/i,8],[/\bD(?:istrict|[ée]partemental)? ?1\b/i,9]];
+  const DIVRANK={National:4.5,R1:6,R2:7,R3:8,D1:9};
+  const lvlRank=r=>{const c=r.comp||''; for(const [re,v] of LADDER) if(re.test(c)) return v; const d=divOf(r); if(d) return DIVRANK[d]; return (r.level||'National')==='National'?4.5:8.5;};
+
+  const eds=DATA.editions.slice().sort((a,b)=>b.id.localeCompare(a.id));
+  let cur=eds[0];
+  const clubMap=new Map();
+  DATA.suivi.forEach(s=>clubMap.set(s.club,{sport:s.sport,zone:s.zone,genre:s.genre==='F'?'Féminin':'Masculin'}));
+  eds.forEach(e=>[...(e.results||[]),...(e.agenda||[])].forEach(r=>{ if(r.hz&&!clubMap.has(r.home)) clubMap.set(r.home,{sport:r.sport,zone:r.hz}); if(r.az&&!clubMap.has(r.away)) clubMap.set(r.away,{sport:r.sport,zone:r.az}); }));
+  const zoneOf=k=>DATA.zones.find(z=>z.k===k);
+  const deps=(DATA.departements||[...new Set(DATA.zones.map(z=>z.dep))]).filter(d=>DATA.zones.some(z=>z.dep===d));
+  const depShort=d=>String(d).replace(/\s*\(.*\)/,'');
+
+  // ——— state: everything on by default; the reader unticks what he does not want ———
+  let offZ=new Set(store.get('rsh3-offz',[])), offD=new Set(store.get('rsh3-offd',[]));
+  let lvl=store.get('rsh3-lvl','all'), gen=store.get('rsh3-gen','all'), onlyFav=store.get('rsh3-onlyfav',false);
+  let fav=new Set(store.get('rsh3-fav',[]));
+  let q='';
+  const save=()=>{store.set('rsh3-offz',[...offZ]);store.set('rsh3-offd',[...offD]);store.set('rsh3-lvl',lvl);store.set('rsh3-gen',gen);store.set('rsh3-onlyfav',onlyFav);store.set('rsh3-fav',[...fav]);};
+  const openAll=()=>{offZ.clear();offD.clear();lvl='all';gen='all';onlyFav=false;q='';$('q').value='';};
+
+  // ——— routes: '' (à la une) or a sport slug, view 'res' or 'next' ———
+  const NEXT='week-end-prochain', CLS='classements';
+  function parseRoute(){
+    let p;
+    if(STATIC){ p=String(window.RSH_ROUTE!=null?window.RSH_ROUTE:location.pathname).replace(/^\/+|\/+$/g,'').split('/'); }
+    else { p=location.hash.replace(/^#\/?/,'').split('/'); }
+    let sport=bySlug(p[0]||''), view='res';
+    if(p[0]===NEXT||p[1]===NEXT) view='next';
+    if(p[0]===CLS||p[1]===CLS) view='cl';
+    return {sport,view};
+  }
+  const href=(sport,view)=>{ const sl=sport?SP[sport].slug:''; const parts=[sl,view==='next'?NEXT:view==='cl'?CLS:''].filter(Boolean);
+    return STATIC? '/'+parts.map(x=>x+'/').join('') : '#'+parts.join('/'); };
+  let route=parseRoute();
+  function go(sport,view,push=true){
+    const changed=sport!==route.sport;
+    route={sport,view};
+    if(changed) openAll();                       // choosing a sport switches every other filter back on
+    save();
+    if(push){ const u=href(sport,view); try{ if(STATIC) history.pushState({},'',u); else if(location.hash!==u&&!(u==='#'&&!location.hash)) history.pushState({},'',u); }catch(e){ try{ if(!STATIC) location.hash=u; }catch(x){} } }
+    render(); try{ window.scrollTo(0,0); }catch(e){}
+  }
+  window.addEventListener('popstate',()=>{const r=parseRoute(); if(r.sport!==route.sport) openAll(); route=r; render();});
+  window.addEventListener('hashchange',()=>{ if(STATIC) return; const r=parseRoute(); if(r.sport!==route.sport||r.view!==route.view){ if(r.sport!==route.sport) openAll(); route=r; render(); }});
+  document.addEventListener('click',e=>{ const a=e.target.closest('a[data-go]'); if(!a||e.metaKey||e.ctrlKey||e.shiftKey) return; e.preventDefault(); go(a.dataset.go?bySlug(a.dataset.go):null,a.dataset.view||'res'); });
+
+  // ——— filtering ———
+  const genreOf=r=>{ if(r.genre==='F') return 'Féminin'; if(r.genre==='M') return 'Masculin'; if(FEM_COMP.test(r.comp||'')) return 'Féminin'; const h=clubMap.get(r.home),a=clubMap.get(r.away); return (h&&h.genre==='Féminin')||(a&&a.genre==='Féminin')?'Féminin':'Masculin'; };
+  const zoneNames=r=>[...new Set([r.hz,r.az].filter(Boolean))].map(k=>(zoneOf(k)||{l:k}).l);
+  const matchQ=r=>{ if(!q) return true; const hay=' '+flat([r.home,r.away,r.comp,r.place,...zoneNames(r)].join(' '))+' '; return flat(q).split(' ').every(w=>hay.includes(w)); };
+  const keep=(r,ignoreSport)=>{ const d=divOf(r);
+    if(!ignoreSport && route.sport && r.sport!==route.sport) return false;
+    if(lvl!=='all' && (r.level||'National')!==lvl) return false;
+    if(gen!=='all' && genreOf(r)!==gen) return false;
+    if(d && offD.has(d)) return false;
+    if(!((r.hz&&!offZ.has(r.hz))||(r.az&&!offZ.has(r.az)))) return false;
+    if(onlyFav && !(fav.has(r.home)||fav.has(r.away))) return false;
+    return matchQ(r); };
+
+  // ——— dates (for sorting and structured data) ———
+  const MOIS={janv:1,jan:1,fevr:2,fev:2,mars:3,avr:4,mai:5,juin:6,juil:7,aout:8,sept:9,oct:10,nov:11,dec:12};
+  const dm=s=>{const m=/(\d{1,2})(?:er)?\s+([a-z]+)/.exec(norm(s||'')); if(!m) return null; const mo=MOIS[m[2]]||MOIS[m[2].slice(0,4)]||MOIS[m[2].slice(0,3)]; return mo?{d:+m[1],m:mo}:null;};
+  const isoDay=(s,ed)=>{const x=dm(s); if(!x) return ''; const y0=+(ed&&ed.id||'').slice(0,4)||new Date().getFullYear(), m0=+(ed&&ed.id||'').slice(5,7)||x.m; const y=x.m-m0>6?y0-1:(m0-x.m>6?y0+1:y0); return `${y}-${String(x.m).padStart(2,'0')}-${String(x.d).padStart(2,'0')}`;};
+  const when=f=>{const x=dm(f.day||f.date); const mo=x?(x.m<8?x.m+12:x.m):0; return mo*10000+(x?x.d:0)*100+(parseInt(String(f.time||'0').replace(':',''),10)||0)/10000;};
+
+  // ——— pieces of UI ———
+  const win=(r,s)=>{const a=+r.sh,b=+r.sa; if(isNaN(a)||isNaN(b)||a===b) return false; return s==='h'?a>b:b>a;};
+  const star=name=>clubMap.has(name)?`<button type="button" class="starb" data-fav="${esc(name)}" aria-pressed="${fav.has(name)}" title="${fav.has(name)?'Retirer de mes clubs':'Ajouter à mes clubs'}">${fav.has(name)?'★':'☆'}</button>`:'';
+  const jour=c=>{const m=/·\s*(J\d+|journée\s*\d+)/i.exec(c||''); return m?m[1].replace(/^J/,'journée '):'';};
+  function row(r,opt={}){
+    const u=safeUrl(r.url), hw=win(r,'h'), aw=win(r,'a'), f=genreOf(r)==='Féminin';
+    const meta=[esc(r.date), opt.comp?esc(r.comp):esc(jour(r.comp)), f?'<span class="fem">Féminin</span>':'', u?`<a href="${esc(u)}" target="_blank" rel="noopener">${isHome(u)?'Source':'Article'} ↗</a>`:''].filter(Boolean).join(' · ');
+    return `<li class="m${fav.has(r.home)||fav.has(r.away)?' fav':''}">
+      <div class="line"><span class="t h${hw?' w':''}">${star(r.home)}<span>${esc(r.home)}</span></span>
+      <span class="sc" aria-label="Score ${esc(r.sh)} à ${esc(r.sa)}"><b class="${hw?'w':''}">${esc(r.sh)}</b><i>–</i><b class="${aw?'w':''}">${esc(r.sa)}</b></span>
+      <span class="t a${aw?' w':''}"><span>${esc(r.away)}</span>${star(r.away)}</span></div>
+      <div class="meta">${meta}</div>${r.note?`<p class="note">${esc(r.note)}</p>`:''}</li>`;
+  }
+  const SPONSOR=/\s+(Homiris|Allianz Leseur|CFA du B[aâ]timent 51|3 Brasseurs)\b/gi;   // sponsor names are dropped so the same championship groups together
+  const FAMDIV={R1:'Régional 1',R2:'Régional 2',R3:'Régional 3',D1:'Départemental 1'};
+  const famOf=r=>{ const d=divOf(r); if(d&&FAMDIV[d]&&!/coupe/i.test(r.comp||'')) return FAMDIV[d]+(genreOf(r)==='Féminin'?' féminin':''); return String(r.comp||'Autres').replace(SPONSOR,'').split(' · ')[0].trim(); };
+  const keyOf=c=>String(c||'Autres').replace(SPONSOR,'').replace(/\s*·\s*(J\d+|journée\s*\d+).*$/i,'').trim();
+  function groups(res){
+    const fams=new Map();
+    res.forEach((r,i)=>{ r._i=i; const f=famOf(r), k=keyOf(r.comp); if(!fams.has(f)) fams.set(f,new Map()); const g=fams.get(f); if(!g.has(k)) g.set(k,[]); g.get(k).push(r); });
+    return [...fams.entries()].map(([f,g])=>({f,cards:[...g.entries()].map(([k,rs])=>({k,rs})),rank:Math.min(...[...g.values()].flat().map(lvlRank)),n:[...g.values()].flat().length}))
+      .sort((a,b)=>a.rank-b.rank||a.f.localeCompare(b.f,'fr'));
+  }
+  // ——— standings (DATA.classements: {sport, key, level, div?, genre?, maj, url, rows:[{r,team,pts,j}]}) ———
+  const CL=(DATA.classements||[]);
+  const clFor=(sport,key)=>CL.find(c=>c.sport===sport&&keyOf(c.key)===key);
+  const ourTeam=n=>{const c=clubMap.get(n); const z=c&&zoneOf(c.zone); return !!(z&&!/hors/i.test(z.dep||''));};
+  function table(c,open){
+    const cols=['g','n','p','bp','bc','diff'].filter(k=>c.rows.some(x=>x[k]!=null));
+    const lead=c.rows[0];
+    return `<details class="cl"${open?' open':''}><summary><span>Classement de la poule</span><small>${lead?`En tête : ${esc(lead.team)}, ${esc(lead.pts)} pts`:''}</small></summary>
+      <table><thead><tr><th>#</th><th class="tm">Équipe</th><th>Pts</th><th>J</th>${cols.map(k=>`<th>${({g:'G',n:'N',p:'P',bp:'BP',bc:'BC',diff:'Diff.'})[k]}</th>`).join('')}</tr></thead>
+      <tbody>${c.rows.map(x=>`<tr class="${fav.has(x.team)?'fav ':''}${ourTeam(x.team)?'our':''}"><td>${esc(x.r)}</td><td class="tm">${star(x.team)}${esc(x.team)}</td><td><b>${esc(x.pts)}</b></td><td>${esc(x.j)}</td>${cols.map(k=>`<td>${esc(x[k]??'')}</td>`).join('')}</tr>`).join('')}</tbody></table>
+      <p class="clsrc">Classement ${esc(c.maj||'')}${safeUrl(c.url)?` · <a href="${esc(c.url)}" target="_blank" rel="noopener">Source ↗</a>`:''}</p></details>`;
+  }
+  function nextBlock(fx){ if(!fx.length) return '';
+    return `<h2 class="sec" id="prochain">Le week-end prochain</h2><div class="card"><header>${fx.length} match${fx.length>1?'s':''} à venir<small><a class="lnk" href="${href(route.sport,'next')}" data-go="${route.sport?SP[route.sport].slug:''}" data-view="next">Tout le programme →</a></small></header>${fx.slice(0,8).map(f=>`<div class="fx"><div class="h">${esc(f.time||'–')}<small>${esc(f.day)}</small></div><div><strong>${esc(f.home)} – ${esc(f.away)}</strong><span>${route.sport?'':esc(f.sport)+' · '}${esc(f.comp)}${f.place?' · '+esc(f.place):''}</span></div></div>`).join('')}</div>`; }
+  function famsHtml(gs){ return gs.map(g=>{const lv=g.cards[0].rs[0].level||'National', fem=g.cards.every(c=>c.rs.every(r=>genreOf(r)==='Féminin'));
+        return `<section class="fam"><h2>${esc(g.f)} <span class="badge">${esc(lv)}</span>${fem?'<span class="badge f">Féminin</span>':''}<span class="cnt">${g.n} match${g.n>1?'s':''}</span></h2><div class="cards${g.cards.length===1?' solo':''}">${g.cards.map(c=>{const t=c.k===g.f?(g.cards.length>1?'Autres matchs':''):(c.k.startsWith(g.f)?c.k.slice(g.f.length).replace(/^\s*·\s*/,''):c.k); const cl=clFor(c.rs[0].sport,c.k); const lk=cl?`<button type="button" class="lnk cl-go">Voir le classement</button>`:'';
+          return `<article class="card">${t||cl?`<header>${esc(t||'')}<small>${lk||`${c.rs.length} match${c.rs.length>1?'s':''}`}</small></header>`:''}<ul>${c.rs.map(r=>row(r)).join('')}</ul>${cl?table(cl,false):''}</article>`;}).join('')}</div></section>`;}).join(''); }
+  function stats(res,sport){
+    const v=res.filter(r=>!isNaN(+r.sh)&&!isNaN(+r.sa));
+    const home=v.filter(r=>+r.sh>+r.sa).length;
+    const big=v.slice().sort((a,b)=>Math.abs(b.sh-b.sa)-Math.abs(a.sh-a.sa))[0];
+    const out=[];
+    if(sport){ const tot=v.reduce((t,r)=>t+(+r.sh)+(+r.sa),0); out.push({b:tot,s:SP[sport].unit+' marqués'});
+      out.push({b:v.length?Math.round(home*100/v.length)+' %':'–',s:'de victoires à domicile'});
+      out.push({b:v.filter(r=>+r.sh===+r.sa).length,s:'matchs nuls'});
+      out.push({b:big?`${big.sh}–${big.sa}`:'–',s:big?`plus gros écart · ${big.home}`:'plus gros écart'}); }
+    else { const fem=res.filter(r=>genreOf(r)==='Féminin').length, ft=v.filter(r=>r.sport==='Football');
+      out.push({b:res.length,s:res.length>1?'matchs joués':'match joué'});
+      out.push({b:PRIO.filter(x=>res.some(r=>r.sport===x)).length,s:'sports représentés'});
+      out.push({b:ft.reduce((t,r)=>t+(+r.sh)+(+r.sa),0),s:'buts en football'});
+      out.push({b:fem,s:fem>1?'matchs féminins':'match féminin'}); }
+    return `<div class="stats">${out.map(x=>`<div class="stat"><b>${esc(x.b)}</b><span>${esc(x.s)}</span></div>`).join('')}</div>`;
+  }
+
+  // ——— field-line patterns, one per sport ———
+  const PAT={
+    foot:'<rect x="660" y="40" width="520" height="340" rx="4"/><line x1="920" y1="40" x2="920" y2="380"/><circle cx="920" cy="210" r="62"/><circle cx="920" cy="210" r="4"/><rect x="660" y="120" width="90" height="180"/><rect x="1090" y="120" width="90" height="180"/><rect x="40" y="40" width="300" height="340" rx="4"/><rect x="40" y="120" width="90" height="180"/>',
+    basket:'<rect x="640" y="40" width="540" height="340"/><line x1="910" y1="40" x2="910" y2="380"/><circle cx="910" cy="210" r="58"/><path d="M640 90 h70 a120 120 0 0 1 0 240 h-70"/><path d="M1180 90 h-70 a120 120 0 0 0 0 240 h70"/><rect x="640" y="160" width="110" height="100"/><rect x="1070" y="160" width="110" height="100"/><circle cx="160" cy="210" r="120"/>',
+    hand:'<rect x="620" y="40" width="560" height="340"/><line x1="900" y1="40" x2="900" y2="380"/><path d="M620 110 a100 100 0 0 1 100 100 a100 100 0 0 1 -100 100"/><path d="M620 70 a140 140 0 0 1 140 140 a140 140 0 0 1 -140 140" stroke-dasharray="14 12"/><path d="M1180 110 a100 100 0 0 0 -100 100 a100 100 0 0 0 100 100"/><path d="M1180 70 a140 140 0 0 0 -140 140 a140 140 0 0 0 140 140" stroke-dasharray="14 12"/>',
+    volley:'<rect x="640" y="60" width="520" height="300"/><line x1="900" y1="30" x2="900" y2="390" stroke-width="5"/><line x1="810" y1="60" x2="810" y2="360"/><line x1="990" y1="60" x2="990" y2="360"/><circle cx="200" cy="200" r="90"/><path d="M110 200 q90 -60 180 0 M200 110 q-50 90 0 180"/>',
+    rugby:'<path d="M760 20 v380 M840 20 v380 M760 250 h80"/><path d="M1040 20 v380 M1120 20 v380 M1040 250 h80"/><line x1="600" y1="380" x2="1200" y2="380"/><line x1="940" y1="40" x2="940" y2="380" stroke-dasharray="16 14"/><path d="M120 20 v380 M200 20 v380 M120 250 h80"/>',
+    ice:'<rect x="620" y="40" width="560" height="340" rx="120"/><line x1="900" y1="40" x2="900" y2="380" stroke-width="5"/><line x1="790" y1="40" x2="790" y2="380"/><line x1="1010" y1="40" x2="1010" y2="380"/><circle cx="900" cy="210" r="50"/><circle cx="700" cy="130" r="34"/><circle cx="700" cy="290" r="34"/><circle cx="1100" cy="130" r="34"/><circle cx="1100" cy="290" r="34"/>',
+    pool:'<rect x="620" y="50" width="560" height="320"/><line x1="620" y1="114" x2="1180" y2="114" stroke-dasharray="10 10"/><line x1="620" y1="178" x2="1180" y2="178" stroke-dasharray="10 10"/><line x1="620" y1="242" x2="1180" y2="242" stroke-dasharray="10 10"/><line x1="620" y1="306" x2="1180" y2="306" stroke-dasharray="10 10"/><line x1="680" y1="50" x2="680" y2="370"/><line x1="1120" y1="50" x2="1120" y2="370"/>',
+    home:'<circle cx="980" cy="210" r="70"/><circle cx="980" cy="210" r="140"/><circle cx="980" cy="210" r="210"/><circle cx="980" cy="210" r="280"/><line x1="0" y1="380" x2="1200" y2="380"/>'
+  };
+
+  // ——— right-hand illustration of each sport (ray-traced renders in img/) ———
+  const IMG=STATIC?'/img/':'img/';
+  // ——— toolbar ———
+  function toolbar(){
+    $('view').innerHTML=[['res','Résultats'],['next','Le week-end prochain']].map(([k,l])=>`<button type="button" data-v="${k}" aria-pressed="${route.view===k}">${l}</button>`).join('');
+    $('lvl').innerHTML=[['all','Tous niveaux'],['National','National'],['Régional','Régional']].map(([k,l])=>`<button type="button" data-l="${k}" aria-pressed="${lvl===k}">${l}</button>`).join('');
+    $('gen').innerHTML=[['all','Tous'],['Masculin','Masculin'],['Féminin','Féminin']].map(([k,l])=>`<button type="button" data-g="${k}" aria-pressed="${gen===k}">${l}</button>`).join('');
+    const onDeps=deps.filter(d=>DATA.zones.filter(z=>z.dep===d).some(z=>!offZ.has(z.k)));
+    const allOn=!DATA.zones.some(z=>offZ.has(z.k));
+    $('dsum').textContent='📍 '+(allOn?'Tous les départements':onDeps.length?onDeps.map(depShort).join(', '):'Aucun département');
+    const openSet=new Set([...document.querySelectorAll('#dpanel details[open]')].map(x=>x.dataset.dep));
+    $('dpanel').innerHTML=`<h3>Départements <span><button type="button" class="lnk" data-zall>Tous</button><button type="button" class="lnk" data-znone>Aucun</button></span></h3>`+
+      deps.map(d=>{const zs=DATA.zones.filter(z=>z.dep===d), on=zs.filter(z=>!offZ.has(z.k)).length;
+        return `<label class="chk dep"><input type="checkbox" data-dep="${esc(d)}" ${on===zs.length?'checked':''} ${on&&on<zs.length?'data-mixed="1"':''}>${esc(d)}</label>
+        <details data-dep="${esc(d)}" ${openSet.has(d)?'open':''}><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">${on===zs.length?'Choisir une zone':`${on} zone${on>1?'s':''} sur ${zs.length}`}</summary>
+        ${zs.map(z=>`<label class="chk zone"><input type="checkbox" data-z="${esc(z.k)}" ${offZ.has(z.k)?'':'checked'}>${esc(z.l)}</label>`).join('')}</details>`;}).join('');
+    $('dpanel').querySelectorAll('input[data-mixed]').forEach(i=>i.indeterminate=true);
+    const foot=route.sport==='Football';
+    $('divs').hidden=!foot;
+    $('divs').innerHTML=`<span class="lbl">Division</span>${DIVS.map(d=>`<button type="button" class="chip" data-d="${d}" aria-pressed="${!offD.has(d)}">${d}</button>`).join('')}<button type="button" class="lnk" data-dall>Tous</button><button type="button" class="lnk" data-dnone>Aucun</button>`;
+    const nf=(offZ.size?1:0)+(offD.size?1:0)+(lvl!=='all'?1:0)+(gen!=='all'?1:0)+(onlyFav?1:0); $('fcount').textContent=nf||'';
+    $('fpop').classList.toggle('fav-on',onlyFav);
+    $('fsum').textContent=`★ Mes clubs${fav.size?' ('+fav.size+')':''}`;
+    favPanel();
+  }
+  let fq='';
+  function favPanel(){
+    const list=[...clubMap.keys()].filter(c=>!route.sport||clubMap.get(c).sport===route.sport)
+      .filter(c=>!fq||flat(c).includes(flat(fq))).sort((a,b)=>(fav.has(b)-fav.has(a))||rank(clubMap.get(a).sport)-rank(clubMap.get(b).sport)||a.localeCompare(b,'fr')).slice(0,80);
+    const box=$('fpanel'); const had=box.querySelector('#fq'); const pos=had&&had===document.activeElement?had.selectionStart:null;
+    box.innerHTML=`<h3>Mes clubs <span><button type="button" class="lnk" data-fclear>Tout retirer</button></span></h3>
+      <label class="chk"><input type="checkbox" id="only" ${onlyFav?'checked':''} ${fav.size?'':'disabled'}>N'afficher que mes clubs</label>
+      <input type="search" id="fq" placeholder="Trouver un club…" value="${esc(fq)}" style="margin:8px 0 4px">
+      <div class="clubs">${list.map(c=>`<div class="club">${star(c)}<span>${esc(c)}</span><small>${esc(clubMap.get(c).sport)}</small></div>`).join('')||'<span class="club">Aucun club trouvé.</span>'}</div>
+      <p style="margin:8px 0 0;font-size:12.5px;color:var(--muted)">Tes clubs sont gardés sur cet appareil et mis en avant dans les résultats.</p>`;
+    if(pos!==null){const i=$('fq'); i.focus(); i.setSelectionRange(pos,pos);}
+  }
+  $('ftog').addEventListener('click',()=>{const m=$('moref'), o=!m.classList.contains('open'); m.classList.toggle('open',o); $('ftog').setAttribute('aria-expanded',o);});
+  $('view').addEventListener('click',e=>{const b=e.target.closest('[data-v]'); if(b) go(route.sport,b.dataset.v);});
+  $('lvl').addEventListener('click',e=>{const b=e.target.closest('[data-l]'); if(b){lvl=b.dataset.l;save();render();}});
+  $('gen').addEventListener('click',e=>{const b=e.target.closest('[data-g]'); if(b){gen=b.dataset.g;save();render();}});
+  $('dpanel').addEventListener('change',e=>{const t=e.target; if(t.dataset.dep){const zs=DATA.zones.filter(z=>z.dep===t.dataset.dep); zs.forEach(z=>t.checked?offZ.delete(z.k):offZ.add(z.k));} else if(t.dataset.z){t.checked?offZ.delete(t.dataset.z):offZ.add(t.dataset.z);} save(); render();});
+  $('dpanel').addEventListener('click',e=>{ if(e.target.closest('[data-zall]')){offZ.clear();save();render();} if(e.target.closest('[data-znone]')){DATA.zones.forEach(z=>offZ.add(z.k));save();render();} });
+  $('divs').addEventListener('click',e=>{const b=e.target.closest('[data-d]'); if(b){offD.has(b.dataset.d)?offD.delete(b.dataset.d):offD.add(b.dataset.d);} else if(e.target.closest('[data-dall]')) offD.clear(); else if(e.target.closest('[data-dnone]')) DIVS.forEach(d=>offD.add(d)); else return; save(); render();});
+  $('q').addEventListener('input',e=>{q=e.target.value.trim(); try{ renderMain(); }catch(x){ rshFail(x); }});
+  document.addEventListener('click',e=>{const b=e.target.closest('[data-fav]'); if(!b) return; e.preventDefault(); const n=b.dataset.fav; fav.has(n)?fav.delete(n):fav.add(n); if(!fav.size) onlyFav=false; save(); render();});
+  $('fpanel').addEventListener('change',e=>{ if(e.target.id==='only'){onlyFav=e.target.checked;save();render();} });
+  $('fpanel').addEventListener('input',e=>{ if(e.target.id==='fq'){fq=e.target.value;favPanel();} });
+  $('fpanel').addEventListener('click',e=>{ if(e.target.closest('[data-fclear]')){fav.clear();onlyFav=false;save();render();} });
+  document.addEventListener('click',e=>{ document.querySelectorAll('details.pop[open]').forEach(d=>{ if(!d.contains(e.target)) d.open=false; }); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') document.querySelectorAll('details.pop[open]').forEach(d=>d.open=false); });
+  try{ const tools=$('tools'); const io=('IntersectionObserver' in window)?new IntersectionObserver(([en])=>tools.classList.toggle('lift',!en.isIntersecting)):null; if(io) io.observe($('hero')); }catch(e){}
+
+  const edSel=$('ed');
+  edSel.innerHTML=eds.map(e=>`<option value="${esc(e.id)}">${esc(e.label)}</option>`).join('');
+  edSel.addEventListener('change',()=>{cur=eds.find(e=>e.id===edSel.value)||eds[0]; render();});
+
+  // ——— render ———
+  function hero(){
+    const s=route.sport, m=s?SP[s]:HOME;
+    document.documentElement.style.setProperty('--sport',m.c);
+    setA(document.querySelector('meta[name="theme-color"]'),'content',m.c);
+    $('pat').innerHTML=`<g fill="none" stroke="rgba(255,255,255,.17)" stroke-width="3">${PAT[m.pat]}</g>`;
+    const ik=s?({Futsal:'futsal','Roller hockey':'roller'}[s]||m.pat):'home'; $('illu').innerHTML=`<img src="${IMG}${ik}.png" alt="" width="450" height="450" decoding="async">`;
+    $('h1').textContent=s?s:(route.view==='next'?'Le week-end prochain':route.view==='cl'?'Les classements':'Les résultats du week-end');
+    $('lede').textContent=s?(route.view==='next'?`Les prochains matchs de nos clubs de ${s.toLowerCase()}.`:m.lede):(route.view==='next'?'Tous les matchs de nos clubs dans les 7 jours qui viennent, jour par jour.':'Les sports collectifs de la Marne, des Ardennes, de l\'Aube, de la Haute-Marne et de l\'Aisne, du national au régional. Chaque lundi matin.');
+    $('kick').textContent=cur?`${route.view==='next'?'Programme des 7 jours suivants':route.view==='cl'?'Classements':'Résultats'} · ${cur.label||''}`:'';
+    $('h1').classList.toggle('long',$('h1').textContent.length>12);
+    $('home-link').setAttribute('href',href(null,'res')); $('home-link').dataset.go='';
+    const pool=route.view==='cl'?CL:(cur&&(route.view==='next'?cur.agenda:cur.results)||[]);
+    const cnt=s2=>pool.filter(r=>r.sport===s2).length, all=pool.length;
+    const nx=route.view==='next';
+    $('tabs').innerHTML=`<a class="tab" href="${href(null,nx?'res':route.view)}" data-go="" data-view="${nx?'res':route.view}" ${!s&&!nx?'aria-current="page"':''}>À la une</a>`+
+
+      PRIO.map(x=>`<a class="tab" style="--c:${SP[x].c}" href="${href(x,route.view)}" data-go="${SP[x].slug}" data-view="${route.view}" ${s===x?'aria-current="page"':''}>${esc(x)}</a>`).join('')+
+      `<a class="tab alt" href="${href(s,'next')}" data-go="${s?SP[s].slug:''}" data-view="next" ${nx?'aria-current="page"':''}><span aria-hidden="true">📅</span><span class="two">Le week-end<br>prochain</span></a>`;
+    const act=$('tabs').querySelector('[aria-current]'); if(act){ const t=$('tabs'); if(act.offsetLeft+act.offsetWidth>t.scrollLeft+t.clientWidth||act.offsetLeft<t.scrollLeft) t.scrollLeft=Math.max(0,act.offsetLeft-40); }
+  }
+  function seo(res,fx){
+    const s=route.sport, lab=cur?cur.label:'';
+    const zonesTxt='Marne, Ardennes, Aube, Haute-Marne et Aisne';
+    const title=s?(route.view==='next'?`${s} : les prochains matchs – ${zonesTxt} | Résultats Sport Hebdo`:`Résultats ${s.toLowerCase()} – ${zonesTxt} · ${lab} | Résultats Sport Hebdo`)
+      :(route.view==='next'?`Le week-end prochain : les matchs de nos clubs – ${zonesTxt} | Résultats Sport Hebdo`:`Résultats Sport Hebdo – sports collectifs en ${zonesTxt} · ${lab}`);
+    const desc=s?(route.view==='next'?`Jour, heure et lieu des prochains matchs de ${s.toLowerCase()} des clubs de la ${zonesTxt}.`:`Tous les résultats de ${s.toLowerCase()} du week-end (${lab}) des clubs de la ${zonesTxt}, du national au régional, poule par poule.`)
+      :`Les résultats du week-end (${lab}) et le programme de la semaine pour le football, le basket, le handball, le volley, le rugby et les autres sports collectifs en ${zonesTxt}.`;
+    document.title=title; setA($('m-desc'),'content',desc); setA($('og-title'),'content',title); setA($('og-desc'),'content',desc);
+    const url=SITE+href(s,route.view).replace(/^[#/]+/,'').replace(/^#/,'');
+    const canon=SITE+(s?SP[s].slug+'/':'')+(route.view==='next'?NEXT+'/':'');
+    setA($('canon'),'href',canon); setA($('og-url'),'content',canon);
+    const ev=(route.view==='next'?fx:res).slice(0,60).map(r=>({'@type':'SportsEvent',name:`${r.home} – ${r.away}`,sport:r.sport,
+      startDate:(isoDay(r.day||r.date,cur)||undefined)&&(isoDay(r.day||r.date,cur)+(r.time?'T'+r.time+':00+01:00':'')),
+      eventStatus:'https://schema.org/EventScheduled',
+      homeTeam:{'@type':'SportsTeam',name:r.home},awayTeam:{'@type':'SportsTeam',name:r.away},
+      location:{'@type':'Place',name:r.place||zoneNames(r).join(', ')||'France',address:{'@type':'PostalAddress',addressCountry:'FR'}},
+      description:route.view==='next'?`${r.comp}`:`${r.comp} : ${r.home} ${r.sh} – ${r.sa} ${r.away}`,
+      ...(safeUrl(r.url)?{url:r.url}:{})}));
+    const ld={'@context':'https://schema.org','@graph':[
+      {'@type':'WebSite','@id':SITE+'#site',name:'Résultats Sport Hebdo',url:SITE,inLanguage:'fr-FR',description:'Résultats hebdomadaires des sports collectifs en '+zonesTxt+'.'},
+      {'@type':'CollectionPage',name:title,url:canon,isPartOf:{'@id':SITE+'#site'},inLanguage:'fr-FR',about:s||'Sports collectifs',spatialCoverage:['Marne','Ardennes','Aube','Haute-Marne','Aisne'].map(n=>({'@type':'AdministrativeArea',name:n})),dateModified:cur?cur.id:undefined},
+      {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:SITE},...(s?[{'@type':'ListItem',position:2,name:s,item:SITE+SP[s].slug+'/'}]:[])]},
+      {'@type':'ItemList',name:route.view==='next'?'Prochains matchs':'Résultats',numberOfItems:ev.length,itemListElement:ev.map((e,i)=>({'@type':'ListItem',position:i+1,item:e}))}]};
+    if($('ld')) $('ld').textContent=JSON.stringify(ld);
+  }
+  function renderMain(){
+    const main=$('main');
+    if(!cur){ main.innerHTML='<div class="empty">Aucune édition publiée pour l\'instant.</div>'; return; }
+    const res=(cur.results||[]).filter(r=>keep(r)).sort((a,b)=>rank(a.sport)-rank(b.sport)||lvlRank(a)-lvlRank(b));
+    const fx=(cur.agenda||[]).filter(r=>keep(r)).sort((a,b)=>when(a)-when(b));
+    const filtered=offZ.size||offD.size||lvl!=='all'||gen!=='all'||onlyFav||q;
+    const reset=filtered?`<button type="button" class="lnk reset" data-reset>Tout réafficher</button>`:'';
+    const depTxt=!offZ.size?'les 5 départements':deps.filter(d=>DATA.zones.filter(z=>z.dep===d).some(z=>!offZ.has(z.k))).map(depShort).join(', ')||'aucun département';
+    seo(res,fx);
+    if(route.view==='next'){
+      const days=new Map(); fx.forEach(f=>{const k=f.day||'À préciser'; if(!days.has(k)) days.set(k,[]); days.get(k).push(f);});
+      main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
+        (fx.length?`<div class="days">${[...days.entries()].map(([d,l])=>`<section class="card"><header>${esc(d)}<small>${l.length} match${l.length>1?'s':''}</small></header>${l.map(f=>{const u=safeUrl(f.url);return `<div class="fx"><div class="h">${esc(f.time||'–')}${route.sport?'':`<small>${esc(f.sport)}</small>`}</div><div><strong>${star(f.home)}${esc(f.home)} – ${esc(f.away)}${star(f.away)}</strong><span>${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}</span></div></div>`;}).join('')}</section>`).join('')}</div>`
+        :`<div class="empty">Pas de match annoncé pour cette sélection.</div>`);
+      return;
+    }
+    if(route.view==='cl'){
+      const list=CL.filter(c=>(!route.sport||c.sport===route.sport)&&(lvl==='all'||c.level===lvl)&&(gen==='all'||(c.genre==='F'?'Féminin':'Masculin')===gen)&&!(c.div&&offD.has(c.div))
+        &&(!onlyFav||c.rows.some(x=>fav.has(x.team)))&&(!q||c.rows.some(x=>flat(x.team).includes(flat(q)))||flat(c.key).includes(flat(q))))
+        .sort((a,b)=>rank(a.sport)-rank(b.sport)||lvlRank({comp:a.key,sport:a.sport,div:a.div,level:a.level})-lvlRank({comp:b.key,sport:b.sport,div:b.div,level:b.level}));
+      main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
+        (list.length?`<div class="cards">${list.map(c=>`<article class="card"><header>${esc(c.key)}${route.sport?'':`<small>${esc(c.sport)}</small>`}</header>${table(c,true)}</article>`).join('')}</div>`
+        :`<div class="empty">Pas encore de classement pour cette sélection. Les classements sont ajoutés chaque lundi avec les résultats.</div>`);
+      return;
+    }
+    if(!route.sport){
+      const top=res.slice().sort((a,b)=>lvlRank(a)-lvlRank(b)||rank(a.sport)-rank(b.sport)||(b.note?1:0)-(a.note?1:0))[0];
+      const sports=PRIO.filter(s=>res.some(r=>r.sport===s));
+      main.innerHTML=(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2>${esc(top.home)} – ${esc(top.away)}</h2><p>${esc(cur.edito||top.note||'')}</p></div>
+        <div class="big"><span>${esc(top.home)}</span><b>${esc(top.sh)}–${esc(top.sa)}</b><span>${esc(top.away)}</span></div></article>`:'')+
+        (sports.length?sports.map(s=>{const l=res.filter(r=>r.sport===s); return `<section class="sport" style="--sport:${SP[s].c}"><h2 class="sh"><a href="${href(s,'res')}" data-go="${SP[s].slug}">${esc(s)}</a><span class="cnt">${l.length} match${l.length>1?'s':''}</span><a class="go" href="${href(s,'res')}" data-go="${SP[s].slug}">Page ${esc(s.toLowerCase())} →</a></h2>${famsHtml(groups(l))}</section>`;}).join('')
+          :`<div class="empty">Aucun résultat pour cette sélection. ${reset}</div>`)+
+        nextBlock(fx);
+      return;
+    }
+    const gs=groups(res);
+    main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
+      (res.length?famsHtml(gs)
+      :`<div class="empty">Aucun résultat de ${esc(route.sport.toLowerCase())} cette semaine pour cette sélection.<br>${reset}</div>`)+nextBlock(fx);
+  }
+  $('main').addEventListener('click',e=>{ if(e.target.closest('[data-reset]')){ openAll(); save(); render(); return; }
+    const g=e.target.closest('.cl-go'); if(g){ const d=g.closest('.card').querySelector('details.cl'); if(d){ d.open=true; d.scrollIntoView({behavior:'smooth',block:'nearest'}); } } });
+  function render(){ try{ hero(); }catch(e){ rshFail(e); } try{ toolbar(); }catch(e){ rshFail(e); } try{ renderMain(); }catch(e){ rshFail(e); }
+    $('sources').innerHTML=(DATA.sources||[]).map(s=>{const u=safeUrl(s.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name)}</a>`:esc(s.name)}).join(' · ');
+  }
+  render();
+  if(window.claude&&claude.use){ claude.use('user').then(async u=>{ if(u&&await u.canEdit()) $('admin-link').hidden=false; }).catch(()=>{}); }
+}
+</script>
+
+
+</body></html>

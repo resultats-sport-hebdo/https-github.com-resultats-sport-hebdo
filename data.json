@@ -2274,6 +2274,12 @@
    "level": "Régional",
    "div": "R2",
    "genre": "F"
+  },
+  {
+   "club": "Gaulois de Châlons-en-Champagne",
+   "sport": "Hockey sur glace",
+   "zone": "chalons",
+   "level": "National"
   }
  ],
  "editions": [
@@ -2341,7 +2347,7 @@
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 1 · J9",
+     "comp": "Régional 1 · Poule A · J9",
      "date": "Dim. 1er nov.",
      "home": "Cormontreuil FC",
      "hz": "reims",
@@ -2442,7 +2448,7 @@
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 3 · J7",
+     "comp": "Régional 3 · Poule B · J7",
      "date": "Dim. 1er nov.",
      "home": "Porcien FC",
      "hz": "rethel",
@@ -2470,7 +2476,7 @@
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 3 · J7",
+     "comp": "Régional 3 · Poule B · J7",
      "date": "Dim. 1er nov.",
      "home": "Bétheny FC",
      "hz": "reims",
@@ -2484,7 +2490,7 @@
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 3 · J7",
+     "comp": "Régional 3 · Poule B · J7",
      "date": "Dim. 1er nov.",
      "home": "Tinqueux Champ. FC",
      "hz": "reims",
@@ -2770,7 +2776,7 @@
      "sport": "Football",
      "level": "Régional",
      "div": "R1",
-     "comp": "Régional 1 · J9",
+     "comp": "Régional 1 · Poule A · J9",
      "date": "Dim. 1er nov.",
      "home": "Hettange Gde FC",
      "hz": null,
@@ -3553,7 +3559,8 @@
      "sh": 1,
      "sa": 2,
      "note": "",
-     "url": "https://hautemarne.fff.fr/"
+     "url": "https://hautemarne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3568,7 +3575,8 @@
      "sh": 0,
      "sa": 2,
      "note": "",
-     "url": "https://hautemarne.fff.fr/"
+     "url": "https://hautemarne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3583,7 +3591,8 @@
      "sh": 2,
      "sa": 0,
      "note": "",
-     "url": "https://hautemarne.fff.fr/"
+     "url": "https://hautemarne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3598,7 +3607,8 @@
      "sh": 2,
      "sa": 1,
      "note": "",
-     "url": "https://hautemarne.fff.fr/"
+     "url": "https://hautemarne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3613,7 +3623,8 @@
      "sh": 4,
      "sa": 2,
      "note": "",
-     "url": "https://hautemarne.fff.fr/"
+     "url": "https://hautemarne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3628,7 +3639,8 @@
      "sh": 3,
      "sa": 0,
      "note": "",
-     "url": "https://hautemarne.fff.fr/"
+     "url": "https://hautemarne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3643,7 +3655,8 @@
      "sh": 1,
      "sa": 1,
      "note": "",
-     "url": "https://aisne.fff.fr/"
+     "url": "https://aisne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3658,7 +3671,8 @@
      "sh": 0,
      "sa": 4,
      "note": "",
-     "url": "https://aisne.fff.fr/"
+     "url": "https://aisne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3673,7 +3687,8 @@
      "sh": 1,
      "sa": 0,
      "note": "",
-     "url": "https://aisne.fff.fr/"
+     "url": "https://aisne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3688,7 +3703,8 @@
      "sh": 0,
      "sa": 2,
      "note": "",
-     "url": "https://aisne.fff.fr/"
+     "url": "https://aisne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3703,7 +3719,8 @@
      "sh": 0,
      "sa": 2,
      "note": "",
-     "url": "https://aisne.fff.fr/"
+     "url": "https://aisne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3718,7 +3735,8 @@
      "sh": 0,
      "sa": 2,
      "note": "",
-     "url": "https://aisne.fff.fr/"
+     "url": "https://aisne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3733,7 +3751,8 @@
      "sh": 2,
      "sa": 0,
      "note": "",
-     "url": "https://districtfoot08.fff.fr/"
+     "url": "https://districtfoot08.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3748,7 +3767,8 @@
      "sh": 2,
      "sa": 0,
      "note": "",
-     "url": "https://districtfoot08.fff.fr/"
+     "url": "https://districtfoot08.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3763,7 +3783,8 @@
      "sh": 3,
      "sa": 0,
      "note": "",
-     "url": "https://districtfoot08.fff.fr/"
+     "url": "https://districtfoot08.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3778,7 +3799,8 @@
      "sh": 2,
      "sa": 0,
      "note": "",
-     "url": "https://districtfoot08.fff.fr/"
+     "url": "https://districtfoot08.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3793,7 +3815,8 @@
      "sh": 1,
      "sa": 1,
      "note": "",
-     "url": "https://districtfoot08.fff.fr/"
+     "url": "https://districtfoot08.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3808,7 +3831,8 @@
      "sh": 2,
      "sa": 3,
      "note": "",
-     "url": "https://districtfoot08.fff.fr/"
+     "url": "https://districtfoot08.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3823,7 +3847,8 @@
      "sh": 7,
      "sa": 1,
      "note": "",
-     "url": "https://district-aube.fff.fr/"
+     "url": "https://district-aube.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3838,7 +3863,8 @@
      "sh": 1,
      "sa": 3,
      "note": "",
-     "url": "https://district-aube.fff.fr/"
+     "url": "https://district-aube.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3853,7 +3879,8 @@
      "sh": 1,
      "sa": 0,
      "note": "",
-     "url": "https://district-aube.fff.fr/"
+     "url": "https://district-aube.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3868,7 +3895,8 @@
      "sh": 1,
      "sa": 4,
      "note": "",
-     "url": "https://district-aube.fff.fr/"
+     "url": "https://district-aube.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3883,7 +3911,8 @@
      "sh": 1,
      "sa": 0,
      "note": "",
-     "url": "https://district-aube.fff.fr/"
+     "url": "https://district-aube.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3898,7 +3927,8 @@
      "sh": 1,
      "sa": 2,
      "note": "",
-     "url": "https://district-aube.fff.fr/"
+     "url": "https://district-aube.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3913,7 +3943,8 @@
      "sh": 2,
      "sa": 2,
      "note": "",
-     "url": "https://marne.fff.fr/"
+     "url": "https://marne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3928,7 +3959,8 @@
      "sh": 3,
      "sa": 0,
      "note": "",
-     "url": "https://marne.fff.fr/"
+     "url": "https://marne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3943,7 +3975,8 @@
      "sh": 1,
      "sa": 5,
      "note": "",
-     "url": "https://marne.fff.fr/"
+     "url": "https://marne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3958,7 +3991,8 @@
      "sh": 2,
      "sa": 4,
      "note": "",
-     "url": "https://marne.fff.fr/"
+     "url": "https://marne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3973,7 +4007,8 @@
      "sh": 2,
      "sa": 1,
      "note": "",
-     "url": "https://marne.fff.fr/"
+     "url": "https://marne.fff.fr/",
+     "genre": "M"
     },
     {
      "sport": "Football",
@@ -3988,7 +4023,36 @@
      "sh": 2,
      "sa": 3,
      "note": "",
-     "url": "https://marne.fff.fr/"
+     "url": "https://marne.fff.fr/",
+     "genre": "M"
+    },
+    {
+     "sport": "Volley",
+     "level": "National",
+     "comp": "Coupe de France",
+     "date": "Début nov.",
+     "home": "Reims Volley 51",
+     "hz": "reims",
+     "away": "Saint-Nazaire",
+     "az": null,
+     "sh": 2,
+     "sa": 3,
+     "note": "25-27, 25-11, 25-15, 18-25, 13-15 : Reims menait 2 sets à 1 avant de céder au tie-break.",
+     "url": "https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-si-pres-dun-exploit-contre-saint-nazaire-en-coupe-de-france/"
+    },
+    {
+     "sport": "Hockey sur glace",
+     "level": "National",
+     "comp": "Division 2 · J5",
+     "date": "Sam. 31 oct.",
+     "home": "Gaulois de Châlons-en-Champagne",
+     "hz": "chalons",
+     "away": "Français Volants",
+     "az": null,
+     "sh": 5,
+     "sa": 2,
+     "note": "",
+     "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
     }
    ],
    "agenda": [
@@ -4497,6 +4561,32 @@
      "comp": "Nationale 3 Hauts-de-France · Poule B · J1",
      "place": "Valenciennes",
      "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=223"
+    },
+    {
+     "sport": "Hockey sur glace",
+     "level": "National",
+     "day": "Sam. 7 nov.",
+     "time": "18:00",
+     "home": "Orléans",
+     "hz": null,
+     "away": "Gaulois de Châlons-en-Champagne",
+     "az": "chalons",
+     "comp": "Division 2 · J6",
+     "place": "Orléans, patinoire municipale",
+     "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
+    },
+    {
+     "sport": "Hockey sur glace",
+     "level": "National",
+     "day": "Sam. 7 nov.",
+     "time": "18:45",
+     "home": "Hogly",
+     "hz": null,
+     "away": "Phénix de Reims",
+     "az": "reims",
+     "comp": "Division 2 · J6",
+     "place": "La Roche-sur-Yon, patinoire Arago",
+     "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
     }
    ]
   }
@@ -4617,6 +4707,1536 @@
   {
    "name": "District de football (51) – Départemental 1",
    "url": "https://marne.fff.fr/"
+  },
+  {
+   "name": "Score'n'co – Gaulois de Châlons (hockey sur glace)",
+   "url": "https://scorenco.com/hockey-sur-glace/clubs/les-gaulois-chalons-en-champagne-3erk/1-5xqd"
+  },
+  {
+   "name": "FFHG – Division 2, calendrier et résultats",
+   "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
+  }
+ ],
+ "classements": [
+  {
+   "sport": "Football",
+   "level": "National",
+   "key": "National 1 · Poule C",
+   "maj": "après la journée du 31 oct.",
+   "url": "https://epreuves.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Nîmes Olympique",
+     "pts": 17,
+     "j": 8
+    },
+    {
+     "r": 2,
+     "team": "GFA RV",
+     "pts": 15,
+     "j": 8
+    },
+    {
+     "r": 3,
+     "team": "Hyères FC",
+     "pts": 14,
+     "j": 8
+    },
+    {
+     "r": 4,
+     "team": "Sporting Club Toulon",
+     "pts": 13,
+     "j": 8
+    },
+    {
+     "r": 5,
+     "team": "Hauts Lyonnais",
+     "pts": 13,
+     "j": 8
+    },
+    {
+     "r": 6,
+     "team": "ESTAC Troyes 2",
+     "pts": 13,
+     "j": 8
+    },
+    {
+     "r": 7,
+     "team": "EFC Fréjus St Raph",
+     "pts": 12,
+     "j": 7
+    },
+    {
+     "r": 8,
+     "team": "Andrézieux-Bouthéon",
+     "pts": 12,
+     "j": 8
+    },
+    {
+     "r": 9,
+     "team": "Union Foot Touraine",
+     "pts": 12,
+     "j": 7
+    },
+    {
+     "r": 10,
+     "team": "St-Priest",
+     "pts": 10,
+     "j": 8
+    },
+    {
+     "r": 11,
+     "team": "Grand Ouest Associat",
+     "pts": 9,
+     "j": 7
+    },
+    {
+     "r": 12,
+     "team": "FCLDSD",
+     "pts": 7,
+     "j": 7
+    },
+    {
+     "r": 13,
+     "team": "Lyon La Duchère",
+     "pts": 7,
+     "j": 8
+    },
+    {
+     "r": 14,
+     "team": "Bourges FC",
+     "pts": 4,
+     "j": 7
+    },
+    {
+     "r": 15,
+     "team": "Istres FC",
+     "pts": 4,
+     "j": 7
+    },
+    {
+     "r": 16,
+     "team": "Berri Châteauroux",
+     "pts": 3,
+     "j": 7
+    },
+    {
+     "r": 17,
+     "team": "Canet Roussillon FC",
+     "pts": 3,
+     "j": 7
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "National",
+   "key": "National 2 · Poule D",
+   "maj": "après la journée du 31 oct.",
+   "url": "https://epreuves.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "LOSC Lille 2",
+     "pts": 15,
+     "j": 6
+    },
+    {
+     "r": 2,
+     "team": "FC Balagne",
+     "pts": 11,
+     "j": 6
+    },
+    {
+     "r": 3,
+     "team": "Croix FIC",
+     "pts": 11,
+     "j": 6
+    },
+    {
+     "r": 4,
+     "team": "St Quentin O.",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 5,
+     "team": "Versailles 78 FC 2",
+     "pts": 9,
+     "j": 6
+    },
+    {
+     "r": 6,
+     "team": "Red Star FC 2",
+     "pts": 8,
+     "j": 6
+    },
+    {
+     "r": 7,
+     "team": "SC Bastia 2",
+     "pts": 8,
+     "j": 6
+    },
+    {
+     "r": 8,
+     "team": "CMS Oissel",
+     "pts": 8,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "St Ouen l'Aumône AS",
+     "pts": 7,
+     "j": 6
+    },
+    {
+     "r": 10,
+     "team": "Steenvoorde AS",
+     "pts": 7,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "AS Trouville-Deauville",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 12,
+     "team": "St Amand FC",
+     "pts": 5,
+     "j": 6
+    },
+    {
+     "r": 13,
+     "team": "C Chartres F.",
+     "pts": 5,
+     "j": 6
+    },
+    {
+     "r": 14,
+     "team": "Vimy US",
+     "pts": 4,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "National",
+   "key": "National 2 · Poule E",
+   "maj": "après la journée du 1er nov.",
+   "url": "https://epreuves.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Metz APM FC",
+     "pts": 15,
+     "j": 6
+    },
+    {
+     "r": 2,
+     "team": "Nancy Lorraine AS 2",
+     "pts": 13,
+     "j": 6
+    },
+    {
+     "r": 3,
+     "team": "Strasbourg Alsace RC 2",
+     "pts": 13,
+     "j": 6
+    },
+    {
+     "r": 4,
+     "team": "Neuilly Marne SFC",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 5,
+     "team": "Aubervilliers FCM",
+     "pts": 9,
+     "j": 6
+    },
+    {
+     "r": 6,
+     "team": "US Torcy PVM",
+     "pts": 8,
+     "j": 6
+    },
+    {
+     "r": 7,
+     "team": "FC Metz 2",
+     "pts": 7,
+     "j": 6
+    },
+    {
+     "r": 8,
+     "team": "US Ivry Football",
+     "pts": 7,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "Charleville Prix OAM",
+     "pts": 7,
+     "j": 6
+    },
+    {
+     "r": 10,
+     "team": "JA Drancy",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "Belfortaine ASM FC",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 12,
+     "team": "Mulhouse FC",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 13,
+     "team": "Thaon ES",
+     "pts": 3,
+     "j": 6
+    },
+    {
+     "r": 14,
+     "team": "Sochaux Montb. FC 2",
+     "pts": 2,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R1",
+   "key": "Régional 1 · Poule A",
+   "maj": "relevé le 6 nov. sur Sportcorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-1-homiris-5/phase-lgef/poule-a",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Sedan Ardennes CS",
+     "pts": 24,
+     "j": 8,
+     "g": 8,
+     "n": 0,
+     "p": 0,
+     "bp": 25,
+     "bc": 6,
+     "diff": "+19"
+    },
+    {
+     "r": 2,
+     "team": "Stade de Reims 2",
+     "pts": 22,
+     "j": 9,
+     "g": 7,
+     "n": 1,
+     "p": 1,
+     "bp": 34,
+     "bc": 4,
+     "diff": "+30"
+    },
+    {
+     "r": 3,
+     "team": "Cormontreuil FC",
+     "pts": 15,
+     "j": 8,
+     "g": 5,
+     "n": 0,
+     "p": 3,
+     "bp": 17,
+     "bc": 12,
+     "diff": "+5"
+    },
+    {
+     "r": 4,
+     "team": "Épernay Champagne RC",
+     "pts": 13,
+     "j": 8,
+     "g": 4,
+     "n": 1,
+     "p": 3,
+     "bp": 12,
+     "bc": 11,
+     "diff": "+1"
+    },
+    {
+     "r": 5,
+     "team": "Uckange USAG",
+     "pts": 12,
+     "j": 8,
+     "g": 3,
+     "n": 3,
+     "p": 2,
+     "bp": 11,
+     "bc": 7,
+     "diff": "+4"
+    },
+    {
+     "r": 6,
+     "team": "Villerupt Thil ES",
+     "pts": 10,
+     "j": 8,
+     "g": 2,
+     "n": 4,
+     "p": 2,
+     "bp": 8,
+     "bc": 8,
+     "diff": "0"
+    },
+    {
+     "r": 7,
+     "team": "Thionville Lusitanos 2",
+     "pts": 10,
+     "j": 9,
+     "g": 3,
+     "n": 1,
+     "p": 5,
+     "bp": 14,
+     "bc": 18,
+     "diff": "-4"
+    },
+    {
+     "r": 8,
+     "team": "Charleville Prix OAM 2",
+     "pts": 10,
+     "j": 8,
+     "g": 3,
+     "n": 1,
+     "p": 4,
+     "bp": 10,
+     "bc": 14,
+     "diff": "-4"
+    },
+    {
+     "r": 9,
+     "team": "Hettange Gde FC",
+     "pts": 9,
+     "j": 9,
+     "g": 2,
+     "n": 3,
+     "p": 4,
+     "bp": 9,
+     "bc": 14,
+     "diff": "-5"
+    },
+    {
+     "r": 10,
+     "team": "Neuvillette Jamin",
+     "pts": 8,
+     "j": 8,
+     "g": 2,
+     "n": 2,
+     "p": 4,
+     "bp": 9,
+     "bc": 19,
+     "diff": "-10"
+    },
+    {
+     "r": 11,
+     "team": "Bogny FC",
+     "pts": 8,
+     "j": 8,
+     "g": 2,
+     "n": 2,
+     "p": 4,
+     "bp": 9,
+     "bc": 17,
+     "diff": "-8"
+    },
+    {
+     "r": 12,
+     "team": "Amnéville CSO",
+     "pts": 8,
+     "j": 8,
+     "g": 2,
+     "n": 2,
+     "p": 4,
+     "bp": 7,
+     "bc": 15,
+     "diff": "-8"
+    },
+    {
+     "r": 13,
+     "team": "Marnaval SC",
+     "pts": 7,
+     "j": 8,
+     "g": 1,
+     "n": 4,
+     "p": 3,
+     "bp": 14,
+     "bc": 18,
+     "diff": "-4"
+    },
+    {
+     "r": 14,
+     "team": "St Méziéry FC",
+     "pts": 5,
+     "j": 9,
+     "g": 1,
+     "n": 2,
+     "p": 6,
+     "bp": 8,
+     "bc": 24,
+     "diff": "-16"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "key": "Régional 2 · Poule A",
+   "maj": "relevé le 6 nov. sur Sportcorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-2/phase-lgef/poule-a",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Étain Buzy US",
+     "pts": 17,
+     "j": 7,
+     "g": 5,
+     "n": 2,
+     "p": 0,
+     "bp": 15,
+     "bc": 8,
+     "diff": "+7"
+    },
+    {
+     "r": 2,
+     "team": "St Brice Courcelles",
+     "pts": 16,
+     "j": 7,
+     "g": 5,
+     "n": 1,
+     "p": 1,
+     "bp": 20,
+     "bc": 8,
+     "diff": "+12"
+    },
+    {
+     "r": 3,
+     "team": "Sedan Ardennes CS 2",
+     "pts": 14,
+     "j": 7,
+     "g": 4,
+     "n": 2,
+     "p": 1,
+     "bp": 15,
+     "bc": 8,
+     "diff": "+7"
+    },
+    {
+     "r": 4,
+     "team": "Reims Ste Anne",
+     "pts": 13,
+     "j": 7,
+     "g": 3,
+     "n": 4,
+     "p": 0,
+     "bp": 20,
+     "bc": 6,
+     "diff": "+14"
+    },
+    {
+     "r": 5,
+     "team": "Veymerange CS",
+     "pts": 11,
+     "j": 6,
+     "g": 3,
+     "n": 2,
+     "p": 1,
+     "bp": 15,
+     "bc": 7,
+     "diff": "+8"
+    },
+    {
+     "r": 6,
+     "team": "Fagnières ES",
+     "pts": 8,
+     "j": 7,
+     "g": 2,
+     "n": 2,
+     "p": 3,
+     "bp": 8,
+     "bc": 16,
+     "diff": "-8"
+    },
+    {
+     "r": 7,
+     "team": "Val de l'Aisne AS",
+     "pts": 7,
+     "j": 7,
+     "g": 2,
+     "n": 1,
+     "p": 4,
+     "bp": 14,
+     "bc": 15,
+     "diff": "-1"
+    },
+    {
+     "r": 8,
+     "team": "Val de l'Orne FC",
+     "pts": 7,
+     "j": 6,
+     "g": 2,
+     "n": 1,
+     "p": 3,
+     "bp": 13,
+     "bc": 14,
+     "diff": "-1"
+    },
+    {
+     "r": 9,
+     "team": "Plantières UL",
+     "pts": 5,
+     "j": 6,
+     "g": 1,
+     "n": 2,
+     "p": 3,
+     "bp": 10,
+     "bc": 18,
+     "diff": "-8"
+    },
+    {
+     "r": 10,
+     "team": "Reims Murigny FP",
+     "pts": 4,
+     "j": 6,
+     "g": 1,
+     "n": 1,
+     "p": 4,
+     "bp": 10,
+     "bc": 18,
+     "diff": "-8"
+    },
+    {
+     "r": 11,
+     "team": "Reims Christo FC",
+     "pts": 4,
+     "j": 7,
+     "g": 1,
+     "n": 1,
+     "p": 5,
+     "bp": 9,
+     "bc": 20,
+     "diff": "-11"
+    },
+    {
+     "r": 12,
+     "team": "Rethel SF",
+     "pts": 3,
+     "j": 7,
+     "g": 0,
+     "n": 3,
+     "p": 4,
+     "bp": 9,
+     "bc": 20,
+     "diff": "-11"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "D1",
+   "key": "Départemental 1 Haute-Marne",
+   "maj": "après la journée du 1er nov.",
+   "url": "https://hautemarne.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Ornel Chanc SL",
+     "pts": 16,
+     "j": 7
+    },
+    {
+     "r": 2,
+     "team": "Joinville Vecque FC",
+     "pts": 15,
+     "j": 7
+    },
+    {
+     "r": 3,
+     "team": "Langres CO",
+     "pts": 14,
+     "j": 6
+    },
+    {
+     "r": 4,
+     "team": "Marnaval SC 2",
+     "pts": 12,
+     "j": 7
+    },
+    {
+     "r": 5,
+     "team": "Montier en Der US",
+     "pts": 11,
+     "j": 7
+    },
+    {
+     "r": 6,
+     "team": "Sarrey Montigny AS 2",
+     "pts": 10,
+     "j": 7
+    },
+    {
+     "r": 7,
+     "team": "Andelot Rim ES",
+     "pts": 8,
+     "j": 7
+    },
+    {
+     "r": 8,
+     "team": "ECMR",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "Neuilly SR",
+     "pts": 6,
+     "j": 7
+    },
+    {
+     "r": 10,
+     "team": "Vaux sur Blaise USIB 2",
+     "pts": 5,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "St Geosmois FC 2",
+     "pts": 5,
+     "j": 5
+    },
+    {
+     "r": 12,
+     "team": "Prez Bourmont FC",
+     "pts": 1,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "D1",
+   "key": "D1 Ardennes",
+   "maj": "après la journée du 1er nov.",
+   "url": "https://districtfoot08.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Asfeld AS",
+     "pts": 20,
+     "j": 9
+    },
+    {
+     "r": 2,
+     "team": "Nouvion USC",
+     "pts": 17,
+     "j": 7
+    },
+    {
+     "r": 3,
+     "team": "Liart/Signy FC",
+     "pts": 16,
+     "j": 9
+    },
+    {
+     "r": 4,
+     "team": "Charleville Prix OAM 3",
+     "pts": 14,
+     "j": 8
+    },
+    {
+     "r": 5,
+     "team": "FC de Haybes",
+     "pts": 14,
+     "j": 8
+    },
+    {
+     "r": 6,
+     "team": "Boulzicourt",
+     "pts": 11,
+     "j": 7
+    },
+    {
+     "r": 7,
+     "team": "Tournes Ren. Maz. AS 2",
+     "pts": 10,
+     "j": 8
+    },
+    {
+     "r": 8,
+     "team": "Charleville ES",
+     "pts": 9,
+     "j": 9
+    },
+    {
+     "r": 9,
+     "team": "Villers Semeuse CA 2",
+     "pts": 9,
+     "j": 8
+    },
+    {
+     "r": 10,
+     "team": "Vivarois SC",
+     "pts": 8,
+     "j": 8
+    },
+    {
+     "r": 11,
+     "team": "Buzancy SOS",
+     "pts": 7,
+     "j": 9
+    },
+    {
+     "r": 12,
+     "team": "Bazeilles US 2",
+     "pts": 3,
+     "j": 8
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "D1",
+   "key": "Départemental 1 Aube",
+   "maj": "après la journée du 1er nov.",
+   "url": "https://district-aube.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "St Méziéry FC 2",
+     "pts": 18,
+     "j": 7
+    },
+    {
+     "r": 2,
+     "team": "SAF",
+     "pts": 18,
+     "j": 6
+    },
+    {
+     "r": 3,
+     "team": "Chartreux AS 2",
+     "pts": 15,
+     "j": 7
+    },
+    {
+     "r": 4,
+     "team": "Nogent / Port AS",
+     "pts": 13,
+     "j": 7
+    },
+    {
+     "r": 5,
+     "team": "Vaudoise JS",
+     "pts": 10,
+     "j": 7
+    },
+    {
+     "r": 6,
+     "team": "USVD",
+     "pts": 10,
+     "j": 7
+    },
+    {
+     "r": 7,
+     "team": "Morgendois FC",
+     "pts": 8,
+     "j": 7
+    },
+    {
+     "r": 8,
+     "team": "AS Chartreux Port",
+     "pts": 7,
+     "j": 7
+    },
+    {
+     "r": 9,
+     "team": "Aube UFC",
+     "pts": 7,
+     "j": 7
+    },
+    {
+     "r": 10,
+     "team": "Nord Aubois ES",
+     "pts": 7,
+     "j": 7
+    },
+    {
+     "r": 11,
+     "team": "St Julien JSFC 2",
+     "pts": 4,
+     "j": 7
+    },
+    {
+     "r": 12,
+     "team": "Rosières OS 2",
+     "pts": 1,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "D1",
+   "key": "District 1 Marne",
+   "maj": "après la journée du 1er nov.",
+   "url": "https://marne.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Nord Champagne FC",
+     "pts": 17,
+     "j": 7
+    },
+    {
+     "r": 2,
+     "team": "Gueux AS",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 3,
+     "team": "Vitry FC 2",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 4,
+     "team": "St Brice Courcelles 2",
+     "pts": 12,
+     "j": 5
+    },
+    {
+     "r": 5,
+     "team": "Witry les Reims ES",
+     "pts": 12,
+     "j": 5
+    },
+    {
+     "r": 6,
+     "team": "Oiry US",
+     "pts": 11,
+     "j": 7
+    },
+    {
+     "r": 7,
+     "team": "Reims Christo FC 2",
+     "pts": 8,
+     "j": 6
+    },
+    {
+     "r": 8,
+     "team": "Neuvillette Jamin 3",
+     "pts": 8,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "Cernay Berru Lava AS",
+     "pts": 4,
+     "j": 6
+    },
+    {
+     "r": 10,
+     "team": "Argonne FC",
+     "pts": 4,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "Avize Grauves US 2",
+     "pts": 4,
+     "j": 7
+    },
+    {
+     "r": 12,
+     "team": "Fagnières ES 2",
+     "pts": 3,
+     "j": 7
+    },
+    {
+     "r": 13,
+     "team": "Reims Espérance 2",
+     "pts": 1,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F",
+   "key": "Régional 2 féminin Hauts-de-France · Poule A",
+   "maj": "après la journée du 25 oct.",
+   "url": "https://epreuves.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "GPT Féminin BCV Laon",
+     "pts": 12,
+     "j": 4
+    },
+    {
+     "r": 2,
+     "team": "Noyelles s/Lens US",
+     "pts": 12,
+     "j": 5
+    },
+    {
+     "r": 3,
+     "team": "Pont Ste Maxence US",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 4,
+     "team": "Villeneuve d'Ascq FF 2",
+     "pts": 6,
+     "j": 4
+    },
+    {
+     "r": 5,
+     "team": "St Leu Esserent USE",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 6,
+     "team": "Avion US CHTS",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 7,
+     "team": "Longueau ESC",
+     "pts": 3,
+     "j": 5
+    },
+    {
+     "r": 8,
+     "team": "Vermelles US",
+     "pts": 2,
+     "j": 4
+    },
+    {
+     "r": 9,
+     "team": "Ent. Souchez Neuville",
+     "pts": 1,
+     "j": 4
+    },
+    {
+     "r": 10,
+     "team": "Amiens SCF 2",
+     "pts": 0,
+     "j": 4
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R1",
+   "key": "Régional 1 Hauts-de-France · Poule A",
+   "maj": "relevé le 6 nov. sur Sportcorico",
+   "url": "https://www.sportcorico.com/championnat/hauts-de-france-seniors-regional-1-5/phase-unique/poule-a",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Hazebrouck SC",
+     "pts": 14,
+     "j": 7,
+     "g": 4,
+     "n": 2,
+     "p": 1,
+     "bp": 9,
+     "bc": 8,
+     "diff": "+1"
+    },
+    {
+     "r": 2,
+     "team": "AFC Compiègne",
+     "pts": 13,
+     "j": 7,
+     "g": 4,
+     "n": 1,
+     "p": 2,
+     "bp": 13,
+     "bc": 8,
+     "diff": "+5"
+    },
+    {
+     "r": 3,
+     "team": "US Boulogne CO 2",
+     "pts": 13,
+     "j": 7,
+     "g": 4,
+     "n": 1,
+     "p": 2,
+     "bp": 15,
+     "bc": 12,
+     "diff": "+3"
+    },
+    {
+     "r": 4,
+     "team": "Amiens SC 2",
+     "pts": 12,
+     "j": 7,
+     "g": 3,
+     "n": 3,
+     "p": 1,
+     "bp": 16,
+     "bc": 12,
+     "diff": "+4"
+    },
+    {
+     "r": 5,
+     "team": "Bondues FC",
+     "pts": 12,
+     "j": 7,
+     "g": 3,
+     "n": 3,
+     "p": 1,
+     "bp": 14,
+     "bc": 11,
+     "diff": "+3"
+    },
+    {
+     "r": 6,
+     "team": "Soissons IFC",
+     "pts": 11,
+     "j": 7,
+     "g": 2,
+     "n": 5,
+     "p": 0,
+     "bp": 15,
+     "bc": 9,
+     "diff": "+6"
+    },
+    {
+     "r": 7,
+     "team": "Itancourt Neuville",
+     "pts": 11,
+     "j": 7,
+     "g": 3,
+     "n": 2,
+     "p": 2,
+     "bp": 12,
+     "bc": 10,
+     "diff": "+2"
+    },
+    {
+     "r": 8,
+     "team": "O. Grande-Synthe",
+     "pts": 10,
+     "j": 7,
+     "g": 3,
+     "n": 1,
+     "p": 3,
+     "bp": 10,
+     "bc": 10,
+     "diff": "0"
+    },
+    {
+     "r": 9,
+     "team": "FC Chambly Oise 2",
+     "pts": 8,
+     "j": 7,
+     "g": 2,
+     "n": 2,
+     "p": 3,
+     "bp": 8,
+     "bc": 9,
+     "diff": "-1"
+    },
+    {
+     "r": 10,
+     "team": "Béthune Stade",
+     "pts": 8,
+     "j": 7,
+     "g": 2,
+     "n": 2,
+     "p": 3,
+     "bp": 9,
+     "bc": 12,
+     "diff": "-3"
+    },
+    {
+     "r": 11,
+     "team": "US Gravelines",
+     "pts": 7,
+     "j": 7,
+     "g": 2,
+     "n": 1,
+     "p": 4,
+     "bp": 9,
+     "bc": 11,
+     "diff": "-2"
+    },
+    {
+     "r": 12,
+     "team": "US Maubeuge",
+     "pts": 6,
+     "j": 7,
+     "g": 1,
+     "n": 3,
+     "p": 3,
+     "bp": 5,
+     "bc": 9,
+     "diff": "-4"
+    },
+    {
+     "r": 13,
+     "team": "Le Touquet AC",
+     "pts": 4,
+     "j": 7,
+     "g": 1,
+     "n": 1,
+     "p": 5,
+     "bp": 7,
+     "bc": 13,
+     "diff": "-6"
+    },
+    {
+     "r": 14,
+     "team": "Stade Orchies",
+     "pts": 4,
+     "j": 7,
+     "g": 1,
+     "n": 1,
+     "p": 5,
+     "bp": 7,
+     "bc": 15,
+     "diff": "-8"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R3",
+   "key": "Régional 3 · Poule B",
+   "maj": "relevé le 6 nov. sur Sportcorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-3-ihe-energies-1/phase-lgef/poule-b",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Châlons FCO",
+     "pts": 17,
+     "j": 7,
+     "g": 5,
+     "n": 2,
+     "p": 0,
+     "bp": 17,
+     "bc": 10,
+     "diff": "+7"
+    },
+    {
+     "r": 2,
+     "team": "Cormontreuil FC 2",
+     "pts": 14,
+     "j": 7,
+     "g": 4,
+     "n": 2,
+     "p": 1,
+     "bp": 24,
+     "bc": 14,
+     "diff": "+10"
+    },
+    {
+     "r": 3,
+     "team": "Tinqueux Champ. FC",
+     "pts": 14,
+     "j": 7,
+     "g": 4,
+     "n": 2,
+     "p": 1,
+     "bp": 14,
+     "bc": 9,
+     "diff": "+5"
+    },
+    {
+     "r": 4,
+     "team": "Neuvillette Jamin 2",
+     "pts": 12,
+     "j": 7,
+     "g": 4,
+     "n": 0,
+     "p": 3,
+     "bp": 17,
+     "bc": 17,
+     "diff": "0"
+    },
+    {
+     "r": 5,
+     "team": "Reims Ste Anne 2",
+     "pts": 9,
+     "j": 7,
+     "g": 3,
+     "n": 0,
+     "p": 4,
+     "bp": 13,
+     "bc": 12,
+     "diff": "+1"
+    },
+    {
+     "r": 6,
+     "team": "Tournes Ren. Maz. AS",
+     "pts": 8,
+     "j": 7,
+     "g": 2,
+     "n": 2,
+     "p": 3,
+     "bp": 11,
+     "bc": 10,
+     "diff": "+1"
+    },
+    {
+     "r": 7,
+     "team": "Le Chesne USA",
+     "pts": 8,
+     "j": 6,
+     "g": 2,
+     "n": 2,
+     "p": 2,
+     "bp": 15,
+     "bc": 14,
+     "diff": "+1"
+    },
+    {
+     "r": 8,
+     "team": "Porcien FC",
+     "pts": 8,
+     "j": 7,
+     "g": 2,
+     "n": 2,
+     "p": 3,
+     "bp": 11,
+     "bc": 8,
+     "diff": "+3"
+    },
+    {
+     "r": 9,
+     "team": "Rémoise Espérance",
+     "pts": 7,
+     "j": 7,
+     "g": 2,
+     "n": 1,
+     "p": 4,
+     "bp": 13,
+     "bc": 22,
+     "diff": "-9"
+    },
+    {
+     "r": 10,
+     "team": "ES des Coteaux Sud",
+     "pts": 7,
+     "j": 6,
+     "g": 2,
+     "n": 1,
+     "p": 3,
+     "bp": 10,
+     "bc": 12,
+     "diff": "-2"
+    },
+    {
+     "r": 11,
+     "team": "Bétheny FC",
+     "pts": 6,
+     "j": 7,
+     "g": 1,
+     "n": 3,
+     "p": 3,
+     "bp": 14,
+     "bc": 20,
+     "diff": "-6"
+    },
+    {
+     "r": 12,
+     "team": "Bourg Rocroi AS",
+     "pts": 4,
+     "j": 7,
+     "g": 1,
+     "n": 1,
+     "p": 5,
+     "bp": 10,
+     "bc": 21,
+     "diff": "-11"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R3",
+   "key": "Régional 3 · Poule C",
+   "maj": "relevé le 6 nov. sur Sportcorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-3-ihe-energies-1/phase-lgef/poule-c",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Sézannais SC",
+     "pts": 19,
+     "j": 7,
+     "g": 6,
+     "n": 1,
+     "p": 0,
+     "bp": 14,
+     "bc": 6,
+     "diff": "+8"
+    },
+    {
+     "r": 2,
+     "team": "Étoile Chapelaine",
+     "pts": 17,
+     "j": 7,
+     "g": 5,
+     "n": 2,
+     "p": 0,
+     "bp": 27,
+     "bc": 13,
+     "diff": "+14"
+    },
+    {
+     "r": 3,
+     "team": "Troyes Municipaux ES",
+     "pts": 13,
+     "j": 7,
+     "g": 4,
+     "n": 1,
+     "p": 2,
+     "bp": 15,
+     "bc": 13,
+     "diff": "+2"
+    },
+    {
+     "r": 4,
+     "team": "St Martin la VE FC",
+     "pts": 13,
+     "j": 7,
+     "g": 4,
+     "n": 1,
+     "p": 2,
+     "bp": 19,
+     "bc": 14,
+     "diff": "+5"
+    },
+    {
+     "r": 5,
+     "team": "Châlons ASPTT",
+     "pts": 12,
+     "j": 7,
+     "g": 4,
+     "n": 0,
+     "p": 3,
+     "bp": 13,
+     "bc": 5,
+     "diff": "+8"
+    },
+    {
+     "r": 6,
+     "team": "Fontaine OV FC",
+     "pts": 11,
+     "j": 7,
+     "g": 3,
+     "n": 2,
+     "p": 2,
+     "bp": 19,
+     "bc": 14,
+     "diff": "+5"
+    },
+    {
+     "r": 7,
+     "team": "Pont Ste Marie AS",
+     "pts": 8,
+     "j": 7,
+     "g": 2,
+     "n": 2,
+     "p": 3,
+     "bp": 14,
+     "bc": 16,
+     "diff": "-2"
+    },
+    {
+     "r": 8,
+     "team": "Rosières OS",
+     "pts": 8,
+     "j": 7,
+     "g": 2,
+     "n": 2,
+     "p": 3,
+     "bp": 16,
+     "bc": 18,
+     "diff": "-2"
+    },
+    {
+     "r": 9,
+     "team": "Romilly Champagne FC",
+     "pts": 6,
+     "j": 7,
+     "g": 2,
+     "n": 1,
+     "p": 4,
+     "bp": 15,
+     "bc": 20,
+     "diff": "-5"
+    },
+    {
+     "r": 10,
+     "team": "Bar Essoyes CFC",
+     "pts": 5,
+     "j": 7,
+     "g": 1,
+     "n": 2,
+     "p": 4,
+     "bp": 10,
+     "bc": 17,
+     "diff": "-7"
+    },
+    {
+     "r": 11,
+     "team": "Nogentais FC 2",
+     "pts": 4,
+     "j": 7,
+     "g": 1,
+     "n": 1,
+     "p": 5,
+     "bp": 12,
+     "bc": 21,
+     "diff": "-9"
+    },
+    {
+     "r": 12,
+     "team": "Chapelains RCS",
+     "pts": 1,
+     "j": 7,
+     "g": 0,
+     "n": 1,
+     "p": 6,
+     "bp": 5,
+     "bc": 22,
+     "diff": "-17"
+    }
+   ]
   }
  ]
 }
