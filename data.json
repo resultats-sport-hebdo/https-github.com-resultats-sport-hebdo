@@ -1984,6 +1984,36 @@
      "sa": 24,
      "note": "",
      "url": "https://rugbyamateur.fr/federale-3-resultats-31-octobre-1-novembre-2026/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R1",
+     "comp": "Régional 1 Homiris · Poule A · J9",
+     "date": "Dim. 1er nov.",
+     "home": "CS Sedan Ardennes",
+     "hz": "charleville",
+     "away": "Amnéville CSO",
+     "az": null,
+     "sh": 3,
+     "sa": 1,
+     "note": "",
+     "url": "https://www.sportcorico.com/clubs/cs-sedan-ardennes/cs-sedan-ardennes-2"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R1",
+     "comp": "Régional 1 Homiris · Poule A · J9",
+     "date": "Dim. 1er nov.",
+     "home": "US Thionville Lusitanos 2",
+     "hz": null,
+     "away": "RC Épernay Champagne",
+     "az": "epernay",
+     "sh": 1,
+     "sa": 0,
+     "note": "",
+     "url": "https://www.sportcorico.com/match/thionville-lusitanos-seniors-2-epernay-champagne-rc-seniors-1-tqanc"
     }
    ],
    "agenda": [
@@ -2051,6 +2081,32 @@
      "comp": "Betclic Élite",
      "place": "Rhénus Sport",
      "url": "https://www.bebasket.fr/equipe/strasbourg/calendrier"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "18:30",
+     "home": "RC Épernay Champagne",
+     "hz": "epernay",
+     "away": "US Uckange",
+     "az": null,
+     "comp": "Régional 1 Homiris · J10",
+     "place": "Épernay",
+     "url": "https://www.sportcorico.com/clubs/rc-epernay-champagne/rc-epernay"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "14:30",
+     "home": "US Avize-Grauves",
+     "hz": "epernay",
+     "away": "RC Épernay Champagne 2",
+     "az": "epernay",
+     "comp": "Régional 2 · Poule B",
+     "place": "Avize",
+     "url": "https://www.sportcorico.com/clubs/rc-epernay-champagne"
     }
    ]
   }
@@ -2119,6 +2175,10 @@
   {
    "name": "AS Saint-Brice-Courcelles Handball",
    "url": "https://www.handstbrice.fr/"
+  },
+  {
+   "name": "SportCorico",
+   "url": "https://www.sportcorico.com/"
   }
  ]
 }
