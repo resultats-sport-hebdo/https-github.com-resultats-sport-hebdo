@@ -985,36 +985,6 @@
    "level": "Régional"
   },
   {
-   "club": "CHATEAU THIERRY CTT",
-   "sport": "Tennis de table",
-   "zone": "chthierry",
-   "level": "Régional"
-  },
-  {
-   "club": "LAON TT",
-   "sport": "Tennis de table",
-   "zone": "laon",
-   "level": "Régional"
-  },
-  {
-   "club": "SOISSONS ASPTT",
-   "sport": "Tennis de table",
-   "zone": "soissons",
-   "level": "Régional"
-  },
-  {
-   "club": "ST QUENTIN TT",
-   "sport": "Tennis de table",
-   "zone": "stquentin",
-   "level": "Régional"
-  },
-  {
-   "club": "VENIZEL TT",
-   "sport": "Tennis de table",
-   "zone": "soissons",
-   "level": "Régional"
-  },
-  {
    "club": "CHATEAU THIERRY",
    "sport": "Volley",
    "zone": "chthierry",
@@ -1042,24 +1012,6 @@
    "club": "VILLERS COTTERETS",
    "sport": "Volley",
    "zone": "soissons",
-   "level": "Régional"
-  },
-  {
-   "club": "Badminton Club de Tournes",
-   "sport": "Badminton",
-   "zone": "charleville",
-   "level": "Régional"
-  },
-  {
-   "club": "La Plume de Charleville",
-   "sport": "Badminton",
-   "zone": "charleville",
-   "level": "Régional"
-  },
-  {
-   "club": "Very Bad Team",
-   "sport": "Badminton",
-   "zone": "charleville",
    "level": "Régional"
   },
   {
@@ -1109,18 +1061,6 @@
    "club": "Rethel S Rugby XV",
    "sport": "Rugby",
    "zone": "rethel",
-   "level": "Régional"
-  },
-  {
-   "club": "ESCPO Badminton",
-   "sport": "Badminton",
-   "zone": "troyes",
-   "level": "Régional"
-  },
-  {
-   "club": "Patronages laïques de Troyes",
-   "sport": "Badminton",
-   "zone": "troyes",
    "level": "Régional"
   },
   {
@@ -1231,36 +1171,6 @@
    "club": "Patronage Laïque des Augustins Volley-Ball",
    "sport": "Volley",
    "zone": "troyes",
-   "level": "Régional"
-  },
-  {
-   "club": "BAD Tinqueux",
-   "sport": "Badminton",
-   "zone": "reims",
-   "level": "Régional"
-  },
-  {
-   "club": "Châlons Agglo Badminton",
-   "sport": "Badminton",
-   "zone": "chalons",
-   "level": "Régional"
-  },
-  {
-   "club": "Magenta Badminton Club",
-   "sport": "Badminton",
-   "zone": "epernay",
-   "level": "Régional"
-  },
-  {
-   "club": "Reims Europe Club Badminton",
-   "sport": "Badminton",
-   "zone": "reims",
-   "level": "Régional"
-  },
-  {
-   "club": "Reims Métropole Badminton",
-   "sport": "Badminton",
-   "zone": "reims",
    "level": "Régional"
   },
   {
