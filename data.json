@@ -720,7 +720,7 @@
    "div": "R1"
   },
   {
-   "club": "Taissy (féminines)",
+   "club": "AS Taissy (féminines)",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -1633,15 +1633,15 @@
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Coupe de France féminine · finale régionale",
-     "date": "Week-end 30 oct.–1er nov.",
-     "home": "Taissy (féminines)",
+     "comp": "Coupe de France féminine · finale régionale Grand Est",
+     "date": "Dim. 1er nov.",
+     "home": "AS Taissy (féminines)",
      "hz": "reims",
      "away": "ESTAC Troyes féminines",
      "az": "troyes",
      "sh": 4,
      "sa": 6,
-     "note": "",
+     "note": "Au stade Vastag de Taissy.",
      "url": "https://www.sportclub-reims.fr/2026/11/les-joueuses-de-taissy-a-la-fois-si-proches-et-si-loin-de-lestac-en-coupe/"
     },
     {
@@ -1930,7 +1930,7 @@
      "sport": "Handball",
      "level": "National",
      "comp": "Nationale 1 masculine · J6",
-     "date": "Date non précisée",
+     "date": "Sam. 24 oct.",
      "home": "Beaune Handball",
      "hz": null,
      "away": "AS St Brice",
