@@ -1514,8 +1514,8 @@
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 3 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
+     "comp": "Régional 3 · Poule B · J7",
+     "date": "Dim. 1er nov.",
      "home": "Reims Ste Anne 2",
      "hz": "reims",
      "away": "Tournes Ren. Maz. AS",
@@ -1542,8 +1542,8 @@
     {
      "sport": "Football",
      "level": "Régional",
-     "comp": "Régional 3 · J7",
-     "date": "Week-end 30 oct.–1er nov.",
+     "comp": "Régional 3 · Poule B · J7",
+     "date": "Dim. 1er nov.",
      "home": "Châlons FCO",
      "hz": "chalons",
      "away": "Cormontreuil FC 2",
@@ -2155,6 +2155,21 @@
      "az": "stdizier",
      "sh": 1,
      "sa": 4,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "div": "R3",
+     "comp": "Régional 3 · Poule B · J7",
+     "date": "Dim. 1er nov.",
+     "home": "ES des Coteaux Sud",
+     "hz": "epernay",
+     "away": "Bourg Rocroi AS",
+     "az": "charleville",
+     "sh": 3,
+     "sa": 0,
      "note": "",
      "url": "https://epreuves.fff.fr/"
     }
