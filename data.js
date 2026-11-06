@@ -1401,6 +1401,20 @@ window.RSH_DATA = {
    "sport": "Volley",
    "zone": "stdizier",
    "level": "Régional"
+  },
+  {
+   "club": "Charleville Prix OAM 2",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "Régional",
+   "div": "R1"
+  },
+  {
+   "club": "Charleville Prix OAM",
+   "sport": "Football",
+   "zone": "charleville",
+   "level": "National",
+   "div": "National"
   }
  ],
  "editions": [
