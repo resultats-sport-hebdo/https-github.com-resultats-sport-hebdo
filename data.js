@@ -240,7 +240,7 @@ window.RSH_DATA = {
    "div": "National"
   },
   {
-   "club": "O. Charleville Prix AM",
+   "club": "Charleville Prix OAM",
    "sport": "Football",
    "zone": "charleville",
    "level": "National",
@@ -275,7 +275,7 @@ window.RSH_DATA = {
    "div": "R1"
   },
   {
-   "club": "O. Charleville Prix AM 2",
+   "club": "Charleville Prix OAM 2",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -508,7 +508,7 @@ window.RSH_DATA = {
   {
    "club": "ES Coteaux Sud",
    "sport": "Football",
-   "zone": "reims",
+   "zone": "epernay",
    "level": "Régional",
    "div": "R3"
   },

@@ -1,5 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title id="t-title">Résultats Sport Hebdo</title>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body><title id="t-title">Résultats Sport Hebdo</title>
 <meta id="t-meta" name="claude:viewport-fit-sides" content="cover">
 <link id="t-pc1" rel="preconnect" href="https://fonts.googleapis.com">
 <link id="t-pc2" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -180,7 +179,10 @@ function start(DATA){
   fillEditions();
   edSel.addEventListener('change',()=>{cur=eds.find(e=>e.id===edSel.value)||eds[0];render();});
 
-  const visClubs = ()=>allClubs.filter(c=>{const m=clubMap.get(c);return !offS.has(m.sport)&&!offZ.has(m.zone)&&!(m.sport==='Football'&&m.div&&offD.has(m.div))&&(!q||norm(c).includes(q));});
+  const visClubs = ()=>allClubs.filter(c=>{const m=clubMap.get(c);return !offS.has(m.sport)&&!offZ.has(m.zone)&&!(m.sport==='Football'&&m.div&&offD.has(m.div))&&matchQ(c);});
+  // club search: every typed word must appear in the name, in any order; dots, dashes and accents are ignored
+  const flat=t=>norm(t).replace(/[^a-z0-9]+/g,' ').trim();
+  const matchQ=c=>{ if(!q) return true; const n=' '+flat(c)+' '; return flat(q).split(' ').every(w=>n.includes(w)); };
   // a département chip is pressed when all its zones are on, "mixed" when only some are
   const depZones = d=>DATA.zones.filter(z=>z.dep===d);
   const depState = d=>{const zs=depZones(d), on=zs.filter(z=>!offZ.has(z.k)).length; return on===zs.length?'true':(on?'mixed':'false');};
@@ -247,5 +249,4 @@ function start(DATA){
     claude.use('user').then(async u=>{ if(u && await u.canEdit()) $('admin-link').hidden=false; }).catch(()=>{});
   }
 }
-</script>
-</body></html>
+</script></body></html>
