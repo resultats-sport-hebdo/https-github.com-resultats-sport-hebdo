@@ -958,10 +958,11 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "SAINT QUENTIN HANDBALL",
+   "club": "Saint Quentin Handball (féminines)",
    "sport": "Handball",
    "zone": "stquentin",
-   "level": "Régional"
+   "level": "National",
+   "genre": "F"
   },
   {
    "club": "Entente Soissons",
@@ -1776,6 +1777,32 @@ window.RSH_DATA = {
    "zone": "reims",
    "level": "Régional",
    "genre": "F"
+  },
+  {
+   "club": "Ent. Sainte-Maure-Troyes HB féminin",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "National",
+   "genre": "F"
+  },
+  {
+   "club": "Rosières St-Julien HB (féminines)",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "National",
+   "genre": "F"
+  },
+  {
+   "club": "Elite Axonaise Handball (Honneur M)",
+   "sport": "Handball",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Elite Axonaise Handball EXCMR",
+   "sport": "Handball",
+   "zone": "soissons",
+   "level": "Régional"
   }
  ],
  "editions": [
@@ -3494,6 +3521,33 @@ window.RSH_DATA = {
      "comp": "Régional 1 futsal féminin",
      "place": "",
      "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "day": "Sam. 7 nov.",
+     "time": "19:00",
+     "home": "Handball Club de Gagny",
+     "hz": null,
+     "away": "Reims Champagne Handball",
+     "az": "reims",
+     "comp": "Nationale 2 féminine · Poule 5 · J7",
+     "place": "",
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Sam. 7 nov.",
+     "time": "19:00",
+     "home": "Pévèle Handball Club 2",
+     "hz": null,
+     "away": "Elite Axonaise Handball (Honneur M)",
+     "az": "soissons",
+     "comp": "Honneur régionale masculine Hauts-de-France · Poule 2 · J6",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
     }
    ]
   }
