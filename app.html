@@ -214,6 +214,13 @@ details.cl[open]>summary::after{transform:rotate(225deg)}
 .clubsall{padding:6px 16px 14px}
 .cdep h3{margin:12px 0 6px;font:700 12.5px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .cchip{display:inline-flex;align-items:center;gap:4px;padding:5px 10px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;background:var(--card)}
+.cchip.has button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px;color:var(--ink)}
+.cchip.has{border-color:var(--sport)}
+.cchip.has button b{font-size:11px;color:var(--sport)}
+.cchip.has button:focus-visible{outline:2px solid var(--sport);outline-offset:2px;border-radius:4px}
+.fxcl{padding:0 14px 10px}
+.cnote{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+#clubcl .clh{margin:14px 0 6px;font-size:15px}
 .cchip i{font-style:normal;font-size:11px;font-weight:700;color:var(--fem)}
 h2.sec{margin:34px 0 12px;font:800 32px var(--head)}
 
@@ -474,11 +481,14 @@ function start(DATA){
   function nextBlock(fx){ if(!fx.length) return '';
     return `<h2 class="sec" id="prochain">Le week-end prochain</h2><div class="card"><header>${fx.length} match${fx.length>1?'s':''} à venir<small><a class="lnk" href="${href(route.sport,'next')}" data-go="${route.sport?SP[route.sport].slug:''}" data-view="next">Tout le programme →</a></small></header>${fx.slice(0,8).map(f=>`<div class="fx"><div class="h">${esc(f.time||'–')}<small>${esc(f.day)}</small></div><div><strong>${esc(f.home)} – ${esc(f.away)}</strong><span>${route.sport?'':esc(f.sport)+' · '}${esc(f.comp)}${f.place?' · '+esc(f.place):''}</span></div></div>`).join('')}</div>`; }
   // the clubs we follow in this sport, by département, so readers see who is covered even on a quiet week
+  const nrm=t=>String(t||'').toLowerCase().normalize('NFD').replace(/[^a-z0-9]/g,'');
+  // index of the standings table that contains this club (by exact name or the table's explicit club list)
+  const clubCl=c=>CL.findIndex(t=>t.sport===c.sport&&t.rows&&t.rows.length&&((t.clubs||[]).includes(c.club)||t.rows.some(x=>nrm(x.team)===nrm(c.club))));
   function clubsBlock(sport){
     const list=DATA.suivi.filter(c=>c.sport===sport&&zoneOf(c.zone)&&!/hors/i.test(zoneOf(c.zone).dep||''));
     if(!list.length) return '';
     const by=new Map(); list.forEach(c=>{const d=zoneOf(c.zone).dep; if(!by.has(d)) by.set(d,[]); by.get(d).push(c);});
-    return `<h2 class="sec">Nos clubs de ${esc(sport.toLowerCase())}</h2><div class="card clubsall">${[...by.entries()].map(([d,l])=>`<div class="cdep"><h3>${esc(d)}</h3><div class="chips">${l.sort((a,b)=>a.club.localeCompare(b.club,'fr')).map(c=>`<span class="cchip">${star(c.club)}${esc(c.club)}${c.genre==='F'?' <i>F</i>':''}</span>`).join('')}</div></div>`).join('')}</div>`;
+    return `<h2 class="sec">Nos clubs de ${esc(sport.toLowerCase())}</h2><div class="card clubsall">${[...by.entries()].map(([d,l])=>`<div class="cdep"><h3>${esc(d)}</h3><div class="chips">${l.sort((a,b)=>a.club.localeCompare(b.club,'fr')).map(c=>{const ci=clubCl(c); return ci>=0?`<span class="cchip has">${star(c.club)}<button type="button" class="cl-club" data-ci="${ci}" title="Voir le classement de sa poule">${esc(c.club)}${c.genre==='F'?' <i>F</i>':''} <b>▤</b></button></span>`:`<span class="cchip">${star(c.club)}${esc(c.club)}${c.genre==='F'?' <i>F</i>':''}</span>`;}).join('')}</div></div>`).join('')}<p class="cnote">▤ : touchez un club pour afficher le classement de sa poule.</p><div id="clubcl"></div></div>`;
   }
   function famsHtml(gs){ return gs.map(g=>{const lv=g.cards[0].rs[0].level||'National', fem=g.cards.every(c=>c.rs.every(r=>genreOf(r)==='Féminin'));
         return `<section class="fam"><h2>${esc(g.f)} <span class="badge">${esc(lv)}</span>${fem?'<span class="badge f">Féminin</span>':''}<span class="cnt">${g.n} match${g.n>1?'s':''}</span></h2><div class="cards${g.cards.length===1?' solo':''}">${g.cards.map(c=>{const t=c.k===g.f?(g.cards.length>1?'Autres matchs':''):(c.k.startsWith(g.f)?c.k.slice(g.f.length).replace(/^\s*·\s*/,''):c.k); const cl0=clFor(c.rs[0].sport,c.k), cl=cl0&&cl0.rows&&cl0.rows.length?cl0:null; const cup=/coupe|troph/i.test(c.k); const xu=!cl&&!cup?(cl0&&safeUrl(cl0.url)||FED[c.rs[0].sport]||''):'';
@@ -632,7 +642,7 @@ function start(DATA){
     if(route.view==='next'){
       const days=new Map(); fx.forEach(f=>{const k=f.day||'À préciser'; if(!days.has(k)) days.set(k,[]); days.get(k).push(f);});
       main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
-        (fx.length?`<div class="days">${[...days.entries()].map(([d,l])=>`<section class="card"><header>${esc(d)}<small>${l.length} match${l.length>1?'s':''}</small></header>${l.map(f=>{const u=safeUrl(f.url);return `<div class="fx"><div class="h">${esc(f.time||'–')}${route.sport?'':`<small>${esc(f.sport)}</small>`}</div><div><strong>${star(f.home)}${esc(f.home)} – ${esc(f.away)}${star(f.away)}</strong><span>${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}</span></div></div>`;}).join('')}</section>`).join('')}</div>`
+        (fx.length?`<div class="days">${[...days.entries()].map(([d,l])=>`<section class="card"><header>${esc(d)}<small>${l.length} match${l.length>1?'s':''}</small></header>${l.map(f=>{const u=safeUrl(f.url);return `<div class="fx"><div class="h">${esc(f.time||'–')}${route.sport?'':`<small>${esc(f.sport)}</small>`}</div><div><strong>${star(f.home)}${esc(f.home)} – ${esc(f.away)}${star(f.away)}</strong><span>${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}${(()=>{const t=clFor(f.sport,keyOf(f.comp));return t&&t.rows&&t.rows.length?` · <button type="button" class="lnk fx-cl" data-ci="${CL.indexOf(t)}">Classement</button>`:'';})()}</span></div></div>`;}).join('')}</section>`).join('')}</div>`
         :`<div class="empty">Pas de match annoncé pour cette sélection.</div>`);
       return;
     }
@@ -661,6 +671,8 @@ function start(DATA){
       :`<div class="empty">Aucun résultat de ${esc(route.sport.toLowerCase())} cette semaine pour cette sélection.<br>${reset}</div>`)+nextBlock(fx)+clubsBlock(route.sport);
   }
   $('main').addEventListener('click',e=>{ if(e.target.closest('[data-reset]')){ openAll(); save(); render(); return; }
+    const fc=e.target.closest('.fx-cl'); if(fc){ const row=fc.closest('.fx'), nx=row.nextElementSibling; if(nx&&nx.classList.contains('fxcl')){ nx.remove(); return; } const t=CL[+fc.dataset.ci]; if(t){ row.insertAdjacentHTML('afterend',`<div class="fxcl">${table(t,true)}</div>`); } return; }
+    const cc=e.target.closest('.cl-club'); if(cc){ const t=CL[+cc.dataset.ci], box=$('clubcl'); if(t&&box){ box.innerHTML=`<h3 class="clh">${esc(t.key)}</h3>`+table(t,true); box.scrollIntoView({behavior:'smooth',block:'nearest'}); } return; }
     const g=e.target.closest('.cl-go'); if(g){ const d=g.closest('.card').querySelector('details.cl'); if(d){ d.open=true; d.scrollIntoView({behavior:'smooth',block:'nearest'}); } } });
   function render(){ try{ hero(); }catch(e){ rshFail(e); } try{ toolbar(); }catch(e){ rshFail(e); } try{ renderMain(); }catch(e){ rshFail(e); }
     $('sources').innerHTML=(DATA.sources||[]).map(s=>{const u=safeUrl(s.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name)}</a>`:esc(s.name)}).join(' · ');

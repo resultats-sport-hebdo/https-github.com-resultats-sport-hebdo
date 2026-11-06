@@ -23,7 +23,9 @@ window.RSH_DATA = {
     "Bezannes",
     "Gueux",
     "Cernay-lès-Reims",
-    "Berru"
+    "Berru",
+    "Fismes",
+    "Bazancourt"
    ]
   },
   {
@@ -35,7 +37,8 @@ window.RSH_DATA = {
     "Saint-Memmie",
     "Fagnières",
     "Recy",
-    "Saint-Martin-sur-le-Pré"
+    "Saint-Martin-sur-le-Pré",
+    "Mourmelon-le-Grand"
    ]
   },
   {
@@ -69,7 +72,8 @@ window.RSH_DATA = {
     "Sézanne",
     "Esternay",
     "Anglure",
-    "Fère-Champenoise"
+    "Fère-Champenoise",
+    "Connantre"
    ]
   },
   {
@@ -124,7 +128,10 @@ window.RSH_DATA = {
     "Pont-Sainte-Marie",
     "Saint-Julien-les-Villas",
     "Rosières-près-Troyes",
-    "Vaudes"
+    "Vaudes",
+    "Verrières",
+    "Arcis-sur-Aube",
+    "Vendeuvre-sur-Barse"
    ]
   },
   {
@@ -134,7 +141,8 @@ window.RSH_DATA = {
    "villes": [
     "Romilly-sur-Seine",
     "Nogent-sur-Seine",
-    "Vallant-Saint-Georges"
+    "Vallant-Saint-Georges",
+    "Pouy-sur-Vannes"
    ]
   },
   {
@@ -145,7 +153,8 @@ window.RSH_DATA = {
     "Bar-sur-Aube",
     "Bar-sur-Seine",
     "Essoyes",
-    "Dienville"
+    "Dienville",
+    "Brienne-le-Château"
    ]
   },
   {
@@ -161,7 +170,9 @@ window.RSH_DATA = {
     "Vaux-sur-Blaise",
     "Joinville",
     "Montier-en-Der",
-    "Chancenay"
+    "Chancenay",
+    "Wassy",
+    "Pont-Varin"
    ]
   },
   {
@@ -176,7 +187,11 @@ window.RSH_DATA = {
     "Sarrey",
     "Bourmont",
     "Andelot-Blancheville",
-    "Neuilly-l'Évêque"
+    "Neuilly-l'Évêque",
+    "Froncles",
+    "Chalindrey",
+    "Nogent",
+    "Montigny-le-Roi"
    ]
   },
   {
@@ -210,7 +225,8 @@ window.RSH_DATA = {
     "La Fère",
     "Crécy-sur-Serre",
     "Bruyères-et-Montbérault",
-    "Guignicourt"
+    "Guignicourt",
+    "Marle"
    ]
   },
   {
@@ -222,7 +238,8 @@ window.RSH_DATA = {
     "Villers-Cotterêts",
     "Belleu",
     "Cuffies",
-    "Courmelles"
+    "Courmelles",
+    "La Ferté-Milon"
    ]
   },
   {
@@ -230,7 +247,8 @@ window.RSH_DATA = {
    "l": "Château-Thierry",
    "dep": "Aisne (02)",
    "villes": [
-    "Château-Thierry"
+    "Château-Thierry",
+    "Fère-en-Tardenois"
    ]
   },
   {
@@ -2310,6 +2328,845 @@ window.RSH_DATA = {
    "sport": "Roller hockey",
    "zone": "troyes",
    "level": "National"
+  },
+  {
+   "club": "AS Laïque d'Aÿ",
+   "sport": "Handball",
+   "zone": "epernay",
+   "level": "Régional"
+  },
+  {
+   "club": "AS Vitry Handball",
+   "sport": "Handball",
+   "zone": "vitry",
+   "level": "Régional"
+  },
+  {
+   "club": "ES Vitry Handball",
+   "sport": "Handball",
+   "zone": "vitry",
+   "level": "Régional"
+  },
+  {
+   "club": "ASC Avize HB",
+   "sport": "Handball",
+   "zone": "epernay",
+   "level": "Régional"
+  },
+  {
+   "club": "CAD Mourmelon",
+   "sport": "Handball",
+   "zone": "chalons",
+   "level": "Régional"
+  },
+  {
+   "club": "ESC Connantre",
+   "sport": "Handball",
+   "zone": "sezanne",
+   "level": "Régional"
+  },
+  {
+   "club": "FJEP Bazancourt",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "RC du Canton d'Anglure",
+   "sport": "Handball",
+   "zone": "sezanne",
+   "level": "Régional"
+  },
+  {
+   "club": "Reims Europe Club Handball",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "US Fismes Ardre et Vesle",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Tinqueux Gueux HC (féminines)",
+   "sport": "Handball",
+   "zone": "reims",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "RC Epernay HB (féminines)",
+   "sport": "Handball",
+   "zone": "epernay",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "ASPTT Châlons Handball (féminines)",
+   "sport": "Handball",
+   "zone": "chalons",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Charleville-Mézières HB",
+   "sport": "Handball",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Charleville-Mézières HB (féminines)",
+   "sport": "Handball",
+   "zone": "charleville",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "HBC Fumay la Pointe",
+   "sport": "Handball",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Bogny Hautes-Rivières Handball",
+   "sport": "Handball",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "HBC Vouziers",
+   "sport": "Handball",
+   "zone": "rethel",
+   "level": "Régional"
+  },
+  {
+   "club": "Yvois-Carignan HB (féminines)",
+   "sport": "Handball",
+   "zone": "charleville",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Arcis Handball Féminin",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "ASPTT Troyes Handball",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "Brienne Handball",
+   "sport": "Handball",
+   "zone": "barsuraube",
+   "level": "Régional"
+  },
+  {
+   "club": "CS Vallée de la Vanne Handball",
+   "sport": "Handball",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "ESC Pays d'Orient",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "HBC Vendeuvre",
+   "sport": "Handball",
+   "zone": "barsuraube",
+   "level": "Régional"
+  },
+  {
+   "club": "Nogent HB",
+   "sport": "Handball",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "PL Bar-sur-Aube Handball",
+   "sport": "Handball",
+   "zone": "barsuraube",
+   "level": "Régional"
+  },
+  {
+   "club": "ETAC Handball 2",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "Ent. Sainte-Maure/Troyes/Arcis 2 (féminines)",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Romilly HB (féminines)",
+   "sport": "Handball",
+   "zone": "romilly",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "FJV Bar-sur-Seine (féminines)",
+   "sport": "Handball",
+   "zone": "barsuraube",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "HBC Savino-Chapelain (féminines)",
+   "sport": "Handball",
+   "zone": "troyes",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "HBC Vendeuvre (féminines)",
+   "sport": "Handball",
+   "zone": "barsuraube",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Saint-Dizier Handball",
+   "sport": "Handball",
+   "zone": "stdizier",
+   "level": "Régional"
+  },
+  {
+   "club": "CO Joinville Handball",
+   "sport": "Handball",
+   "zone": "stdizier",
+   "level": "Régional"
+  },
+  {
+   "club": "Espérance Pont-Varin",
+   "sport": "Handball",
+   "zone": "stdizier",
+   "level": "Régional"
+  },
+  {
+   "club": "Chevillon/Pont-Varin 2",
+   "sport": "Handball",
+   "zone": "stdizier",
+   "level": "Régional"
+  },
+  {
+   "club": "HB Montier-en-Der",
+   "sport": "Handball",
+   "zone": "stdizier",
+   "level": "Régional"
+  },
+  {
+   "club": "HB Montier-en-Der (féminines)",
+   "sport": "Handball",
+   "zone": "stdizier",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "AS Froncles",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "AS Froncles (féminines)",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "CS Chalindrey",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "Handball Club Nogent",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "Chaumont Handball 2",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "Handball Langres (féminines)",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "HBC Val de Meuse (féminines)",
+   "sport": "Handball",
+   "zone": "chaumont",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "FJEP SLIC Chevillon (féminines)",
+   "sport": "Handball",
+   "zone": "stdizier",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "AC Soissons Handball",
+   "sport": "Handball",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "FJEP Courmelles Handball",
+   "sport": "Handball",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Handball Cotterézien",
+   "sport": "Handball",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Handball Milonais",
+   "sport": "Handball",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "HBC Château-Thierry",
+   "sport": "Handball",
+   "zone": "chthierry",
+   "level": "Régional"
+  },
+  {
+   "club": "HBC Château-Thierry (féminines)",
+   "sport": "Handball",
+   "zone": "chthierry",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "UA Féroise Handball",
+   "sport": "Handball",
+   "zone": "chthierry",
+   "level": "Régional"
+  },
+  {
+   "club": "Hand Ball Club Laonnois (masculins)",
+   "sport": "Handball",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "HB Laférois",
+   "sport": "Handball",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "Marle Sport Handball",
+   "sport": "Handball",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "Saint-Quentin Handball (masculins)",
+   "sport": "Handball",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Handball Club de Bohain",
+   "sport": "Handball",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Handball Club Itancourt",
+   "sport": "Handball",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Handball Club des Trois Tours (Vervins)",
+   "sport": "Handball",
+   "zone": "thierache",
+   "level": "Régional"
+  },
+  {
+   "club": "Académie Basket du Grand Reims",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Amicale Basket Sparnacienne",
+   "sport": "Basket",
+   "zone": "epernay",
+   "level": "Régional"
+  },
+  {
+   "club": "Amicale Sportive Tardenoise Basket",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "AS Amateur Tinqueux Basket",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Avenir de Montmirail",
+   "sport": "Basket",
+   "zone": "sezanne",
+   "level": "Régional"
+  },
+  {
+   "club": "Avenir Sportif Courtisols Basket",
+   "sport": "Basket",
+   "zone": "chalons",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Taissy Saint-Léonard",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "CAD Mourmelon Basketball",
+   "sport": "Basket",
+   "zone": "chalons",
+   "level": "Régional"
+  },
+  {
+   "club": "Club Omnisports de Sarry",
+   "sport": "Basket",
+   "zone": "chalons",
+   "level": "Régional"
+  },
+  {
+   "club": "Ent. ASPTT Châlons / CO Sarry",
+   "sport": "Basket",
+   "zone": "chalons",
+   "level": "Régional"
+  },
+  {
+   "club": "Ent. AJ Bétheny / FJEP Bazancourt",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Entente Gaillarde Muizonnaise",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "FJEP Basket de Bazancourt",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Reims Université Club Basket",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Union Champagne Châlons Reims Basket",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "US de Sézanne Basket",
+   "sport": "Basket",
+   "zone": "sezanne",
+   "level": "Régional"
+  },
+  {
+   "club": "Amical Club Mouzonnais Basket",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Baraquin",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "BC de Haraucourt",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Givetois",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Sedanais",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "EA Vaillante Vrigne-aux-Bois",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Étoile Bleue Vouziers",
+   "sport": "Basket",
+   "zone": "rethel",
+   "level": "Régional"
+  },
+  {
+   "club": "Flammes Carolo Basket Ardennes",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Marcassins de Revin",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Rethel Sportif Basket",
+   "sport": "Basket",
+   "zone": "rethel",
+   "level": "Régional"
+  },
+  {
+   "club": "US de Laifour Basket",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Vireux BC",
+   "sport": "Basket",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "AJ Ferry F. Buisson Basket",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "AS Payns Basket",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "ASF Romilly Basket",
+   "sport": "Basket",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "AB des Chartreux",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Coeurlequin",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Saint-André-les-Vergers",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "BC Vendeuvre",
+   "sport": "Basket",
+   "zone": "barsuraube",
+   "level": "Régional"
+  },
+  {
+   "club": "Entente Nogent-Villenauxe",
+   "sport": "Basket",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "Espérance Nogent-sur-Seine Basket",
+   "sport": "Basket",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "Friends Basketball Team",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "JS Vanne Pays d'Othe",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "Méry BC",
+   "sport": "Basket",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "MJC Marigny-le-Châtel Basket",
+   "sport": "Basket",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "Sainte-Savine Basket",
+   "sport": "Basket",
+   "zone": "troyes",
+   "level": "Régional"
+  },
+  {
+   "club": "US Villenauxe-la-Grande Basket",
+   "sport": "Basket",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "AS Basket Wasseyen",
+   "sport": "Basket",
+   "zone": "stdizier",
+   "level": "Régional"
+  },
+  {
+   "club": "Langres BC",
+   "sport": "Basket",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "BB Chauny Autreville",
+   "sport": "Basket",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "BB Itancourt",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Essigny-Saint-Martin Basket Ball",
+   "sport": "Basket",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Reims Université Club Rugby",
+   "sport": "Rugby",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Rugby Club Argonnais",
+   "sport": "Rugby",
+   "zone": "rethel",
+   "level": "Régional"
+  },
+  {
+   "club": "Rugby Club Champenois Sézannais",
+   "sport": "Rugby",
+   "zone": "sezanne",
+   "level": "Régional"
+  },
+  {
+   "club": "Racing Olympique Charleville",
+   "sport": "Rugby",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Rugby Club Vouziers",
+   "sport": "Rugby",
+   "zone": "rethel",
+   "level": "Régional"
+  },
+  {
+   "club": "US Givetoise Rugby",
+   "sport": "Rugby",
+   "zone": "charleville",
+   "level": "Régional"
+  },
+  {
+   "club": "Romilly Rugby Club",
+   "sport": "Rugby",
+   "zone": "romilly",
+   "level": "Régional"
+  },
+  {
+   "club": "Rugby Dienville (RUD)",
+   "sport": "Rugby",
+   "zone": "barsuraube",
+   "level": "Régional"
+  },
+  {
+   "club": "Écac Rugby Chaumont",
+   "sport": "Rugby",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "RC Langres",
+   "sport": "Rugby",
+   "zone": "chaumont",
+   "level": "Régional"
+  },
+  {
+   "club": "Château-Thierry Rugby Omois",
+   "sport": "Rugby",
+   "zone": "chthierry",
+   "level": "Régional"
+  },
+  {
+   "club": "Racing Club Saint-Quentinois",
+   "sport": "Rugby",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Retz Ovalie Club",
+   "sport": "Rugby",
+   "zone": "soissons",
+   "level": "Régional"
+  },
+  {
+   "club": "Rugby Club de Thiérache",
+   "sport": "Rugby",
+   "zone": "thierache",
+   "level": "Régional"
+  },
+  {
+   "club": "Les Volleyeurs Mengeots",
+   "sport": "Volley",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Rethel Club Volley-Ball",
+   "sport": "Volley",
+   "zone": "rethel",
+   "level": "Régional"
+  },
+  {
+   "club": "Volley Ball Club Laférois",
+   "sport": "Volley",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "Volley Itancourtois",
+   "sport": "Volley",
+   "zone": "stquentin",
+   "level": "Régional"
+  },
+  {
+   "club": "Camp Basket Champardennais",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "Espérance Rémoise Basket Ball",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "US Fismoise Ardre et Vesle Basket",
+   "sport": "Basket",
+   "zone": "reims",
+   "level": "Régional"
+  },
+  {
+   "club": "RC Chaunois",
+   "sport": "Rugby",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "Volley Club Chaunois",
+   "sport": "Volley",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "PL Bar-sur-Aube Basket",
+   "sport": "Basket",
+   "zone": "barsuraube",
+   "level": "Régional"
+  },
+  {
+   "club": "Saint-Dizier Basket",
+   "sport": "Basket",
+   "zone": "stdizier",
+   "level": "Régional"
+  },
+  {
+   "club": "Saint-Erme Basket Ball",
+   "sport": "Basket",
+   "zone": "laon",
+   "level": "Régional"
+  },
+  {
+   "club": "Rugby en Fête Montreuil-aux-Lions",
+   "sport": "Rugby",
+   "zone": "chthierry",
+   "level": "Régional"
+  },
+  {
+   "club": "Moy-de-l'Aisne Volley Ball",
+   "sport": "Volley",
+   "zone": "stquentin",
+   "level": "Régional"
   }
  ],
  "editions": [
@@ -4139,6 +4996,433 @@ window.RSH_DATA = {
      "sa": 5,
      "note": "",
      "url": "https://scorenco.com/roller-hockey/clubs/troyes-roller-3b93"
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 1 masculine · J5",
+     "date": "Sam. 17 oct.",
+     "home": "AS St Brice",
+     "hz": "reims",
+     "away": "Caluire-Rillieux Handball",
+     "az": null,
+     "sh": 27,
+     "sa": 30,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 1 féminine · Poule 3 · J6",
+     "date": "Sam. 17 oct.",
+     "home": "Ent. Sainte-Maure-Troyes HB féminin",
+     "hz": "troyes",
+     "away": "Stella Saint-Maur Handball",
+     "az": null,
+     "sh": 20,
+     "sa": 17,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 1 féminine · Poule 3 · J6",
+     "date": "Sam. 17 oct.",
+     "home": "Strasbourg ASPTT",
+     "hz": null,
+     "away": "Rosières St-Julien HB (féminines)",
+     "az": "troyes",
+     "sh": 30,
+     "sa": 25,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 1 féminine · Poule 3 · J6",
+     "date": "Sam. 17 oct.",
+     "home": "Metz Handball",
+     "hz": "grandest",
+     "away": "Entente Saône Mamirolle HB",
+     "az": null,
+     "sh": 32,
+     "sa": 13,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 2 féminine · Poule 5 · J6",
+     "date": "Sam. 17 oct.",
+     "home": "Reims Champagne Handball",
+     "hz": "reims",
+     "away": "HBC Crépy-en-Valois",
+     "az": null,
+     "sh": 25,
+     "sa": 27,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 3 masculine · Poule 5 · J6",
+     "date": "Sam. 24 oct.",
+     "home": "AS St Brice 2",
+     "hz": "reims",
+     "away": "Villiers Étudiants Club Handball",
+     "az": null,
+     "sh": 33,
+     "sa": 32,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 3 masculine · Poule 5 · J6",
+     "date": "Dim. 25 oct.",
+     "home": "Amiens Handball Club",
+     "hz": null,
+     "away": "RC Epernay HB",
+     "az": "epernay",
+     "sh": 33,
+     "sa": 29,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "comp": "Nationale 3 féminine Hauts-de-France · J5",
+     "date": "Sam. 10 oct.",
+     "home": "Handball Hazebrouck 71",
+     "hz": null,
+     "away": "Saint-Quentin Handball (féminines)",
+     "az": "stquentin",
+     "sh": 38,
+     "sa": 28,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Prénationale masculine Grand Est · J4",
+     "date": "Sam. 3 oct.",
+     "home": "Ent. Savino-Chapelain/US Ste Maure",
+     "hz": "troyes",
+     "away": "Ent. Bogny-Hautes-Rivières/Fumay",
+     "az": "charleville",
+     "sh": 38,
+     "sa": 38,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Prénationale masculine Grand Est · J4",
+     "date": "Sam. 3 oct.",
+     "home": "Bischoffsheim",
+     "hz": null,
+     "away": "Taissy Club Handball",
+     "az": "reims",
+     "sh": 28,
+     "sa": 19,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Prénationale féminine Grand Est · Poule 1 · J4",
+     "date": "Sam. 10 oct.",
+     "home": "Hand Sedan Ardennes (féminines)",
+     "hz": "charleville",
+     "away": "Woippy Handball",
+     "az": null,
+     "sh": 25,
+     "sa": 20,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Prénationale féminine Grand Est · Poule 1 · J4",
+     "date": "Sam. 10 oct.",
+     "home": "Chaumont Handball (féminines)",
+     "hz": "chaumont",
+     "away": "HBC Nancy SLUC",
+     "az": null,
+     "sh": 26,
+     "sa": 28,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Prénationale féminine Grand Est · Poule 1 · J4",
+     "date": "Sam. 10 oct.",
+     "home": "Entente Epern'Ay SF PN",
+     "hz": "epernay",
+     "away": "P2H Handball",
+     "az": null,
+     "sh": 35,
+     "sa": 16,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Excellence masculine Grand Est · Poule 1 · J4",
+     "date": "Dim. 4 oct.",
+     "home": "Hand Sedan Ardennes",
+     "hz": "charleville",
+     "away": "FJEP SLIC Chevillon",
+     "az": "stdizier",
+     "sh": 27,
+     "sa": 25,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Excellence masculine Grand Est · Poule 1 · J4",
+     "date": "Sam. 3 oct.",
+     "home": "Jarville Jeunes Handball",
+     "hz": null,
+     "away": "Tinqueux Gueux HC",
+     "az": "reims",
+     "sh": 27,
+     "sa": 14,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Excellence masculine Grand Est · Poule 1 · J4",
+     "date": "Sam. 3 oct.",
+     "home": "Vaubecourt Maison des Jeunes",
+     "hz": null,
+     "away": "Romilly HB",
+     "az": "romilly",
+     "sh": 39,
+     "sa": 36,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Excellence masculine Grand Est · Poule 1 · J4",
+     "date": "Sam. 3 oct.",
+     "home": "FJV Bar-sur-Seine",
+     "hz": "barsuraube",
+     "away": "Entente Troyes Aube Champagne HB",
+     "az": "troyes",
+     "sh": 26,
+     "sa": 25,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Honneur masculin Grand Est · Poule 1 · J4",
+     "date": "Dim. 4 oct.",
+     "home": "Taissy Club Handball 2",
+     "hz": "reims",
+     "away": "FJEP SLIC Chevillon 2",
+     "az": "stdizier",
+     "sh": 13,
+     "sa": 33,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Honneur masculin Grand Est · Poule 1 · J4",
+     "date": "Sam. 3 oct.",
+     "home": "ASPTT Handball Châlons",
+     "hz": "chalons",
+     "away": "AS St Brice 3",
+     "az": "reims",
+     "sh": 23,
+     "sa": 33,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Honneur masculin Grand Est · Poule 1 · J4",
+     "date": "Sam. 3 oct.",
+     "home": "RC Epernay HB 2",
+     "hz": "epernay",
+     "away": "HBC Val de Meuse",
+     "az": "chaumont",
+     "sh": 34,
+     "sa": 28,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Honneur masculin Grand Est · Poule 1 · J4",
+     "date": "Dim. 4 oct.",
+     "home": "Rosières St-Julien HB",
+     "hz": "troyes",
+     "away": "Handball Langres",
+     "az": "chaumont",
+     "sh": 23,
+     "sa": 25,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Honneur masculin Grand Est · Poule 1 · J4",
+     "date": "Sam. 3 oct.",
+     "home": "Reims Champagne Handball (masculins)",
+     "hz": "reims",
+     "away": "Ent. US Ste Maure/Savino-Chapelain",
+     "az": "troyes",
+     "sh": 31,
+     "sa": 40,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Prénationale féminine Hauts-de-France · J5",
+     "date": "Sam. 10 oct.",
+     "home": "Élite Axonaise Handball (féminines)",
+     "hz": "soissons",
+     "away": "Tourcoing Hand Ball SF2",
+     "az": null,
+     "sh": 26,
+     "sa": 22,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Prénationale féminine Hauts-de-France · J5",
+     "date": "Sam. 10 oct.",
+     "home": "HBC Laonnois",
+     "hz": "laon",
+     "away": "Caudry HBC",
+     "az": null,
+     "sh": 36,
+     "sa": 32,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Excellence régionale féminine Hauts-de-France · Poule 2 · J5",
+     "date": "Sam. 10 oct.",
+     "home": "HBC Noeux-les-Mines",
+     "hz": null,
+     "away": "HBC Laonnois 2",
+     "az": "laon",
+     "sh": 27,
+     "sa": 38,
+     "url": "https://www.ffhandball.fr/",
+     "genre": "F",
+     "hbnew": 1
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "comp": "Excellence régionale masculine Hauts-de-France · Poule 2 · J5",
+     "date": "Dim. 11 oct.",
+     "home": "Handball Longuenesse Maillebois",
+     "hz": null,
+     "away": "Élite Axonaise Handball EXCMR",
+     "az": "soissons",
+     "sh": 23,
+     "sa": 30,
+     "url": "https://www.ffhandball.fr/",
+     "hbnew": 1
+    },
+    {
+     "sport": "Futsal",
+     "level": "Régional",
+     "comp": "Régional 1 futsal",
+     "date": "Sam. 31 oct.",
+     "home": "Colmar Collectif Fut",
+     "hz": null,
+     "away": "Tholy-sous-Bois",
+     "az": null,
+     "sh": 13,
+     "sa": 8,
+     "url": "https://lgef.fff.fr/"
+    },
+    {
+     "sport": "Futsal",
+     "level": "Régional",
+     "comp": "Régional 1 futsal",
+     "date": "Sam. 31 oct.",
+     "home": "STRG Eurométropole",
+     "hz": null,
+     "away": "Erstein Futsal",
+     "az": null,
+     "sh": 4,
+     "sa": 6,
+     "url": "https://lgef.fff.fr/"
+    },
+    {
+     "sport": "Futsal",
+     "level": "Régional",
+     "comp": "Régional 1 futsal",
+     "date": "Sam. 31 oct.",
+     "home": "Mulhouse FA",
+     "hz": null,
+     "away": "Futsal Grand Verdun",
+     "az": null,
+     "sh": 6,
+     "sa": 4,
+     "url": "https://lgef.fff.fr/"
+    },
+    {
+     "sport": "Futsal",
+     "level": "Régional",
+     "comp": "Régional 1 futsal",
+     "date": "Sam. 31 oct.",
+     "home": "Kingersheim FC",
+     "hz": null,
+     "away": "Neuhof Futsal",
+     "az": null,
+     "sh": 9,
+     "sa": 4,
+     "url": "https://lgef.fff.fr/"
     }
    ],
    "agenda": [
@@ -4548,7 +5832,7 @@ window.RSH_DATA = {
      "time": "",
      "home": "Plobsheim",
      "hz": null,
-     "away": "ENT SAVINO CHAPELAIN/US STE MAURE SM PN",
+     "away": "Ent. Savino-Chapelain/US Ste Maure",
      "az": "troyes",
      "comp": "Prénationale masculine Grand Est · J5",
      "place": "",
@@ -4559,7 +5843,7 @@ window.RSH_DATA = {
      "level": "Régional",
      "day": "Sam. 7 nov.",
      "time": "",
-     "home": "TAISSY CLUB HANDBALL",
+     "home": "Taissy Club Handball",
      "hz": "reims",
      "away": "ASCA Wittelsheim",
      "az": null,
@@ -4572,7 +5856,7 @@ window.RSH_DATA = {
      "level": "Régional",
      "day": "Sam. 7 nov.",
      "time": "",
-     "home": "ENT BOGNY-HTE RIVIERES/FUMAY SM PN",
+     "home": "Ent. Bogny-Hautes-Rivières/Fumay",
      "hz": "charleville",
      "away": "Ent Burnhaupt/Lynx",
      "az": null,
@@ -4686,6 +5970,45 @@ window.RSH_DATA = {
      "comp": "Nationale 3 M · Groupe 3",
      "place": "Beaune",
      "url": "https://scorenco.com/roller-hockey/clubs/les-rapaces-de-reims-38sz/2-5cz7"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "11:30",
+     "home": "HBC Municipal St-Polois 2",
+     "hz": null,
+     "away": "HB Laférois",
+     "az": "laon",
+     "comp": "Honneur régionale masculine Hauts-de-France · Poule 2 · J6",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "11:30",
+     "home": "HBC Municipal St-Polois 2",
+     "hz": null,
+     "away": "HB Laférois",
+     "az": "laon",
+     "comp": "Honneur régionale masculine Hauts-de-France · Poule 2 · J6",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
+    },
+    {
+     "sport": "Handball",
+     "level": "Régional",
+     "day": "Dim. 8 nov.",
+     "time": "11:30",
+     "home": "HBC Municipal St-Polois 2",
+     "hz": null,
+     "away": "HB Laférois",
+     "az": "laon",
+     "comp": "Honneur régionale masculine Hauts-de-France · Poule 2 · J6",
+     "place": "",
+     "url": "https://www.ffhandball.fr/"
     }
    ]
   }
@@ -6811,9 +8134,79 @@ window.RSH_DATA = {
    "sport": "Futsal",
    "level": "Régional",
    "key": "Régional 1 futsal",
-   "maj": "",
-   "url": "https://www.sportcorico.com/championnat/grand-est-regional-1-futsal-1/phase-lgef/poule-unique",
-   "rows": []
+   "maj": "5 nov. 2026",
+   "url": "https://lgef.fff.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Erstein Futsal",
+     "pts": 18,
+     "j": 6
+    },
+    {
+     "r": 2,
+     "team": "Mulhouse FA",
+     "pts": 18,
+     "j": 7
+    },
+    {
+     "r": 3,
+     "team": "STRG Eurométropole",
+     "pts": 16,
+     "j": 7
+    },
+    {
+     "r": 4,
+     "team": "Magny RS",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 5,
+     "team": "Kingersheim FC",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 6,
+     "team": "Futsal Grand Verdun",
+     "pts": 9,
+     "j": 6
+    },
+    {
+     "r": 7,
+     "team": "Ardennes Futsal",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 8,
+     "team": "Amnéville CS Futsal",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "Neuhof Futsal",
+     "pts": 3,
+     "j": 7
+    },
+    {
+     "r": 10,
+     "team": "Colmar Collectif Fut",
+     "pts": 3,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "Tholy-sous-Bois",
+     "pts": 3,
+     "j": 7
+    }
+   ],
+   "clubs": [
+    "Ardennes Futsal"
+   ]
   },
   {
    "sport": "Basket",
@@ -7565,6 +8958,2106 @@ window.RSH_DATA = {
    "maj": "",
    "url": "https://www.sportcorico.com/championnats-par-region/football/grand-est",
    "rows": []
+  },
+  {
+   "sport": "Handball",
+   "level": "National",
+   "key": "Nationale 1 masculine",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "AS St Brice",
+     "txt": "12e avec 9 pts après 5 journées"
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "National",
+   "genre": "F",
+   "key": "Nationale 1 féminine · Poule 3",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Noisy-le-Grand HB",
+     "pts": 18,
+     "j": 6
+    },
+    {
+     "r": 2,
+     "team": "Metz Handball",
+     "pts": 15,
+     "j": 6
+    },
+    {
+     "r": 3,
+     "team": "Ent. Sainte-Maure-Troyes HB féminin",
+     "pts": 15,
+     "j": 6
+    },
+    {
+     "r": 4,
+     "team": "Bassin Mussipontain Handball",
+     "pts": 14,
+     "j": 6
+    },
+    {
+     "r": 5,
+     "team": "Strasbourg ASPTT",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 6,
+     "team": "Yutz Handball",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 7,
+     "team": "ES Besançon féminin",
+     "pts": 11,
+     "j": 6
+    },
+    {
+     "r": 8,
+     "team": "Strasbourg Achenheim Truchtersheim",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "Rosières St-Julien HB",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 10,
+     "team": "Villemomble HB",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "Stella Saint-Maur Handball",
+     "pts": 9,
+     "j": 6
+    },
+    {
+     "r": 12,
+     "team": "Entente Saône Mamirolle HB",
+     "pts": 8,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "National",
+   "genre": "F",
+   "key": "Nationale 2 féminine · Poule 5",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "HBC Serris Val d'Europe",
+     "pts": 16,
+     "j": 6
+    },
+    {
+     "r": 2,
+     "team": "Sambre Avesnois Handball",
+     "pts": 15,
+     "j": 6
+    },
+    {
+     "r": 3,
+     "team": "Valenciennes Handball",
+     "pts": 15,
+     "j": 6
+    },
+    {
+     "r": 4,
+     "team": "P2H Handball",
+     "pts": 14,
+     "j": 6
+    },
+    {
+     "r": 5,
+     "team": "HBC Crépy-en-Valois",
+     "pts": 14,
+     "j": 6
+    },
+    {
+     "r": 6,
+     "team": "Noisy-le-Grand HB",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 7,
+     "team": "Handball Club de Gagny",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 8,
+     "team": "Reims Champagne Handball",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "ES Sucy Handball",
+     "pts": 11,
+     "j": 6
+    },
+    {
+     "r": 10,
+     "team": "CSA Kremlin-Bicêtre",
+     "pts": 11,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "SCA 2000 Évry",
+     "pts": 6,
+     "j": 6
+    },
+    {
+     "r": 12,
+     "team": "HBC Corbie / Albert Sports HB",
+     "pts": 5,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "National",
+   "key": "Nationale 3 masculine · Poule 5",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "HBC Gien Loiret",
+     "pts": 18,
+     "j": 6
+    },
+    {
+     "r": 2,
+     "team": "HBC Serris Val d'Europe",
+     "pts": 16,
+     "j": 6
+    },
+    {
+     "r": 3,
+     "team": "Montfermeil HB",
+     "pts": 16,
+     "j": 6
+    },
+    {
+     "r": 4,
+     "team": "Beauvais OUC",
+     "pts": 14,
+     "j": 6
+    },
+    {
+     "r": 5,
+     "team": "CSM Sully-sur-Loire HB",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 6,
+     "team": "AS St Brice 2",
+     "pts": 12,
+     "j": 6
+    },
+    {
+     "r": 7,
+     "team": "Amiens Handball Club",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 8,
+     "team": "US Palaiseau",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 9,
+     "team": "RC Epernay HB",
+     "pts": 10,
+     "j": 6
+    },
+    {
+     "r": 10,
+     "team": "Homécourt Handball",
+     "pts": 9,
+     "j": 6
+    },
+    {
+     "r": 11,
+     "team": "Villiers Étudiants Club Handball",
+     "pts": 8,
+     "j": 6
+    },
+    {
+     "r": 12,
+     "team": "USM Montargis Handball",
+     "pts": 6,
+     "j": 6
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "National",
+   "genre": "F",
+   "key": "Nationale 3 féminine Hauts-de-France",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "EAL / AFSB",
+     "pts": 15,
+     "j": 5
+    },
+    {
+     "r": 2,
+     "team": "Tourcoing Handball SF1",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 3,
+     "team": "Handball Hazebrouck 71",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 4,
+     "team": "SO Calais HB",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 5,
+     "team": "HBC Bousbecque Wervicq",
+     "pts": 11,
+     "j": 5
+    },
+    {
+     "r": 6,
+     "team": "HBC Anzin",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 7,
+     "team": "Ent. Wallers / Saint-Amand",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 8,
+     "team": "SBBL Handball Béthune 2",
+     "pts": 8,
+     "j": 5
+    },
+    {
+     "r": 9,
+     "team": "Handball Biache Vallée Scarpe",
+     "pts": 7,
+     "j": 5
+    },
+    {
+     "r": 10,
+     "team": "Saint-Quentin Handball",
+     "pts": 7,
+     "j": 5
+    },
+    {
+     "r": 11,
+     "team": "Mons'Port Handball",
+     "pts": 7,
+     "j": 5
+    },
+    {
+     "r": 12,
+     "team": "Lille Métropole HB Lomme",
+     "pts": 5,
+     "j": 5
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Nationale 3 territoriale féminine",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Pagny-sur-Moselle AS Handball",
+     "pts": 12,
+     "j": 4
+    },
+    {
+     "r": 2,
+     "team": "Ent. Val de Sarre",
+     "pts": 11,
+     "j": 4
+    },
+    {
+     "r": 3,
+     "team": "Strasbourg ASPTT 2",
+     "pts": 9,
+     "j": 4
+    },
+    {
+     "r": 4,
+     "team": "Bassin Mussipontain Handball",
+     "pts": 9,
+     "j": 4
+    },
+    {
+     "r": 5,
+     "team": "Dambach-la-Ville",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 6,
+     "team": "Marly",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 7,
+     "team": "Épinal HB",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 8,
+     "team": "Flavigny Handball",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 9,
+     "team": "HB Masevaux",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 10,
+     "team": "Reims Champagne Handball 2",
+     "pts": 6,
+     "j": 4
+    },
+    {
+     "r": 11,
+     "team": "Villers Handball 2",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 12,
+     "team": "Deux Vallées Koenigsmacker",
+     "pts": 0,
+     "j": 4
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "key": "Prénationale masculine Grand Est",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Plobsheim",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 2,
+     "team": "Taissy Club Handball",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 3,
+     "team": "Bischoffsheim",
+     "pts": 9,
+     "j": 4
+    },
+    {
+     "r": 4,
+     "team": "ASCA Wittelsheim",
+     "pts": 9,
+     "j": 4
+    },
+    {
+     "r": 5,
+     "team": "Folschviller",
+     "pts": 9,
+     "j": 4
+    },
+    {
+     "r": 6,
+     "team": "Hochfelden Dettwiller",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 7,
+     "team": "Ent. Savino-Chapelain/US Ste Maure",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 8,
+     "team": "Lingolsheim",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 9,
+     "team": "Metz Magny HB",
+     "pts": 7,
+     "j": 4
+    },
+    {
+     "r": 10,
+     "team": "Ent. Bogny-Hautes-Rivières/Fumay",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 11,
+     "team": "Bassin Mussipontain Handball",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 12,
+     "team": "Ent. Burnhaupt/Lynx",
+     "pts": 4,
+     "j": 3
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Prénationale féminine Grand Est · Poule 1",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Hand Sedan Ardennes",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 2,
+     "team": "Ent. Hettange Rodemack",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 3,
+     "team": "HBC Nancy SLUC",
+     "pts": 9,
+     "j": 4
+    },
+    {
+     "r": 4,
+     "team": "Entente Epern'Ay SF PN",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 5,
+     "team": "Metz Handball",
+     "pts": 7,
+     "j": 4
+    },
+    {
+     "r": 6,
+     "team": "Kanfen",
+     "pts": 7,
+     "j": 4
+    },
+    {
+     "r": 7,
+     "team": "St-Mihiel HBC",
+     "pts": 6,
+     "j": 4
+    },
+    {
+     "r": 8,
+     "team": "Woippy Handball",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 9,
+     "team": "Chaumont Handball",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 10,
+     "team": "Yutz Handball",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 11,
+     "team": "P2H Handball",
+     "pts": 4,
+     "j": 4
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "key": "Excellence masculine Grand Est · Poule 1",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Hand Sedan Ardennes",
+     "pts": 12,
+     "j": 4
+    },
+    {
+     "r": 2,
+     "team": "Romilly HB",
+     "pts": 9,
+     "j": 4
+    },
+    {
+     "r": 3,
+     "team": "Villers Handball",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 4,
+     "team": "US Argonne Meuse",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 5,
+     "team": "Jarville Jeunes Handball",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 6,
+     "team": "FJEP SLIC Chevillon",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 7,
+     "team": "Entente Troyes Aube Champagne HB",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 8,
+     "team": "Las Void-Vacon Handball",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 9,
+     "team": "Vaubecourt Maison des Jeunes",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 10,
+     "team": "ASPTT Bar-le-Duc Handball",
+     "pts": 7,
+     "j": 4
+    },
+    {
+     "r": 11,
+     "team": "FJV Bar-sur-Seine",
+     "pts": 6,
+     "j": 4
+    },
+    {
+     "r": 12,
+     "team": "Tinqueux Gueux HC",
+     "pts": 6,
+     "j": 4
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "key": "Honneur masculin Grand Est · Poule 1",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Ent. US Ste Maure/Savino-Chapelain",
+     "pts": 12,
+     "j": 4
+    },
+    {
+     "r": 2,
+     "team": "RC Epernay HB 2",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 3,
+     "team": "Handball Langres",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 4,
+     "team": "AS St Brice 3",
+     "pts": 10,
+     "j": 4
+    },
+    {
+     "r": 5,
+     "team": "HBC Val de Meuse",
+     "pts": 8,
+     "j": 4
+    },
+    {
+     "r": 6,
+     "team": "Chaumont Handball",
+     "pts": 7,
+     "j": 4
+    },
+    {
+     "r": 7,
+     "team": "FJEP SLIC Chevillon 2",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 8,
+     "team": "Rosières St-Julien HB",
+     "pts": 5,
+     "j": 4
+    },
+    {
+     "r": 9,
+     "team": "Taissy Club Handball 2",
+     "pts": 3,
+     "j": 4
+    },
+    {
+     "r": 10,
+     "team": "ASPTT Handball Châlons",
+     "pts": 3,
+     "j": 4
+    },
+    {
+     "r": 11,
+     "team": "Reims Champagne Handball (masculins)",
+     "pts": 2,
+     "j": 4
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Prénationale féminine Hauts-de-France",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "SC Haubourdin Loos SF1",
+     "pts": 15,
+     "j": 5
+    },
+    {
+     "r": 2,
+     "team": "CO Wattrelosien HB",
+     "pts": 15,
+     "j": 5
+    },
+    {
+     "r": 3,
+     "team": "HBC Laonnois",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 4,
+     "team": "HBC Municipal St-Polois",
+     "pts": 11,
+     "j": 5
+    },
+    {
+     "r": 5,
+     "team": "Chambly HBC",
+     "pts": 11,
+     "j": 5
+    },
+    {
+     "r": 6,
+     "team": "RC d'Arras HB",
+     "pts": 10,
+     "j": 5
+    },
+    {
+     "r": 7,
+     "team": "Ailly-sur-Somme Handball",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 8,
+     "team": "Harnes HBC 2",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 9,
+     "team": "Caudry HBC",
+     "pts": 7,
+     "j": 5
+    },
+    {
+     "r": 10,
+     "team": "Élite Axonaise Handball",
+     "pts": 7,
+     "j": 5
+    },
+    {
+     "r": 11,
+     "team": "Tourcoing Hand Ball SF2",
+     "pts": 4,
+     "j": 5
+    },
+    {
+     "r": 12,
+     "team": "Handball Hazebrouck 71 2",
+     "pts": 4,
+     "j": 5
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Excellence régionale féminine Hauts-de-France · Poule 2",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Amiens Handball Club",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 2,
+     "team": "CSM Mesnilois",
+     "pts": 12,
+     "j": 5
+    },
+    {
+     "r": 3,
+     "team": "Pévèle Handball Club",
+     "pts": 10,
+     "j": 5
+    },
+    {
+     "r": 4,
+     "team": "HBC Laonnois 2",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 5,
+     "team": "HBC Vieux-Condé SF",
+     "pts": 8,
+     "j": 5
+    },
+    {
+     "r": 6,
+     "team": "Entente 90 Allennes Houplin",
+     "pts": 8,
+     "j": 5
+    },
+    {
+     "r": 7,
+     "team": "Mons'Port Handball 2",
+     "pts": 6,
+     "j": 5
+    },
+    {
+     "r": 8,
+     "team": "Ent. Chevrières-Compiègne",
+     "pts": 6,
+     "j": 5
+    },
+    {
+     "r": 9,
+     "team": "HBC Villers-Saint-Paul",
+     "pts": 5,
+     "j": 5
+    },
+    {
+     "r": 10,
+     "team": "HBC Noeux-les-Mines",
+     "pts": 3,
+     "j": 5
+    },
+    {
+     "r": 11,
+     "team": "Entente Senlis - Sud Oise",
+     "pts": 0,
+     "j": 5
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "key": "Excellence régionale masculine Hauts-de-France · Poule 2",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "HBC Perenchies",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 2,
+     "team": "Compiègne Handball Club 2",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 3,
+     "team": "Élite Axonaise Handball EXCMR",
+     "pts": 12,
+     "j": 5
+    },
+    {
+     "r": 4,
+     "team": "HBC Salouel",
+     "pts": 12,
+     "j": 5
+    },
+    {
+     "r": 5,
+     "team": "Caudry HBC",
+     "pts": 11,
+     "j": 5
+    },
+    {
+     "r": 6,
+     "team": "Douvrin HBC",
+     "pts": 10,
+     "j": 5
+    },
+    {
+     "r": 7,
+     "team": "Grande-Synthe",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 8,
+     "team": "SO Calais HB 2",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 9,
+     "team": "Libercourt Handball Club",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 10,
+     "team": "HB Hersin Coupigny 2",
+     "pts": 8,
+     "j": 5
+    },
+    {
+     "r": 11,
+     "team": "HB Longuenesse Maillebois",
+     "pts": 7,
+     "j": 5
+    },
+    {
+     "r": 12,
+     "team": "Ent. Sud Oise HBC Senlis B",
+     "pts": 7,
+     "j": 5
+    }
+   ]
+  },
+  {
+   "sport": "Handball",
+   "level": "Régional",
+   "key": "Honneur régionale masculine Hauts-de-France · Poule 2",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffhandball.fr/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "AFSB Vimeu Handball",
+     "pts": 14,
+     "j": 5
+    },
+    {
+     "r": 2,
+     "team": "Entente Bailleul - Nieppe",
+     "pts": 13,
+     "j": 5
+    },
+    {
+     "r": 3,
+     "team": "Handball Hazebrouck 71 2",
+     "pts": 12,
+     "j": 5
+    },
+    {
+     "r": 4,
+     "team": "Handball Biache Vallée Scarpe 2",
+     "pts": 11,
+     "j": 5
+    },
+    {
+     "r": 5,
+     "team": "HBC Anzin SG",
+     "pts": 11,
+     "j": 5
+    },
+    {
+     "r": 6,
+     "team": "Élite Axonaise Handball (Honneur M)",
+     "pts": 10,
+     "j": 5
+    },
+    {
+     "r": 7,
+     "team": "HB Laférois",
+     "pts": 10,
+     "j": 5
+    },
+    {
+     "r": 8,
+     "team": "Neuville Handball ALN",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 9,
+     "team": "Pévèle Handball Club 2",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 10,
+     "team": "HBC de Waziers",
+     "pts": 9,
+     "j": 5
+    },
+    {
+     "r": 11,
+     "team": "ASHB Carvin 2",
+     "pts": 7,
+     "j": 5
+    },
+    {
+     "r": 12,
+     "team": "HBC Municipal St-Polois 2",
+     "pts": 5,
+     "j": 5
+    }
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "Régional",
+   "key": "Régionale 1 masculine Hauts-de-France · Poule D",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Villers-Cotterêts 1",
+     "pts": 12,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Caudry 3",
+     "pts": 11,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Rantigny-Liancourt 1",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 4,
+     "team": "Longueau Amiens 1",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 5,
+     "team": "Compiègne 1",
+     "pts": 6,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 6,
+     "team": "Beauvais 3",
+     "pts": 5,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 7,
+     "team": "Reims 4",
+     "pts": 3,
+     "j": 4,
+     "g": 1,
+     "p": 3
+    },
+    {
+     "r": 8,
+     "team": "Château-Thierry 1",
+     "pts": 2,
+     "j": 4,
+     "g": 1,
+     "p": 3
+    },
+    {
+     "r": 9,
+     "team": "Amiens Métropole 4",
+     "pts": 1,
+     "j": 3,
+     "g": 0,
+     "p": 3
+    },
+    {
+     "r": 10,
+     "team": "Tinqueux 2",
+     "pts": 0,
+     "j": 3,
+     "g": 0,
+     "p": 3
+    }
+   ],
+   "clubs": [
+    "VILLERS COTTERETS",
+    "Reims Volley 51 – 4",
+    "CHATEAU THIERRY",
+    "Tinqueux Volley-Ball 2",
+    "Château-Thierry VB"
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "Régional",
+   "key": "Régionale 1 masculine Hauts-de-France · Poule C",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Reims 5",
+     "pts": 12,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Cambrai 5",
+     "pts": 9,
+     "j": 3,
+     "g": 3,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Famars 3",
+     "pts": 9,
+     "j": 4,
+     "g": 3,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Orchies 1",
+     "pts": 9,
+     "j": 4,
+     "g": 3,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "Caudry 4",
+     "pts": 6,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    },
+    {
+     "r": 6,
+     "team": "Hellemmes 1",
+     "pts": 6,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 7,
+     "team": "Douai 1",
+     "pts": 5,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 8,
+     "team": "Le Quesnoy 1",
+     "pts": 1,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    },
+    {
+     "r": 9,
+     "team": "Aulnoy-lez-Valenciennes 2",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    },
+    {
+     "r": 10,
+     "team": "Noyelles-sous-Lens 1",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    }
+   ],
+   "clubs": [
+    "Reims Volley 51 – 5"
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "Régional",
+   "key": "Prénationale masculine Hauts-de-France · Poule B",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=PMB",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Lys-lez-Lannoy 1",
+     "pts": 12,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Amiens Métropole 3",
+     "pts": 10,
+     "j": 4,
+     "g": 3,
+     "p": 1
+    },
+    {
+     "r": 3,
+     "team": "Beauvais 2",
+     "pts": 9,
+     "j": 4,
+     "g": 3,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Villereau 1",
+     "pts": 8,
+     "j": 4,
+     "g": 3,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "Cambrai 4",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 6,
+     "team": "Bellaing 2",
+     "pts": 6,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 7,
+     "team": "Villeneuve-d'Ascq 1",
+     "pts": 4,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 8,
+     "team": "Laon 1",
+     "pts": 2,
+     "j": 4,
+     "g": 1,
+     "p": 3
+    },
+    {
+     "r": 9,
+     "team": "Tinqueux 1",
+     "pts": 1,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    },
+    {
+     "r": 10,
+     "team": "Saint-Quentin 2",
+     "pts": 1,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    }
+   ],
+   "clubs": [
+    "LAON",
+    "Tinqueux Volley-Ball",
+    "Saint-Quentin Volley 2"
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Prénationale féminine Grand Est · Poule A",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Metz Volley-Ball",
+     "pts": 12,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "CAM d'Épinal",
+     "pts": 12,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Saint-Dié 2",
+     "pts": 11,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 4,
+     "team": "Terville/Florange 3",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 5,
+     "team": "ASVB Yutz Thionville",
+     "pts": 5,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 6,
+     "team": "Villers",
+     "pts": 5,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 7,
+     "team": "Lunéville",
+     "pts": 4,
+     "j": 4,
+     "g": 1,
+     "p": 3
+    },
+    {
+     "r": 8,
+     "team": "Pont-à-Mousson 2",
+     "pts": 3,
+     "j": 4,
+     "g": 1,
+     "p": 3
+    },
+    {
+     "r": 9,
+     "team": "Vandœuvre/Nancy 4",
+     "pts": 1,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    },
+    {
+     "r": 10,
+     "team": "Chaumont",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    }
+   ],
+   "clubs": [
+    "Chaumont VB 52 féminines"
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Régionale féminine Grand Est · Poule A",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=RFA",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Troyes",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Vandœuvre 5",
+     "pts": 5,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Saint-Dié 4",
+     "pts": 5,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 4,
+     "team": "Grand Nancy 3",
+     "pts": 3,
+     "j": 1,
+     "g": 1,
+     "p": 0
+    },
+    {
+     "r": 5,
+     "team": "Grand Nancy 2",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 6,
+     "team": "Saint-Dié 3",
+     "pts": 2,
+     "j": 2,
+     "g": 0,
+     "p": 2
+    },
+    {
+     "r": 7,
+     "team": "BAM VB",
+     "pts": 0,
+     "j": 2,
+     "g": 0,
+     "p": 2
+    },
+    {
+     "r": 8,
+     "team": "Pont-à-Mousson 3",
+     "pts": -1,
+     "j": 1,
+     "g": 0,
+     "p": 1
+    },
+    {
+     "r": 9,
+     "team": "Villers 2",
+     "pts": -3,
+     "j": 2,
+     "g": 0,
+     "p": 1
+    }
+   ],
+   "clubs": [
+    "Troyes (volley féminines)"
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "Régional",
+   "key": "Régionale masculine Grand Est · Poule A",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=RMA",
+   "rows": [
+    {
+     "r": 1,
+     "team": "PLVB Troyes 2",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Épinal Golbey 3",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Chaumont 4",
+     "pts": 3,
+     "j": 1,
+     "g": 1,
+     "p": 0
+    },
+    {
+     "r": 4,
+     "team": "Lunéville 1",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "Frouard Pompey",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 6,
+     "team": "Grand Nancy 5",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 7,
+     "team": "Remiremont",
+     "pts": 0,
+     "j": 1,
+     "g": 0,
+     "p": 1
+    },
+    {
+     "r": 8,
+     "team": "Lunéville 2",
+     "pts": 0,
+     "j": 2,
+     "g": 0,
+     "p": 2
+    },
+    {
+     "r": 9,
+     "team": "PLVB Troyes 3",
+     "pts": 0,
+     "j": 2,
+     "g": 0,
+     "p": 2
+    }
+   ],
+   "clubs": [
+    "PLVB Troyes 2",
+    "PLVB Troyes 3",
+    "Chaumont VB 52 – 4"
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "Régional",
+   "key": "Prénationale masculine Grand Est · Poule A",
+   "maj": "5 nov. 2026",
+   "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PGA",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Yutz/Thionville 2",
+     "pts": 12,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Saint-Dizier",
+     "pts": 10,
+     "j": 4,
+     "g": 4,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Maizières 2",
+     "pts": 9,
+     "j": 4,
+     "g": 3,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Villers 2",
+     "pts": 8,
+     "j": 4,
+     "g": 3,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "Grand Nancy 4",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 6,
+     "team": "Chaumont 3",
+     "pts": 6,
+     "j": 4,
+     "g": 2,
+     "p": 2
+    },
+    {
+     "r": 7,
+     "team": "Vandœuvre/Nancy",
+     "pts": 4,
+     "j": 4,
+     "g": 1,
+     "p": 3
+    },
+    {
+     "r": 8,
+     "team": "Remiremont",
+     "pts": 2,
+     "j": 4,
+     "g": 1,
+     "p": 3
+    },
+    {
+     "r": 9,
+     "team": "Épinal/Golbey 2",
+     "pts": 2,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    },
+    {
+     "r": 10,
+     "team": "Pont-à-Mousson",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "p": 4
+    }
+   ],
+   "clubs": [
+    "SAINT-DIZIER",
+    "Chaumont VB 52 – 3"
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "Régional",
+   "key": "Pré-nationale masculine · Poule A",
+   "maj": "5 nov. 2026 · 5 premiers (classement complet sur FFBB)",
+   "url": "https://competitions.ffbb.com/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Étoile de Charleville-Mézières 2",
+     "pts": 6,
+     "j": 3,
+     "g": 3,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Association Cormontreuil Champagne Basket",
+     "pts": 6,
+     "j": 3,
+     "g": 3,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Metz BC 2",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Éveil Recy Saint-Martin Basket 2",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "Amicale des Jeunes de Bétheny",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    }
+   ],
+   "clubs": [
+    "Étoile de Charleville-Mézières Basket 2",
+    "Association Cormontreuil Champagne Basket",
+    "Éveil Recy Saint-Martin Basket",
+    "Amicale des Jeunes de Bétheny",
+    "Éveil laïque Witry-lès-Reims Basket",
+    "Reims Champagne Basket",
+    "Espé Basket Châlons-en-Champagne",
+    "CTC T-A-A-C Basket – Énergie Troyenne"
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "Régional",
+   "key": "Régionale masculine 2 · Poule A",
+   "maj": "5 nov. 2026 · 5 premiers (classement complet sur FFBB)",
+   "url": "https://competitions.ffbb.com/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Gauloise de Vitry-le-François 2",
+     "pts": 6,
+     "j": 3,
+     "g": 3,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Thionville BC",
+     "pts": 6,
+     "j": 3,
+     "g": 3,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "US Silvange Basket",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Basket Sancéo Troyen",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "ASC Charny-sur-Meuse",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    }
+   ],
+   "clubs": [
+    "Gauloise de Vitry-le-François",
+    "Basket Sancéo Troyen",
+    "Éveil laïque Witry-lès-Reims Basket 2",
+    "Entente Chaumontaise AC Basket",
+    "La Fertonne Fère-Champenoise",
+    "Villers Semeuse Basket",
+    "Association Cormontreuil Champagne Basket 2"
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Régionale féminine 2 · Poule B",
+   "maj": "5 nov. 2026 · 5 premiers (classement complet sur FFBB)",
+   "url": "https://competitions.ffbb.com/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "ASP Sainte-Marie-aux-Chênes 2",
+     "pts": 6,
+     "j": 3,
+     "g": 3,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Dukes de Fameck",
+     "pts": 5,
+     "j": 3,
+     "g": 2,
+     "p": 1
+    },
+    {
+     "r": 3,
+     "team": "US Silvange Basket",
+     "pts": 4,
+     "j": 3,
+     "g": 1,
+     "p": 2
+    },
+    {
+     "r": 4,
+     "team": "Champagne Basket Féminin",
+     "pts": 4,
+     "j": 3,
+     "g": 1,
+     "p": 2
+    },
+    {
+     "r": 5,
+     "team": "Éveil laïque Witry-lès-Reims Basket",
+     "pts": 4,
+     "j": 3,
+     "g": 1,
+     "p": 2
+    }
+   ],
+   "clubs": [
+    "Champagne Basket Féminin (RF2)",
+    "Éveil laïque Witry-lès-Reims Basket (féminines)"
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Pré-nationale féminine · Poule A",
+   "maj": "5 nov. 2026 · 5 premiers (classement complet sur FFBB)",
+   "url": "https://competitions.ffbb.com/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "ASP Sainte-Marie-aux-Chênes",
+     "pts": 4,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "Berrwiller/Staffelfelden BC 2",
+     "pts": 4,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Schaeffersheim ASLC",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "AS Haut du Lièvre Nancy",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "ASPTT Nancy Tomblaine",
+     "pts": 2,
+     "j": 2,
+     "g": 0,
+     "p": 2
+    }
+   ],
+   "clubs": [
+    "AS Saint-Brice-Courcelles Basket"
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "National",
+   "genre": "F",
+   "key": "Nationale féminine 3 · Poule F",
+   "maj": "5 nov. 2026 · 5 premiers (classement complet sur FFBB)",
+   "url": "https://competitions.ffbb.com/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "O. Sannois Saint-Gratien",
+     "pts": 13,
+     "j": 7,
+     "g": 6,
+     "p": 1
+    },
+    {
+     "r": 2,
+     "team": "BC Ermont",
+     "pts": 13,
+     "j": 7,
+     "g": 6,
+     "p": 1
+    },
+    {
+     "r": 3,
+     "team": "Saint-Amand Hainaut Basket",
+     "pts": 13,
+     "j": 7,
+     "g": 6,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Aulnoye AS 2",
+     "pts": 12,
+     "j": 7,
+     "g": 5,
+     "p": 2
+    },
+    {
+     "r": 5,
+     "team": "Lambersart BLM",
+     "pts": 12,
+     "j": 7,
+     "g": 5,
+     "p": 2
+    }
+   ],
+   "clubs": [
+    "Champagne Basket Féminin B"
+   ],
+   "pos": [
+    {
+     "team": "Champagne Basket Féminin B",
+     "txt": "10e, 2 victoires – 5 défaites"
+    }
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "Régional",
+   "key": "Pré-régionale masculine (Aisne)",
+   "maj": "5 nov. 2026 · 5 premiers (classement complet sur FFBB)",
+   "url": "https://competitions.ffbb.com/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "ESC Tergnier 3",
+     "pts": 4,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "SQBB - JSC 2",
+     "pts": 4,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 3,
+     "team": "Pals Athletic Club Guise 2",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Grugies Basket-Ball",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 5,
+     "team": "Soissons Cuffies Aisne BB",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    }
+   ],
+   "clubs": [
+    "ESC Tergnier 3",
+    "SQBB - JSC 2",
+    "Pals Athletic Club Guise 2",
+    "Grugies Basket-Ball",
+    "Soissons Cuffies Aisne BB",
+    "BC Saint Michel",
+    "BB Cotterézien",
+    "Château-Thierry Basket Ball",
+    "Club Cantonal Anizien Basket",
+    "FC Belleu Basket Ball 2"
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "Régional",
+   "genre": "F",
+   "key": "Pré-régionale féminine (Aisne)",
+   "maj": "5 nov. 2026 · 5 premiers (classement complet sur FFBB)",
+   "url": "https://competitions.ffbb.com/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Soissons Cuffies Aisne BB 2",
+     "pts": 4,
+     "j": 2,
+     "g": 2,
+     "p": 0
+    },
+    {
+     "r": 2,
+     "team": "ESC Tergnier 2",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 3,
+     "team": "FC Belleu Basket Ball",
+     "pts": 3,
+     "j": 2,
+     "g": 1,
+     "p": 1
+    },
+    {
+     "r": 4,
+     "team": "Gricourt Basket",
+     "pts": 2,
+     "j": 2,
+     "g": 0,
+     "p": 2
+    },
+    {
+     "r": 5,
+     "team": "Pals Athletic Club Guise",
+     "pts": 2,
+     "j": 2,
+     "g": 0,
+     "p": 2
+    }
+   ],
+   "clubs": [
+    "Soissons Cuffies Aisne BB 2",
+    "ESC Tergnier 2",
+    "FC Belleu Basket Ball",
+    "Gricourt Basket",
+    "Pals Athletic Club Guise",
+    "Laon BB",
+    "ASG Gauchy 2",
+    "AAE Bohain",
+    "SQBB - JSC"
+   ]
   }
  ]
 };
