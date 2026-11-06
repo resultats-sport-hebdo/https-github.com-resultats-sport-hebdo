@@ -111,7 +111,7 @@ footer a{color:var(--muted)}
     <div class="chips" id="levels"></div>
     <div class="frow cbar fhead"><span class="flabel">Mes sports</span><button class="link" type="button" data-all="sport">Tout sélectionner</button><button class="link" type="button" data-none="sport">Tout désélectionner</button></div>
     <div class="chips" id="sports"></div>
-    <div id="divrow" class="dep"><span class="flabel">Division (football)</span><div class="chips" id="divs"></div></div>
+    <div id="divrow" class="dep"><div class="frow cbar fhead"><span class="flabel">Division (football)</span><button class="link" type="button" data-all="div">Tout sélectionner</button><button class="link" type="button" data-none="div">Tout désélectionner</button></div><div class="chips" id="divs"></div></div>
     <details class="box" id="cbox">
       <summary><span class="flabel">Mes clubs</span> <span class="csum" id="csum"></span></summary>
       <div class="frow cbar"><input id="c-search" type="search" placeholder="Rechercher un club…" aria-label="Rechercher un club"><button class="link" id="c-all" type="button">Tous</button><button class="link" id="c-none" type="button">Aucun</button></div>
@@ -218,7 +218,7 @@ function start(DATA){
   $('c-all').addEventListener('click',()=>{visClubs().forEach(c=>offC.delete(c));save();render();});
   $('c-none').addEventListener('click',()=>{visClubs().forEach(c=>offC.add(c));save();render();});
   // « tout sélectionner / tout désélectionner » for départements, niveaux and sports
-  const bulk={dep:[offZ,()=>DATA.zones.map(z=>z.k)],lvl:[offL,()=>LEVELS],sport:[offS,()=>allSports]};
+  const bulk={dep:[offZ,()=>DATA.zones.map(z=>z.k)],lvl:[offL,()=>LEVELS],sport:[offS,()=>allSports],div:[offD,()=>DIVS]};
   document.querySelectorAll('[data-all],[data-none]').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.all||b.dataset.none,[set,all]=bulk[k]; if(b.dataset.all) set.clear(); else all().forEach(v=>set.add(v)); save(); render();}));
   $('all').addEventListener('click',()=>{offZ.clear();offL.clear();offS.clear();offC.clear();offD.clear();save();render();});
 
