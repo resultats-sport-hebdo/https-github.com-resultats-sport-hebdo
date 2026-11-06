@@ -1858,413 +1858,413 @@ window.RSH_DATA = {
    "club": "St Geosmois FC 2",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Joinville Vecque FC",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Sarrey Montigny AS 2",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Langres CO",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Montier en Der US",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Prez Bourmont FC",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Ornel Chanc SL",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Vaux sur Blaise USIB 2",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Andelot Rim ES",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Neuilly SR",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "ECMR",
    "sport": "Football",
    "zone": "chaumont",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Marnaval SC 2",
    "sport": "Football",
    "zone": "stdizier",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Itancourt Neuville 3",
    "sport": "Football",
    "zone": "stquentin",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Tergnier FC",
    "sport": "Football",
    "zone": "laon",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "La Fère US",
    "sport": "Football",
    "zone": "laon",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Crécois ICS",
    "sport": "Football",
    "zone": "laon",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Guise US",
    "sport": "Football",
    "zone": "thierache",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "St Quentin Portugais",
    "sport": "Football",
    "zone": "stquentin",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Bruyères Montbérault",
    "sport": "Football",
    "zone": "laon",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Courmelles FC",
    "sport": "Football",
    "zone": "soissons",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Belleu US",
    "sport": "Football",
    "zone": "soissons",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Bohain RC",
    "sport": "Football",
    "zone": "stquentin",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Seboncourt US",
    "sport": "Football",
    "zone": "stquentin",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Guignicourt US",
    "sport": "Football",
    "zone": "laon",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Charleville ES",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Villers Semeuse CA 2",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Liart/Signy FC",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Charleville Prix OAM 3",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Tournes Ren. Maz. AS 2",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Bazeilles US 2",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Nouvion USC",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Vivarois SC",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Boulzicourt",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Asfeld AS",
    "sport": "Football",
    "zone": "rethel",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Buzancy SOS",
    "sport": "Football",
    "zone": "rethel",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "FC de Haybes",
    "sport": "Football",
    "zone": "charleville",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "St Méziéry FC 2",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Rosières OS 2",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Morgendois FC",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "St Julien JSFC 2",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Aube UFC",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "AS Chartreux Port",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "SAF",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Chartreux AS 2",
    "sport": "Football",
    "zone": "troyes",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Nord Aubois ES",
    "sport": "Football",
    "zone": "romilly",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "USVD",
    "sport": "Football",
    "zone": "barsuraube",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Nogent / Port AS",
    "sport": "Football",
    "zone": "romilly",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Neuvillette Jamin 3",
    "sport": "Football",
    "zone": "reims",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "St Brice Courcelles 2",
    "sport": "Football",
    "zone": "reims",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Oiry US",
    "sport": "Football",
    "zone": "epernay",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Reims Espérance 2",
    "sport": "Football",
    "zone": "reims",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Nord Champagne FC",
    "sport": "Football",
    "zone": "chalons",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Avize Grauves US 2",
    "sport": "Football",
    "zone": "epernay",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Vitry FC 2",
    "sport": "Football",
    "zone": "vitry",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Witry les Reims ES",
    "sport": "Football",
    "zone": "reims",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Argonne FC",
    "sport": "Football",
    "zone": "chalons",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Fagnières ES 2",
    "sport": "Football",
    "zone": "chalons",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Reims Christo FC 2",
    "sport": "Football",
    "zone": "reims",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   },
   {
    "club": "Cernay Berru Lava AS",
    "sport": "Football",
    "zone": "reims",
-   "level": "Départemental",
+   "level": "Régional",
    "div": "D1"
   }
  ],
@@ -2718,11 +2718,11 @@ window.RSH_DATA = {
     {
      "sport": "Football",
      "level": "National",
-     "comp": "National 2",
+     "comp": "National 2 · Poule D",
      "date": "Sam. 31 oct.",
      "home": "St Quentin O.",
      "hz": "stquentin",
-     "away": "Trouville-Deauville",
+     "away": "AS Trouville-Deauville",
      "az": null,
      "sh": 3,
      "sa": 0,
@@ -2732,9 +2732,24 @@ window.RSH_DATA = {
     {
      "sport": "Football",
      "level": "National",
-     "comp": "National 2",
+     "div": "National",
+     "comp": "National 2 · Poule E",
      "date": "Sam. 31 oct.",
-     "home": "Bourges",
+     "home": "US Torcy PVM",
+     "hz": null,
+     "away": "Charleville Prix OAM",
+     "az": "charleville",
+     "sh": 1,
+     "sa": 1,
+     "note": "",
+     "url": "https://epreuves.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "National",
+     "comp": "National 1 · Poule C",
+     "date": "Sam. 31 oct.",
+     "home": "Bourges FC",
      "hz": null,
      "away": "ESTAC Troyes 2",
      "az": "troyes",
@@ -3519,7 +3534,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Haute-Marne",
      "date": "Sam. 31 oct.",
@@ -3534,7 +3549,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Haute-Marne",
      "date": "Sam. 31 oct.",
@@ -3549,7 +3564,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Haute-Marne",
      "date": "Dim. 1er nov.",
@@ -3564,7 +3579,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Haute-Marne",
      "date": "Dim. 1er nov.",
@@ -3579,7 +3594,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Haute-Marne",
      "date": "Dim. 1er nov.",
@@ -3594,7 +3609,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Haute-Marne",
      "date": "Dim. 1er nov.",
@@ -3609,7 +3624,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aisne · Poule A",
      "date": "Dim. 1er nov.",
@@ -3624,7 +3639,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aisne · Poule A",
      "date": "Dim. 1er nov.",
@@ -3639,7 +3654,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aisne · Poule A",
      "date": "Dim. 1er nov.",
@@ -3654,7 +3669,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aisne · Poule A",
      "date": "Dim. 1er nov.",
@@ -3669,7 +3684,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aisne · Poule A",
      "date": "Dim. 1er nov.",
@@ -3684,7 +3699,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aisne · Poule A",
      "date": "Dim. 1er nov.",
@@ -3699,7 +3714,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "D1 Ardennes",
      "date": "Sam. 31 oct.",
@@ -3714,7 +3729,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "D1 Ardennes",
      "date": "Sam. 31 oct.",
@@ -3729,7 +3744,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "D1 Ardennes",
      "date": "Dim. 1er nov.",
@@ -3744,7 +3759,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "D1 Ardennes",
      "date": "Dim. 1er nov.",
@@ -3759,7 +3774,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "D1 Ardennes",
      "date": "Dim. 1er nov.",
@@ -3774,7 +3789,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "D1 Ardennes",
      "date": "Dim. 1er nov.",
@@ -3789,7 +3804,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aube",
      "date": "Dim. 1er nov.",
@@ -3804,7 +3819,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aube",
      "date": "Dim. 1er nov.",
@@ -3819,7 +3834,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aube",
      "date": "Dim. 1er nov.",
@@ -3834,7 +3849,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aube",
      "date": "Dim. 1er nov.",
@@ -3849,7 +3864,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aube",
      "date": "Dim. 1er nov.",
@@ -3864,7 +3879,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "Départemental 1 Aube",
      "date": "Dim. 1er nov.",
@@ -3879,7 +3894,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "District 1 Marne",
      "date": "Dim. 1er nov.",
@@ -3894,7 +3909,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "District 1 Marne",
      "date": "Dim. 1er nov.",
@@ -3909,7 +3924,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "District 1 Marne",
      "date": "Dim. 1er nov.",
@@ -3924,7 +3939,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "District 1 Marne",
      "date": "Dim. 1er nov.",
@@ -3939,7 +3954,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "District 1 Marne",
      "date": "Dim. 1er nov.",
@@ -3954,7 +3969,7 @@ window.RSH_DATA = {
     },
     {
      "sport": "Football",
-     "level": "Départemental",
+     "level": "Régional",
      "div": "D1",
      "comp": "District 1 Marne",
      "date": "Dim. 1er nov.",

@@ -214,12 +214,12 @@ footer a{color:var(--muted)}
 });
 function start(DATA){
   DATA.zones = DATA.zones||[]; DATA.suivi = DATA.suivi||[]; DATA.editions = DATA.editions||[];
-  const LEVELS = ['National','Régional','Départemental'];
+  const LEVELS = ['National','Régional'];
   const GENRES = ['Masculin','Féminin'];
   // a match is « Féminin » when its competition says so, or when one of its teams is a women's team in the catalogue
   const FEM_COMP = /f[ée]minin|\bLF2\b|\bLFB\b|\bNF[123]\b|\bN[123] ?F\b|\bPNF\b|\bRF[123]\b|\bPRF\b|Arkema|Seconde Ligue|\bD[23] f/i;
   const DIVS = ['National','R1','R2','R3','D1'];
-  const divOf = r=>{ if(r.sport!=='Football') return null; if(r.div) return r.div; if((r.level||'')==='National') return 'National'; const m=/R(?:é|e)gional\s*([123])|\bR([123])\b/i.exec(r.comp||''); if(m) return 'R'+(m[1]||m[2]); if((r.level||'')==='Départemental'||/\bD(?:istrict|épartemental)?\s*1\b/i.test(r.comp||'')) return 'D1'; return null; };
+  const divOf = r=>{ if(r.sport!=='Football') return null; if(r.div) return r.div; if((r.level||'')==='National') return 'National'; const m=/R(?:é|e)gional\s*([123])|\bR([123])\b/i.exec(r.comp||''); if(m) return 'R'+(m[1]||m[2]); if(/\bD(?:istrict|épartemental)?\s*1\b/i.test(r.comp||'')) return 'D1'; return null; };
   const norm = t=>String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const PRIO = ['Football','Basket','Handball','Volley','Rugby','Futsal','Hockey sur glace','Roller hockey','Water-polo'];
   const rank = s=>{const i=PRIO.indexOf(s);return i<0?99:i};
@@ -270,7 +270,7 @@ function start(DATA){
     const zon = DATA.zones.filter(z=>!offZ.has(z.k)).length;
     $('zsum').textContent = zon===DATA.zones.length?`toutes (${zon})`:`${zon} sur ${DATA.zones.length}`;
     $('genres').innerHTML = GENRES.map(g=>`<button type="button" class="chip" data-g="${esc(g)}" aria-pressed="${!offG.has(g)}">${esc(g)}</button>`).join('');
-    $('levels').innerHTML = LEVELS.map(l=>`<button type="button" class="chip" data-l="${esc(l)}" aria-pressed="${!offL.has(l)}">${esc(l==='Départemental'?'Départemental (foot)':l)}</button>`).join('');
+    $('levels').innerHTML = LEVELS.map(l=>`<button type="button" class="chip" data-l="${esc(l)}" aria-pressed="${!offL.has(l)}">${esc(l)}</button>`).join('');
     $('sports').innerHTML = allSports.map(s=>`<button type="button" class="chip" data-s="${esc(s)}" aria-pressed="${!offS.has(s)}">${esc(s)}</button>`).join('');
     $('divrow').hidden = offS.has('Football');
     $('divs').innerHTML = DIVS.map(d=>`<button type="button" class="chip" data-d="${esc(d)}" aria-pressed="${!offD.has(d)}">${esc(d)}</button>`).join('');
@@ -333,7 +333,7 @@ function start(DATA){
     return bits.length? 'Sélection : '+bits.join(' · ') : 'Tout est affiché';
   }
   const score=(r,side)=>{ const a=+r.sh, b=+r.sa; if(isNaN(a)||isNaN(b)||a===b) return ''; return (side==='h'?a>b:b>a)?' class="win"':''; };
-  const rank2=r=>(r.level==='National'?0:r.level==='Départemental'?20:10)+rank(r.sport)+(r.note?0:0.5);
+  const rank2=r=>(r.level==='National'?0:10)+rank(r.sport)+(r.note?0:0.5);
 
   function render(){
     filters();
@@ -352,6 +352,10 @@ function start(DATA){
       </article>` : (cur.edito?`<article class="une"><div class="une-txt"><span class="kicker">À la une</span><p>${esc(cur.edito)}</p></div></article>`:'');
     $('res-count').textContent = res.length?res.length+' match'+(res.length>1?'s':''):'';
     const by={}; res.forEach(r=>(by[r.sport]=by[r.sport]||[]).push(r));
+    // inside each sport: national first, then regional; football follows the division order National, R1, R2, R3, D1
+    const tier=c=>{const m=/Ligue ([12])|National(?:e)? ?([123])?\b/i.exec(c||''); return !m?0.05:m[1]?(+m[1])/10:m[2]?0.2+(+m[2])/10:0.25;};
+    const lvlRank=r=>{const d=divOf(r); const t=(d==='National'||(!d&&(r.level||'National')==='National'))?tier(r.comp):0; if(d) return DIVS.indexOf(d)+t; return ((r.level||'National')==='National'?0:1)+t;};
+    Object.values(by).forEach(a=>{a.forEach((r,i)=>r._i=i); a.sort((x,y)=>lvlRank(x)-lvlRank(y)||x._i-y._i);});
     const order=Object.keys(by).sort(sportOrder);
     $('results').innerHTML = order.length? order.map(s=>`<section class="col"><h3>${esc(s)}</h3>${by[s].map(r=>{const u=safeUrl(r.url);return `
       <article class="m">
