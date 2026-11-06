@@ -49,6 +49,8 @@ details.box summary::before{content:"▸";color:var(--muted);font-size:12px}
 details.box[open] summary::before{content:"▾"}
 .csum{font-size:13px;color:var(--muted)}
 .cbar{justify-content:flex-start;gap:14px;margin-block:8px 6px}
+.fhead{margin-block:4px 0;gap:6px 14px}
+.fhead .flabel{margin-right:4px}
 #c-search{flex:1 1 180px;max-width:280px}
 .scroll{max-height:42vh;overflow:auto}
 .link{background:none;border:0;color:var(--muted);font:500 13px var(--body);text-decoration:underline;cursor:pointer;padding:0}
@@ -98,16 +100,16 @@ footer a{color:var(--muted)}
   </header>
 
   <nav class="filters" aria-label="Filtres">
-    <span class="flabel">Département</span>
+    <div class="frow cbar fhead"><span class="flabel">Département</span><button class="link" type="button" data-all="dep">Tout sélectionner</button><button class="link" type="button" data-none="dep">Tout désélectionner</button></div>
     <div class="chips" id="deps"></div>
     <details class="box" id="zbox">
       <summary><span class="flabel">Ma zone (bassins)</span> <span class="csum" id="zsum"></span></summary>
       <div class="frow cbar"><button class="link" id="z-all" type="button">Toutes</button><button class="link" id="z-none" type="button">Aucune</button><button class="link" id="all" type="button">Réinitialiser tous les filtres</button></div>
       <div id="zones"></div>
     </details>
-    <span class="flabel">Niveau</span>
+    <div class="frow cbar fhead"><span class="flabel">Niveau</span><button class="link" type="button" data-all="lvl">Tout sélectionner</button><button class="link" type="button" data-none="lvl">Tout désélectionner</button></div>
     <div class="chips" id="levels"></div>
-    <span class="flabel">Mes sports</span>
+    <div class="frow cbar fhead"><span class="flabel">Mes sports</span><button class="link" type="button" data-all="sport">Tout sélectionner</button><button class="link" type="button" data-none="sport">Tout désélectionner</button></div>
     <div class="chips" id="sports"></div>
     <div id="divrow" class="dep"><span class="flabel">Division (football)</span><div class="chips" id="divs"></div></div>
     <details class="box" id="cbox">
@@ -215,6 +217,9 @@ function start(DATA){
   $('z-none').addEventListener('click',()=>{DATA.zones.forEach(z=>offZ.add(z.k));save();render();});
   $('c-all').addEventListener('click',()=>{visClubs().forEach(c=>offC.delete(c));save();render();});
   $('c-none').addEventListener('click',()=>{visClubs().forEach(c=>offC.add(c));save();render();});
+  // « tout sélectionner / tout désélectionner » for départements, niveaux and sports
+  const bulk={dep:[offZ,()=>DATA.zones.map(z=>z.k)],lvl:[offL,()=>LEVELS],sport:[offS,()=>allSports]};
+  document.querySelectorAll('[data-all],[data-none]').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.all||b.dataset.none,[set,all]=bulk[k]; if(b.dataset.all) set.clear(); else all().forEach(v=>set.add(v)); save(); render();}));
   $('all').addEventListener('click',()=>{offZ.clear();offL.clear();offS.clear();offC.clear();offD.clear();save();render();});
 
   // a match shows when its sport and level are on, and at least one of its two teams is in a chosen zone and not switched off
