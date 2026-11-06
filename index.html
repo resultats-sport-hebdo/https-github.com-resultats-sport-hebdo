@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><meta name="description" content="Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine, en Marne, Ardennes, Aube, Haute-Marne et Aisne."><meta property="og:type" content="website"><meta property="og:site_name" content="Résultats Sport Hebdo"><meta property="og:title" content="Résultats Sport Hebdo"><meta property="og:description" content="Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine, en Marne, Ardennes, Aube, Haute-Marne et Aisne."><meta property="og:url" content="https://resultats-sport-hebdo.netlify.app/"><meta property="og:image" content="https://resultats-sport-hebdo.netlify.app/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="fr_FR"><meta name="twitter:card" content="summary_large_image"></head><body>
 <title id="t-title">Résultats Sport Hebdo</title>
 <meta id="t-meta" name="claude:viewport-fit-sides" content="cover">
 <link id="t-pc1" rel="preconnect" href="https://fonts.googleapis.com">
@@ -228,6 +228,8 @@ function start(DATA){
   const $ = id=>document.getElementById(id);
   const esc = s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const safeUrl = u=>/^https?:\/\//i.test(u||'')?u:'';
+  // a link to a site's home page is only a source, not an article
+  const isHome = u=>{ try{ return new URL(u).pathname.replace(/\/+$/,'')===''; }catch(e){ return false; } };
 
   let eds, allSports, clubMap, allClubs;
   function catalogue(){
@@ -279,12 +281,14 @@ function start(DATA){
     const on=vc.filter(c=>!offC.has(c)).length;
     $('csum').textContent = vc.length?(on===vc.length?`tous (${vc.length})`:`${on} sur ${vc.length}`):'';
   }
+  // choosing a sport switches every other filter back on: the reader then unticks what he does not want
+  const openAll=()=>{offZ.clear();offL.clear();offD.clear();offG.clear();offC.clear();};
   const tog=(set,v)=>{set.has(v)?set.delete(v):set.add(v);rub='';store.set('rsh2-rub','');save();render();};
   $('zones').addEventListener('click',e=>{const p=e.target.closest('[data-dep]');if(p){togDep(p.dataset.dep);return;}const b=e.target.closest('[data-z]');if(b)tog(offZ,b.dataset.z);});
   $('deps').addEventListener('click',e=>{const b=e.target.closest('[data-dep]');if(b)togDep(b.dataset.dep);});
   $('genres').addEventListener('click',e=>{const b=e.target.closest('[data-g]');if(b)tog(offG,b.dataset.g);});
   $('levels').addEventListener('click',e=>{const b=e.target.closest('[data-l]');if(b)tog(offL,b.dataset.l);});
-  $('sports').addEventListener('click',e=>{const b=e.target.closest('[data-s]');if(b)tog(offS,b.dataset.s);});
+  $('sports').addEventListener('click',e=>{const b=e.target.closest('[data-s]');if(b){ if(offS.has(b.dataset.s)) openAll(); tog(offS,b.dataset.s); }});
   $('divs').addEventListener('click',e=>{const b=e.target.closest('[data-d]');if(b)tog(offD,b.dataset.d);});
   $('c-search').addEventListener('input',e=>{q=norm(e.target.value.trim());filters();});
   $('clubs').addEventListener('click',e=>{const b=e.target.closest('[data-c]');if(b)tog(offC,b.dataset.c);});
@@ -294,7 +298,7 @@ function start(DATA){
   $('c-none').addEventListener('click',()=>{visClubs().forEach(c=>offC.add(c));save();render();});
   // « tout sélectionner / tout désélectionner » for départements, niveaux and sports
   const bulk={dep:[offZ,()=>DATA.zones.map(z=>z.k)],lvl:[offL,()=>LEVELS],sport:[offS,()=>allSports],div:[offD,()=>DIVS],gen:[offG,()=>GENRES]};
-  document.querySelectorAll('[data-all],[data-none]').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.all||b.dataset.none,[set,all]=bulk[k]; if(b.dataset.all) set.clear(); else all().forEach(v=>set.add(v)); save(); render();}));
+  document.querySelectorAll('[data-all],[data-none]').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.all||b.dataset.none,[set,all]=bulk[k]; if(b.dataset.all){ set.clear(); if(k==='sport') openAll(); } else all().forEach(v=>set.add(v)); save(); render();}));
   $('all').addEventListener('click',()=>{offZ.clear();offL.clear();offS.clear();offC.clear();offD.clear();offG.clear();save();render();});
 
   // a match shows when its sport and level are on, and at least one of its two teams is in a chosen zone and not switched off
@@ -306,10 +310,10 @@ function start(DATA){
   // rubriques : « À la une » = tout, un sport = ce sport seul, « Sport féminin » = matchs féminins seuls
   let rub = store.get('rsh2-rub','une');
   const setRub=k=>{ rub=k; store.set('rsh2-rub',k);
-    if(k==='une'){ offS.clear(); offG.clear(); }
-    else if(k==='fem'){ offS.clear(); offG.clear(); offG.add('Masculin'); }
+    if(k==='une'){ openAll(); offS.clear(); }
+    else if(k==='fem'){ openAll(); offS.clear(); offG.add('Masculin'); }
     else if(k==='affiche'){ const el=$('affiche'); if(el) el.scrollIntoView({behavior:'smooth',block:'start'}); return renderRubs(); }
-    else { offG.clear(); offS.clear(); allSports.forEach(x=>{ if(x!==k) offS.add(x); }); }
+    else { openAll(); offS.clear(); allSports.forEach(x=>{ if(x!==k) offS.add(x); }); }
     save(); render(); };
   function renderRubs(){
     const items=[['une','À la une'],...allSports.map(x=>[x,x]),['fem','Sport féminin'],['affiche','À l’affiche']];
@@ -347,14 +351,16 @@ function start(DATA){
         <div class="une-txt"><span class="kicker">À la une · ${esc(top.comp)}</span>
           <h2>${esc(top.home)} – ${esc(top.away)}</h2>
           ${cur.edito?`<p>${esc(cur.edito)}</p>`:''}
-          ${safeUrl(top.url)?`<a class="read" href="${esc(safeUrl(top.url))}" target="_blank" rel="noopener">Lire l'article ↗</a>`:''}</div>
+          ${safeUrl(top.url)?`<a class="read" href="${esc(safeUrl(top.url))}" target="_blank" rel="noopener">${isHome(top.url)?'Source':'Lire l\'article'} ↗</a>`:''}</div>
         <div class="une-score" aria-label="Score"><span class="teams">${esc(top.home)} · ${esc(top.away)}</span><span class="big">${esc(top.sh)} – ${esc(top.sa)}</span><span class="when">${esc(top.date)}</span></div>
       </article>` : (cur.edito?`<article class="une"><div class="une-txt"><span class="kicker">À la une</span><p>${esc(cur.edito)}</p></div></article>`:'');
     $('res-count').textContent = res.length?res.length+' match'+(res.length>1?'s':''):'';
     const by={}; res.forEach(r=>(by[r.sport]=by[r.sport]||[]).push(r));
     // inside each sport: national first, then regional; football follows the division order National, R1, R2, R3, D1
-    const tier=c=>{const m=/Ligue ([12])|National(?:e)? ?([123])?\b/i.exec(c||''); return !m?0.05:m[1]?(+m[1])/10:m[2]?0.2+(+m[2])/10:0.25;};
-    const lvlRank=r=>{const d=divOf(r); const t=(d==='National'||(!d&&(r.level||'National')==='National'))?tier(r.comp):0; if(d) return DIVS.indexOf(d)+t; return ((r.level||'National')==='National'?0:1)+t;};
+    // championship ladder, highest first; cups go to the end of their sport
+    const LADDER=[[/coupe|troph[ée]e/i,99],[/ligue 1\b|betclic|ligue am\b|ligue a\b|butagaz|starligue|magnus|arkema|premi[èe]re ligue|top 14/i,0],[/ligue 2\b|[ée]lite 2|pro ?b\b|ligue b\b|proligue|\blf2\b|seconde ligue|\bd2 ?f\b|division 1\b|pro d2/i,1],[/[ée]lite/i,1.5],[/nationale? 1\b|\bnf1\b|\bn1\b|f[ée]d[ée]rale 1|division 2\b|^d2\b/i,2],[/nationale? 2\b|\bnf2\b|\bn2\b|f[ée]d[ée]rale 2|division 3\b|\bd3\b/i,3],[/nationale? 3\b|\bnf3\b|\bn3\b|f[ée]d[ée]rale 3|excellence b/i,4],[/pr[ée][- ]?nationale/i,5],[/r[ée]gional(?:e)? ?1\b|\bR1\b/i,6],[/r[ée]gional(?:e)? ?2\b|\bR2\b/i,7],[/r[ée]gional(?:e)? ?3\b|\bR3\b/i,8],[/\bD(?:istrict|[ée]partemental)? ?1\b/i,9]];
+    const DIVRANK={National:4.5,R1:6,R2:7,R3:8,D1:9};
+    const lvlRank=r=>{const c=r.comp||''; for(const [re,v] of LADDER) if(re.test(c)) return v; const d=divOf(r); if(d) return DIVRANK[d]; return (r.level||'National')==='National'?4.5:8.5;};
     Object.values(by).forEach(a=>{a.forEach((r,i)=>r._i=i); a.sort((x,y)=>lvlRank(x)-lvlRank(y)||x._i-y._i);});
     const order=Object.keys(by).sort(sportOrder);
     $('results').innerHTML = order.length? order.map(s=>`<section class="col"><h3>${esc(s)}</h3>${by[s].map(r=>{const u=safeUrl(r.url);return `
@@ -362,7 +368,7 @@ function start(DATA){
         <span class="meta">${esc(r.comp)} · ${esc(r.date)}${genreOf(r)==='Féminin'?' · Féminin':''}</span>
         <div class="row"><span${score(r,'h')}>${esc(r.home)}</span><strong>${esc(r.sh)}</strong></div>
         <div class="row"><span${score(r,'a')}>${esc(r.away)}</span><strong>${esc(r.sa)}</strong></div>
-        <div class="foot"><span>${esc(zoneNames(r))} · ${esc(r.level||'')}</span>${u?`<a class="read" href="${esc(u)}" target="_blank" rel="noopener">Lire l'article ↗</a>`:''}</div>
+        <div class="foot"><span>${esc(zoneNames(r))} · ${esc(r.level||'')}</span>${u?`<a class="read" href="${esc(u)}" target="_blank" rel="noopener">${isHome(u)?'Source':'Lire l\'article'} ↗</a>`:''}</div>
         ${r.note?`<p class="note">${esc(r.note)}</p>`:''}
       </article>`}).join('')}</section>`).join('') : '<div class="empty">Aucun résultat cette semaine pour cette sélection. Modifie les filtres pour ajouter une zone, un niveau, un sport ou un club.</div>';
     const MOIS={janv:1,fevr:2,mars:3,avr:4,mai:5,juin:6,juil:7,aout:8,sept:9,oct:10,nov:11,dec:12};
