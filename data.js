@@ -2280,6 +2280,36 @@ window.RSH_DATA = {
    "sport": "Hockey sur glace",
    "zone": "chalons",
    "level": "National"
+  },
+  {
+   "club": "Diables de Rethel",
+   "sport": "Roller hockey",
+   "zone": "rethel",
+   "level": "National"
+  },
+  {
+   "club": "Bombardiers d'Épernay",
+   "sport": "Roller hockey",
+   "zone": "epernay",
+   "level": "National"
+  },
+  {
+   "club": "Diables de Rethel 2",
+   "sport": "Roller hockey",
+   "zone": "rethel",
+   "level": "National"
+  },
+  {
+   "club": "Bombardiers d'Épernay 2",
+   "sport": "Roller hockey",
+   "zone": "epernay",
+   "level": "National"
+  },
+  {
+   "club": "Troyes Roller",
+   "sport": "Roller hockey",
+   "zone": "troyes",
+   "level": "National"
   }
  ],
  "editions": [
@@ -2680,7 +2710,7 @@ window.RSH_DATA = {
      "date": "Week-end 30 oct.–1er nov.",
      "home": "Rapaces de Reims B",
      "hz": "reims",
-     "away": "Collégien B",
+     "away": "Roller Hockey Collégien 2",
      "az": null,
      "sh": 2,
      "sa": 3,
@@ -4053,6 +4083,62 @@ window.RSH_DATA = {
      "sa": 2,
      "note": "",
      "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
+    },
+    {
+     "sport": "Roller hockey",
+     "level": "National",
+     "comp": "Ligue Élite · J4",
+     "date": "Sam. 31 oct.",
+     "home": "Diables de Rethel",
+     "hz": "rethel",
+     "away": "Yeti's Grenoble",
+     "az": null,
+     "sh": 6,
+     "sa": 2,
+     "note": "",
+     "url": "https://scorenco.com/roller-hockey/clubs/roller-hockey-rethel-ardennes-38sg/1-5cv5"
+    },
+    {
+     "sport": "Roller hockey",
+     "level": "National",
+     "comp": "Ligue Élite · J4",
+     "date": "Sam. 31 oct.",
+     "home": "Prédateurs de Vierzon",
+     "hz": null,
+     "away": "Bombardiers d'Épernay",
+     "az": "epernay",
+     "sh": 6,
+     "sa": 5,
+     "note": "",
+     "url": "https://scorenco.com/roller-hockey/clubs/bombardiers-d-epernay-38v1"
+    },
+    {
+     "sport": "Roller hockey",
+     "level": "National",
+     "comp": "Nationale 3 M · J4",
+     "date": "Sam. 31 oct.",
+     "home": "Bombardiers d'Épernay 2",
+     "hz": "epernay",
+     "away": "APSR Paris XIII",
+     "az": null,
+     "sh": 6,
+     "sa": 5,
+     "note": "",
+     "url": "https://scorenco.com/roller-hockey/clubs/bombardiers-d-epernay-38v1"
+    },
+    {
+     "sport": "Roller hockey",
+     "level": "National",
+     "comp": "Nationale 3 M · J4",
+     "date": "Sam. 31 oct.",
+     "home": "Diables de Rethel 2",
+     "hz": "rethel",
+     "away": "Troyes Roller",
+     "az": "troyes",
+     "sh": 2,
+     "sa": 5,
+     "note": "",
+     "url": "https://scorenco.com/roller-hockey/clubs/troyes-roller-3b93"
     }
    ],
    "agenda": [
@@ -4587,6 +4673,19 @@ window.RSH_DATA = {
      "comp": "Division 2 · J6",
      "place": "La Roche-sur-Yon, patinoire Arago",
      "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
+    },
+    {
+     "sport": "Roller hockey",
+     "level": "National",
+     "day": "Sam. 7 nov.",
+     "time": "18:30",
+     "home": "OK Roller Beaune",
+     "hz": null,
+     "away": "Rapaces de Reims B",
+     "az": "reims",
+     "comp": "Nationale 3 M · Groupe 3",
+     "place": "Beaune",
+     "url": "https://scorenco.com/roller-hockey/clubs/les-rapaces-de-reims-38sz/2-5cz7"
     }
    ]
   }
@@ -4715,9 +4814,465 @@ window.RSH_DATA = {
   {
    "name": "FFHG – Division 2, calendrier et résultats",
    "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
+  },
+  {
+   "name": "Score'n'co – roller hockey (Rethel, Épernay, Troyes, Reims)",
+   "url": "https://scorenco.com/roller-hockey/clubs/roller-hockey-rethel-ardennes-38sg/1-5cv5"
   }
  ],
  "classements": [
+  {
+   "sport": "Football",
+   "level": "National",
+   "div": "National",
+   "key": "Ligue 1",
+   "maj": "relevé le 6 nov. sur Orange Sports",
+   "url": "https://sports.orange.fr/football/ligue-1/classement-equipes.html",
+   "rows": [
+    {
+     "r": 1,
+     "team": "PSG",
+     "pts": 20,
+     "j": 9,
+     "g": 6,
+     "n": 2,
+     "p": 1,
+     "bp": 21,
+     "bc": 10,
+     "diff": "+11"
+    },
+    {
+     "r": 2,
+     "team": "Lille",
+     "pts": 18,
+     "j": 9,
+     "g": 5,
+     "n": 3,
+     "p": 1,
+     "bp": 12,
+     "bc": 6,
+     "diff": "+6"
+    },
+    {
+     "r": 3,
+     "team": "Lyon",
+     "pts": 17,
+     "j": 9,
+     "g": 5,
+     "n": 2,
+     "p": 2,
+     "bp": 15,
+     "bc": 7,
+     "diff": "+8"
+    },
+    {
+     "r": 4,
+     "team": "Paris FC",
+     "pts": 17,
+     "j": 9,
+     "g": 5,
+     "n": 2,
+     "p": 2,
+     "bp": 16,
+     "bc": 10,
+     "diff": "+6"
+    },
+    {
+     "r": 5,
+     "team": "Rennes",
+     "pts": 16,
+     "j": 9,
+     "g": 5,
+     "n": 1,
+     "p": 3,
+     "bp": 20,
+     "bc": 19,
+     "diff": "+1"
+    },
+    {
+     "r": 6,
+     "team": "Marseille",
+     "pts": 15,
+     "j": 9,
+     "g": 5,
+     "n": 0,
+     "p": 4,
+     "bp": 20,
+     "bc": 13,
+     "diff": "+7"
+    },
+    {
+     "r": 7,
+     "team": "Monaco",
+     "pts": 15,
+     "j": 9,
+     "g": 4,
+     "n": 3,
+     "p": 2,
+     "bp": 12,
+     "bc": 10,
+     "diff": "+2"
+    },
+    {
+     "r": 8,
+     "team": "Nice",
+     "pts": 14,
+     "j": 9,
+     "g": 4,
+     "n": 2,
+     "p": 3,
+     "bp": 13,
+     "bc": 12,
+     "diff": "+1"
+    },
+    {
+     "r": 9,
+     "team": "Lens",
+     "pts": 13,
+     "j": 9,
+     "g": 4,
+     "n": 1,
+     "p": 4,
+     "bp": 16,
+     "bc": 13,
+     "diff": "+3"
+    },
+    {
+     "r": 10,
+     "team": "Brest",
+     "pts": 12,
+     "j": 9,
+     "g": 3,
+     "n": 3,
+     "p": 3,
+     "bp": 16,
+     "bc": 12,
+     "diff": "+4"
+    },
+    {
+     "r": 11,
+     "team": "Lorient",
+     "pts": 12,
+     "j": 9,
+     "g": 3,
+     "n": 3,
+     "p": 3,
+     "bp": 7,
+     "bc": 8,
+     "diff": "-1"
+    },
+    {
+     "r": 12,
+     "team": "Toulouse",
+     "pts": 10,
+     "j": 9,
+     "g": 2,
+     "n": 4,
+     "p": 3,
+     "bp": 12,
+     "bc": 13,
+     "diff": "-1"
+    },
+    {
+     "r": 13,
+     "team": "RC Strasbourg",
+     "pts": 10,
+     "j": 9,
+     "g": 3,
+     "n": 1,
+     "p": 5,
+     "bp": 17,
+     "bc": 19,
+     "diff": "-2"
+    },
+    {
+     "r": 14,
+     "team": "Auxerre",
+     "pts": 10,
+     "j": 9,
+     "g": 3,
+     "n": 1,
+     "p": 5,
+     "bp": 13,
+     "bc": 23,
+     "diff": "-10"
+    },
+    {
+     "r": 15,
+     "team": "Angers",
+     "pts": 8,
+     "j": 9,
+     "g": 2,
+     "n": 2,
+     "p": 5,
+     "bp": 9,
+     "bc": 17,
+     "diff": "-8"
+    },
+    {
+     "r": 16,
+     "team": "ESTAC Troyes",
+     "pts": 8,
+     "j": 9,
+     "g": 2,
+     "n": 2,
+     "p": 5,
+     "bp": 7,
+     "bc": 16,
+     "diff": "-9"
+    },
+    {
+     "r": 17,
+     "team": "Le Mans",
+     "pts": 7,
+     "j": 9,
+     "g": 1,
+     "n": 4,
+     "p": 4,
+     "bp": 11,
+     "bc": 18,
+     "diff": "-7"
+    },
+    {
+     "r": 18,
+     "team": "Le Havre",
+     "pts": 2,
+     "j": 9,
+     "g": 0,
+     "n": 2,
+     "p": 7,
+     "bp": 9,
+     "bc": 20,
+     "diff": "-11"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "National",
+   "div": "National",
+   "key": "Ligue 2",
+   "maj": "relevé le 6 nov. sur Orange Sports",
+   "url": "https://sports.orange.fr/football/ligue-2/classement-equipes.html",
+   "rows": [
+    {
+     "r": 1,
+     "team": "ASSE",
+     "pts": 25,
+     "j": 11,
+     "g": 8,
+     "n": 1,
+     "p": 2,
+     "bp": 23,
+     "bc": 11,
+     "diff": "+12"
+    },
+    {
+     "r": 2,
+     "team": "Montpellier",
+     "pts": 24,
+     "j": 11,
+     "g": 7,
+     "n": 3,
+     "p": 1,
+     "bp": 16,
+     "bc": 6,
+     "diff": "+10"
+    },
+    {
+     "r": 3,
+     "team": "AS Nancy Lorraine",
+     "pts": 22,
+     "j": 11,
+     "g": 7,
+     "n": 1,
+     "p": 3,
+     "bp": 16,
+     "bc": 9,
+     "diff": "+7"
+    },
+    {
+     "r": 4,
+     "team": "Stade de Reims",
+     "pts": 21,
+     "j": 11,
+     "g": 5,
+     "n": 6,
+     "p": 0,
+     "bp": 22,
+     "bc": 12,
+     "diff": "+10"
+    },
+    {
+     "r": 5,
+     "team": "Pau",
+     "pts": 20,
+     "j": 11,
+     "g": 6,
+     "n": 2,
+     "p": 3,
+     "bp": 16,
+     "bc": 11,
+     "diff": "+5"
+    },
+    {
+     "r": 6,
+     "team": "Red Star",
+     "pts": 17,
+     "j": 11,
+     "g": 5,
+     "n": 2,
+     "p": 4,
+     "bp": 14,
+     "bc": 16,
+     "diff": "-2"
+    },
+    {
+     "r": 7,
+     "team": "Annecy",
+     "pts": 16,
+     "j": 11,
+     "g": 5,
+     "n": 1,
+     "p": 5,
+     "bp": 14,
+     "bc": 15,
+     "diff": "-1"
+    },
+    {
+     "r": 8,
+     "team": "Dijon",
+     "pts": 15,
+     "j": 11,
+     "g": 4,
+     "n": 3,
+     "p": 4,
+     "bp": 20,
+     "bc": 19,
+     "diff": "+1"
+    },
+    {
+     "r": 9,
+     "team": "Guingamp",
+     "pts": 14,
+     "j": 11,
+     "g": 4,
+     "n": 2,
+     "p": 5,
+     "bp": 16,
+     "bc": 15,
+     "diff": "+1"
+    },
+    {
+     "r": 10,
+     "team": "Metz",
+     "pts": 14,
+     "j": 11,
+     "g": 3,
+     "n": 5,
+     "p": 3,
+     "bp": 17,
+     "bc": 17,
+     "diff": "0"
+    },
+    {
+     "r": 11,
+     "team": "Rodez",
+     "pts": 13,
+     "j": 11,
+     "g": 4,
+     "n": 1,
+     "p": 6,
+     "bp": 17,
+     "bc": 22,
+     "diff": "-5"
+    },
+    {
+     "r": 12,
+     "team": "Dunkerque",
+     "pts": 12,
+     "j": 11,
+     "g": 3,
+     "n": 3,
+     "p": 5,
+     "bp": 14,
+     "bc": 17,
+     "diff": "-3"
+    },
+    {
+     "r": 13,
+     "team": "Sochaux",
+     "pts": 11,
+     "j": 11,
+     "g": 2,
+     "n": 5,
+     "p": 4,
+     "bp": 8,
+     "bc": 14,
+     "diff": "-6"
+    },
+    {
+     "r": 14,
+     "team": "Boulogne",
+     "pts": 10,
+     "j": 11,
+     "g": 1,
+     "n": 7,
+     "p": 3,
+     "bp": 7,
+     "bc": 8,
+     "diff": "-1"
+    },
+    {
+     "r": 15,
+     "team": "Nantes",
+     "pts": 9,
+     "j": 11,
+     "g": 2,
+     "n": 3,
+     "p": 6,
+     "bp": 12,
+     "bc": 18,
+     "diff": "-6"
+    },
+    {
+     "r": 16,
+     "team": "Laval",
+     "pts": 9,
+     "j": 11,
+     "g": 2,
+     "n": 3,
+     "p": 6,
+     "bp": 14,
+     "bc": 21,
+     "diff": "-7"
+    },
+    {
+     "r": 17,
+     "team": "Clermont",
+     "pts": 8,
+     "j": 11,
+     "g": 0,
+     "n": 8,
+     "p": 3,
+     "bp": 10,
+     "bc": 15,
+     "diff": "-5"
+    },
+    {
+     "r": 18,
+     "team": "Grenoble",
+     "pts": 8,
+     "j": 11,
+     "g": 2,
+     "n": 2,
+     "p": 7,
+     "bp": 10,
+     "bc": 20,
+     "diff": "-10"
+    }
+   ]
+  },
   {
    "sport": "Football",
    "level": "National",
@@ -6237,6 +6792,779 @@ window.RSH_DATA = {
      "diff": "-17"
     }
    ]
+  },
+  {
+   "sport": "Futsal",
+   "level": "National",
+   "key": "D2",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Reims Métropole Futsal",
+     "txt": "6e, 4 pts"
+    }
+   ]
+  },
+  {
+   "sport": "Futsal",
+   "level": "Régional",
+   "key": "Régional 1 futsal",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-1-futsal-1/phase-lgef/poule-unique",
+   "rows": []
+  },
+  {
+   "sport": "Basket",
+   "level": "National",
+   "key": "Betclic Élite",
+   "maj": "",
+   "url": "https://www.eurosport.fr/basketball/pro-a/classements.shtml",
+   "rows": []
+  },
+  {
+   "sport": "Basket",
+   "level": "National",
+   "key": "Elite 2",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.eurosport.fr/basketball/pro-b/classements.shtml",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Champagne Basket",
+     "txt": "4e, 5 victoires – 2 défaites"
+    }
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "National",
+   "key": "LF2",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Champagne Basket Féminin",
+     "txt": "9e, 3 victoires – 3 défaites"
+    }
+   ],
+   "genre": "F"
+  },
+  {
+   "sport": "Basket",
+   "level": "National",
+   "key": "Nationale 2 M",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Recy-Saint-Martin",
+     "txt": "9e, 3 victoires – 4 défaites"
+    }
+   ]
+  },
+  {
+   "sport": "Basket",
+   "level": "National",
+   "key": "Nationale 3 F",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Champagne Basket Féminin B",
+     "txt": "10e, 2 victoires – 5 défaites"
+    }
+   ],
+   "genre": "F"
+  },
+  {
+   "sport": "Handball",
+   "level": "National",
+   "key": "Ligue Butagaz Énergie",
+   "maj": "",
+   "url": "https://www.ffhandball.fr/",
+   "rows": []
+  },
+  {
+   "sport": "Volley",
+   "level": "National",
+   "key": "Ligue AM (Alterna Volstar)",
+   "maj": "",
+   "url": "https://www.eurosport.fr/volleyball/alterna-volstar/2026-2027/chaumont-sete_mtc22028176/live-table.shtml",
+   "rows": []
+  },
+  {
+   "sport": "Volley",
+   "level": "National",
+   "key": "Division 2 M",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Reims Volley 51",
+     "txt": "2e, 8 pts"
+    }
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "National",
+   "key": "Élite Avenir",
+   "maj": "",
+   "url": "https://www.ffvbbeach.org/",
+   "rows": []
+  },
+  {
+   "sport": "Volley",
+   "level": "National",
+   "key": "Nationale 2 M",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Reims Volley 51 C",
+     "txt": "10e, 4 pts"
+    }
+   ]
+  },
+  {
+   "sport": "Volley",
+   "level": "National",
+   "key": "Nationale 3 F",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Reims Volley 51 F",
+     "txt": "12e, 0 pt"
+    }
+   ],
+   "genre": "F"
+  },
+  {
+   "sport": "Rugby",
+   "level": "National",
+   "key": "Fédérale 3",
+   "maj": "",
+   "url": "https://competitions.ffr.fr/",
+   "rows": []
+  },
+  {
+   "sport": "Rugby",
+   "level": "National",
+   "key": "Excellence B",
+   "maj": "",
+   "url": "https://competitions.ffr.fr/",
+   "rows": []
+  },
+  {
+   "sport": "Rugby",
+   "level": "Régional",
+   "key": "Régionale 1",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Stade de Reims Rugby",
+     "txt": "7e, 10 pts"
+    }
+   ]
+  },
+  {
+   "sport": "Roller hockey",
+   "level": "National",
+   "key": "Nationale 1 M",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-30-octobre-au-1er-novembre-2026/",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Rapaces de Reims",
+     "txt": "7e, 5 pts"
+    }
+   ]
+  },
+  {
+   "sport": "Hockey sur glace",
+   "level": "National",
+   "key": "Division 2",
+   "maj": "relevé le 6 nov. sur Sport Club Reims",
+   "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728",
+   "rows": [],
+   "pos": [
+    {
+     "team": "Phénix de Reims",
+     "txt": "4e, 10 pts"
+    }
+   ]
+  },
+  {
+   "sport": "Water-polo",
+   "level": "Régional",
+   "key": "Nationale 3 Hauts-de-France · Poule B",
+   "maj": "",
+   "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=223",
+   "rows": []
+  },
+  {
+   "sport": "Roller hockey",
+   "level": "National",
+   "key": "Ligue Élite",
+   "maj": "relevé le 6 nov. sur Score'n'co",
+   "url": "https://scorenco.com/roller-hockey/clubs/roller-hockey-rethel-ardennes-38sg/1-5cv5",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Aiglons de Valence",
+     "pts": 11,
+     "j": 4,
+     "g": 4,
+     "n": 0,
+     "p": 0,
+     "bp": 33,
+     "bc": 13,
+     "diff": "+20"
+    },
+    {
+     "r": 2,
+     "team": "Prédateurs de Vierzon",
+     "pts": 8,
+     "j": 4,
+     "g": 3,
+     "n": 0,
+     "p": 1,
+     "bp": 17,
+     "bc": 15,
+     "diff": "+2"
+    },
+    {
+     "r": 3,
+     "team": "Diables de Rethel",
+     "pts": 8,
+     "j": 4,
+     "g": 3,
+     "n": 0,
+     "p": 1,
+     "bp": 17,
+     "bc": 12,
+     "diff": "+5"
+    },
+    {
+     "r": 4,
+     "team": "Bombardiers d'Épernay",
+     "pts": 6,
+     "j": 3,
+     "g": 2,
+     "n": 0,
+     "p": 1,
+     "bp": 18,
+     "bc": 12,
+     "diff": "+6"
+    },
+    {
+     "r": 5,
+     "team": "Yeti's Grenoble",
+     "pts": 5,
+     "j": 4,
+     "g": 2,
+     "n": 0,
+     "p": 2,
+     "bp": 11,
+     "bc": 15,
+     "diff": "-4"
+    },
+    {
+     "r": 6,
+     "team": "Villeneuve-la-Garenne",
+     "pts": 5,
+     "j": 3,
+     "g": 1,
+     "n": 0,
+     "p": 2,
+     "bp": 15,
+     "bc": 11,
+     "diff": "+4"
+    },
+    {
+     "r": 7,
+     "team": "Roller Skating Hockey Caen",
+     "pts": 4,
+     "j": 3,
+     "g": 1,
+     "n": 0,
+     "p": 2,
+     "bp": 14,
+     "bc": 14,
+     "diff": "0"
+    },
+    {
+     "r": 8,
+     "team": "Artzak Anglet",
+     "pts": 3,
+     "j": 3,
+     "g": 1,
+     "n": 0,
+     "p": 2,
+     "bp": 5,
+     "bc": 10,
+     "diff": "-5"
+    },
+    {
+     "r": 9,
+     "team": "Hawks Angers Rollers",
+     "pts": 1,
+     "j": 3,
+     "g": 0,
+     "n": 0,
+     "p": 3,
+     "bp": 8,
+     "bc": 17,
+     "diff": "-9"
+    },
+    {
+     "r": 10,
+     "team": "Pont de Metz",
+     "pts": 0,
+     "j": 3,
+     "g": 0,
+     "n": 0,
+     "p": 3,
+     "bp": 7,
+     "bc": 26,
+     "diff": "-19"
+    }
+   ]
+  },
+  {
+   "sport": "Roller hockey",
+   "level": "National",
+   "key": "Nationale 3 M",
+   "maj": "relevé le 6 nov. sur Score'n'co",
+   "url": "https://scorenco.com/roller-hockey/clubs/les-rapaces-de-reims-38sz/2-5cz7",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Roller Hockey Collégien 2",
+     "pts": 11,
+     "j": 4,
+     "g": 4,
+     "n": 0,
+     "p": 0,
+     "bp": 27,
+     "bc": 11,
+     "diff": "+16"
+    },
+    {
+     "r": 2,
+     "team": "Rapaces de Reims B",
+     "pts": 8,
+     "j": 4,
+     "g": 3,
+     "n": 0,
+     "p": 1,
+     "bp": 18,
+     "bc": 12,
+     "diff": "+6"
+    },
+    {
+     "r": 3,
+     "team": "Strascross Strasbourg",
+     "pts": 8,
+     "j": 4,
+     "g": 3,
+     "n": 0,
+     "p": 1,
+     "bp": 20,
+     "bc": 15,
+     "diff": "+5"
+    },
+    {
+     "r": 4,
+     "team": "Corsaires de Paris 2",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "n": 0,
+     "p": 2,
+     "bp": 27,
+     "bc": 19,
+     "diff": "+8"
+    },
+    {
+     "r": 5,
+     "team": "Troyes Roller",
+     "pts": 7,
+     "j": 4,
+     "g": 2,
+     "n": 0,
+     "p": 2,
+     "bp": 23,
+     "bc": 19,
+     "diff": "+4"
+    },
+    {
+     "r": 6,
+     "team": "Bombardiers d'Épernay 2",
+     "pts": 6,
+     "j": 4,
+     "g": 2,
+     "n": 0,
+     "p": 2,
+     "bp": 17,
+     "bc": 17,
+     "diff": "0"
+    },
+    {
+     "r": 7,
+     "team": "Diables de Rethel 2",
+     "pts": 1,
+     "j": 4,
+     "g": 0,
+     "n": 0,
+     "p": 4,
+     "bp": 9,
+     "bc": 29,
+     "diff": "-20"
+    },
+    {
+     "r": 8,
+     "team": "OK Roller Beaune",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "n": 0,
+     "p": 4,
+     "bp": 20,
+     "bc": 39,
+     "diff": "-19"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F",
+   "key": "Régional 2 féminin · Poule A",
+   "maj": "relevé le 6 nov. sur Sportcorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-a",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Charleville Prix OAM (féminines)",
+     "pts": 18,
+     "j": 6,
+     "g": 6,
+     "n": 0,
+     "p": 0,
+     "bp": 37,
+     "bc": 3,
+     "diff": "+34"
+    },
+    {
+     "r": 2,
+     "team": "Olympique Rémois",
+     "pts": 13,
+     "j": 6,
+     "g": 4,
+     "n": 1,
+     "p": 1,
+     "bp": 18,
+     "bc": 10,
+     "diff": "+8"
+    },
+    {
+     "r": 3,
+     "team": "Sedan Ardennes CS (féminines)",
+     "pts": 7,
+     "j": 5,
+     "g": 2,
+     "n": 1,
+     "p": 2,
+     "bp": 6,
+     "bc": 12,
+     "diff": "-6"
+    },
+    {
+     "r": 4,
+     "team": "Flize US",
+     "pts": 6,
+     "j": 5,
+     "g": 2,
+     "n": 0,
+     "p": 3,
+     "bp": 16,
+     "bc": 8,
+     "diff": "+8"
+    },
+    {
+     "r": 5,
+     "team": "Bétheny FC (féminines)",
+     "pts": 2,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 3,
+     "bc": 21,
+     "diff": "-18"
+    },
+    {
+     "r": 6,
+     "team": "Gueux AS (féminines)",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "n": 0,
+     "p": 4,
+     "bp": 0,
+     "bc": 26,
+     "diff": "-26"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "D1",
+   "key": "Départemental 1 Aisne",
+   "maj": "relevé le 6 nov. sur Sportcorico",
+   "url": "https://www.sportcorico.com/championnat/aisne-departemental-1-5/phase-unique/poule-a",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Bohain RC",
+     "pts": 15,
+     "j": 6,
+     "g": 5,
+     "n": 0,
+     "p": 1,
+     "bp": 19,
+     "bc": 7,
+     "diff": "+12"
+    },
+    {
+     "r": 2,
+     "team": "Guise US",
+     "pts": 13,
+     "j": 5,
+     "g": 4,
+     "n": 1,
+     "p": 0,
+     "bp": 11,
+     "bc": 4,
+     "diff": "+7"
+    },
+    {
+     "r": 3,
+     "team": "Itancourt Neuville 3",
+     "pts": 12,
+     "j": 6,
+     "g": 3,
+     "n": 3,
+     "p": 0,
+     "bp": 10,
+     "bc": 4,
+     "diff": "+6"
+    },
+    {
+     "r": 4,
+     "team": "Bruyères Montbérault",
+     "pts": 10,
+     "j": 6,
+     "g": 3,
+     "n": 1,
+     "p": 2,
+     "bp": 10,
+     "bc": 10,
+     "diff": "0"
+    },
+    {
+     "r": 5,
+     "team": "La Fère US",
+     "pts": 10,
+     "j": 6,
+     "g": 3,
+     "n": 1,
+     "p": 2,
+     "bp": 9,
+     "bc": 10,
+     "diff": "-1"
+    },
+    {
+     "r": 6,
+     "team": "Tergnier FC",
+     "pts": 9,
+     "j": 6,
+     "g": 2,
+     "n": 3,
+     "p": 1,
+     "bp": 8,
+     "bc": 8,
+     "diff": "0"
+    },
+    {
+     "r": 7,
+     "team": "Courmelles FC",
+     "pts": 7,
+     "j": 6,
+     "g": 2,
+     "n": 1,
+     "p": 3,
+     "bp": 5,
+     "bc": 10,
+     "diff": "-5"
+    },
+    {
+     "r": 8,
+     "team": "Crécois ICS",
+     "pts": 7,
+     "j": 6,
+     "g": 2,
+     "n": 1,
+     "p": 3,
+     "bp": 12,
+     "bc": 10,
+     "diff": "+2"
+    },
+    {
+     "r": 9,
+     "team": "Belleu US",
+     "pts": 7,
+     "j": 5,
+     "g": 2,
+     "n": 1,
+     "p": 2,
+     "bp": 10,
+     "bc": 9,
+     "diff": "+1"
+    },
+    {
+     "r": 10,
+     "team": "Guignicourt US",
+     "pts": 3,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 6,
+     "bc": 12,
+     "diff": "-6"
+    },
+    {
+     "r": 11,
+     "team": "Seboncourt US",
+     "pts": 3,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 6,
+     "bc": 13,
+     "diff": "-7"
+    },
+    {
+     "r": 12,
+     "team": "St Quentin Portugais",
+     "pts": 2,
+     "j": 6,
+     "g": 0,
+     "n": 2,
+     "p": 4,
+     "bp": 7,
+     "bc": 16,
+     "diff": "-9"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "key": "Régional 2 · Poule B",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-2/phase-lgef/poule-b",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R3",
+   "key": "Régional 3 · Poule A",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-3-ihe-energies-1/phase-lgef/poule-a",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R3",
+   "key": "Régional 3 · Poule D",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-3-ihe-energies-1/phase-lgef/poule-d",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "key": "Régional 2 Hauts-de-France · Poule B",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/hauts-de-france-seniors-regional-2-5/phase-unique/poule-b",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R3",
+   "key": "Régional 3 Hauts-de-France · Poule A",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/hauts-de-france-seniors-regional-3-5/phase-unique/poule-a",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R3",
+   "key": "Régional 3 Hauts-de-France · Poule B",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/hauts-de-france-seniors-regional-3-5/phase-unique/poule-b",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R3",
+   "key": "Régional 3 Hauts-de-France · Poule C",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnat/hauts-de-france-seniors-regional-3-5/phase-unique/poule-c",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "key": "Régional 2 féminin · Poule B",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnats-par-region/football/grand-est",
+   "rows": []
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "key": "Régional 2 féminin · Poule C",
+   "maj": "",
+   "url": "https://www.sportcorico.com/championnats-par-region/football/grand-est",
+   "rows": []
   }
  ]
 };
