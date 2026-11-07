@@ -3255,6 +3255,21 @@
      "sh": 1,
      "sa": 3,
      "note": "Sets : 21-25, 20-25, 25-21, 14-25."
+    },
+    {
+     "sport": "Football",
+     "level": "National",
+     "genre": "M",
+     "comp": "Ligue 2 · J12",
+     "date": "Ven. 6 nov.",
+     "home": "Grenoble Foot",
+     "hz": null,
+     "away": "Stade De Reims",
+     "az": "reims",
+     "sh": 3,
+     "sa": 2,
+     "note": "Doublés de Maël Corboz pour Grenoble et de Fofana pour Reims.",
+     "url": "https://www.grenoblemag.com/article/3599/ligue-2-grenoble-fait-tomber-reims-dans-un-match-fou-et-s-offre-une-victoire-capitale-3-2"
     }
    ],
    "agenda": [

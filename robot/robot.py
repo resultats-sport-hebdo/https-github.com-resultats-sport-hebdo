@@ -115,7 +115,10 @@ def run(today, dry, only=None):
     def dup(r, news, day):
         # même match déjà fourni par le robot sous un autre nom de compétition (saisie manuelle)
         return r.get("src") not in OWN_SRC and r.get("sport") in read_sports and any(same(r, n, day) for n in news)
-    E["results"] = [r for r in E["results"] if keep(r) and not dup(r, new_res, "date")] + new_res
+    # un score saisi à la main est gardé tant que la source du robot ne l'a pas encore (ex. Ligue 2 du vendredi)
+    def manual_kept(r):
+        return r.get("src") not in OWN_SRC and r.get("sh") is not None
+    E["results"] = [r for r in E["results"] if (keep(r) or manual_kept(r)) and not dup(r, new_res, "date")] + new_res
     E["agenda"] = [a for a in E["agenda"] if keep(a) and not dup(a, new_ag, "day")] + new_ag
     # classements saisis à la main sous une autre clé et désormais lus par le robot
     robot_teams = {}
