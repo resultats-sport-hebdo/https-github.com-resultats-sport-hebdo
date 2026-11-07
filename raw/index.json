@@ -1,0 +1,44 @@
+{
+ "https_www_foot_national_com_data_resultat_ligue2_html_2a45bb": {
+  "url": "https://www.foot-national.com/data/resultat-ligue2.html",
+  "status": 200,
+  "type": "text/html; charset=0",
+  "len": 198573,
+  "final": "https://www.foot-national.com/data/resultat-ligue2.html"
+ },
+ "https_www_foot_national_com_data_calendrier_ligue2_html_990ed7": {
+  "url": "https://www.foot-national.com/data/calendrier-ligue2.html",
+  "status": 200,
+  "type": "text/html; charset=0",
+  "len": 198581,
+  "final": "https://www.foot-national.com/data/calendrier-ligue2.html"
+ },
+ "https_www_foot_national_com_data_classement_ligue2_html_d5fe7f": {
+  "url": "https://www.foot-national.com/data/classement-ligue2.html",
+  "status": 200,
+  "type": "text/html; charset=0",
+  "len": 218679,
+  "final": "https://www.foot-national.com/data/classement-ligue2.html"
+ },
+ "_www_foot_national_com_data_resultat_national2_groupe_e_html_420c5b": {
+  "url": "https://www.foot-national.com/data/resultat-national2-groupe-e.html",
+  "status": 200,
+  "type": "text/html; charset=0",
+  "len": 186971,
+  "final": "https://www.foot-national.com/data/resultat-national2-groupe-e.html"
+ },
+ "tps_www_foot_national_com_data_resultat_coupe_de_france_html_7baa0a": {
+  "url": "https://www.foot-national.com/data/resultat-coupe-de-france.html",
+  "status": 200,
+  "type": "text/html; charset=0",
+  "len": 204435,
+  "final": "https://www.foot-national.com/data/resultat-coupe-de-france.html"
+ },
+ "on_wp_v2_posts_per_page_20_fields_id_date_link_title_content_9e41cf": {
+  "url": "https://www.sportclub-reims.fr/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,content",
+  "status": 200,
+  "type": "application/json; charset=UTF-8",
+  "len": 267212,
+  "final": "https://www.sportclub-reims.fr/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,content"
+ }
+}
