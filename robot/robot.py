@@ -213,9 +213,24 @@ def competitions():
 def run(today, dry):
     D = load_data()
     Z = Zoner(D)
-    E = D["editions"][0]
     now = today
     start, end = now - timedelta(days=7), now + timedelta(days=7)
+    E = D["editions"][0]
+    # Dimanche soir et lundi : on prépare l'édition du lundi (même id que la tâche du lundi matin).
+    if now.weekday() in (6, 0):
+        monday = (now + timedelta(days=1)) if now.weekday() == 6 else now
+        mon = monday.date()
+        start = datetime.combine(mon - timedelta(days=7), datetime.min.time(), PARIS)
+        end = datetime.combine(mon + timedelta(days=6), datetime.min.time(), PARIS)
+        now = datetime.combine(mon - timedelta(days=1), datetime.min.time(), PARIS)  # fin des résultats : dimanche
+        eid = mon.isoformat()
+        E = next((e for e in D["editions"] if e.get("id") == eid), None)
+        if E is None:
+            a, b = mon - timedelta(days=7), mon - timedelta(days=1)
+            E = {"id": eid, "label": f"Semaine du {a.day} {MOIS[a.month-1]} au {b.day} {MOIS[b.month-1]}",
+                 "edito": "", "results": [], "agenda": []}
+            D["editions"].insert(0, E)
+            del D["editions"][8:]
     report = {"poules": 0, "gardées": 0, "résultats": 0, "à venir": 0, "classements": 0, "erreurs": []}
     new_res, new_ag, new_cl, owned = [], [], [], set()
 
@@ -254,7 +269,7 @@ def run(today, dry):
                     "away": m["away"], "az": az, "url": page, "src": "ldf"}
             if m["sh"] is not None and start.date() <= loc.date() <= now.date():
                 new_res.append({**base, "date": fdate(loc), "sh": m["sh"], "sa": m["sa"], "note": ""})
-            elif m["sh"] is None and now.date() <= loc.date() <= end.date() and not m["status"]:
+            elif m["sh"] is None and now.date() <= loc.date() <= end.date() and not m["status"] and loc >= datetime.now(PARIS) - timedelta(hours=3):
                 new_ag.append({**base, "day": fdate(loc), "time": loc.strftime("%H:%M"), "place": ""})
         if table:
             new_cl.append({"sport": "Football", "level": level, **({"div": div} if div != "National" else {}),
