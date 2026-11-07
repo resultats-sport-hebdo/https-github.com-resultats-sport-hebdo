@@ -12,6 +12,9 @@ BASE = "https://www.foot-national.com/data/"
 COMPETITIONS = [("ligue1", "Ligue 1"), ("ligue2", "Ligue 2")] + \
     [(f"national1-groupe-{p}", f"National 1 · Poule {p.upper()}") for p in "abc"] + \
     [(f"national2-groupe-{p}", f"National 2 · Poule {p.upper()}") for p in "abcdefgh"]
+# noms courts de Foot-National → noms du catalogue
+ALIASES = {"Troyes": "ESTAC Troyes", "Reims": "Stade de Reims", "Saint-Quentin": "St Quentin O.",
+           "Charleville": "Charleville Prix OAM", "Sedan": "Sedan Ardennes CS", "Epernay": "Épernay Champagne RC"}
 MOIS_FR = {m: i + 1 for i, m in enumerate(["janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout",
                                            "septembre", "octobre", "novembre", "decembre"])}
 
@@ -88,13 +91,15 @@ def collect(D, Z, W, report):
                 m["j"] = k; matches.append(m)
         reserve_ok = not name.startswith("National")  # en N1/N2, les réserves des clubs pros du Grand Est ne sont pas suivies
         def zone(t, s):
-            z = Z.zone(t) or Z.zone(s)
+            # le nom court (« Reims ») d'abord ; le nom complet, plus long, seulement s'il correspond exactement
+            z = Z.zone(s) or Z.exact_zone(t)
             return None if (z == "grandest" and not reserve_ok) else z
         disp = {}
         for m in matches:
             for full, sh in ((m["home"], m["short"][0]), (m["away"], m["short"][1])):
-                c = Z.canon(full, sh) if zone(full, sh) else None
-                if c and re.search(r"\s(B|2|II)$", sh or ""): c += " 2"
+                base_sh = re.sub(r"\s(B|2|II)$", "", sh or "")
+                c = (ALIASES.get(base_sh) or Z.canon(sh, full)) if zone(full, sh) else None
+                if c and base_sh != (sh or ""): c += " 2"
                 disp[full] = c or sh or full
         for m in matches:
             m["zh"], m["za"] = zone(m["home"], m["short"][0]), zone(m["away"], m["short"][1])

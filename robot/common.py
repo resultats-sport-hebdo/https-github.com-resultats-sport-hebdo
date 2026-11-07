@@ -136,6 +136,10 @@ class Zoner:
         if best: return best[1]
         return self.by_city(team)
 
+    def exact_zone(self, team):
+        j = " ".join(tokens(team))
+        return self.map.get(j) or self.exact.get(j)
+
     def canon(self, *names):
         """Nom du catalogue pour une équipe première (ex. « Stade de Reims »), sinon None."""
         for n in names:
