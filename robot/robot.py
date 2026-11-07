@@ -41,7 +41,7 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
 STOP = set("fc us as es sc cs ca ac rc js om os ol o sp sf sl ent entente club football foot de du la le les l d st saint ste sainte "
-           "the and et union sportive association olympique stade sporting usa asc fcf ec aj cso usag oam am prix".split())
+           "sur sous en aux des les au lez pres the and et union sportive association olympique stade sporting usa asc fcf ec aj cso usag oam am prix".split())
 
 def tokens(s):
     return [t for t in norm(s).split() if t not in STOP and not t.isdigit() and len(t) > 1]
@@ -116,11 +116,11 @@ class Zoner:
         best = None
         for k, z in self.map.items():
             ks = set(k.split())
-            if ks and (ks <= ts or ts <= ks) and len(ks & ts) >= 1:
+            if ks and ks <= ts and all(len(x) >= 3 for x in ks):
                 if not best or len(k) > len(best[0]): best = (k, z)
         if best: return best[1]
         for vt, z in self.villes:
-            if set(vt) <= ts: return z
+            if set(vt) <= ts and all(len(x) >= 3 for x in vt): return z
         return None
 
 # ------------------------------------------------------------------ LiguesDeFoot
