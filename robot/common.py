@@ -6,9 +6,9 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 "
-                    "ResultatsSportHebdo-robot/1.1 (+https://github.com/resultats-sport-hebdo)",
+UA = {"User-Agent": "ResultatsSportHebdo-robot/1.1 (+https://github.com/resultats-sport-hebdo)",
       "Accept-Language": "fr-FR,fr;q=0.9"}
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 PARIS = timezone(timedelta(hours=1))  # heure d'hiver ; les heures affichées viennent telles quelles des sources
 JOURS = ["Lun.", "Mar.", "Mer.", "Jeu.", "Ven.", "Sam.", "Dim."]
 MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
@@ -167,7 +167,7 @@ class Browser:
         from playwright.sync_api import sync_playwright
         self._p = sync_playwright().start()
         self._b = self._p.chromium.launch()
-        self._ctx = self._b.new_context(locale="fr-FR", user_agent=UA["User-Agent"].split(" ResultatsSportHebdo")[0])
+        self._ctx = self._b.new_context(locale="fr-FR", user_agent=BROWSER_UA)
         self.blocked = 0
         return self
 
