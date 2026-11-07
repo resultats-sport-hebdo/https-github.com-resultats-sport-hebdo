@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install requests
-      - run: python tools/fetch_raw.py ${{ github.event.inputs.urls }}
+      - run: python tools/fetch_raw.py
+        env:
+          URLS: ${{ github.event.inputs.urls }}
       - uses: actions/upload-artifact@v4
         with: {name: raw, path: raw/, retention-days: 3}
