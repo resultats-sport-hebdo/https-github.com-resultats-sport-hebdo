@@ -92,8 +92,12 @@ class Zoner:
             if not t: return
             if z == "grandest": self.exact.setdefault(t, z)
             else: self.map.setdefault(t, z)
+        self.names = {}
         for s in D.get("suivi", []):
-            if s.get("sport") == sport: add(s["club"], s.get("zone"))
+            if s.get("sport") == sport:
+                add(s["club"], s.get("zone"))
+                t = " ".join(tokens(s["club"]))
+                if t and not re.search(r"\b(2|3|b|c|f[ée]minines?)\b|\(", s["club"], re.I): self.names.setdefault(t, s["club"])
         for e in D.get("editions", []):
             for r in e.get("results", []) + e.get("agenda", []):
                 if r.get("sport") == sport:
@@ -131,6 +135,21 @@ class Zoner:
                 if not best or len(k) > len(best[0]): best = (k, z)
         if best: return best[1]
         return self.by_city(team)
+
+    def canon(self, *names):
+        """Nom du catalogue pour une équipe première (ex. « Stade de Reims »), sinon None."""
+        for n in names:
+            t = tokens(n)
+            if not t: continue
+            j = " ".join(t)
+            if j in self.names: return self.names[j]
+            ts = set(t)
+            best = None
+            for k, club in self.names.items():
+                ks = set(k.split())
+                if ks and ks <= ts and all(len(x) >= 4 for x in ks) and (not best or len(k) > len(best[0])): best = (k, club)
+            if best: return best[1]
+        return None
 
     def zone_in_dep(self, team, dep):
         """Zone d'une équipe dont on connaît le département (numéro de club fédéral)."""

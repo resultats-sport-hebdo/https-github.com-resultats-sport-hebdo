@@ -21,15 +21,15 @@ import argparse, json, re, sys, traceback
 from datetime import datetime, timedelta
 
 from common import MOIS, PARIS, Window, key_of, load_data, save_data, tokens, Zoner
-import foot, volley
+import footnational, foot, volley, scr
 
-READERS = {"foot": foot, "volley": volley}
+READERS = {"footnational": footnational, "foot": foot, "volley": volley}
 for _name in ("basket", "rugby"):
     try:
         READERS[_name] = __import__(_name)
     except ImportError:
         pass
-OWN_SRC = {"ldf", "ffvb", "ffbb", "ffr"}
+OWN_SRC = {"fn", "ldf", "ffvb", "ffbb", "ffr"}
 MOIS_N = {m: i + 1 for i, m in enumerate(MOIS)}
 
 
@@ -82,8 +82,9 @@ def run(today, dry, only=None):
     report = {"poules": 0, "gardées": 0, "erreurs": [], "par sport": {}}
     owned, new_res, new_ag, new_cl, upsert_sports = set(), [], [], [], set()
     for name, mod in READERS.items():
-        if only and name not in only: continue
+        if only and name not in only and not (name == "footnational" and "foot" in only): continue
         Z = Zoner(D, mod.SPORT)
+        W.skip = set(owned)  # poules déjà lues par une source prioritaire (Foot-National avant LiguesDeFoot)
         try:
             got = mod.collect(D, Z, W, report)
         except Exception as e:  # un site en panne ne doit pas empêcher les autres sports
@@ -132,6 +133,7 @@ def run(today, dry, only=None):
     report["classements remplacés"] = [c["key"] for c in old_cl if superseded(c)]
     D["classements"] = [c for c in old_cl if not superseded(c)] + new_cl
 
+    scr.enrich(new_res, W, report)  # liens vers sportclub-reims.fr quand l'article existe
     report["édition"] = E.get("id")
     report["fenêtre"] = f"{W.start.date()} → {W.now.date()} / programme jusqu'au {W.end.date()}"
     report["reportés"] = sum(1 for a in E["agenda"] if a.get("report"))

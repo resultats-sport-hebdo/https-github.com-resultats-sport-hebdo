@@ -109,6 +109,7 @@ def collect(D, Z, W, report):
     a, b = season_of(W.now)
     out = []
     for path, name, level, div, dz, only_ours in competitions(f"{a}-{b}"):
+        if (SPORT, key_of(name)) in getattr(W, "skip", set()): continue  # déjà lue sur Foot-National
         report["poules"] += 1
         url_md = f"{LDF}{path}.md"
         league = get(url_md)
