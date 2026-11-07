@@ -9,6 +9,9 @@ on:
       dry_run:
         description: "Essai sans enregistrer (true/false)"
         default: "true"
+      today:
+        description: "Date simulée AAAA-MM-JJ (vide = aujourd'hui)"
+        default: ""
 
 permissions:
   contents: write
@@ -23,7 +26,8 @@ jobs:
       - run: pip install requests
       - name: Lancer le robot
         run: |
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then python robot/robot.py --dry-run; else python robot/robot.py; fi
+          T="${{ github.event.inputs.today }}"; OPT=""; [ -n "$T" ] && OPT="--today $T"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then python robot/robot.py --dry-run $OPT; else python robot/robot.py $OPT; fi
       - name: Enregistrer s'il y a du nouveau (sans publier sur Netlify)
         if: github.event.inputs.dry_run != 'true'
         run: |

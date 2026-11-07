@@ -284,6 +284,7 @@ def run(today, dry):
     D["classements"] = [c for c in D["classements"] if not (c.get("sport") == "Football" and c.get("key") in owned)] + new_cl
     report.update({"résultats": len(new_res), "à venir": len(new_ag), "classements": len(new_cl)})
 
+    report["édition"] = E.get("id"); report["fenêtre"] = f"{start.date()} → {now.date()} / programme jusqu'au {end.date()}"
     print(json.dumps(report, ensure_ascii=False, indent=1))
     for r in new_res[:15]: print("R", r["date"], r["comp"], "|", r["home"], r["sh"], "-", r["sa"], r["away"], "|", r["hz"], r["az"])
     for a in new_ag[:15]: print("A", a["day"], a["time"], a["comp"], "|", a["home"], "-", a["away"], "|", a["hz"], a["az"])
