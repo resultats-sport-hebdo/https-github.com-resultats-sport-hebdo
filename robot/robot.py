@@ -68,6 +68,7 @@ def window_and_edition(D, today):
                     d = parse_day(a_.get("day"), today)
                     if a_.get("src") not in OWN_SRC and d and d >= today.date():
                         E["agenda"].append({**a_, "report": prev.get("id")})
+        E["enCours"] = wd != 0  # du vendredi au dimanche, la semaine n'est pas finie ; le lundi, l'édition est complète
         return Window(start, now, end, eid), E
     W = Window(today - timedelta(days=7), today, today + timedelta(days=7), D["editions"][0].get("id"))
     return W, D["editions"][0]
