@@ -142,8 +142,11 @@ def md_tables(md):
             rows.append(cells)
     return out
 
+SLUGS = {}
 def cell_text(c):
     m = LINK.search(c)
+    if m and "/clubs/" in m.group(2):
+        SLUGS[m.group(1).strip()] = m.group(2).rsplit("/", 1)[-1].replace(".md", "").replace("-", " ")
     return (m.group(1) if m else c).strip()
 
 def parse_matches(rows):
@@ -224,9 +227,12 @@ def run(today, dry):
         cal = get(f"{LDF}{path}/calendrier.md") or ""
         matches = parse_matches(tabs.get("Results", [])) + parse_matches(sum(md_tables(cal).values(), []))
         teams = {r["team"] for r in table} | {m["home"] for m in matches} | {m["away"] for m in matches}
-        zones = {t: (Z.zone(t) or dz) for t in teams}
+        zones = {t: (Z.zone(t) or (Z.zone(SLUGS[t]) if t in SLUGS else None) or dz) for t in teams}
+        ours = [t for t, z in zones.items() if z and z != "grandest"]
         if not any(zones.values()):
             continue  # aucune équipe de nos départements
+        if level == "Régional" and not dz and len(ours) < 2:
+            continue  # une seule correspondance dans une poule lointaine : sans doute un homonyme
         report["gardées"] += 1
         print("POULE", name, "|", ", ".join(sorted(f"{t} [{z}]" for t, z in zones.items() if z)))
         key = key_of(name); owned.add(key)
