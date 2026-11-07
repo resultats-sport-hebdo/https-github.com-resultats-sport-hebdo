@@ -1,0 +1,30 @@
+"""Ouvre des pages dans un vrai navigateur (développement du robot) : texte visible + réponses JSON."""
+import hashlib, json, os, re
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+out = Path("raw"); out.mkdir(exist_ok=True); idx = {}
+urls = os.environ.get("URLS", "").split()
+with sync_playwright() as p:
+    b = p.chromium.launch()
+    ctx = b.new_context(locale="fr-FR", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36")
+    for u in urls:
+        n = re.sub(r"[^a-zA-Z0-9]+", "_", u)[-50:] + "_" + hashlib.md5(u.encode()).hexdigest()[:6]
+        pg = ctx.new_page(); apis = []
+        def on_resp(r, apis=apis):
+            ct = r.headers.get("content-type", "")
+            if "json" in ct or "/api" in r.url:
+                try: body = r.text()
+                except Exception: body = ""
+                apis.append({"url": r.url, "status": r.status, "method": r.request.method, "post": r.request.post_data, "len": len(body), "body": body[:200000]})
+        pg.on("response", on_resp)
+        try:
+            pg.goto(u, wait_until="networkidle", timeout=60000); pg.wait_for_timeout(2500)
+            (out / (n + ".txt")).write_text(pg.inner_text("body"))
+            (out / (n + ".html")).write_text(pg.content())
+            idx[n] = {"url": u, "title": pg.title(), "apis": len(apis)}
+        except Exception as e:
+            idx[n] = {"url": u, "err": str(e)}
+        (out / (n + ".api.json")).write_text(json.dumps(apis, ensure_ascii=False, indent=1))
+        print(n, idx[n]); pg.close()
+    b.close()
+(out / "index.json").write_text(json.dumps(idx, indent=1))

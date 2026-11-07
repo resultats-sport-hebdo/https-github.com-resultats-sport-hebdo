@@ -5,6 +5,9 @@ on:
       urls:
         description: "Adresses séparées par des espaces"
         required: true
+      browser:
+        description: "Utiliser un vrai navigateur (true/false)"
+        default: "false"
 permissions:
   contents: write
 
@@ -15,8 +18,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: pip install requests
-      - run: python tools/fetch_raw.py
+      - run: pip install requests playwright
+      - if: github.event.inputs.browser == 'true'
+        run: python -m playwright install --with-deps chromium
+      - if: github.event.inputs.browser == 'true'
+        run: python tools/browse.py
+        env:
+          URLS: ${{ github.event.inputs.urls }}
+      - if: github.event.inputs.browser != 'true'
+        run: python tools/fetch_raw.py
         env:
           URLS: ${{ github.event.inputs.urls }}
       - name: Déposer les pages sur la branche dev-raw
