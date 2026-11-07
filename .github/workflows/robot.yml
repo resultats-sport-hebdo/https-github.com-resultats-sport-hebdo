@@ -1,8 +1,10 @@
-name: Robot résultats (football)
+name: Robot résultats
 
 on:
   schedule:
-    - cron: '0 20 * * 0'   # dimanche 21h (heure d'hiver de Paris)
+    - cron: '59 22 * * 5'  # vendredi 23h59 (heure d'hiver de Paris)
+    - cron: '59 22 * * 6'  # samedi 23h59
+    - cron: '0 20 * * 0'   # dimanche 21h
     - cron: '0 5 * * 1'    # lundi 6h, avant la tâche de 6h42
   workflow_dispatch:
     inputs:
@@ -12,22 +14,37 @@ on:
       today:
         description: "Date simulée AAAA-MM-JJ (vide = aujourd'hui)"
         default: ""
+      only:
+        description: "Sports à lire : foot,volley,basket,rugby (vide = tous)"
+        default: ""
 
 permissions:
   contents: write
 
+concurrency:
+  group: robot
+  cancel-in-progress: false
+
 jobs:
   robot:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: pip install requests
+      - run: pip install requests playwright
+      - name: Navigateur (sites de la FFBB et de la FFR)
+        run: python -m playwright install --with-deps chromium
       - name: Lancer le robot
+        env:
+          T: ${{ github.event.inputs.today }}
+          ONLY: ${{ github.event.inputs.only }}
+          DRY: ${{ github.event.inputs.dry_run }}
         run: |
-          T="${{ github.event.inputs.today }}"; OPT=""; [ -n "$T" ] && OPT="--today $T"
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then python robot/robot.py --dry-run $OPT; else python robot/robot.py $OPT; fi
+          OPT=""; [ -n "$T" ] && OPT="$OPT --today $T"; [ -n "$ONLY" ] && OPT="$OPT --only $ONLY"
+          [ "$DRY" = "true" ] && OPT="$OPT --dry-run"
+          python robot/robot.py $OPT
       - name: Enregistrer s'il y a du nouveau (sans publier sur Netlify)
         if: github.event.inputs.dry_run != 'true'
         run: |
@@ -35,5 +52,5 @@ jobs:
           git config user.email "robot@users.noreply.github.com"
           git add data.js data.json
           git diff --cached --quiet && { echo "Rien de nouveau"; exit 0; }
-          git commit -m "Robot : résultats et classements de football [skip netlify]"
-          git push
+          git commit -m "Robot : résultats et classements [skip netlify]"
+          git pull --rebase -q && git push
