@@ -2,6 +2,7 @@
 import hashlib, json, os, re, sys, requests
 from pathlib import Path
 UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36","Accept-Language":"fr-FR,fr;q=0.9","Accept":"*/*"}
+UA.update(json.loads(os.environ.get("HEADERS") or "{}"))
 out=Path("raw");out.mkdir(exist_ok=True);idx={}
 for u in (sys.argv[1:] or os.environ.get("URLS","").split()):
     n=re.sub(r"[^a-zA-Z0-9]+","_",u)[-60:]+"_"+hashlib.md5(u.encode()).hexdigest()[:6]

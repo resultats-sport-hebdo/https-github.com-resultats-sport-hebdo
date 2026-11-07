@@ -8,6 +8,9 @@ on:
       browser:
         description: "Utiliser un vrai navigateur (true/false)"
         default: "false"
+      headers:
+        description: "En-têtes JSON (développement)"
+        default: ""
 permissions:
   contents: write
 
@@ -29,6 +32,7 @@ jobs:
         run: python tools/fetch_raw.py
         env:
           URLS: ${{ github.event.inputs.urls }}
+          HEADERS: ${{ github.event.inputs.headers }}
       - name: Déposer les pages sur la branche dev-raw
         run: |
           git config user.name "Robot Résultats"; git config user.email "robot@users.noreply.github.com"
