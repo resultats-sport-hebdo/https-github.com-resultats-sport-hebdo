@@ -7,7 +7,16 @@ urls = os.environ.get("URLS", "").split()
 with sync_playwright() as p:
     b = p.chromium.launch()
     ctx = b.new_context(locale="fr-FR", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36")
+    pg0 = None
     for u in urls:
+        if u.startswith("fetch:") and pg0:
+            api = u[6:]; n = re.sub(r"[^a-zA-Z0-9]+", "_", api)[-50:] + "_" + hashlib.md5(api.encode()).hexdigest()[:6]
+            try:
+                body = pg0.evaluate("async (u) => { const r = await fetch(u); return r.status + '\\n' + await r.text(); }", api)
+                (out / (n + ".fetch")).write_text(body); idx[n] = {"url": api, "len": len(body), "status": body[:3]}
+            except Exception as e:
+                idx[n] = {"url": api, "err": str(e)}
+            print(n, idx[n]); continue
         n = re.sub(r"[^a-zA-Z0-9]+", "_", u)[-50:] + "_" + hashlib.md5(u.encode()).hexdigest()[:6]
         pg = ctx.new_page(); apis = []
         def on_resp(r, apis=apis):
@@ -18,13 +27,16 @@ with sync_playwright() as p:
                 apis.append({"url": r.url, "status": r.status, "method": r.request.method, "post": r.request.post_data, "len": len(body), "body": body[:200000]})
         pg.on("response", on_resp)
         try:
-            pg.goto(u, wait_until="networkidle", timeout=60000); pg.wait_for_timeout(2500)
+            pg.goto(u, wait_until="domcontentloaded", timeout=60000); pg.wait_for_timeout(7000)
             (out / (n + ".txt")).write_text(pg.inner_text("body"))
             (out / (n + ".html")).write_text(pg.content())
             idx[n] = {"url": u, "title": pg.title(), "apis": len(apis)}
         except Exception as e:
             idx[n] = {"url": u, "err": str(e)}
         (out / (n + ".api.json")).write_text(json.dumps(apis, ensure_ascii=False, indent=1))
-        print(n, idx[n]); pg.close()
+        print(n, idx[n])
+        if pg0: pg0.close()
+        pg0 = pg
+    if pg0: pg0.close()
     b.close()
 (out / "index.json").write_text(json.dumps(idx, indent=1))
