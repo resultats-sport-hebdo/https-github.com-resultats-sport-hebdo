@@ -34,6 +34,8 @@ DISTRICTS = [
 ]
 # Pour ces compétitions, on ne garde que les matchs de nos clubs (les autres poules sont gardées entières).
 ONLY_OURS = ("national", )
+# Homonymes hors de nos départements, à ne jamais rattacher à une zone.
+EXCLUDE = {"goal fc", "cs chaumontois"}
 
 # ------------------------------------------------------------------ outils
 def norm(s):
@@ -107,6 +109,7 @@ class Zoner:
                     t = tokens(part)
                     if t: self.villes.append((t, z["k"]))
     def zone(self, team):
+        if norm(team) in EXCLUDE: return None
         t = tokens(team)
         if not t: return None
         j = " ".join(t)
@@ -227,7 +230,7 @@ def run(today, dry):
         cal = get(f"{LDF}{path}/calendrier.md") or ""
         matches = parse_matches(tabs.get("Results", [])) + parse_matches(sum(md_tables(cal).values(), []))
         teams = {r["team"] for r in table} | {m["home"] for m in matches} | {m["away"] for m in matches}
-        zones = {t: (Z.zone(t) or (Z.zone(SLUGS[t]) if t in SLUGS else None) or dz) for t in teams}
+        zones = {t: (None if norm(t) in EXCLUDE else (Z.zone(t) or (Z.zone(SLUGS[t]) if t in SLUGS else None) or dz)) for t in teams}
         ours = [t for t, z in zones.items() if z and z != "grandest"]
         if not any(zones.values()):
             continue  # aucune équipe de nos départements
