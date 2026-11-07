@@ -24,7 +24,7 @@ with sync_playwright() as p:
             if "json" in ct or "/api" in r.url:
                 try: body = r.text()
                 except Exception: body = ""
-                apis.append({"url": r.url, "status": r.status, "method": r.request.method, "post": r.request.post_data, "len": len(body), "body": body[:200000]})
+                apis.append({"url": r.url, "status": r.status, "method": r.request.method, "post": r.request.post_data, "headers": r.request.headers, "len": len(body), "body": body[:200000]})
         pg.on("response", on_resp)
         try:
             pg.goto(u, wait_until="domcontentloaded", timeout=60000); pg.wait_for_timeout(7000)

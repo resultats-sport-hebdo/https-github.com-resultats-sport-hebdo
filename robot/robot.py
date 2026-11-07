@@ -20,7 +20,7 @@ Usage : python robot/robot.py [--dry-run] [--today AAAA-MM-JJ] [--only foot,voll
 import argparse, json, re, sys, traceback
 from datetime import datetime, timedelta
 
-from common import MOIS, PARIS, Window, key_of, load_data, save_data, Zoner
+from common import MOIS, PARIS, Window, key_of, load_data, save_data, tokens, Zoner
 import foot, volley
 
 READERS = {"foot": foot, "volley": volley}
@@ -100,9 +100,27 @@ def run(today, dry, only=None):
     # fusion : on remplace tout ce qui concerne les poules lues par le robot
     def keep(r):
         return (r.get("sport"), key_of(r.get("comp", ""))) not in owned
-    E["results"] = [r for r in E["results"] if keep(r)] + new_res
-    E["agenda"] = [a for a in E["agenda"] if keep(a)] + new_ag
-    D["classements"] = [c for c in D["classements"] if (c.get("sport"), c.get("key")) not in owned] + new_cl
+    read_sports = {sp for sp, _ in owned}
+    def tk(t): return frozenset(tokens(t))
+    def same(a, b, day):
+        return (a.get("sport") == b.get("sport") and a.get(day) == b.get(day)
+                and (tk(a.get("home")) & tk(b.get("home"))) and (tk(a.get("away")) & tk(b.get("away"))))
+    def dup(r, news, day):
+        # même match déjà fourni par le robot sous un autre nom de compétition (saisie manuelle)
+        return r.get("src") not in OWN_SRC and r.get("sport") in read_sports and any(same(r, n, day) for n in news)
+    E["results"] = [r for r in E["results"] if keep(r) and not dup(r, new_res, "date")] + new_res
+    E["agenda"] = [a for a in E["agenda"] if keep(a) and not dup(a, new_ag, "day")] + new_ag
+    # classements saisis à la main sous une autre clé et désormais lus par le robot
+    robot_teams = {}
+    for c in new_cl:
+        robot_teams.setdefault(c["sport"], []).append({tk(x["team"]) for x in c["rows"]})
+    def superseded(c):
+        if c.get("src") in OWN_SRC or c.get("sport") not in robot_teams or not c.get("rows"): return False
+        mine = [tk(x.get("team")) for x in c["rows"]]
+        return any(sum(1 for t in mine if t in ts) * 2 >= len(mine) for ts in robot_teams[c["sport"]])
+    old_cl = [c for c in D["classements"] if (c.get("sport"), c.get("key")) not in owned]
+    report["classements remplacés"] = [c["key"] for c in old_cl if superseded(c)]
+    D["classements"] = [c for c in old_cl if not superseded(c)] + new_cl
 
     report["édition"] = E.get("id")
     report["fenêtre"] = f"{W.start.date()} → {W.now.date()} / programme jusqu'au {W.end.date()}"

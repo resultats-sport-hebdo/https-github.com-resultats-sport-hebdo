@@ -128,6 +128,7 @@ def collect(D, Z, W, report):
             genre = "F" if "féminine" in name or name == "Ligue AF" else "M"
             P = {"sport": SPORT, "key": key_of(name), "results": [], "agenda": [], "cl": None}
             for m in sorted(matches, key=lambda x: x["dt"]):
+                if re.fullmatch(r"x+", m["home"].lower()) or re.fullmatch(r"x+", m["away"].lower()): continue  # exempt
                 hz, az = zones.get(m["home"]), zones.get(m["away"])
                 if only_ours and not (hz or az): continue
                 comp = name + (f" · J{m['j']}" if m["j"] else "")
