@@ -105,7 +105,7 @@ class Zoner:
             self.dep_of[z["k"]] = m.group(1) if m else None
             if z["k"] == "grandest": continue
             for v in z.get("villes", []) + [z["l"]]:
-                for part in (re.split(r"[–-]", v) if "–" in v else [v]):
+                for part in re.split(r"\s+[–-]\s+", v):  # « Romilly – Nogent-sur-Seine » : deux villes, pas trois
                     t = tokens(part)
                     if t: self.villes.append((t, z["k"]))
 
