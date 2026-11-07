@@ -15,6 +15,7 @@ COMPETITIONS = [("ligue1", "Ligue 1"), ("ligue2", "Ligue 2")] + \
 # noms courts de Foot-National → noms du catalogue
 ALIASES = {"Troyes": "ESTAC Troyes", "Reims": "Stade de Reims", "Saint-Quentin": "St Quentin O.",
            "Charleville": "Charleville Prix OAM", "Sedan": "Sedan Ardennes CS", "Epernay": "Épernay Champagne RC"}
+PROS = {"ESTAC Troyes", "Stade de Reims"}
 MOIS_FR = {m: i + 1 for i, m in enumerate(["janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout",
                                            "septembre", "octobre", "novembre", "decembre"])}
 
@@ -62,7 +63,7 @@ def parse_table(b):
         ttl = re.search(r'title="([^"]+)"', tr)
         if len(tds) < 11 or not tds[0].isdigit(): continue
         try:
-            rows.append({"r": int(tds[0]), "team": H.unescape(ttl.group(1)) if ttl and ttl.group(1) else tds[2],
+            rows.append({"r": int(tds[0]), "team": H.unescape(ttl.group(1)) if ttl and ttl.group(1) else tds[2], "short": tds[2],
                          "pts": int(tds[3]), "j": int(tds[4]), "g": int(tds[5]), "n": int(tds[6]), "p": int(tds[7]),
                          "bp": int(tds[8]), "bc": int(tds[9]), "diff": f"{int(tds[10]):+d}"})
         except ValueError:
@@ -94,22 +95,22 @@ def collect(D, Z, W, report):
             # le nom court (« Reims ») d'abord ; le nom complet, plus long, seulement s'il correspond exactement
             z = Z.zone(s) or Z.exact_zone(t)
             return None if (z == "grandest" and not reserve_ok) else z
-        disp = {}
-        for m in matches:
-            for full, sh in ((m["home"], m["short"][0]), (m["away"], m["short"][1])):
-                base_sh = re.sub(r"\s(B|2|II)$", "", sh or "")
-                c = (ALIASES.get(base_sh) or Z.canon(sh, full)) if zone(full, sh) else None
-                if c and base_sh != (sh or ""): c += " 2"
-                disp[full] = c or sh or full
+        def display(full, sh):
+            base_sh = re.sub(r"\s(B|2|II)$", "", sh or "")
+            c = (ALIASES.get(base_sh) or Z.canon(sh, full)) if zone(full, sh) else None
+            # en National 1 et 2, un club pro de nos départements ne peut y aligner que son équipe réserve
+            if c and (base_sh != (sh or "") or (not reserve_ok and c in PROS)): c += " 2"
+            return c or sh or full
         for m in matches:
             m["zh"], m["za"] = zone(m["home"], m["short"][0]), zone(m["away"], m["short"][1])
-            m["home"], m["away"] = disp[m["home"]], disp[m["away"]]
+            m["home"], m["away"] = display(m["home"], m["short"][0]), display(m["away"], m["short"][1])
         teams = {}
         for m in matches:
             teams[m["home"]] = m["zh"]; teams[m["away"]] = m["za"]
         for r in table:
-            r["team"] = disp.get(r["team"]) or Z.canon(r["team"]) or r["team"]
-            teams.setdefault(r["team"], zone(r["team"], r["team"]))
+            z = zone(r["team"], r["short"])
+            r["team"] = display(r["team"], r.pop("short"))
+            teams.setdefault(r["team"], z)
         if not any(teams.values()): continue
         print("POULE", SPORT, name, "(Foot-National) |", ", ".join(sorted(f"{t} [{z}]" for t, z in teams.items() if z)))
         P = {"sport": SPORT, "key": key_of(name), "results": [], "agenda": [], "cl": None}
