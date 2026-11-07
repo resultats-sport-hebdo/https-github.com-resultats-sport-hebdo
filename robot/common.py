@@ -136,7 +136,7 @@ class Zoner:
         """Zone d'une équipe dont on connaît le département (numéro de club fédéral)."""
         if dep not in DEPTS: return None
         z = self.zone(team)
-        if z and self.dep_of.get(z) == dep: return z
+        if z and z != "grandest": return z
         return self.by_city(team, dep) or DEPTS[dep]
 
 
@@ -156,3 +156,40 @@ class Window:
 def poule_entry(sport, level, comp, home, hz, away, az, url, extra=None):
     return {"sport": sport, "level": level, **(extra or {}), "comp": comp, "home": home, "hz": hz,
             "away": away, "az": az, "url": url}
+
+
+# ------------------------------------------------------------------ navigateur (sites protégés)
+class Browser:
+    """Vrai navigateur (Playwright) pour les sites qui refusent les robots simples (FFBB)."""
+    BLOCK = re.compile(r"you have been blocked|bunny\.net|403 Forbidden", re.I)
+
+    def __enter__(self):
+        from playwright.sync_api import sync_playwright
+        self._p = sync_playwright().start()
+        self._b = self._p.chromium.launch()
+        self._ctx = self._b.new_context(locale="fr-FR", user_agent=UA["User-Agent"].split(" ResultatsSportHebdo")[0])
+        self.blocked = 0
+        return self
+
+    def get(self, url, tries=3, wait=4000):
+        for i in range(tries):
+            pg = self._ctx.new_page()
+            try:
+                pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+                pg.wait_for_timeout(wait)
+                html = pg.content()
+                if not (len(html) < 60000 and self.BLOCK.search(html)):
+                    return html
+                self.blocked += 1
+            except Exception:
+                pass
+            finally:
+                pg.close()
+            time.sleep(15 * (i + 1))
+        return None
+
+    def __exit__(self, *a):
+        try:
+            self._b.close(); self._p.stop()
+        except Exception:
+            pass

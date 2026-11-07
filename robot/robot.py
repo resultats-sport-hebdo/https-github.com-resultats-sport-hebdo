@@ -79,7 +79,7 @@ def run(today, dry, only=None):
     # les matchs reportés devenus passés n'ont plus rien à faire dans le programme
     E["agenda"] = [a for a in E["agenda"] if not (a.get("report") and (parse_day(a.get("day"), today) or today.date()) < today.date())]
     report = {"poules": 0, "gardées": 0, "erreurs": [], "par sport": {}}
-    owned, new_res, new_ag, new_cl = set(), [], [], []
+    owned, new_res, new_ag, new_cl, upsert_sports = set(), [], [], [], set()
     for name, mod in READERS.items():
         if only and name not in only: continue
         Z = Zoner(D, mod.SPORT)
@@ -91,7 +91,13 @@ def run(today, dry, only=None):
             continue
         s = report["par sport"].setdefault(mod.SPORT, {"poules": 0, "résultats": 0, "à venir": 0, "classements": 0})
         for P in got:
-            owned.add((P["sport"], P["key"]))
+            if P.get("mode") == "upsert":  # ajout match par match (source partielle) : rien d'autre n'est effacé
+                upsert_sports.add(P["sport"])
+                mids = {x["mid"] for x in P["results"] + P["agenda"]}
+                E["results"] = [r for r in E["results"] if r.get("mid") not in mids]
+                E["agenda"] = [a for a in E["agenda"] if a.get("mid") not in mids]
+            else:
+                owned.add((P["sport"], P["key"]))
             new_res += P["results"]; new_ag += P["agenda"]
             if P["cl"]: new_cl.append(P["cl"])
             s["poules"] += 1; s["résultats"] += len(P["results"]); s["à venir"] += len(P["agenda"]); s["classements"] += bool(P["cl"])
@@ -100,7 +106,7 @@ def run(today, dry, only=None):
     # fusion : on remplace tout ce qui concerne les poules lues par le robot
     def keep(r):
         return (r.get("sport"), key_of(r.get("comp", ""))) not in owned
-    read_sports = {sp for sp, _ in owned}
+    read_sports = {sp for sp, _ in owned} | upsert_sports
     def tk(t): return frozenset(tokens(t))
     def same(a, b, day):
         return (a.get("sport") == b.get("sport") and a.get(day) == b.get(day)
