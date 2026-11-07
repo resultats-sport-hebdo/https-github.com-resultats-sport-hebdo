@@ -1,0 +1,35 @@
+name: Robot résultats (football)
+
+on:
+  schedule:
+    - cron: '0 20 * * 0'   # dimanche 21h (heure d'hiver de Paris)
+    - cron: '0 5 * * 1'    # lundi 6h, avant la tâche de 6h42
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Essai sans enregistrer (true/false)"
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  robot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install requests
+      - name: Lancer le robot
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then python robot/robot.py --dry-run; else python robot/robot.py; fi
+      - name: Enregistrer s'il y a du nouveau (sans publier sur Netlify)
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "Robot Résultats"
+          git config user.email "robot@users.noreply.github.com"
+          git add data.js data.json
+          git diff --cached --quiet && { echo "Rien de nouveau"; exit 0; }
+          git commit -m "Robot : résultats et classements de football [skip netlify]"
+          git push

@@ -227,6 +227,10 @@ h2.sec{margin:34px 0 12px;font:800 32px var(--head)}
 /* fixtures */
 .days{columns:2;column-gap:16px}
 .days>.card{break-inside:avoid}
+.fxsp{display:flex;align-items:center;gap:8px;padding:9px 16px 7px;background:color-mix(in srgb,var(--c) 10%,var(--card));border-bottom:1px solid var(--line);border-left:5px solid var(--c)}
+.fxsp .pill{background:var(--c);color:#fff;font:800 12.5px/1 var(--body);letter-spacing:.04em;text-transform:uppercase;padding:5px 10px;border-radius:999px}
+.fxsp small{font-size:12px;color:var(--muted)}
+.fx.tinted{border-left:5px solid var(--c)}
 .fx{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:12px 16px;border-bottom:1px solid var(--line)}
 .fx:last-child{border-bottom:0}
 .fx .h{font:800 22px/1 var(--head)}
@@ -642,7 +646,7 @@ function start(DATA){
     if(route.view==='next'){
       const days=new Map(); fx.forEach(f=>{const k=f.day||'À préciser'; if(!days.has(k)) days.set(k,[]); days.get(k).push(f);});
       main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
-        (fx.length?`<div class="days">${[...days.entries()].map(([d,l])=>`<section class="card"><header>${esc(d)}<small>${l.length} match${l.length>1?'s':''}</small></header>${l.map(f=>{const u=safeUrl(f.url);return `<div class="fx"><div class="h">${esc(f.time||'–')}${route.sport?'':`<small>${esc(f.sport)}</small>`}</div><div><strong>${star(f.home)}${esc(f.home)} – ${esc(f.away)}${star(f.away)}</strong><span>${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}${(()=>{const t=clFor(f.sport,keyOf(f.comp));return t&&t.rows&&t.rows.length?` · <button type="button" class="lnk fx-cl" data-ci="${CL.indexOf(t)}">Classement</button>`:'';})()}</span></div></div>`;}).join('')}</section>`).join('')}</div>`
+        (fx.length?`<div class="days">${[...days.entries()].map(([d,l])=>`<section class="card"><header>${esc(d)}<small>${l.length} match${l.length>1?'s':''}</small></header>${(route.sport?[[null,l]]:[...l.reduce((m,f)=>(m.has(f.sport)||m.set(f.sport,[]),m.get(f.sport).push(f),m),new Map()).entries()].sort((a,b)=>rank(a[0])-rank(b[0]))).map(([sp,ll])=>(sp?`<div class="fxsp" style="--c:${esc((SP[sp]||{}).c||'#555')}"><span class="pill">${esc(sp)}</span><small>${ll.length} match${ll.length>1?'s':''}</small></div>`:'')+ll.map(f=>{const u=safeUrl(f.url);return `<div class="fx${sp?' tinted':''}"${sp?` style="--c:${esc((SP[sp]||{}).c||'#555')}"`:''}><div class="h">${esc(f.time||'–')}</div><div><strong>${star(f.home)}${esc(f.home)} – ${esc(f.away)}${star(f.away)}</strong><span>${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}${(()=>{const t=clFor(f.sport,keyOf(f.comp));return t&&t.rows&&t.rows.length?` · <button type="button" class="lnk fx-cl" data-ci="${CL.indexOf(t)}">Classement</button>`:'';})()}</span></div></div>`;}).join('')).join('')}</section>`).join('')}</div>`
         :`<div class="empty">Pas de match annoncé pour cette sélection.</div>`);
       return;
     }
