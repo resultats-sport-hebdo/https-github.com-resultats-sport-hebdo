@@ -228,6 +228,7 @@ def run(today, dry):
         if not any(zones.values()):
             continue  # aucune équipe de nos départements
         report["gardées"] += 1
+        print("POULE", name, "|", ", ".join(sorted(f"{t} [{z}]" for t, z in zones.items() if z)))
         key = key_of(name); owned.add(key)
         page = f"{LDF}{path}/"
         extra = {"div": div} if div != "National" else {}
