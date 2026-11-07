@@ -5,6 +5,9 @@ on:
       urls:
         description: "Adresses séparées par des espaces"
         required: true
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -16,5 +19,7 @@ jobs:
       - run: python tools/fetch_raw.py
         env:
           URLS: ${{ github.event.inputs.urls }}
-      - uses: actions/upload-artifact@v4
-        with: {name: raw, path: raw/, retention-days: 3}
+      - name: Déposer les pages sur la branche dev-raw
+        run: |
+          git config user.name "Robot Résultats"; git config user.email "robot@users.noreply.github.com"
+          git checkout --orphan dev-raw; git rm -rqf --cached .; git add raw; git commit -qm "pages brutes"; git push -qf origin dev-raw
