@@ -76,6 +76,12 @@ button,select,input{font:inherit;color:inherit}
 /* ——— toolbar ——— */
 .tools{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
 .tools.lift{box-shadow:0 6px 18px rgba(15,26,46,.08)}
+.stick{display:none;padding-top:7px;font-size:12.5px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stick b{color:var(--ink)}
+.live{margin:14px 0;padding:12px 16px;border:1px solid var(--line);border-left:4px solid #e0a800;border-radius:12px;background:var(--card);font-size:14px;line-height:1.45}
+@media (max-width:600px){.stick .stl{display:none}.stick{white-space:normal;line-height:1.35}}
+.tools.lift .stick{display:block}
+.tools.lift .stick+.in{padding-top:6px}
 .tools .in{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding-top:10px;padding-bottom:10px}
 .seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px}
 .seg button{border:0;background:none;padding:7px 12px;border-radius:999px;font-size:14px;font-weight:600;color:var(--muted);cursor:pointer;white-space:nowrap}
@@ -304,6 +310,7 @@ footer a{color:var(--muted)}
 </header>
 
 <div class="tools" id="tools">
+  <div class="stick in" id="stick"></div>
   <div class="in" role="toolbar" aria-label="Filtres">
     <div class="seg" id="view" aria-label="Affichage"></div>
     <button type="button" class="ftog" id="ftog" aria-expanded="false" aria-controls="moref">Filtres<span id="fcount"></span></button>
@@ -337,6 +344,7 @@ footer a{color:var(--muted)}
 
 <script id="t-datajs" src="data.js"></script>
 <script id="app">
+const DEPS='Marne, Ardennes, Aube, Haute-Marne et Aisne';
 (window.RSH_DATA ? Promise.resolve(window.RSH_DATA) : fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})).then(d=>{ try{ start(d); }catch(e){ console.error(e); rshFail(e); } }).catch(()=>{
   document.getElementById('main').innerHTML='<div class="empty">Les résultats n\'ont pas pu être chargés. Recharge la page dans un instant.</div>';
 });
@@ -597,7 +605,8 @@ function start(DATA){
     const ik=s?({Futsal:'futsal','Roller hockey':'roller'}[s]||m.pat):'home'; $('illu').innerHTML=`<img src="${IMG}${ik}.png" alt="" width="450" height="450" decoding="async">`;
     $('h1').textContent=s?s:(route.view==='next'?'Le week-end prochain':route.view==='cl'?'Les classements':'Les résultats du week-end');
     $('lede').textContent=s?(route.view==='next'?`Les prochains matchs de nos clubs de ${s.toLowerCase()}.`:m.lede):(route.view==='next'?'Tous les matchs de nos clubs dans les 7 jours qui viennent, jour par jour.':'Les sports collectifs de la Marne, des Ardennes, de l\'Aube, de la Haute-Marne et de l\'Aisne, du national au régional. Chaque lundi matin.');
-    $('kick').textContent=cur?`${route.view==='next'?'Programme des 7 jours suivants':route.view==='cl'?'Classements':'Résultats'} · ${cur.label||''}`:'';
+    $('kick').textContent=cur?`${route.view==='next'?'Programme des 7 jours suivants':route.view==='cl'?'Classements':'Résultats'} · ${cur.label||''} · ${DEPS}`:DEPS;
+    $('stick').innerHTML=`<b>${esc(s||'Tous les sports')}</b>${cur?`<span class="stl"> · ${esc(cur.label||'')}</span>`:''} · ${DEPS}`;
     $('h1').classList.toggle('long',$('h1').textContent.length>12);
     $('home-link').setAttribute('href',href(null,'res')); $('home-link').dataset.go='';
     const pool=route.view==='cl'?CL:(cur&&(route.view==='next'?cur.agenda:cur.results)||[]);
@@ -659,10 +668,12 @@ function start(DATA){
         :`<div class="empty">Pas encore de classement pour cette sélection. Les classements sont ajoutés chaque lundi avec les résultats.</div>`);
       return;
     }
+    const prevEd=eds[eds.indexOf(cur)+1];
+    const live=cur.enCours?`<div class="live"><b>Semaine en cours</b> · les scores arrivent au fil du week-end (vendredi et samedi soir, dimanche soir) ; l'édition complète paraît lundi matin.${prevEd?` <button type="button" class="lnk" data-prev>Voir la semaine précédente</button>`:''}</div>`:'';
     if(!route.sport){
       const top=res.slice().sort((a,b)=>lvlRank(a)-lvlRank(b)||rank(a.sport)-rank(b.sport)||(b.note?1:0)-(a.note?1:0))[0];
       const sports=PRIO.filter(s=>res.some(r=>r.sport===s));
-      main.innerHTML=(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2>${esc(top.home)} – ${esc(top.away)}</h2><p>${esc(cur.edito||top.note||'')}</p></div>
+      main.innerHTML=live+(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2>${esc(top.home)} – ${esc(top.away)}</h2><p>${esc(cur.edito||top.note||'')}</p></div>
         <div class="big"><span>${esc(top.home)}</span><b>${esc(top.sh)}–${esc(top.sa)}</b><span>${esc(top.away)}</span></div></article>`:'')+
         (sports.length?sports.map(s=>{const l=res.filter(r=>r.sport===s); return `<section class="sport" style="--sport:${SP[s].c}"><h2 class="sh"><a href="${href(s,'res')}" data-go="${SP[s].slug}">${esc(s)}</a><span class="cnt">${l.length} match${l.length>1?'s':''}</span><a class="go" href="${href(s,'res')}" data-go="${SP[s].slug}">Page ${esc(s.toLowerCase())} →</a></h2>${famsHtml(groups(l))}</section>`;}).join('')
           :`<div class="empty">Aucun résultat pour cette sélection. ${reset}</div>`)+
@@ -670,11 +681,12 @@ function start(DATA){
       return;
     }
     const gs=groups(res);
-    main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
+    main.innerHTML=live+(reset?`<div class="summary">${reset}</div>`:'')+
       (res.length?famsHtml(gs)
       :`<div class="empty">Aucun résultat de ${esc(route.sport.toLowerCase())} cette semaine pour cette sélection.<br>${reset}</div>`)+nextBlock(fx)+clubsBlock(route.sport);
   }
   $('main').addEventListener('click',e=>{ if(e.target.closest('[data-reset]')){ openAll(); save(); render(); return; }
+    if(e.target.closest('[data-prev]')){ const i=eds.indexOf(cur); if(eds[i+1]){ cur=eds[i+1]; edSel.value=cur.id; render(); window.scrollTo({top:0,behavior:'smooth'}); } return; }
     const fc=e.target.closest('.fx-cl'); if(fc){ const row=fc.closest('.fx'), nx=row.nextElementSibling; if(nx&&nx.classList.contains('fxcl')){ nx.remove(); return; } const t=CL[+fc.dataset.ci]; if(t){ row.insertAdjacentHTML('afterend',`<div class="fxcl">${table(t,true)}</div>`); } return; }
     const cc=e.target.closest('.cl-club'); if(cc){ const t=CL[+cc.dataset.ci], box=$('clubcl'); if(t&&box){ box.innerHTML=`<h3 class="clh">${esc(t.key)}</h3>`+table(t,true); box.scrollIntoView({behavior:'smooth',block:'nearest'}); } return; }
     const g=e.target.closest('.cl-go'); if(g){ const d=g.closest('.card').querySelector('details.cl'); if(d){ d.open=true; d.scrollIntoView({behavior:'smooth',block:'nearest'}); } } });

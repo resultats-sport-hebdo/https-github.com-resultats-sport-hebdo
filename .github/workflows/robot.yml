@@ -17,6 +17,9 @@ on:
       only:
         description: "Sports à lire : foot,volley,basket,rugby (vide = tous)"
         default: ""
+      publish:
+        description: "Publier aussi sur le site public Netlify (true/false)"
+        default: "false"
 
 permissions:
   contents: write
@@ -45,12 +48,36 @@ jobs:
           OPT=""; [ -n "$T" ] && OPT="$OPT --today $T"; [ -n "$ONLY" ] && OPT="$OPT --only $ONLY"
           [ "$DRY" = "true" ] && OPT="$OPT --dry-run"
           python robot/robot.py $OPT
-      - name: Enregistrer s'il y a du nouveau (sans publier sur Netlify)
+      - name: Enregistrer s'il y a du nouveau
         if: github.event.inputs.dry_run != 'true'
+        env:
+          # le week-end (vendredi, samedi, dimanche soir), le robot publie aussi le site public ;
+          # le lundi, c'est la tâche de 6h42 qui publie l'édition complète
+          PUBLISH: ${{ github.event.schedule == '59 22 * * 5' || github.event.schedule == '59 22 * * 6' || github.event.schedule == '0 20 * * 0' || github.event.inputs.publish == 'true' }}
         run: |
           git config user.name "Robot Résultats"
           git config user.email "robot@users.noreply.github.com"
           git add data.js data.json
           git diff --cached --quiet && { echo "Rien de nouveau"; exit 0; }
-          git commit -m "Robot : résultats et classements [skip netlify]"
+          if [ "$PUBLISH" = "true" ]; then
+            echo "PUBLISH_SITE=1" >> "$GITHUB_ENV"
+            git commit -m "Robot : mise à jour du week-end"
+          else
+            git commit -m "Robot : résultats et classements [skip netlify]"
+          fi
+      - uses: actions/setup-node@v4
+        if: env.PUBLISH_SITE == '1'
+        with: {node-version: '20'}
+      - name: Regénérer les pages du site public
+        if: env.PUBLISH_SITE == '1'
+        run: |
+          npm i --no-save --no-package-lock playwright@1.63.0
+          npx playwright install --with-deps chromium
+          node build.js
+          git add -A -- . ':!node_modules'
+          git diff --cached --quiet || git commit --amend --no-edit
+      - name: Envoyer
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git log origin/main..HEAD --oneline | grep -q . || exit 0
           git pull --rebase -q && git push
