@@ -3612,13 +3612,12 @@
      "hz": "stquentin",
      "away": "HARNES Volley-Ball",
      "az": null,
-     "url": "https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-soffre-frejus-au-bout-du-suspens/",
+     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D2M",
      "src": "ffvb",
      "date": "Sam. 7 nov.",
      "sh": 1,
      "sa": 3,
-     "note": "Sets : 21-25, 25-16, 16-25, 21-25.",
-     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D2M"
+     "note": "Sets : 21-25, 25-16, 16-25, 21-25."
     },
     {
      "sport": "Volley",
@@ -3629,13 +3628,12 @@
      "hz": null,
      "away": "REIMS VOLLEY 51",
      "az": "reims",
-     "url": "https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-soffre-frejus-au-bout-du-suspens/",
+     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=EAA",
      "src": "ffvb",
      "date": "Sam. 7 nov.",
      "sh": 1,
      "sa": 3,
-     "note": "Sets : 25-20, 18-25, 22-25, 17-25.",
-     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=EAA"
+     "note": "Sets : 25-20, 18-25, 22-25, 17-25."
     },
     {
      "sport": "Volley",
@@ -4951,7 +4949,8 @@
      "sh": 59,
      "sa": 89,
      "note": "",
-     "url": "https://champagne-basket.fr/match/2026-2027-saison-2026-2027-elite-2-j8-evreux-80477/statistiques"
+     "url": "https://www.sportclub-reims.fr/2026/11/le-champagne-basket-chute-severement-contre-evreux/",
+     "source": "https://champagne-basket.fr/match/2026-2027-saison-2026-2027-elite-2-j8-evreux-80477/statistiques"
     },
     {
      "sport": "Basket",
