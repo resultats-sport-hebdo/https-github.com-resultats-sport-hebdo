@@ -40,7 +40,7 @@ def gql(query, variables):
 
 def covered(level, comp, dep, sport):
     t = f"{level} {comp}"
-    if re.search(r"\bU\s?\d{2}\b|moins de|jeunes|loisir|d[ée]partementale|inter-?d[ée]p", t, re.I): return None
+    if re.search(r"\bU\s?\d{2}\b|moins de|jeunes|loisir|r[ée]serve|d[ée]partementale|inter-?d[ée]p", t, re.I): return None
     if sport == "Basket" and re.search(r"pr[ée][\s-]?r[ée]gionale", t, re.I):
         return "Régional" if dep == "02" else None
     if re.search(r"nationale|national|[ée]lite|lf2|pro\s?[ab]|f[ée]d[ée]rale|excellence b", t, re.I) and not re.search(r"pr[ée][\s-]?nationale", t, re.I):
@@ -54,7 +54,9 @@ def comp_name(comp):
     c = re.sub(r"\s+", " ", comp or "").strip()
     c = re.sub(r"\s*-\s*(Poule|Groupe)\s+", r" · \1 ", c, flags=re.I)
     c = re.sub(r"\s+-\s+", " · ", c)
-    return re.sub(r"\b(Masculine|Féminine|Masculin|Féminin|Feminine)\b", lambda m: m.group(1).lower(), c)
+    c = " · ".join(x for x in c.split(" · ") if not re.fullmatch(r"(Championnat (Territorial|de France)|Qualification|Brassage|Phase \d|Seniors)", x.strip(), re.I))
+    c = re.sub(r"\s+Seniors\b", "", c)
+    return re.sub(r"\b(Masculine|Féminine|Masculin|Féminin|Feminine)\b", lambda m: m.group(1).lower().replace("feminine", "féminine"), c)
 
 
 def clean(n):
