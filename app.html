@@ -140,6 +140,7 @@ main{padding:22px 0 50px}
 .fam>h2{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px;padding-left:12px;border-left:4px solid var(--sport);font:800 clamp(26px,3.4vw,34px)/1 var(--head)}
 .badge{font:700 12px var(--body);letter-spacing:.04em;padding:3px 9px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted)}
 .badge.f{color:var(--fem);border-color:currentColor}
+.zclose{margin-left:10px;border:0;border-radius:999px;padding:5px 12px;background:var(--ink);color:#fff;font:700 13px var(--body);cursor:pointer}
 .fam>h2 .cnt{font:600 14px var(--body);color:var(--muted)}
 .cards{columns:2;column-gap:16px}
 .cards.solo{columns:auto}
@@ -591,7 +592,7 @@ function start(DATA){
     const allOn=!DATA.zones.some(z=>offZ.has(z.k));
     $('dsum').textContent='📍 '+(allOn?'Tous les départements':onDeps.length?onDeps.map(depShort).join(', '):'Aucun département');
     const openSet=new Set([...document.querySelectorAll('#dpanel details[open]')].map(x=>x.dataset.dep));
-    $('dpanel').innerHTML=`<h3>Départements <span><button type="button" class="lnk" data-zall>Tous</button><button type="button" class="lnk" data-znone>Aucun</button></span></h3>`+
+    $('dpanel').innerHTML=`<h3>Départements <span><button type="button" class="lnk" data-zall>Tous</button><button type="button" class="lnk" data-znone>Aucun</button><button type="button" class="zclose" data-zclose>Fermer ✕</button></span></h3>`+
       deps.map(d=>{const zs=DATA.zones.filter(z=>z.dep===d), on=zs.filter(z=>!offZ.has(z.k)).length;
         return `<label class="chk dep"><input type="checkbox" data-dep="${esc(d)}" ${on===zs.length?'checked':''} ${on&&on<zs.length?'data-mixed="1"':''}>${esc(d)}</label>
         <details data-dep="${esc(d)}" ${openSet.has(d)?'open':''}><summary class="lnk" style="margin:0 0 4px 30px;display:inline-block">${on===zs.length?'Choisir une zone':`${on} zone${on>1?'s':''} sur ${zs.length}`}</summary>
@@ -627,7 +628,10 @@ function start(DATA){
   $('lvl').addEventListener('click',e=>{const b=e.target.closest('[data-l]'); if(b){lvl=b.dataset.l;save();render();}});
   $('gen').addEventListener('click',e=>{const b=e.target.closest('[data-g]'); if(b){gen=b.dataset.g;save();render();}});
   $('dpanel').addEventListener('change',e=>{const t=e.target; if(t.dataset.dep){const zs=DATA.zones.filter(z=>z.dep===t.dataset.dep); zs.forEach(z=>t.checked?offZ.delete(z.k):offZ.add(z.k));} else if(t.dataset.z){t.checked?offZ.delete(t.dataset.z):offZ.add(t.dataset.z);} save(); render();});
-  $('dpanel').addEventListener('click',e=>{ if(e.target.closest('[data-zall]')){offZ.clear();save();render();} if(e.target.closest('[data-znone]')){DATA.zones.forEach(z=>offZ.add(z.k));save();render();} });
+  // « Tous » : tout est choisi, on referme le menu ; « Aucun » : le menu reste ouvert pour choisir une zone ; « Fermer » : on referme
+  $('dpanel').addEventListener('click',e=>{ if(e.target.closest('[data-zall]')){offZ.clear();save();render();$('dpop').open=false;}
+    if(e.target.closest('[data-znone]')){DATA.zones.forEach(z=>offZ.add(z.k));save();render();}
+    if(e.target.closest('[data-zclose]')){$('dpop').open=false;} });
   $('divs').addEventListener('click',e=>{const b=e.target.closest('[data-d]'); if(b){offD.has(b.dataset.d)?offD.delete(b.dataset.d):offD.add(b.dataset.d);} else if(e.target.closest('[data-dall]')) offD.clear(); else if(e.target.closest('[data-dnone]')) DIVS.forEach(d=>offD.add(d)); else return; save(); render();});
   $('q').addEventListener('input',e=>{q=e.target.value.trim(); try{ renderMain(); }catch(x){ rshFail(x); }});
   document.addEventListener('click',e=>{const b=e.target.closest('[data-fav]'); if(!b) return; e.preventDefault(); const n=b.dataset.fav; fav.has(n)?fav.delete(n):fav.add(n); if(!fav.size) onlyFav=false; save(); render();});
