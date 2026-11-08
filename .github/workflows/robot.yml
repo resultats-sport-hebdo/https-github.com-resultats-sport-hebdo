@@ -31,7 +31,7 @@ concurrency:
 jobs:
   robot:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -47,7 +47,7 @@ jobs:
         run: |
           OPT=""; [ -n "$T" ] && OPT="$OPT --today $T"; [ -n "$ONLY" ] && OPT="$OPT --only $ONLY"
           [ "$DRY" = "true" ] && OPT="$OPT --dry-run"
-          python robot/robot.py $OPT
+          python -u robot/robot.py $OPT
       - name: Enregistrer s'il y a du nouveau
         if: github.event.inputs.dry_run != 'true'
         env:
