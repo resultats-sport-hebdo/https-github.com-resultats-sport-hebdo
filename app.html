@@ -181,7 +181,7 @@ main{padding:22px 0 50px}
 .une .big{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;padding:20px;border-radius:16px;background:var(--c);color:#fff}
 .une .big b{font:800 clamp(44px,6.4vw,78px)/1 var(--head);white-space:nowrap;text-align:center}
 .une .big b i{font-style:normal;margin:0 .08em;opacity:.9}
-.une .big .bt{font:600 14px/1.3 var(--body);opacity:.88;text-align:center;overflow-wrap:break-word;hyphens:auto;text-wrap:balance}
+.une .big .bt{font:600 14px/1.3 var(--body);opacity:.88;text-align:center;overflow-wrap:break-word;text-wrap:balance}
 @media (max-width:600px){.une .big{grid-template-columns:1fr 1fr;grid-template-areas:'s s' 'h a';gap:8px 12px;padding:16px 14px}.une .big b{grid-area:s}.une .big .bt{font-size:13px}.une .big .bt:first-of-type{grid-area:h}.une .big .bt:last-of-type{grid-area:a}}
 .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 28px}
 .stat{padding:16px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
@@ -197,10 +197,11 @@ main{padding:22px 0 50px}
 :root[data-theme="dark"] .teaser>header a, :root[data-theme="dark"] .more{color:var(--ink)}
 @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) .teaser>header a, :root:not([data-theme="light"]) .more{color:var(--ink)} }
 .sport{margin:0 0 34px}
-.sport>.sh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:8px 0 14px;padding:12px 16px;border-radius:14px;background:var(--sport);color:#fff;font:800 32px/1 var(--head)}
+.sport>.sh{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:8px 0 14px;padding:12px 16px;border-radius:14px;background:var(--sport);color:#fff;font:800 32px/1 var(--head)}
 .sport>.sh a{color:#fff;text-decoration:none}
 .sport>.sh .cnt{font:600 14px var(--body);opacity:.85}
-.sport>.sh .go{margin-left:auto;font:700 14px var(--body)}
+.sport>.sh .go{margin-left:auto;font:700 14px var(--body);white-space:nowrap}
+@media (max-width:600px){.sport>.sh{flex-wrap:nowrap;gap:8px;font-size:24px;padding:10px 12px}.sport>.sh>a:first-child{white-space:nowrap;min-width:0;overflow:hidden;text-overflow:ellipsis}.sport>.sh .cnt{font-size:12px;white-space:nowrap}.sport>.sh .go{font-size:12px}}
 .sport .fam>h2{font-size:26px}
 details.cl{border-top:1px solid var(--line)}
 details.cl>summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 16px;cursor:pointer;font-weight:700;font-size:14.5px;background:var(--soft)}
@@ -222,7 +223,7 @@ details.cl[open]>summary::after{transform:rotate(225deg)}
 .clsrc{margin:0;padding:8px 16px;font-size:12px;color:var(--muted)}
 .clsrc a{color:var(--muted)}
 .tab.alt{background:#ffd23f;color:#1a1200;margin-left:auto;padding-top:6px;padding-bottom:6px;gap:6px}
-.tab .two{display:block;font-size:15px;line-height:1.02;text-align:left}
+.tab .two{display:block;font-size:16px;line-height:1.1;text-align:left;white-space:nowrap}
 .tab.alt:hover{background:#ffe066}
 .tab.alt[aria-current="page"]{background:var(--bg);color:var(--ink);box-shadow:inset 0 4px 0 #ffd23f}
 .clubsall{padding:6px 16px 14px}
@@ -639,7 +640,7 @@ function start(DATA){
     $('h1').textContent=s?s:(route.view==='next'?'Ce week-end':route.view==='cl'?'Les classements':'Les résultats du week-end');
     $('lede').textContent=s?(route.view==='next'?`Les prochains matchs de nos clubs de ${s.toLowerCase()}.`:m.lede):(route.view==='next'?'Tous les matchs de nos clubs dans les 7 jours qui viennent, jour par jour.':'Les sports collectifs de la Marne, des Ardennes, de l\'Aube, de la Haute-Marne et de l\'Aisne, du national au régional. Chaque lundi matin.');
     $('kick').textContent=cur?`${route.view==='next'?'Matchs à venir':route.view==='cl'?'Classements':'Résultats'} · ${cur.label||''} · ${DEPS}`:DEPS;
-    $('stick').innerHTML=`<b>${esc(s||'Tous les sports')}</b>${cur?`<span class="stl"> · ${esc(cur.label||'')}</span>`:''} · ${DEPS}`;
+    $('stick').innerHTML=`<b>${esc(s||'Tous les sports')}</b>${cur?`<span class="stl">&nbsp;· ${esc(cur.label||'')}</span>`:''}&nbsp;· ${DEPS}`;
     $('h1').classList.toggle('long',$('h1').textContent.length>12);
     $('home-link').setAttribute('href',href(null,'res')); $('home-link').dataset.go='';
     const pool=route.view==='cl'?CL:(cur&&(route.view==='next'?cur.agenda:cur.results)||[]);
@@ -648,7 +649,7 @@ function start(DATA){
     $('tabs').innerHTML=`<a class="tab" href="${href(null,nx?'res':route.view)}" data-go="" data-view="${nx?'res':route.view}" ${!s&&!nx?'aria-current="page"':''}>À la une</a>`+
 
       PRIO.map(x=>`<a class="tab" style="--c:${SP[x].c}" href="${href(x,route.view)}" data-go="${SP[x].slug}" data-view="${route.view}" ${s===x?'aria-current="page"':''}>${esc(x)}</a>`).join('')+
-      `<a class="tab alt" href="${href(s,'next')}" data-go="${s?SP[s].slug:''}" data-view="next" ${nx?'aria-current="page"':''}><span aria-hidden="true">📅</span><span class="two">Ce<br>week-end</span></a>`;
+      `<a class="tab alt" href="${href(s,'next')}" data-go="${s?SP[s].slug:''}" data-view="next" ${nx?'aria-current="page"':''}><span aria-hidden="true">📅</span><span class="two">Ce week-end</span></a>`;
     const act=$('tabs').querySelector('[aria-current]'); if(act){ const t=$('tabs'); if(act.offsetLeft+act.offsetWidth>t.scrollLeft+t.clientWidth||act.offsetLeft<t.scrollLeft) t.scrollLeft=Math.max(0,act.offsetLeft-40); }
   }
   function seo(res,fx){
