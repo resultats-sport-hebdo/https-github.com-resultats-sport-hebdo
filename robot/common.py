@@ -54,6 +54,8 @@ def get(url, tries=3, encoding=None, pause=0.0):
                 return r.text
             if r.status_code in (403, 404):
                 return None
+            if r.status_code == 429:  # trop de demandes : on patiente avant de réessayer
+                time.sleep(int(r.headers.get("Retry-After", "0") or 0) or 30 * (i + 1)); continue
         except requests.RequestException:
             pass
         time.sleep(2 + 3 * i)
