@@ -4938,6 +4938,49 @@ window.RSH_DATA = {
      "sa": 4,
      "note": "",
      "mid": "snc15881892"
+    },
+    {
+     "sport": "Basket",
+     "level": "National",
+     "comp": "Elite 2 · J8",
+     "date": "Ven. 6 nov.",
+     "home": "Champagne Basket",
+     "hz": "reims",
+     "away": "Évreux",
+     "az": null,
+     "sh": 59,
+     "sa": 89,
+     "note": "",
+     "url": "https://champagne-basket.fr/match/2026-2027-saison-2026-2027-elite-2-j8-evreux-80477/statistiques"
+    },
+    {
+     "sport": "Basket",
+     "level": "National",
+     "comp": "LF2 · J7",
+     "date": "Ven. 6 nov.",
+     "home": "Cavigal Nice",
+     "hz": null,
+     "away": "Champagne Basket Féminin",
+     "az": "reims",
+     "sh": 107,
+     "sa": 77,
+     "note": "",
+     "url": "https://www.sportclub-reims.fr/2026/11/le-champagne-basket-feminin-rechute-lourdement-a-nice/",
+     "genre": "F"
+    },
+    {
+     "sport": "Basket",
+     "level": "National",
+     "comp": "Nationale masculine 1 · Poule A · J10",
+     "date": "Ven. 6 nov.",
+     "home": "Val-de-Seine",
+     "hz": null,
+     "away": "Étoile de Charleville-Mézières",
+     "az": "charleville",
+     "sh": 88,
+     "sa": 72,
+     "note": "",
+     "url": "https://www.etoile-charleville.fr/"
     }
    ],
    "agenda": [
