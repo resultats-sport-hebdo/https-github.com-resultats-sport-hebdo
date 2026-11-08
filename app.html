@@ -110,8 +110,10 @@ button,select,input{font:inherit;color:inherit}
 .chip[aria-pressed="true"]{background:var(--sport);border-color:var(--sport);color:var(--on)}
 .moref{display:contents}
 .ftog{display:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:700;cursor:pointer}
-.ftog span{margin-left:6px;padding:1px 7px;border-radius:999px;background:var(--sport);color:var(--on);font-size:12px}
-.ftog span:empty{display:none}
+.ftog #fcount{margin-left:6px;padding:1px 7px;border-radius:999px;background:#fff;color:var(--sport);font-size:12px}
+.ftog #fcount:empty{display:none}
+.ftog .fi{margin-right:6px}
+.fclose{display:none}
 .search{flex:1 1 220px;min-width:0;display:flex;align-items:center;gap:8px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
 .search input{flex:1;min-width:0;border:0;background:none;padding:9px 0;outline:none;font-size:15px}
 .search:focus-within{border-color:var(--ink)}
@@ -269,7 +271,9 @@ footer a{color:var(--muted)}
 }
 @media (max-width:760px){
   .cards,.days,.cards.solo .card ul{columns:1}
-  .ftog{display:inline-flex;align-items:center}
+  .ftog{display:inline-flex;align-items:center;background:var(--sport);color:var(--on);border-color:var(--sport);padding:9px 16px;font-size:15px;box-shadow:0 2px 8px rgba(15,26,46,.18)}
+  .ftog[aria-expanded="true"]{background:var(--card);color:var(--ink);border-color:var(--line);box-shadow:none}
+  .moref.open .fclose{display:block;width:100%;margin-top:6px;padding:12px;border:0;border-radius:12px;background:var(--sport);color:var(--on);font:700 15px var(--body);cursor:pointer}
   .moref{display:none;flex-basis:100%;flex-wrap:wrap;gap:6px;padding-top:4px}
   .moref.open{display:flex}
   .search{flex:1 1 160px;order:0}
@@ -322,13 +326,14 @@ footer a{color:var(--muted)}
   <div class="stick in" id="stick"></div>
   <div class="in" role="toolbar" aria-label="Filtres">
     <div class="seg" id="view" aria-label="Affichage"></div>
-    <button type="button" class="ftog" id="ftog" aria-expanded="false" aria-controls="moref">Filtres<span id="fcount"></span></button>
+    <button type="button" class="ftog" id="ftog" aria-expanded="false" aria-controls="moref"><span class="fi" aria-hidden="true">⚙︎</span><span id="ftxt">Filtrer</span><span id="fcount"></span></button>
     <div class="moref" id="moref">
     <div class="seg" id="lvl" aria-label="Niveau"></div>
     <div class="seg" id="gen" aria-label="Masculin ou féminin"></div>
     <details class="pop" id="dpop"><summary id="dsum">📍 Départements</summary><div class="panel" id="dpanel"></div></details>
     <div class="divs" id="divs" hidden></div>
     <details class="pop right" id="fpop"><summary id="fsum">★ Mes clubs</summary><div class="panel" id="fpanel"></div></details>
+    <button type="button" class="fclose" id="fclose">✓ Voir les résultats et fermer les filtres</button>
     </div>
     <label class="search"><span aria-hidden="true">🔎</span><span class="sr">Rechercher</span><input id="q" type="search" placeholder="Club, ville, compétition…" autocomplete="off"></label>
   </div>
@@ -609,7 +614,10 @@ function start(DATA){
       <p style="margin:8px 0 0;font-size:12.5px;color:var(--muted)">Tes clubs sont gardés sur cet appareil et mis en avant dans les résultats.</p>`;
     if(pos!==null){const i=$('fq'); i.focus(); i.setSelectionRange(pos,pos);}
   }
-  $('ftog').addEventListener('click',()=>{const m=$('moref'), o=!m.classList.contains('open'); m.classList.toggle('open',o); $('ftog').setAttribute('aria-expanded',o);});
+  const setFilters=o=>{ const m=$('moref'); m.classList.toggle('open',o); $('ftog').setAttribute('aria-expanded',o); $('ftxt').textContent=o?'Fermer les filtres':'Filtrer';
+    $('ftog').querySelector('.fi').textContent=o?'✕':'⚙︎'; if(!o){ document.querySelectorAll('#moref details[open]').forEach(d=>d.open=false); } };
+  $('ftog').addEventListener('click',()=>setFilters(!$('moref').classList.contains('open')));
+  $('fclose').addEventListener('click',()=>{ setFilters(false); const m=$('main'); window.scrollTo({top:m.getBoundingClientRect().top+scrollY-$('tools').offsetHeight-8,behavior:'smooth'}); });
   $('view').addEventListener('click',e=>{const b=e.target.closest('[data-v]'); if(b) go(route.sport,b.dataset.v);});
   $('lvl').addEventListener('click',e=>{const b=e.target.closest('[data-l]'); if(b){lvl=b.dataset.l;save();render();}});
   $('gen').addEventListener('click',e=>{const b=e.target.closest('[data-g]'); if(b){gen=b.dataset.g;save();render();}});
@@ -640,7 +648,7 @@ function start(DATA){
     $('h1').textContent=s?s:(route.view==='next'?'Ce week-end':route.view==='cl'?'Les classements':'Les résultats du week-end');
     $('lede').textContent=s?(route.view==='next'?`Les prochains matchs de nos clubs de ${s.toLowerCase()}.`:m.lede):(route.view==='next'?'Tous les matchs de nos clubs dans les 7 jours qui viennent, jour par jour.':'Les sports collectifs de la Marne, des Ardennes, de l\'Aube, de la Haute-Marne et de l\'Aisne, du national au régional. Chaque lundi matin.');
     $('kick').textContent=cur?`${route.view==='next'?'Matchs à venir':route.view==='cl'?'Classements':'Résultats'} · ${cur.label||''} · ${DEPS}`:DEPS;
-    $('stick').innerHTML=`<b>${esc(s||'Tous les sports')}</b>${cur?`<span class="stl">&nbsp;· ${esc(cur.label||'')}</span>`:''}&nbsp;· ${DEPS}`;
+    $('stick').innerHTML=`<span><b>${esc(s||'Tous les sports')}</b>${cur?`<span class="stl">&nbsp;· ${esc(cur.label||'')}</span>`:''}&nbsp;· ${DEPS}</span>`;
     $('h1').classList.toggle('long',$('h1').textContent.length>12);
     $('home-link').setAttribute('href',href(null,'res')); $('home-link').dataset.go='';
     const pool=route.view==='cl'?CL:(cur&&(route.view==='next'?cur.agenda:cur.results)||[]);
