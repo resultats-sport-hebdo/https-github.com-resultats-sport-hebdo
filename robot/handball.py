@@ -32,10 +32,21 @@ def find(comps, key):
     return {}
 
 
+def slugify(t):
+    import unicodedata
+    t = unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
 def comp_links(path, kind):
+    """Compétitions listées dans les données de la page (les liens n'existent qu'une fois la page affichée)."""
     page = get(SITE + path) or ""
-    links = sorted(set(re.findall(r'href="(/competitions/saison-[^/]+/' + kind + r'/[a-z0-9-]+-\d{4,6}/)"', page)))
-    return [l for l in links if not SKIP.search(l.rsplit("/", 2)[-2])]
+    comps = find(components(page), "competitions").get("competitions", [])
+    links = [f"{path}{slugify(c['libelle'])}-{c['ext_competitionId']}/".replace(f"/{path.strip('/').split('/')[-1]}/", "/") if False else
+             re.sub(r"/regional/[^/]+/$", "/regional/", path) + f"{slugify(c['libelle'])}-{c['ext_competitionId']}/"
+             for c in comps if c.get("libelle") and c.get("ext_competitionId")]
+    links += re.findall(r'href="(/competitions/saison-[^/]+/' + kind + r'/[a-z0-9-]+-\d{4,6}/)"', page)
+    return sorted({l for l in links if not SKIP.search(l.rstrip("/").rsplit("/", 1)[-1])})
 
 
 def nice_name(slug, region):
