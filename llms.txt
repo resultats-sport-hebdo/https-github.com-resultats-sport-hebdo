@@ -20,58 +20,97 @@
 
 ### Football
 
-- Lun. 2 nov. · Ligue 2 : Red Star FC 1–4 AS Nancy Lorraine (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2/)
-- Lun. 2 nov. · Ligue 2 : Stade De Reims 2–0 FC Sochaux (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2/)
+- Ven. 6 nov. · Ligue 1 · J10 : Toulouse 3–1 RC Strasbourg (source : https://www.foot-national.com/data/match-foot-toulouse-strasbourg-433495.html)
+- Sam. 7 nov. · Ligue 1 · J10 : Paris SG 1–0 ESTAC Troyes (source : https://www.foot-national.com/data/match-foot-paris-sg-troyes-433491.html)
+- Lun. 2 nov. · Ligue 2 · J11 : Red Star FC 1–4 AS Nancy Lorraine (source : https://www.foot-national.com/data/match-foot-red-star-fc-nancy-434121.html)
+- Lun. 2 nov. · Ligue 2 · J11 : Stade de Reims 2–0 Sochaux (source : https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-domine-sochaux-et-retrouve-le-podium/)
+- Ven. 6 nov. · Ligue 2 · J12 : Grenoble 3–2 Stade de Reims (source : https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-chute-pour-la-premiere-fois-de-la-saison-a-grenoble/)
+- Ven. 6 nov. · Ligue 2 · J12 : AS Nancy Lorraine 1–0 Sochaux (source : https://www.foot-national.com/data/match-foot-nancy-sochaux-434139.html)
+- Sam. 7 nov. · National 1 · Poule C · J9 : ESTAC Troyes 2 1–0 Canet RFC (source : https://www.foot-national.com/data/match-foot-troyes-canet-rfc-442597.html)
+- Sam. 7 nov. · National 2 · Poule D · J7 : Croix 3–1 St Quentin O. (source : https://www.foot-national.com/data/match-foot-croix-saint-quentin-443945.html)
+- Sam. 7 nov. · National 2 · Poule E · J7 : Charleville Prix OAM 1–4 Belfort (source : https://www.foot-national.com/data/match-foot-charleville-belfort-443391.html)
+- Sam. 7 nov. · Régional 1 · Poule A : Stade De Reims 2 3–0 ES Villerupt Thil (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/1a/)
+- Sam. 7 nov. · Régional 1 · Poule A : RC Épernay Champagne 3–0 USAG Uckange (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/1a/)
+- Sam. 7 nov. · Régional 1 · Poule A : Marnaval SC 2–3 Cormontreuil FC (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/1a/)
+- Sam. 7 nov. · Régional 1 · Poule A : CSO Amneville 1–3 FCF La Neuvillette-Jamin (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/1a/)
+- Sam. 7 nov. · Régional 2 · Poule A : Reims Murigny FP 3–5 Val de l'Orne FC (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/2a/)
+- Sam. 7 nov. · Régional 2 · Poule B : Ent. Centre Ornain 3–2 Vitry FC (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/2b/)
+- Sam. 7 nov. · Régional 2 · Poule B : Bar-le-Duc FC 4–0 Alliance Sud Ouest F. Aubois (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/2b/)
+- Sam. 7 nov. · Régional 2 · Poule B : US Behonne Longeville 2–0 JS Saint-Julien FC (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/2b/)
+- Sam. 7 nov. · Régional 3 · Poule B : USA Le Chesne 1–0 FC Porcien (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/3b/)
+- Sam. 7 nov. · Régional 3 · Poule C : Romilly Champagne FC 1–3 A. L'Etoile Chapelaine (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/3c/)
+- Sam. 7 nov. · Régional 3 · Poule D : Chaumont FC 2 1–1 Bar-sur-Aube FC (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/3d/)
+- Sam. 7 nov. · Régional 3 · Poule D : FC Saints-Geosmes 2–1 FC de Bologne (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/3d/)
+- Sam. 7 nov. · Régional 3 · Poule D : AS Sarrey Montigny 0–3 FC Toul (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/3d/)
+- Sam. 7 nov. · Régional 1 Hauts-de-France · Poule A : Le Touquet ACFCO 0–0 Amiens SC 2 (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/hauts-de-france/regional/1a/)
+- Sam. 7 nov. · Régional 1 Hauts-de-France · Poule A : Olympique Grande-Synthe 0–4 US Boulogne 2 (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/hauts-de-france/regional/1a/)
+- Sam. 7 nov. · Régional 1 Hauts-de-France · Poule A : SC Hazebrouck 1–3 Soissons IFC (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/hauts-de-france/regional/1a/)
+- Sam. 7 nov. · Régional 2 Hauts-de-France · Poule B : US Laon 2–1 ES Villers-Outréaux (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/hauts-de-france/regional/2b/)
+- Sam. 7 nov. · Départemental 1 Aube : AS Chartreux 2 2–1 US Vendeuvre-Dienville (source : https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/aube/1u/)
+
+### Basket
+
+- Sam. 7 nov. · Nationale masculine 3 · Poule G · J9 : IE BASKET PARIS 14 74–71 IE BC SAINT ANDRE LES VERGERS (source : https://competitions.ffbb.com/competitions/nm3/match/200000014599299)
+- Sam. 7 nov. · Nationale masculine 3 · Poule G · J9 : GAULOISE DE VITRY LE FRANCOIS 87–71 SCHIRRHEIN C.S.C.SN (source : https://competitions.ffbb.com/competitions/nm3/match/200000014599297)
 
 ### Volley
 
 - Ven. 6 nov. · Ligue AM · J5 : NICE Volley-Ball 3–1 CHAUMONT VB 52 HAUTE-MARNE (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M)
+- Sam. 7 nov. · Ligue BM · J5 : REIMS Volley 51 3–2 FREJUS VAR Volley (source : https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-soffre-frejus-au-bout-du-suspens/)
+- Sam. 7 nov. · Ligue BM · J5 : SAINT-QUENTIN Volley 1–3 HARNES Volley-Ball (source : https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-soffre-frejus-au-bout-du-suspens/)
+- Sam. 7 nov. · Élite Avenir · Poule A · J5 : GRAND NANCY VOLLEY-BALL 1–3 REIMS VOLLEY 51 (source : https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-soffre-frejus-au-bout-du-suspens/)
+- Sam. 7 nov. · Prénationale féminine Grand Est · Poule A · J5 : SAINT-DIE 2 3–0 PONT-A-MOUSSON 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA)
+- Sam. 7 nov. · Prénationale féminine Grand Est · Poule A · J5 : TERVILLE/FLORANGE 3 3–1 ASVB YUTZ THIONVILLE (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA)
+- Sam. 7 nov. · Prénationale féminine Grand Est · Poule A · J5 : VANDOEUVRE/NANCY 4 3–0 LUNEVILLE (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA)
+- Sam. 7 nov. · Prénationale féminine Grand Est · Poule A · J5 : CAM D'EPINAL 3–0 CHAUMONT (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA)
+- Sam. 7 nov. · Prénationale féminine Grand Est · Poule A · J5 : METZ VOLLEY-BALL 3–1 VILLERS (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA)
+- Sam. 7 nov. · Prénationale masculine Grand Est · Poule A · J5 : REMIREMONT 3–0 VILLERS 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PGA)
+- Sam. 7 nov. · Prénationale masculine Grand Est · Poule A · J5 : EPINAL/GOLBEY 2 3–2 VANDOEUVRE/NANCY (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PGA)
+- Sam. 7 nov. · Prénationale masculine Grand Est · Poule A · J5 : YUTZ/THIONVILLE 2 3–0 SAINT-DIZIER (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PGA)
+- Sam. 7 nov. · Prénationale masculine Grand Est · Poule A · J5 : GRAND NANCY 4 3–0 PONT-A-MOUSSON (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PGA)
+- Sam. 7 nov. · Prénationale masculine Grand Est · Poule A · J5 : CHAUMONT 3 1–3 MAIZIERES 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PGA)
+- Sam. 7 nov. · Régionale féminine Grand Est · Poule A · J3 : GRAND NANCY 3 0–3 GRAND NANCY 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=RFA)
+- Sam. 7 nov. · Régionale féminine Grand Est · Poule A · J3 : VILLERS 2 2–3 PONT A MOUSSON 3 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=RFA)
+- Sam. 7 nov. · Régionale masculine Grand Est · Poule A · J3 : CHAUMONT 4 3–0 REMIREMONT (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=RMA)
+- Sam. 7 nov. · Régionale masculine Grand Est · Poule A · J3 : GRAND NANCY 5 3–0 PLVB TROYES 3 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=RMA)
+- Sam. 7 nov. · Prénationale masculine Hauts-de-France · Poule B · J5 : VILLENEUVE D'ASCQ 1 3–1 LAON 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=PMB)
+- Sam. 7 nov. · Prénationale masculine Hauts-de-France · Poule B · J5 : CAMBRAI 4 2–3 TINQUEUX 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=PMB)
+- Sam. 7 nov. · Prénationale masculine Hauts-de-France · Poule B · J5 : LYS LEZ LANNOY 1 3–1 BELLAING 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=PMB)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule C · J5 : CAUDRY 4 3–0 FAMARS 3 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule C · J5 : NOYELLES SOUS LENS 1 0–3 DOUAI 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule C · J5 : AULNOY LEZ VA 2 0–3 HELESMES 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule C · J5 : LE QUESNOY 1 0–3 REIMS 5 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J5 : AMIENS METROPOLE 4 3–2 TINQUEUX 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J5 : VILLERS COTTERETS 1 3–1 RANTIGNY-LIANCOURT 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J5 : REIMS 4 2–3 COMPIEGNE 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J5 : BEAUVAIS 3 3–1 CHATEAU THIERRY 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
+- Sam. 7 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J5 : LONGUEAU AMIENS 1 0–3 CAUDRY 3 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
 - Ven. 6 nov. · Prénationale féminine Hauts-de-France · Poule B · J5 : VALENCIENNES 3 1–3 AULNOY LEZ VA 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=PFB)
+- Sam. 7 nov. · Prénationale féminine Hauts-de-France · Poule B · J5 : BEAUVAIS 1 3–0 FAMARS 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=PFB)
+- Sam. 7 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : LIEVIN 2 3–0 AGNY 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
+- Sam. 7 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : SOISSONS 1 2–3 AMIENS METROPOLE 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
+
+### Rugby
+
+- Sam. 7 nov. · Régionale 1 Grand Est · J7 : AS Cheminots de Strasbourg 27–20 Entente Sud Haute Marne M+18 (source : https://monclubhouse.ffr.fr/regionales/grand-est/grand-est-regionale-1-championnat-territorial/match/1576084)
 
 ## Le week-end prochain
 
 - Dim. 8 nov. 19:00 · Basket · Betclic Élite : SIG Strasbourg – Le Mans (Rhénus Sport)
-- Sam. 7 nov. 17:15 · Basket · Pré-nationale masculine · Poule A · J4 : Éveil Recy Saint-Martin Basket – Association Cormontreuil Champagne Basket
-- Sam. 7 nov. 20:30 · Basket · Pré-nationale masculine · Poule A · J4 : Éveil laïque Witry-lès-Reims Basket – Étoile de Charleville-Mézières Basket 2
-- Sam. 7 nov. 20:30 · Basket · Pré-nationale masculine · Poule A · J4 : Amicale des Jeunes de Bétheny – Reims Champagne Basket
 - Dim. 8 nov. 15:30 · Basket · Pré-nationale masculine · Poule A · J4 : CTC T-A-A-C Basket – Énergie Troyenne – Espé Basket Châlons-en-Champagne
-- Sam. 7 nov. 18:00 · Basket · Régionale masculine 2 · Poule A · J4 : Éveil laïque Witry-lès-Reims Basket 2 – BCV Verdun
-- Sam. 7 nov. 20:30 · Basket · Régionale masculine 2 · Poule A · J4 : US Silvange Basket – Gauloise de Vitry-le-François
-- Sam. 7 nov. 20:30 · Basket · Régionale masculine 2 · Poule A · J4 : Basket Sancéo Troyen – Villers Semeuse Basket
-- Sam. 7 nov. 20:30 · Basket · Régionale masculine 2 · Poule A · J4 : Entente Chaumontaise AC Basket – La Fertonne Fère-Champenoise
 - Dim. 8 nov. 16:00 · Basket · Régionale masculine 2 · Poule A · J4 : Thionville BC – Association Cormontreuil Champagne Basket 2
 - Dim. 8 nov. 13:15 · Basket · Régionale féminine 2 · Poule B · J4 : ASP Ste Marie aux Chênes 2 – Champagne Basket Féminin (RF2)
 - Dim. 8 nov. 16:00 · Basket · Régionale féminine 2 · Poule B · J4 : Éveil laïque Witry-lès-Reims Basket (féminines) – Rombas OC
 - Dim. 8 nov. 16:00 · Basket · Pré-nationale féminine · Poule A · J3 : AS Saint-Brice-Courcelles Basket – AS Haut du Lièvre Nancy
 - Dim. 8 nov. 15:30 · Basket · Nationale féminine 3 · Poule F · J8 : Champagne Basket Féminin B – Aulnoye AS 2
-- Sam. 7 nov. 18:00 · Basket · Pré-régionale masculine (Aisne) · J3 : SQBB - JSC 2 – ESC Tergnier 3
-- Sam. 7 nov. 20:00 · Basket · Pré-régionale masculine (Aisne) · J3 : BC Saint Michel – Soissons Cuffies Aisne BB
-- Sam. 7 nov. 20:00 · Basket · Pré-régionale masculine (Aisne) · J3 : BB Cotterézien – Grugies Basket-Ball
-- Sam. 7 nov. 20:00 · Basket · Pré-régionale masculine (Aisne) · J3 : Château-Thierry Basket Ball – Club Cantonal Anizien Basket
 - Dim. 8 nov. 16:00 · Basket · Pré-régionale masculine (Aisne) · J3 : FC Belleu Basket Ball 2 – Pals Athletic Club Guise 2
-- Sam. 7 nov. 20:00 · Basket · Pré-régionale féminine (Aisne) · J3 : Soissons Cuffies Aisne BB 2 – Laon BB
 - Dim. 8 nov. 13:30 · Basket · Pré-régionale féminine (Aisne) · J3 : ASG Gauchy 2 – ESC Tergnier 2
 - Dim. 8 nov. 14:00 · Basket · Pré-régionale féminine (Aisne) · J3 : FC Belleu Basket Ball – AAE Bohain
 - Dim. 8 nov. 14:00 · Basket · Pré-régionale féminine (Aisne) · J3 : SQBB - JSC – Pals Athletic Club Guise
-- Sam. 7 nov. 20:30 · Handball · Nationale 3 territoriale féminine · J5 : Epinal HB – Reims Champagne Handball 2
-- Sam. 7 nov.  · Handball · Prénationale masculine Grand Est · J5 : Plobsheim – Ent. Savino-Chapelain/US Ste Maure
-- Sam. 7 nov.  · Handball · Prénationale masculine Grand Est · J5 : Taissy Club Handball – ASCA Wittelsheim
-- Sam. 7 nov.  · Handball · Prénationale masculine Grand Est · J5 : Ent. Bogny-Hautes-Rivières/Fumay – Ent Burnhaupt/Lynx
-- Sam. 7 nov. 15:00 · Futsal · Régional 1 futsal féminin : Behonne Longevill. US – Reims Métropole Futsal (féminines)
-- Sam. 7 nov. 16:00 · Futsal · Régional 1 futsal féminin : Futsal St Privat – Ardennes Futsal (féminines)
-- Sam. 7 nov. 19:00 · Handball · Nationale 2 féminine · Poule 5 · J7 : Handball Club de Gagny – Reims Champagne Handball
-- Sam. 7 nov. 19:00 · Handball · Honneur régionale masculine Hauts-de-France · Poule 2 · J6 : Pévèle Handball Club 2 – Elite Axonaise Handball (Honneur M)
-- Sam. 7 nov. 20:30 · Water-polo · Nationale 3 Hauts-de-France · Poule B · J1 : Pelican Club de Valenciennes – St-Quentin Natation (Valenciennes)
-- Sam. 7 nov. 18:00 · Hockey sur glace · Division 2 · J6 : Orléans – Gaulois de Châlons-en-Champagne (Orléans, patinoire municipale)
-- Sam. 7 nov. 18:45 · Hockey sur glace · Division 2 · J6 : Hogly – Phénix de Reims (La Roche-sur-Yon, patinoire Arago)
-- Sam. 7 nov. 18:30 · Roller hockey · Nationale 3 M · Groupe 3 : OK Roller Beaune – Rapaces de Reims B (Beaune)
 - Dim. 8 nov. 11:30 · Handball · Honneur régionale masculine Hauts-de-France · Poule 2 · J6 : HBC Municipal St-Polois 2 – HB Laférois
 - Dim. 8 nov. 11:30 · Handball · Honneur régionale masculine Hauts-de-France · Poule 2 · J6 : HBC Municipal St-Polois 2 – HB Laférois
 - Dim. 8 nov. 11:30 · Handball · Honneur régionale masculine Hauts-de-France · Poule 2 · J6 : HBC Municipal St-Polois 2 – HB Laférois
-- Dim. 8 nov. 15:15 · Rugby · Fédérale 3 · Poule 2 · J7 : Rugby Épernay Champagne – Melun Combs Sénart
-- Dim. 8 nov. 15:00 · Rugby · Régionale 2 Grand Est · Poule 3 · J5 : Longwy – Club Ovalie de Saint-Dizier
 - Dim. 8 nov. 15:00 · Rugby · Régionale 2 Grand Est · Poule 3 · J5 : CO Châlonnais – Ovalie Club du Bassin Toulois
-- Dim. 8 nov. 15:00 · Rugby · Régionale 3 Grand Est · Poule 1 · J6 : Rethel S Rugby XV – Club Rugby Aube Champagne Ossey Marigny
 - Dim. 8 nov. 15:00 · Rugby · Régionale 3 Grand Est · Poule 1 · J6 : Bar-le-Duc – Dieulouard Liverdun
 - Dim. 8 nov. 15:00 · Rugby · Régionale 3 Grand Est · Poule 1 · J6 : Hayange – Rugby Centre Meuse Force 4
 - Dim. 8 nov. 15:00 · Rugby · Régionale 3 Grand Est · Poule 1 · J6 : Lunéville – RC des 2 Vallées
@@ -79,16 +118,7 @@
 - Dim. 8 nov. 14:30 · Football · Régional 2 féminin · Poule A : Olympique Rémoise (féminines) – Charleville Prix OAM (féminines)
 - Dim. 8 nov. 14:30 · Football · Régional 2 féminin · Poule A : Bétheny FC (féminines) – Flize US
 - Dim. 8 nov. 15:00 · Football · Régional 2 féminin · Poule A : Gueux AS (féminines) – Sedan Ardennes CS (féminines)
-- Sam. 7 nov. 16:00 · Football · National 1 · Poule C : ESTAC Troyes 2 – Canet Roussillon FC
-- Mer. 11 nov. 17:00 · Football · National 1 · Poule C : ÉFC Fréjus Saint-Raphaël – ESTAC Troyes 2
-- Sam. 7 nov. 18:00 · Football · National 2 · Poule D : IC Croix – Olympique Saint-Quentinois
-- Sam. 7 nov. 15:00 · Football · National 2 · Poule E : AS Nancy Lorraine 2 – SFC Neuilly-sur-Marne
-- Sam. 7 nov. 18:00 · Football · National 2 · Poule E : Olympique Charleville Prix AM – ASM Belfort
-- Sam. 7 nov. 21:05 · Football · Ligue 1 : Paris Saint-Germain – ESTAC Troyes
-- Sam. 7 nov. 17:00 · Football · Régional 1 · Poule A : Stade De Reims 2 – ES Villerupt Thil
-- Sam. 7 nov. 18:30 · Football · Régional 1 · Poule A : RC Épernay Champagne – USAG Uckange
-- Sam. 7 nov. 18:30 · Football · Régional 1 · Poule A : Marnaval SC – Cormontreuil FC
-- Sam. 7 nov. 19:00 · Football · Régional 1 · Poule A : CSO Amneville – FCF La Neuvillette-Jamin
+- Mer. 11 nov. 17:00 · Football · National 1 · Poule C · J10 : Fréjus St Raphaël – ESTAC Troyes 2
 - Dim. 8 nov. 14:30 · Football · Régional 1 · Poule A : Olympique Charleville Prix AM 2 – US Thionville Lusitanos 2
 - Dim. 8 nov. 14:30 · Football · Régional 1 · Poule A : FC Hettange-Grande – FC Bogny
 - Dim. 8 nov. 14:30 · Football · Régional 1 · Poule A : FC Saint-Méziéry – CS Sedan
@@ -96,7 +126,6 @@
 - Dim. 15 nov. 14:30 · Football · Régional 1 · Poule A : US Thionville Lusitanos 2 – Stade De Reims 2
 - Dim. 15 nov. 14:30 · Football · Régional 1 · Poule A : USAG Uckange – Olympique Charleville Prix AM 2
 - Dim. 15 nov. 14:30 · Football · Régional 1 · Poule A : ES Villerupt Thil – Marnaval SC
-- Sam. 7 nov. 19:45 · Football · Régional 2 · Poule A : Reims Murigny FP – Val de l'Orne FC
 - Dim. 8 nov. 14:30 · Football · Régional 2 · Poule A : Reims Sainte-Anne – UL Plantières
 - Dim. 8 nov. 14:30 · Football · Régional 2 · Poule A : Rethel SF – Reims FC Christo
 - Dim. 8 nov. 14:30 · Football · Régional 2 · Poule A : CS Sedan 2 – AS Val de l'Aisne
@@ -108,9 +137,6 @@
 - Dim. 15 nov. 14:30 · Football · Régional 2 · Poule A : Reims FC Christo – Reims Murigny FP
 - Dim. 15 nov. 14:30 · Football · Régional 2 · Poule A : AS Val de l'Aisne – CS Veymerange
 - Dim. 15 nov. 14:30 · Football · Régional 2 · Poule A : Val de l'Orne FC – AS Saint-Brice Courcelles
-- Sam. 7 nov. 19:00 · Football · Régional 2 · Poule B : Ent. Centre Ornain – Vitry FC
-- Sam. 7 nov. 19:30 · Football · Régional 2 · Poule B : Bar-le-Duc FC – Alliance Sud Ouest F. Aubois
-- Sam. 7 nov. 20:00 · Football · Régional 2 · Poule B : US Behonne Longeville – JS Saint-Julien FC
 - Dim. 8 nov. 14:30 · Football · Régional 2 · Poule B : US Avize-Grauves – RC Épernay Champagne 2
 - Dim. 8 nov. 14:30 · Football · Régional 2 · Poule B : FC Côte des Blancs – AS Chartreux
 - Dim. 8 nov. 14:30 · Football · Régional 2 · Poule B : FC Nogentais – Chaumont FC
@@ -133,19 +159,17 @@
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule A : AS Saulnes-Longlaville – CS Godbrange-Hussigny
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule A : Olympique Torcy-Sedan – US Les Ayvelles
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule A : CA Villers-Semeuse – Cheveuges/Saint-Aignan CO
-- Sam. 7 nov. 20:00 · Football · Régional 3 · Poule B : USA Le Chesne – FC Porcien
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule B : Cormontreuil FC 2 – Reims Sainte-Anne 2
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule B : FCF La Neuvillette-Jamin 2 – Bétheny FC
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule B : Espérance Rémoise CS – Châlons FCO
-- Dim. 8 nov. 14:30 · Football · Régional 3 · Poule B : FC Tinqueux Champagne – ES des Coteaux Sud
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule B : ASTRM – AS Bourg Rocroi
+- Dim. 8 nov. 15:30 · Football · Régional 3 · Poule B : FC Tinqueux Champagne – ES des Coteaux Sud
 - Sam. 14 nov. 19:00 · Football · Régional 3 · Poule B : AS Bourg Rocroi – Cormontreuil FC 2
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule B : Bétheny FC – USA Le Chesne
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule B : Châlons FCO – FCF La Neuvillette-Jamin 2
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule B : ES des Coteaux Sud – ASTRM
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule B : FC Porcien – FC Tinqueux Champagne
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule B : Reims Sainte-Anne 2 – Espérance Rémoise CS
-- Sam. 7 nov. 19:00 · Football · Régional 3 · Poule C : Romilly Champagne FC – A. L'Etoile Chapelaine
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule C : ASPTT Châlons – FC Nogentais 2
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule C : RCS La Chapelle – FC Vallant/les Grès
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule C : AS Pont-Sainte-Marie – Rosières OS
@@ -157,9 +181,6 @@
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule C : FC Nogentais 2 – AS Pont-Sainte-Marie
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule C : Romilly Champagne FC – FC Vallant/les Grès
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule C : Rosières OS – RCS La Chapelle
-- Sam. 7 nov. 18:30 · Football · Régional 3 · Poule D : Chaumont FC 2 – Bar-sur-Aube FC
-- Sam. 7 nov. 19:00 · Football · Régional 3 · Poule D : FC Saints-Geosmes – FC de Bologne
-- Sam. 7 nov. 19:30 · Football · Régional 3 · Poule D : AS Sarrey Montigny – FC Toul
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule D : US Eclaron – Stade Chevillonnais
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule D : Ent. Sorcy Void-Vacon – DS Eurville Bienville
 - Dim. 8 nov. 14:30 · Football · Régional 3 · Poule D : AS Treveray – USIB Vaux-sur-Blaise
@@ -169,14 +190,10 @@
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule D : DS Eurville Bienville – AS Sarrey Montigny
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule D : FC Toul – Chaumont FC 2
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule D : USIB Vaux-sur-Blaise – FC Saints-Geosmes
-- Sam. 7 nov. 17:00 · Football · Régional 1 Hauts-de-France · Poule A : Le Touquet ACFCO – Amiens SC 2
-- Sam. 7 nov. 19:00 · Football · Régional 1 Hauts-de-France · Poule A : Olympique Grande-Synthe – US Boulogne 2
-- Sam. 7 nov. 20:00 · Football · Régional 1 Hauts-de-France · Poule A : SC Hazebrouck – Soissons IFC
 - Dim. 8 nov. 14:30 · Football · Régional 1 Hauts-de-France · Poule A : Stade Béthunois FC – FC Chambly 2
 - Dim. 8 nov. 14:30 · Football · Régional 1 Hauts-de-France · Poule A : US Gravelines – AFC Compiègne
 - Dim. 8 nov. 14:30 · Football · Régional 1 Hauts-de-France · Poule A : Ent. Itancourt-Neuville – Stade Orchies
 - Dim. 8 nov. 14:30 · Football · Régional 1 Hauts-de-France · Poule A : US Maubeuge – FC Bondues
-- Sam. 7 nov. 19:00 · Football · Régional 2 Hauts-de-France · Poule B : US Laon – ES Villers-Outréaux
 - Dim. 8 nov. 14:30 · Football · Régional 2 Hauts-de-France · Poule B : ES Anzin – USO Bruay-la-Buissière
 - Dim. 8 nov. 14:30 · Football · Régional 2 Hauts-de-France · Poule B : US Chevrières-Grandfresnoy – US Choisy-au-Bac
 - Dim. 8 nov. 14:30 · Football · Régional 2 Hauts-de-France · Poule B : ES Lambres-lez-Douai – US Hordain
@@ -225,7 +242,6 @@
 - Dim. 15 nov. 14:30 · Football · D1 Ardennes : USC Nouvion-sur-Meuse – AS Asfeld
 - Dim. 15 nov. 14:30 · Football · D1 Ardennes : ASTRM 2 – Buzancy SOS
 - Dim. 15 nov. 14:30 · Football · D1 Ardennes : SC Vivarois – Olympique Charleville Prix AM 3
-- Sam. 7 nov. 19:30 · Football · Départemental 1 Aube : AS Chartreux 2 – US Vendeuvre-Dienville
 - Dim. 8 nov. 14:00 · Football · Départemental 1 Aube : Saint-André Foot – UFC Aube
 - Dim. 8 nov. 14:30 · Football · Départemental 1 Aube : AS Portugaise des Chartreux – FC du Morgendois
 - Dim. 8 nov. 14:30 · Football · Départemental 1 Aube : ES Nord Aubois – JS Vaudoise
@@ -258,80 +274,60 @@
 - Dim. 8 nov. 14:30 · Football · Départemental 1 Aisne : Tergnier FC – US La Fère
 - Mer. 11 nov. 15:00 · Football · Départemental 1 Aisne : US Belleu – US Guise
 - Jeu. 12 nov. 20:00 · Volley · Ligue AM · J6 : CHAUMONT VB 52 HAUTE-MARNE – SPACER'S TOULOUSE Volley-Ball (Palestra)
-- Sam. 7 nov. 19:00 · Volley · Ligue BM · J5 : REIMS Volley 51 – FREJUS VAR Volley (Jean Armand)
-- Sam. 7 nov. 19:30 · Volley · Ligue BM · J5 : SAINT-QUENTIN Volley – HARNES Volley-Ball (Palais Des Sports Pierre Ratte)
 - Sam. 14 nov. 19:00 · Volley · Ligue BM · J6 : CAMBRAI Volley – SAINT-QUENTIN Volley (Jm Vanpoulle)
 - Sam. 14 nov. 19:00 · Volley · Ligue BM · J6 : GRAND NANCY Volley-Ball – REIMS Volley 51 (Nations)
-- Sam. 7 nov. 14:00 · Volley · Élite Avenir · Poule A · J5 : GRAND NANCY VOLLEY-BALL – REIMS VOLLEY 51 (Marie Marvingt)
 - Dim. 8 nov. 15:00 · Volley · Élite Avenir · Poule A · J5 : CHAUMONT VOLLEY-BALL 52 – ST NAZAIRE VB ATLANTIQUE (Salle Jean Masson)
 - Dim. 8 nov. 16:00 · Volley · Nationale 2 masculine · Poule B · J6 : VIE AU GRAND AIR DE ST MAUR – REIMS VOLLEY 51 3 (Brossolette)
 - Dim. 8 nov. 14:00 · Volley · Nationale 3 féminine · Poule G · J6 : REIMS VOLLEY 51 – US LOGNES VOLLEY-BALL (Saint Thierry)
 - Dim. 8 nov. 15:00 · Volley · Nationale 3 féminine · Poule G · J6 : USM MALAKOFF – VILLERS COTTERETS VOLLEY-BALL (Marcel Cerdan)
 - Dim. 8 nov. 14:00 · Volley · Nationale 3 masculine · Poule C · J6 : CLUB SPOR. FONTAINE LES DIJON – PATRONAGE LAIQUE 010 V.B. (Gymnase Des Cortots)
-- Sam. 7 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J5 : SAINT-DIE 2 – PONT-A-MOUSSON 2 (Gymnase Plinguier)
-- Sam. 7 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J5 : TERVILLE/FLORANGE 3 – ASVB YUTZ THIONVILLE (Gymnase Municipal)
-- Sam. 7 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J5 : VANDOEUVRE/NANCY 4 – LUNEVILLE (Gymnase Monplaisir)
-- Sam. 7 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J5 : CAM D'EPINAL – CHAUMONT (Gymnase Lapicque)
-- Sam. 7 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J5 : METZ VOLLEY-BALL – VILLERS (Gymnase  Jean Rostand)
 - Sam. 14 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J6 : METZ VOLLEY-BALL – SAINT-DIE 2 (Gymnase  Jean Rostand)
 - Sam. 14 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J6 : VILLERS – CAM D'EPINAL (Gymnase Chepfer)
 - Sam. 14 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J6 : CHAUMONT – VANDOEUVRE/NANCY 4 (Salle Jean Masson)
 - Sam. 14 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J6 : LUNEVILLE – TERVILLE/FLORANGE 3 (Gymnase Boulloche)
 - Sam. 14 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J6 : ASVB YUTZ THIONVILLE – PONT-A-MOUSSON 2 (Gymnase Paul Dalmar)
-- Sam. 7 nov. 20:30 · Volley · Prénationale masculine Grand Est · Poule A · J5 : REMIREMONT – VILLERS 2 (Gymnase Charlet)
-- Sam. 7 nov. 20:30 · Volley · Prénationale masculine Grand Est · Poule A · J5 : EPINAL/GOLBEY 2 – VANDOEUVRE/NANCY (Gymnase Viviani)
-- Sam. 7 nov. 20:30 · Volley · Prénationale masculine Grand Est · Poule A · J5 : YUTZ/THIONVILLE 2 – SAINT-DIZIER (Gymnase Paul Dalmar)
-- Sam. 7 nov. 20:30 · Volley · Prénationale masculine Grand Est · Poule A · J5 : GRAND NANCY 4 – PONT-A-MOUSSON (Gymnase Alfred Mezieres)
-- Sam. 7 nov. 21:00 · Volley · Prénationale masculine Grand Est · Poule A · J5 : CHAUMONT 3 – MAIZIERES 2 (Salle Jean Masson)
 - Sam. 14 nov. 18:00 · Volley · Prénationale masculine Grand Est · Poule A · J6 : VILLERS 2 – MAIZIERES 2 (Gymnase Chepfer)
 - Sam. 14 nov. 20:00 · Volley · Prénationale masculine Grand Est · Poule A · J6 : SAINT-DIZIER – EPINAL/GOLBEY 2 (Gymnase Ortiz)
 - Sam. 14 nov. 20:30 · Volley · Prénationale masculine Grand Est · Poule A · J6 : PONT-A-MOUSSON – CHAUMONT 3 (Centre Des Sports Bernard Guy)
 - Sam. 14 nov. 20:30 · Volley · Prénationale masculine Grand Est · Poule A · J6 : GRAND NANCY 4 – YUTZ/THIONVILLE 2 (Gymnase Alfred Mezieres)
 - Sam. 14 nov. 20:30 · Volley · Prénationale masculine Grand Est · Poule A · J6 : VANDOEUVRE/NANCY – REMIREMONT (Gymnase Monplaisir)
-- Sam. 7 nov. 20:30 · Volley · Régionale féminine Grand Est · Poule A · J3 : GRAND NANCY 3 – GRAND NANCY 2 (Gymnase Jean Lamour)
-- Sam. 7 nov. 20:30 · Volley · Régionale féminine Grand Est · Poule A · J3 : VILLERS 2 – PONT A MOUSSON 3 (Gymnase Chepfer)
 - Dim. 8 nov. 14:00 · Volley · Régionale féminine Grand Est · Poule A · J3 : SAINT DIE 4 – VANDOEUVRE 5 (Gymnase Plinguier)
 - Dim. 8 nov. 16:00 · Volley · Régionale féminine Grand Est · Poule A · J3 : SAINT DIE 3 – TROYES (Gymnase Plinguier)
 - Sam. 14 nov. 20:30 · Volley · Régionale féminine Grand Est · Poule A · J4 : PONT A MOUSSON 3 – SAINT DIE 3 (Gymnase Du Lycée Hanzelet)
 - Sam. 14 nov. 20:30 · Volley · Régionale féminine Grand Est · Poule A · J4 : TROYES – SAINT DIE 4 (Cosec 2 Andre Pere)
 - Sam. 14 nov. 20:30 · Volley · Régionale féminine Grand Est · Poule A · J4 : GRAND NANCY 2 – BAM VB (Gymnase Jean Lamour)
 - Dim. 15 nov. 14:00 · Volley · Régionale féminine Grand Est · Poule A · J4 : VANDOEUVRE 5 – GRAND NANCY 3 (Gymnase Monplaisir)
-- Sam. 7 nov. 19:00 · Volley · Régionale masculine Grand Est · Poule A · J3 : PLVB TROYES 2 – LUNEVILLE 2 (Cosec 2 Andre Pere)
-- Sam. 7 nov. 20:30 · Volley · Régionale masculine Grand Est · Poule A · J3 : CHAUMONT 4 – REMIREMONT (Gymnase De La Rochotte)
-- Sam. 7 nov. 20:30 · Volley · Régionale masculine Grand Est · Poule A · J3 : GRAND NANCY 5 – PLVB TROYES 3 (Gymnase Philippe De Gueldres)
 - Dim. 8 nov. 16:00 · Volley · Régionale masculine Grand Est · Poule A · J3 : EPINAL GOLBEY 3 – LUNEVILLE 1 (Gymnase Viviani)
 - Sam. 14 nov. 15:00 · Volley · Régionale masculine Grand Est · Poule A · J4 : LUNEVILLE 1 – PLVB TROYES 2 (Gymnase Boulloche)
 - Sam. 14 nov. 17:00 · Volley · Régionale masculine Grand Est · Poule A · J4 : LUNEVILLE 2 – GRAND NANCY 5 (Gymnase Boulloche)
 - Sam. 14 nov. 20:00 · Volley · Régionale masculine Grand Est · Poule A · J4 : EPINAL GOLBEY 3 – CHAUMONT 4 (Gymnase Viviani)
 - Sam. 14 nov. 20:30 · Volley · Régionale masculine Grand Est · Poule A · J4 : FROUARD POMPEY – REMIREMONT (Cosec)
-- Sam. 7 nov. 17:00 · Volley · Prénationale masculine Hauts-de-France · Poule B · J5 : VILLENEUVE D'ASCQ 1 – LAON 1 (Salle Tamise)
-- Sam. 7 nov. 18:30 · Volley · Prénationale masculine Hauts-de-France · Poule B · J5 : CAMBRAI 4 – TINQUEUX 1 (Salle Pasteur)
-- Sam. 7 nov. 20:00 · Volley · Prénationale masculine Hauts-de-France · Poule B · J5 : LYS LEZ LANNOY 1 – BELLAING 2 (Salle Jules Ferry)
 - Dim. 8 nov. 15:00 · Volley · Prénationale masculine Hauts-de-France · Poule B · J5 : BEAUVAIS 2 – AMIENS METTROPOLE 3 (Salle Pierre De Coubertin)
 - Dim. 8 nov. 16:00 · Volley · Prénationale masculine Hauts-de-France · Poule B · J5 : SAINT QUENTIN 2 – VILLEREAU 1 (Gymnase Pierre Laroche)
-- Sam. 7 nov. 20:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule C · J5 : CAUDRY 4 – FAMARS 3 (Palais Des Sports)
-- Sam. 7 nov. 20:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule C · J5 : NOYELLES SOUS LENS 1 – DOUAI 1 (Complexe Leo Lagrange)
-- Sam. 7 nov. 20:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule C · J5 : AULNOY LEZ VA 2 – HELESMES 1 (Gymnase Henri Couvent)
-- Sam. 7 nov. 20:30 · Volley · Régionale 1 masculine Hauts-de-France · Poule C · J5 : LE QUESNOY 1 – REIMS 5 (Salle Michel Bernard)
 - Dim. 8 nov. 17:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule C · J5 : CAMBRAI 5 – ORCHIES 1 (Salle Pasteur)
 - Sam. 14 nov. 20:30 · Volley · Régionale 1 masculine Hauts-de-France · Poule C · J4 : CAMBRAI 5 – CAUDRY 4 (Salle Pasteur)
-- Sam. 7 nov. 18:30 · Volley · Régionale 1 masculine Hauts-de-France · Poule D · J5 : AMIENS METROPOLE 4 – TINQUEUX 2 (Gymnase De La Paix)
-- Sam. 7 nov. 19:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule D · J5 : VILLERS COTTERETS 1 – RANTIGNY-LIANCOURT 1 (Gymnase Plaine De Noüe)
-- Sam. 7 nov. 20:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule D · J5 : REIMS 4 – COMPIEGNE 1 (Salle Saint Thierry)
-- Sam. 7 nov. 20:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule D · J5 : BEAUVAIS 3 – CHATEAU THIERRY 1 (Gymnase Francois Truffaut)
-- Sam. 7 nov. 20:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule D · J5 : LONGUEAU AMIENS 1 – CAUDRY 3 (Gymnase Hede)
 - Dim. 15 nov. 13:00 · Volley · Régionale 1 masculine Hauts-de-France · Poule D · J4 : TINQUEUX 2 – BEAUVAIS 3 (Gymnase De La Croix Cordier)
-- Sam. 7 nov. 20:00 · Volley · Prénationale féminine Hauts-de-France · Poule B · J5 : BEAUVAIS 1 – FAMARS 1 (Salle Pierre De Coubertin)
 - Dim. 8 nov. 16:00 · Volley · Prénationale féminine Hauts-de-France · Poule B · J5 : SAINT ANDRE 1 – LONGUEAU AMIENS 2 (Salle Marcel Ducrocq)
 - Dim. 8 nov. 16:00 · Volley · Prénationale féminine Hauts-de-France · Poule B · J5 : TINQUEUX 1 – VAL DE SAMBRE 1 (Gymnase De La Croix Cordier)
 - Mar. 10 nov. 20:30 · Volley · Prénationale féminine Hauts-de-France · Poule B · J5 : MARCQ EN BAROEUL 3 – MOUVAUX 1 (Salle St Exupery)
-- Sam. 7 nov. 18:00 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J5 : CAUDRY 2 – VILLERS COTTERETS 2 (Palais Des Sports)
-- Sam. 7 nov. 18:30 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J5 : LIEVIN 2 – AGNY 1 (Salle Sénéchal)
-- Sam. 7 nov. 20:30 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J5 : SOISSONS 1 – AMIENS METROPOLE 1 (Gymnase Lamartine)
 - Dim. 8 nov. 14:00 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J5 : SAINT QUENTIN 1 – ARRAS 1 (Gymnase Pierre Laroche)
 - Dim. 8 nov. 14:00 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J5 : TINQUEUX 2 – LA FERE 1 (Gymnase De La Croix Cordier)
 - Sam. 14 nov. 20:30 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J2 : LA FERE 1 – SAINT QUENTIN 1 (Salle Omnisports 2)
-- Sam. 7 nov. 19:45 · Rugby · Régionale 1 Grand Est · J7 : AS Cheminots de Strasbourg – Entente Sud Haute Marne M+18
+- Sam. 14 nov. 20:00 · Basket · Nationale masculine 3 · Poule G · J10 : MOISSY BASKET CLUB – IE BC SAINT ANDRE LES VERGERS (Gymnase Noyer Perrot · Moissy-Cramayel)
+- Sam. 14 nov. 20:00 · Basket · Nationale masculine 3 · Poule G · J10 : IE BASKET PARIS 14 – GAULOISE DE VITRY LE FRANCOIS (Salle Didot · Paris)
+- Dim. 8 nov. 16:15 · Rugby · Régionale 1 Grand Est · J7 : Stade Reims – RC St Louis
+- Dim. 8 nov. 16:15 · Rugby · Régionale 1 Grand Est · J7 : Rug Champagne St Andre Vergers – Hayange
+- Dim. 8 nov. 16:15 · Rugby · Fédérale 3 · Poule 2 · J7 : Rugby Epernay Champagne – Rugby Melun Combs Senart 77
+- Dim. 8 nov. 14:30 · Rugby · Excellence B - Championnat de France · Poule 2 · J7 : Rugby Epernay Champagne – Rugby Melun Combs Senart 77
+- Dim. 8 nov. 16:00 · Rugby · Régionale 2 Grand Est · Poule 3 · J5 : US Bassin de Longwy – Club Ovalie de Saint Dizier
+- Dim. 8 nov. 16:00 · Rugby · Régionale 3 Grand Est · Poule 1 · J6 : Rethel S Rugby XV – Club Rugby Aube Champagne Ossey Marigny
+- Dim. 8 nov. 16:00 · Rugby · Féminines Régionales à X Grand Est · Poule 2 · J4 : Piotes Ovalie – Entente Sud Haute Marne Féminines
+- Dim. 8 nov. 16:00 · Rugby · Régionale 1 Hauts-de-France · J5 : RC Laon – XV Bailleulois
+- Dim. 8 nov. 16:00 · Rugby · Régionale 1 Hauts-de-France · J5 : RC Bethunois – Soissons / Château Thierry / Montreuil Aux Lions M+18
+- Dim. 8 nov. 16:00 · Rugby · Régionale 2 Hauts-de-France · J5 : Rugby Club de Thierache – Saint Omer / Millam M+18
+- Dim. 8 nov. 16:00 · Rugby · Promotion Régionale 2 Hauts-de-France · J5 : Racing Cl St Quentinois – Douai Rugby Olympique
+- Dim. 8 nov. 16:00 · Rugby · Promotion Régionale 2 Hauts-de-France · J5 : RC Chaunois – Crepy / Plessis Lagny M+18
+- Dim. 8 nov. 16:00 · Rugby · Régionale 3 Hauts-de-France · J6 : Chateau-thierry/soissons/montruil-aux-lions R3 M+18 – Lens / Carvin M+18
 
 ## Classements
 
@@ -781,150 +777,151 @@
 11. FC Loon-Plage 2 — 3 pts, 5 matchs joués
 12. RC Roubaix — 0 pts, 5 matchs joués
 
-### Football · National 1 · Poule C (7 nov. 2026 · LiguesDeFoot)
+### Football · Ligue 1 (8 nov. 2026 · Foot-National)
 
-1. Association Nimes Olympique — 18 pts, 9 matchs joués
-2. GFA Rumilly-Vallières — 15 pts, 8 matchs joués
-3. Union Foot de Touraine — 15 pts, 8 matchs joués
-4. Hyères FC — 14 pts, 8 matchs joués
-5. Hauts Lyonnais — 13 pts, 8 matchs joués
-6. ESTAC Troyes 2 — 13 pts, 8 matchs joués
-7. Andrézieux-Bouthéon FC — 13 pts, 9 matchs joués
-8. SC Toulon — 13 pts, 9 matchs joués
-9. ÉFC Fréjus Saint-Raphaël — 12 pts, 7 matchs joués
-10. AS Saint-Priest — 10 pts, 8 matchs joués
-11. GOAL FC — 9 pts, 7 matchs joués
-12. FC Limonest Dardilly Saint-Didier — 8 pts, 8 matchs joués
-13. Lyon-La Duchère — 7 pts, 8 matchs joués
-14. Bourges FC — 4 pts, 7 matchs joués
-15. Istres FC — 4 pts, 7 matchs joués
-16. LB Châteauroux — 4 pts, 8 matchs joués
-17. Canet Roussillon FC — 3 pts, 7 matchs joués
+1. Paris SG — 23 pts, 10 matchs joués
+2. Paris FC — 20 pts, 10 matchs joués
+3. Lille — 18 pts, 9 matchs joués
+4. Lyon — 17 pts, 9 matchs joués
+5. Rennes — 16 pts, 9 matchs joués
+6. Marseille — 15 pts, 9 matchs joués
+7. Monaco — 15 pts, 9 matchs joués
+8. Nice — 14 pts, 9 matchs joués
+9. Lens — 13 pts, 9 matchs joués
+10. Toulouse — 13 pts, 10 matchs joués
+11. Brest — 12 pts, 9 matchs joués
+12. Lorient — 12 pts, 9 matchs joués
+13. RC Strasbourg — 10 pts, 10 matchs joués
+14. Auxerre — 10 pts, 10 matchs joués
+15. Angers — 8 pts, 9 matchs joués
+16. ESTAC Troyes — 8 pts, 10 matchs joués
+17. Le Mans — 7 pts, 9 matchs joués
+18. Le Havre — 2 pts, 9 matchs joués
 
-### Football · National 2 · Poule D (7 nov. 2026 · LiguesDeFoot)
+### Football · Ligue 2 (8 nov. 2026 · Foot-National)
 
-1. LOSC Lille 2 — 15 pts, 6 matchs joués
-2. FC Balagne — 11 pts, 6 matchs joués
-3. IC Croix — 11 pts, 6 matchs joués
-4. Olympique Saint-Quentinois — 10 pts, 6 matchs joués
-5. FC Versailles 78 2 — 9 pts, 6 matchs joués
-6. Red Star FC 2 — 8 pts, 6 matchs joués
-7. CMS Oissel — 8 pts, 6 matchs joués
-8. SC Bastia 2 — 8 pts, 6 matchs joués
-9. AS Saint-Ouen-l'Aumône — 7 pts, 6 matchs joués
-10. AS Steenvoorde — 7 pts, 6 matchs joués
-11. AS Trouville-Deauville-Villers — 6 pts, 6 matchs joués
-12. Saint-Amand FC — 5 pts, 6 matchs joués
-13. C'Chartres Football — 5 pts, 6 matchs joués
-14. US Vimy — 4 pts, 6 matchs joués
+1. Saint-Etienne — 28 pts, 12 matchs joués
+2. AS Nancy Lorraine — 25 pts, 12 matchs joués
+3. Montpellier — 24 pts, 12 matchs joués
+4. Stade de Reims — 21 pts, 12 matchs joués
+5. Pau — 20 pts, 12 matchs joués
+6. Dijon — 18 pts, 12 matchs joués
+7. Metz — 17 pts, 12 matchs joués
+8. Red Star FC — 17 pts, 12 matchs joués
+9. Annecy FC — 16 pts, 12 matchs joués
+10. Dunkerque — 15 pts, 12 matchs joués
+11. Guingamp — 14 pts, 12 matchs joués
+12. Boulogne — 13 pts, 12 matchs joués
+13. Rodez — 13 pts, 12 matchs joués
+14. Nantes — 12 pts, 12 matchs joués
+15. Clermont — 11 pts, 12 matchs joués
+16. Sochaux — 11 pts, 12 matchs joués
+17. Grenoble — 11 pts, 12 matchs joués
+18. Laval — 9 pts, 12 matchs joués
 
-### Football · National 2 · Poule E (7 nov. 2026 · LiguesDeFoot)
+### Football · National 1 · Poule C (8 nov. 2026 · Foot-National)
 
-1. APM Metz FC — 15 pts, 6 matchs joués
-2. AS Nancy Lorraine 2 — 13 pts, 6 matchs joués
-3. RC Strasbourg Alsace 2 — 13 pts, 6 matchs joués
-4. SFC Neuilly-sur-Marne — 12 pts, 6 matchs joués
-5. FCM Aubervilliers — 9 pts, 6 matchs joués
-6. US Torcy — 8 pts, 6 matchs joués
-7. FC Metz 2 — 7 pts, 6 matchs joués
-8. US Ivry — 7 pts, 6 matchs joués
-9. Olympique Charleville Prix AM — 7 pts, 6 matchs joués
-10. ASM Belfort — 6 pts, 6 matchs joués
-11. JA Drancy — 6 pts, 6 matchs joués
-12. FC Mulhouse — 6 pts, 6 matchs joués
-13. ES Thaon — 3 pts, 6 matchs joués
-14. FC Sochaux 2 — 2 pts, 6 matchs joués
+1. Nimes — 18 pts, 9 matchs joués
+2. Hauts Lyonnais — 16 pts, 9 matchs joués
+3. ESTAC Troyes 2 — 16 pts, 9 matchs joués
+4. Hyères — 15 pts, 9 matchs joués
+5. Union Foot de Touraine — 15 pts, 8 matchs joués
+6. Rumilly Vallieres — 15 pts, 8 matchs joués
+7. Toulon — 13 pts, 9 matchs joués
+8. Fréjus St Raphaël — 13 pts, 8 matchs joués
+9. Andrézieux — 13 pts, 9 matchs joués
+10. Saint Priest — 11 pts, 9 matchs joués
+11. Goal FC — 10 pts, 8 matchs joués
+12. Limonest — 8 pts, 8 matchs joués
+13. Lyon La Duchere — 8 pts, 9 matchs joués
+14. Istres — 5 pts, 8 matchs joués
+15. Chateauroux — 4 pts, 8 matchs joués
+16. Bourges FC — 4 pts, 8 matchs joués
+17. Canet RFC — 3 pts, 8 matchs joués
+18. Exempt — 0 pts, 0 matchs joués
 
-### Football · Ligue 1 (7 nov. 2026 · LiguesDeFoot)
+### Football · National 2 · Poule D (8 nov. 2026 · Foot-National)
 
-1. Paris Saint-Germain — 20 pts, 9 matchs joués
-2. LOSC Lille — 18 pts, 9 matchs joués
-3. Olympique Lyonnais — 17 pts, 9 matchs joués
-4. Paris FC — 17 pts, 9 matchs joués
-5. Stade Rennais FC — 16 pts, 9 matchs joués
-6. Olympique de Marseille — 15 pts, 9 matchs joués
-7. AS Monaco FC — 15 pts, 9 matchs joués
-8. OGC Nice — 14 pts, 9 matchs joués
-9. RC Lens — 13 pts, 9 matchs joués
-10. Stade Brestois — 12 pts, 9 matchs joués
-11. FC Lorient — 12 pts, 9 matchs joués
-12. Toulouse FC — 10 pts, 9 matchs joués
-13. RC Strasbourg Alsace — 10 pts, 9 matchs joués
-14. AJ Auxerre — 10 pts, 9 matchs joués
-15. Angers SCO — 8 pts, 9 matchs joués
-16. ESTAC Troyes — 8 pts, 9 matchs joués
-17. Le Mans FC — 7 pts, 9 matchs joués
-18. Le Havre AC — 2 pts, 9 matchs joués
+1. Lille — 15 pts, 7 matchs joués
+2. Balagne — 14 pts, 7 matchs joués
+3. Croix — 14 pts, 7 matchs joués
+4. Red Star FC — 11 pts, 7 matchs joués
+5. St Quentin O. — 10 pts, 7 matchs joués
+6. Steenvoorde — 10 pts, 7 matchs joués
+7. Versailles — 9 pts, 7 matchs joués
+8. C Chartres — 8 pts, 7 matchs joués
+9. Bastia SC — 8 pts, 6 matchs joués
+10. Oissel — 8 pts, 7 matchs joués
+11. Saint Ouen Aumone — 7 pts, 7 matchs joués
+12. Vimy — 7 pts, 7 matchs joués
+13. Deauville-Trouville — 6 pts, 7 matchs joués
+14. St Amand — 5 pts, 6 matchs joués
 
-### Football · Ligue 2 (7 nov. 2026 · LiguesDeFoot)
+### Football · National 2 · Poule E (8 nov. 2026 · Foot-National)
 
-1. AS Saint-Étienne — 25 pts, 11 matchs joués
-2. Montpellier HSC — 24 pts, 11 matchs joués
-3. AS Nancy Lorraine — 22 pts, 11 matchs joués
-4. Stade De Reims — 21 pts, 11 matchs joués
-5. Pau FC — 20 pts, 11 matchs joués
-6. Red Star FC — 17 pts, 11 matchs joués
-7. FC Annecy — 16 pts, 11 matchs joués
-8. Dijon FCO — 15 pts, 11 matchs joués
-9. EA Guingamp — 14 pts, 11 matchs joués
-10. FC Metz — 14 pts, 11 matchs joués
-11. Rodez AF — 13 pts, 11 matchs joués
-12. USL Dunkerque — 12 pts, 11 matchs joués
-13. FC Sochaux — 11 pts, 11 matchs joués
-14. US Boulogne — 10 pts, 11 matchs joués
-15. FC Nantes — 9 pts, 11 matchs joués
-16. Stade Lavallois MFC — 9 pts, 11 matchs joués
-17. Clermont Foot 63 — 8 pts, 11 matchs joués
-18. Grenoble Foot — 8 pts, 11 matchs joués
+1. APM Metz — 18 pts, 7 matchs joués
+2. Neuilly Marne — 15 pts, 7 matchs joués
+3. Nancy — 13 pts, 7 matchs joués
+4. Strasbourg — 13 pts, 7 matchs joués
+5. Ivry — 10 pts, 7 matchs joués
+6. Aubervilliers — 9 pts, 7 matchs joués
+7. Torcy — 9 pts, 7 matchs joués
+8. Belfort — 9 pts, 7 matchs joués
+9. Mulhouse — 9 pts, 7 matchs joués
+10. Metz — 7 pts, 7 matchs joués
+11. Drancy — 7 pts, 7 matchs joués
+12. Charleville Prix OAM — 7 pts, 7 matchs joués
+13. Sochaux — 5 pts, 7 matchs joués
+14. Thaon — 3 pts, 7 matchs joués
 
-### Football · Régional 1 · Poule A (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 1 · Poule A (8 nov. 2026 · LiguesDeFoot)
 
-1. CS Sedan — 24 pts, 8 matchs joués
-2. Stade De Reims 2 — 22 pts, 9 matchs joués
-3. Cormontreuil FC — 15 pts, 8 matchs joués
-4. RC Épernay Champagne — 13 pts, 8 matchs joués
-5. USAG Uckange — 12 pts, 8 matchs joués
-6. ES Villerupt Thil — 10 pts, 8 matchs joués
+1. Stade De Reims 2 — 25 pts, 10 matchs joués
+2. CS Sedan — 24 pts, 8 matchs joués
+3. Cormontreuil FC — 18 pts, 9 matchs joués
+4. RC Épernay Champagne — 16 pts, 9 matchs joués
+5. USAG Uckange — 12 pts, 9 matchs joués
+6. FCF La Neuvillette-Jamin — 11 pts, 9 matchs joués
 7. Olympique Charleville Prix AM 2 — 10 pts, 8 matchs joués
-8. US Thionville Lusitanos 2 — 10 pts, 9 matchs joués
-9. FC Hettange-Grande — 9 pts, 9 matchs joués
-10. FC Bogny — 8 pts, 8 matchs joués
-11. CSO Amneville — 8 pts, 8 matchs joués
-12. FCF La Neuvillette-Jamin — 8 pts, 8 matchs joués
-13. Marnaval SC — 7 pts, 8 matchs joués
+8. ES Villerupt Thil — 10 pts, 9 matchs joués
+9. US Thionville Lusitanos 2 — 10 pts, 9 matchs joués
+10. FC Hettange-Grande — 9 pts, 9 matchs joués
+11. FC Bogny — 8 pts, 8 matchs joués
+12. CSO Amneville — 8 pts, 9 matchs joués
+13. Marnaval SC — 7 pts, 9 matchs joués
 14. FC Saint-Méziéry — 5 pts, 9 matchs joués
 
-### Football · Régional 2 · Poule A (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 2 · Poule A (8 nov. 2026 · LiguesDeFoot)
 
 1. US Étain-Buzy — 17 pts, 7 matchs joués
 2. AS Saint-Brice Courcelles — 16 pts, 7 matchs joués
 3. CS Sedan 2 — 14 pts, 7 matchs joués
 4. Reims Sainte-Anne — 13 pts, 7 matchs joués
 5. CS Veymerange — 11 pts, 6 matchs joués
-6. ES Fagnières — 8 pts, 7 matchs joués
-7. Val de l'Orne FC — 7 pts, 6 matchs joués
+6. Val de l'Orne FC — 10 pts, 7 matchs joués
+7. ES Fagnières — 8 pts, 7 matchs joués
 8. AS Val de l'Aisne — 7 pts, 7 matchs joués
 9. UL Plantières — 5 pts, 6 matchs joués
-10. Reims Murigny FP — 4 pts, 6 matchs joués
+10. Reims Murigny FP — 4 pts, 7 matchs joués
 11. Reims FC Christo — 4 pts, 7 matchs joués
 12. Rethel SF — 3 pts, 7 matchs joués
 
-### Football · Régional 2 · Poule B (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 2 · Poule B (8 nov. 2026 · LiguesDeFoot)
 
-1. US Avize-Grauves — 16 pts, 6 matchs joués
-2. Ent. Centre Ornain — 14 pts, 6 matchs joués
+1. Ent. Centre Ornain — 17 pts, 7 matchs joués
+2. US Avize-Grauves — 16 pts, 6 matchs joués
 3. FC Nogentais — 14 pts, 7 matchs joués
 4. FC Côte des Blancs — 13 pts, 7 matchs joués
-5. AS Chartreux — 12 pts, 7 matchs joués
-6. US Behonne Longeville — 10 pts, 7 matchs joués
-7. Bar-le-Duc FC — 7 pts, 6 matchs joués
+5. US Behonne Longeville — 13 pts, 8 matchs joués
+6. AS Chartreux — 12 pts, 7 matchs joués
+7. Bar-le-Duc FC — 10 pts, 7 matchs joués
 8. Chaumont FC — 6 pts, 6 matchs joués
-9. Alliance Sud Ouest F. Aubois — 6 pts, 6 matchs joués
+9. Alliance Sud Ouest F. Aubois — 6 pts, 7 matchs joués
 10. RC Épernay Champagne 2 — 6 pts, 7 matchs joués
-11. Vitry FC — 5 pts, 6 matchs joués
-12. JS Saint-Julien FC — 0 pts, 7 matchs joués
+11. Vitry FC — 5 pts, 7 matchs joués
+12. JS Saint-Julien FC — 0 pts, 8 matchs joués
 
-### Football · Régional 3 · Poule A (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 3 · Poule A (8 nov. 2026 · LiguesDeFoot)
 
 1. CA Villers-Semeuse — 21 pts, 7 matchs joués
 2. JS Audunoise — 16 pts, 7 matchs joués
@@ -939,84 +936,84 @@
 11. CS Godbrange-Hussigny — 4 pts, 6 matchs joués
 12. Nord Ardennes — 0 pts, 6 matchs joués
 
-### Football · Régional 3 · Poule B (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 3 · Poule B (8 nov. 2026 · LiguesDeFoot)
 
 1. Châlons FCO — 17 pts, 7 matchs joués
 2. Cormontreuil FC 2 — 14 pts, 7 matchs joués
 3. FC Tinqueux Champagne — 14 pts, 7 matchs joués
 4. FCF La Neuvillette-Jamin 2 — 12 pts, 7 matchs joués
-5. Reims Sainte-Anne 2 — 9 pts, 7 matchs joués
-6. USA Le Chesne — 8 pts, 6 matchs joués
-7. FC Porcien — 8 pts, 7 matchs joués
-8. ASTRM — 8 pts, 7 matchs joués
+5. USA Le Chesne — 11 pts, 7 matchs joués
+6. Reims Sainte-Anne 2 — 9 pts, 7 matchs joués
+7. ASTRM — 8 pts, 7 matchs joués
+8. FC Porcien — 8 pts, 8 matchs joués
 9. ES des Coteaux Sud — 7 pts, 6 matchs joués
 10. Espérance Rémoise CS — 7 pts, 7 matchs joués
 11. Bétheny FC — 6 pts, 7 matchs joués
 12. AS Bourg Rocroi — 4 pts, 7 matchs joués
 
-### Football · Régional 3 · Poule C (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 3 · Poule C (8 nov. 2026 · LiguesDeFoot)
 
-1. SC Sézannais — 19 pts, 7 matchs joués
-2. A. L'Etoile Chapelaine — 17 pts, 7 matchs joués
+1. A. L'Etoile Chapelaine — 20 pts, 8 matchs joués
+2. SC Sézannais — 19 pts, 7 matchs joués
 3. FC Saint-Martin-la-Veuve-Recy — 13 pts, 7 matchs joués
 4. ES Municipaux de Troyes — 13 pts, 7 matchs joués
 5. ASPTT Châlons — 12 pts, 7 matchs joués
 6. FC Vallant/les Grès — 11 pts, 7 matchs joués
 7. Rosières OS — 8 pts, 7 matchs joués
 8. AS Pont-Sainte-Marie — 8 pts, 7 matchs joués
-9. Romilly Champagne FC — 6 pts, 7 matchs joués
+9. Romilly Champagne FC — 6 pts, 8 matchs joués
 10. Foyer Barsequanais — 5 pts, 7 matchs joués
 11. FC Nogentais 2 — 4 pts, 7 matchs joués
 12. RCS La Chapelle — 1 pts, 7 matchs joués
 
-### Football · Régional 3 · Poule D (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 3 · Poule D (8 nov. 2026 · LiguesDeFoot)
 
-1. FC Saints-Geosmes — 19 pts, 7 matchs joués
-2. Ent. Sorcy Void-Vacon — 15 pts, 7 matchs joués
-3. FC Toul — 14 pts, 7 matchs joués
+1. FC Saints-Geosmes — 22 pts, 8 matchs joués
+2. FC Toul — 17 pts, 8 matchs joués
+3. Ent. Sorcy Void-Vacon — 15 pts, 7 matchs joués
 4. USIB Vaux-sur-Blaise — 12 pts, 7 matchs joués
-5. AS Sarrey Montigny — 12 pts, 7 matchs joués
-6. Chaumont FC 2 — 9 pts, 7 matchs joués
+5. AS Sarrey Montigny — 12 pts, 8 matchs joués
+6. Chaumont FC 2 — 10 pts, 8 matchs joués
 7. AS Treveray — 8 pts, 7 matchs joués
 8. Stade Chevillonnais — 7 pts, 7 matchs joués
-9. FC de Bologne — 7 pts, 7 matchs joués
-10. US Eclaron — 7 pts, 7 matchs joués
-11. Bar-sur-Aube FC — 6 pts, 7 matchs joués
+9. US Eclaron — 7 pts, 7 matchs joués
+10. Bar-sur-Aube FC — 7 pts, 8 matchs joués
+11. FC de Bologne — 7 pts, 8 matchs joués
 12. DS Eurville Bienville — -1 pts, 7 matchs joués
 
-### Football · Régional 1 Hauts-de-France · Poule A (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 1 Hauts-de-France · Poule A (8 nov. 2026 · LiguesDeFoot)
 
-1. SC Hazebrouck — 14 pts, 7 matchs joués
-2. AFC Compiègne — 13 pts, 7 matchs joués
-3. US Boulogne 2 — 13 pts, 7 matchs joués
-4. Amiens SC 2 — 12 pts, 7 matchs joués
-5. FC Bondues — 12 pts, 7 matchs joués
-6. Soissons IFC — 11 pts, 7 matchs joués
+1. US Boulogne 2 — 16 pts, 8 matchs joués
+2. Soissons IFC — 14 pts, 8 matchs joués
+3. SC Hazebrouck — 14 pts, 8 matchs joués
+4. AFC Compiègne — 13 pts, 7 matchs joués
+5. Amiens SC 2 — 13 pts, 8 matchs joués
+6. FC Bondues — 12 pts, 7 matchs joués
 7. Ent. Itancourt-Neuville — 11 pts, 7 matchs joués
-8. Olympique Grande-Synthe — 10 pts, 7 matchs joués
+8. Olympique Grande-Synthe — 10 pts, 8 matchs joués
 9. FC Chambly 2 — 8 pts, 7 matchs joués
 10. Stade Béthunois FC — 8 pts, 7 matchs joués
 11. US Gravelines — 7 pts, 7 matchs joués
 12. US Maubeuge — 6 pts, 7 matchs joués
-13. Le Touquet ACFCO — 4 pts, 7 matchs joués
+13. Le Touquet ACFCO — 5 pts, 8 matchs joués
 14. Stade Orchies — 4 pts, 7 matchs joués
 
-### Football · Régional 2 Hauts-de-France · Poule B (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 2 Hauts-de-France · Poule B (8 nov. 2026 · LiguesDeFoot)
 
 1. US Gouvieux — 12 pts, 5 matchs joués
 2. Olympique Saint-Quentinois 2 — 11 pts, 5 matchs joués
 3. ES Lambres-lez-Douai — 9 pts, 5 matchs joués
 4. USM Senlis — 8 pts, 5 matchs joués
 5. US Hordain — 8 pts, 5 matchs joués
-6. US Choisy-au-Bac — 5 pts, 5 matchs joués
-7. USO Bruay-la-Buissière — 5 pts, 5 matchs joués
-8. US Chevrières-Grandfresnoy — 5 pts, 5 matchs joués
-9. ES Villers-Outréaux — 5 pts, 5 matchs joués
+6. US Laon — 6 pts, 6 matchs joués
+7. US Choisy-au-Bac — 5 pts, 5 matchs joués
+8. USO Bruay-la-Buissière — 5 pts, 5 matchs joués
+9. US Chevrières-Grandfresnoy — 5 pts, 5 matchs joués
 10. ESC Longueau 2 — 5 pts, 5 matchs joués
-11. ES Anzin — 3 pts, 5 matchs joués
-12. US Laon — 3 pts, 5 matchs joués
+11. ES Villers-Outréaux — 5 pts, 6 matchs joués
+12. ES Anzin — 3 pts, 5 matchs joués
 
-### Football · Régional 3 Hauts-de-France · Poule A (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 3 Hauts-de-France · Poule A (8 nov. 2026 · LiguesDeFoot)
 
 1. US Berlaimont — 15 pts, 5 matchs joués
 2. Rousies Cœur de Sambre — 10 pts, 5 matchs joués
@@ -1031,7 +1028,7 @@
 11. US Roye — 3 pts, 5 matchs joués
 12. US Laon 2 — 0 pts, 5 matchs joués
 
-### Football · Régional 3 Hauts-de-France · Poule B (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 3 Hauts-de-France · Poule B (8 nov. 2026 · LiguesDeFoot)
 
 1. CS Chaumontois — 12 pts, 5 matchs joués
 2. US Ribemont-Mézières — 12 pts, 5 matchs joués
@@ -1046,7 +1043,7 @@
 11. USE Saint-Leu-d'Esserent — 1 pts, 5 matchs joués
 12. SC Saint-Just-en-Chaussée — 0 pts, 5 matchs joués
 
-### Football · Régional 3 Hauts-de-France · Poule C (7 nov. 2026 · LiguesDeFoot)
+### Football · Régional 3 Hauts-de-France · Poule C (8 nov. 2026 · LiguesDeFoot)
 
 1. AC Amiens — 15 pts, 5 matchs joués
 2. Int. Château-Thierry Étampes — 13 pts, 5 matchs joués
@@ -1061,7 +1058,7 @@
 11. Soissons IFC 2 — 0 pts, 5 matchs joués
 12. Hermes Berthecourt AC — 0 pts, 5 matchs joués
 
-### Football · District 1 Marne (7 nov. 2026 · LiguesDeFoot)
+### Football · District 1 Marne (8 nov. 2026 · LiguesDeFoot)
 
 1. Nord Champagne FC — 17 pts, 7 matchs joués
 2. AS Gueux — 13 pts, 5 matchs joués
@@ -1077,7 +1074,7 @@
 12. ES Fagnières 2 — 3 pts, 7 matchs joués
 13. Espérance Rémoise CS 2 — 1 pts, 6 matchs joués
 
-### Football · D1 Ardennes (7 nov. 2026 · LiguesDeFoot)
+### Football · D1 Ardennes (8 nov. 2026 · LiguesDeFoot)
 
 1. AS Asfeld — 20 pts, 9 matchs joués
 2. USC Nouvion-sur-Meuse — 17 pts, 7 matchs joués
@@ -1092,14 +1089,14 @@
 11. Buzancy SOS — 7 pts, 9 matchs joués
 12. US Bazeilles 2 — 3 pts, 8 matchs joués
 
-### Football · Départemental 1 Aube (7 nov. 2026 · LiguesDeFoot)
+### Football · Départemental 1 Aube (8 nov. 2026 · LiguesDeFoot)
 
 1. Saint-André Foot — 18 pts, 6 matchs joués
 2. FC Saint-Méziéry 2 — 18 pts, 7 matchs joués
-3. AS Chartreux 2 — 15 pts, 7 matchs joués
+3. AS Chartreux 2 — 18 pts, 8 matchs joués
 4. AS Portugaise de Nogent-sur-Seine — 13 pts, 7 matchs joués
 5. JS Vaudoise — 10 pts, 7 matchs joués
-6. US Vendeuvre-Dienville — 10 pts, 7 matchs joués
+6. US Vendeuvre-Dienville — 10 pts, 8 matchs joués
 7. FC du Morgendois — 8 pts, 7 matchs joués
 8. AS Portugaise des Chartreux — 7 pts, 7 matchs joués
 9. ES Nord Aubois — 7 pts, 7 matchs joués
@@ -1107,7 +1104,7 @@
 11. JS Saint-Julien FC 2 — 4 pts, 7 matchs joués
 12. Rosières OS 2 — 1 pts, 6 matchs joués
 
-### Football · Départemental 1 Haute-Marne (7 nov. 2026 · LiguesDeFoot)
+### Football · Départemental 1 Haute-Marne (8 nov. 2026 · LiguesDeFoot)
 
 1. SL de l'Ornel à Chancenay — 16 pts, 7 matchs joués
 2. FC Joinville-Vecqueville — 15 pts, 7 matchs joués
@@ -1122,7 +1119,7 @@
 11. USIB Vaux-sur-Blaise 2 — 5 pts, 6 matchs joués
 12. FC Prez-Bourmont — 1 pts, 6 matchs joués
 
-### Football · Départemental 1 Aisne (7 nov. 2026 · LiguesDeFoot)
+### Football · Départemental 1 Aisne (8 nov. 2026 · LiguesDeFoot)
 
 1. RC Bohain — 15 pts, 6 matchs joués
 2. US Guise — 13 pts, 5 matchs joués
@@ -1137,68 +1134,68 @@
 11. US Séboncourt — 3 pts, 6 matchs joués
 12. Stade Portugais de Saint-Quentin — 2 pts, 6 matchs joués
 
-### Volley · Ligue AM (7 nov. 2026 · FFVolley)
+### Volley · Ligue AM (8 nov. 2026 · FFVolley)
 
-1. SPACER'S TOULOUSE Volley-Ball — 12 pts, 4 matchs joués
+1. SPACER'S TOULOUSE Volley-Ball — 15 pts, 5 matchs joués
 2. SAEMS TOURCOING VB LILLE METROPOLE — 12 pts, 5 matchs joués
-3. CHAUMONT VB 52 HAUTE-MARNE — 11 pts, 5 matchs joués
-4. NICE Volley-Ball — 10 pts, 5 matchs joués
-5. TOURS Volley-Ball — 9 pts, 4 matchs joués
-6. AS CANNES Volley-Ball — 8 pts, 4 matchs joués
+3. TOURS Volley-Ball — 12 pts, 5 matchs joués
+4. CHAUMONT VB 52 HAUTE-MARNE — 11 pts, 5 matchs joués
+5. AS CANNES Volley-Ball — 11 pts, 5 matchs joués
+6. NICE Volley-Ball — 10 pts, 5 matchs joués
 7. ALTERNA STADE POITEVIN VB — 8 pts, 5 matchs joués
-8. ROYAN ATLANTIQUE Volley-Ball — 6 pts, 4 matchs joués
+8. ROYAN ATLANTIQUE Volley-Ball — 6 pts, 5 matchs joués
 9. PARIS Volley — 6 pts, 5 matchs joués
-10. PLESSIS-ROBINSON Volley-Ball — 4 pts, 4 matchs joués
-11. MONTPELLIER HERAULT SCV — 3 pts, 4 matchs joués
-12. NARBONNE Volley — 2 pts, 4 matchs joués
-13. ST NAZAIRE VB ATLANTIQUE — 2 pts, 4 matchs joués
+10. ST NAZAIRE VB ATLANTIQUE — 5 pts, 5 matchs joués
+11. PLESSIS-ROBINSON Volley-Ball — 4 pts, 5 matchs joués
+12. MONTPELLIER HERAULT SCV — 3 pts, 5 matchs joués
+13. NARBONNE Volley — 2 pts, 5 matchs joués
 14. ARAGO DE SETE — 0 pts, 5 matchs joués
 
-### Volley · Ligue BM (7 nov. 2026 · FFVolley)
+### Volley · Ligue BM (8 nov. 2026 · FFVolley)
 
-1. FREJUS VAR Volley — 10 pts, 4 matchs joués
-2. MARTIGUES Volley-Ball — 9 pts, 4 matchs joués
-3. RENNES Etudiants Club VB — 9 pts, 4 matchs joués
-4. SAINT-QUENTIN Volley — 8 pts, 4 matchs joués
-5. REIMS Volley 51 — 8 pts, 4 matchs joués
-6. GRAND NANCY Volley-Ball — 7 pts, 4 matchs joués
-7. AS ILLACAISE VB — 7 pts, 4 matchs joués
-8. Gazelec F.C. AJACCIO — 5 pts, 4 matchs joués
-9. VBC CHALON-SUR-SAÔNE — 5 pts, 4 matchs joués
-10. CAMBRAI Volley — 2 pts, 4 matchs joués
-11. FRANCE AVENIR — 0 pts, 4 matchs joués
-12. HARNES Volley-Ball — -4 pts, 4 matchs joués
+1. MARTIGUES Volley-Ball — 12 pts, 5 matchs joués
+2. RENNES Etudiants Club VB — 12 pts, 5 matchs joués
+3. FREJUS VAR Volley — 11 pts, 5 matchs joués
+4. REIMS Volley 51 — 10 pts, 5 matchs joués
+5. SAINT-QUENTIN Volley — 8 pts, 5 matchs joués
+6. Gazelec F.C. AJACCIO — 8 pts, 5 matchs joués
+7. VBC CHALON-SUR-SAÔNE — 8 pts, 5 matchs joués
+8. GRAND NANCY Volley-Ball — 7 pts, 5 matchs joués
+9. AS ILLACAISE VB — 7 pts, 5 matchs joués
+10. CAMBRAI Volley — 2 pts, 5 matchs joués
+11. FRANCE AVENIR — 0 pts, 5 matchs joués
+12. HARNES Volley-Ball — -1 pts, 5 matchs joués
 
-### Volley · Élite Avenir · Poule A (7 nov. 2026 · FFVolley)
+### Volley · Élite Avenir · Poule A (8 nov. 2026 · FFVolley)
 
 1. TOURS VOLLEY-BALL — 11 pts, 5 matchs joués
-2. PUC VOLLEY-BALL — 9 pts, 4 matchs joués
-3. RENNES ETUDIANTS CLUB — 9 pts, 4 matchs joués
-4. TOURCOING VOLLEY-BALL L.M. — 8 pts, 4 matchs joués
+2. TOURCOING VOLLEY-BALL L.M. — 11 pts, 5 matchs joués
+3. PUC VOLLEY-BALL — 9 pts, 4 matchs joués
+4. RENNES ETUDIANTS CLUB — 9 pts, 5 matchs joués
 5. PLESSIS-ROBINSON VOLLEY-BALL — 7 pts, 4 matchs joués
 6. ST NAZAIRE VB ATLANTIQUE — 6 pts, 4 matchs joués
 7. ALTERNA STADE POITEVIN VOLLEY BALL — 6 pts, 5 matchs joués
 8. CHAUMONT VOLLEY-BALL 52 — 4 pts, 3 matchs joués
 9. VOLLEY CLUB DE CAMBRAI — 3 pts, 3 matchs joués
-10. GRAND NANCY VOLLEY-BALL — 3 pts, 4 matchs joués
-11. REIMS VOLLEY 51 — 0 pts, 4 matchs joués
+10. GRAND NANCY VOLLEY-BALL — 3 pts, 5 matchs joués
+11. REIMS VOLLEY 51 — 3 pts, 5 matchs joués
 
-### Volley · Nationale 2 masculine · Poule B (7 nov. 2026 · FFVolley)
+### Volley · Nationale 2 masculine · Poule B (8 nov. 2026 · FFVolley)
 
 1. EPINAL GOLBEY VOLLEY-BALL (EGVB) — 15 pts, 5 matchs joués
 2. PUC VOLLEY-BALL 3 — 12 pts, 5 matchs joués
 3. VOLLEY-CLUB CREUTZWALD — 12 pts, 5 matchs joués
 4. VINCENNES VOLLEY CLUB — 11 pts, 5 matchs joués
-5. VIE AU GRAND AIR DE ST MAUR — 7 pts, 5 matchs joués
-6. PARIS AMICALE CAMOU — 7 pts, 5 matchs joués
-7. ACBB 2 — 6 pts, 5 matchs joués
-8. PARIS VOLLEY CLUB — 6 pts, 5 matchs joués
-9. VB SENNECEY LE GRAND CANTON — 5 pts, 5 matchs joués
+5. ACBB 2 — 8 pts, 6 matchs joués
+6. VIE AU GRAND AIR DE ST MAUR — 7 pts, 5 matchs joués
+7. PARIS AMICALE CAMOU — 7 pts, 5 matchs joués
+8. VB SENNECEY LE GRAND CANTON — 6 pts, 6 matchs joués
+9. PARIS VOLLEY CLUB — 6 pts, 5 matchs joués
 10. REIMS VOLLEY 51 3 — 4 pts, 5 matchs joués
 11. AL CAUDRY VOLLEY-BALL 2 — 3 pts, 5 matchs joués
 12. CLUB ESPACE SPORTIF DE SUCY — 2 pts, 5 matchs joués
 
-### Volley · Nationale 3 féminine · Poule G (7 nov. 2026 · FFVolley)
+### Volley · Nationale 3 féminine · Poule G (8 nov. 2026 · FFVolley)
 
 1. SPORTING CLUB NORD PARISIEN — 14 pts, 5 matchs joués
 2. ACBB — 13 pts, 5 matchs joués
@@ -1213,7 +1210,7 @@
 11. VILLERS COTTERETS VOLLEY-BALL — 0 pts, 5 matchs joués
 12. REIMS VOLLEY 51 — 0 pts, 5 matchs joués
 
-### Volley · Nationale 3 masculine · Poule C (7 nov. 2026 · FFVolley)
+### Volley · Nationale 3 masculine · Poule C (8 nov. 2026 · FFVolley)
 
 1. ANTONY VOLLEY — 15 pts, 5 matchs joués
 2. PORTES DE L'ESSONNE VOLLEY-BALL — 12 pts, 4 matchs joués
@@ -1228,120 +1225,128 @@
 11. PATRONAGE LAIQUE 010 V.B. — 0 pts, 4 matchs joués
 12. U.S.ORLEANS VOLLEY-BALL — 0 pts, 4 matchs joués
 
-### Volley · Prénationale féminine Grand Est · Poule A (7 nov. 2026 · FFVolley)
+### Volley · Prénationale féminine Grand Est · Poule A (8 nov. 2026 · FFVolley)
 
-1. METZ VOLLEY-BALL — 12 pts, 4 matchs joués
-2. CAM D'EPINAL — 12 pts, 4 matchs joués
-3. SAINT-DIE 2 — 11 pts, 4 matchs joués
-4. TERVILLE/FLORANGE 3 — 7 pts, 4 matchs joués
-5. ASVB YUTZ THIONVILLE — 5 pts, 4 matchs joués
-6. VILLERS — 5 pts, 4 matchs joués
-7. LUNEVILLE — 4 pts, 4 matchs joués
-8. PONT-A-MOUSSON 2 — 3 pts, 4 matchs joués
-9. VANDOEUVRE/NANCY 4 — 1 pts, 4 matchs joués
-10. CHAUMONT — 0 pts, 4 matchs joués
+1. CAM D'EPINAL — 15 pts, 5 matchs joués
+2. METZ VOLLEY-BALL — 15 pts, 5 matchs joués
+3. SAINT-DIE 2 — 14 pts, 5 matchs joués
+4. TERVILLE/FLORANGE 3 — 10 pts, 5 matchs joués
+5. ASVB YUTZ THIONVILLE — 5 pts, 5 matchs joués
+6. VILLERS — 5 pts, 5 matchs joués
+7. VANDOEUVRE/NANCY 4 — 4 pts, 5 matchs joués
+8. LUNEVILLE — 4 pts, 5 matchs joués
+9. PONT-A-MOUSSON 2 — 3 pts, 5 matchs joués
+10. CHAUMONT — 0 pts, 5 matchs joués
 
-### Volley · Prénationale masculine Grand Est · Poule A (7 nov. 2026 · FFVolley)
+### Volley · Prénationale masculine Grand Est · Poule A (8 nov. 2026 · FFVolley)
 
-1. YUTZ/THIONVILLE 2 — 12 pts, 4 matchs joués
-2. SAINT-DIZIER — 10 pts, 4 matchs joués
-3. MAIZIERES 2 — 9 pts, 4 matchs joués
-4. VILLERS 2 — 8 pts, 4 matchs joués
-5. GRAND NANCY 4 — 7 pts, 4 matchs joués
-6. CHAUMONT 3 — 6 pts, 4 matchs joués
-7. VANDOEUVRE/NANCY — 4 pts, 4 matchs joués
-8. REMIREMONT — 2 pts, 4 matchs joués
-9. EPINAL/GOLBEY 2 — 2 pts, 4 matchs joués
-10. PONT-A-MOUSSON — 0 pts, 4 matchs joués
+1. YUTZ/THIONVILLE 2 — 15 pts, 5 matchs joués
+2. MAIZIERES 2 — 12 pts, 5 matchs joués
+3. SAINT-DIZIER — 10 pts, 5 matchs joués
+4. GRAND NANCY 4 — 10 pts, 5 matchs joués
+5. VILLERS 2 — 8 pts, 5 matchs joués
+6. CHAUMONT 3 — 6 pts, 5 matchs joués
+7. REMIREMONT — 5 pts, 5 matchs joués
+8. VANDOEUVRE/NANCY — 5 pts, 5 matchs joués
+9. EPINAL/GOLBEY 2 — 4 pts, 5 matchs joués
+10. PONT-A-MOUSSON — 0 pts, 5 matchs joués
 
-### Volley · Régionale féminine Grand Est · Poule A (7 nov. 2026 · FFVolley)
+### Volley · Régionale féminine Grand Est · Poule A (8 nov. 2026 · FFVolley)
 
 1. TROYES — 6 pts, 2 matchs joués
-2. VANDOEUVRE 5 — 5 pts, 2 matchs joués
-3. SAINT DIE 4 — 5 pts, 2 matchs joués
-4. GRAND NANCY 3 — 3 pts, 1 matchs joués
-5. GRAND NANCY 2 — 3 pts, 2 matchs joués
+2. GRAND NANCY 2 — 6 pts, 3 matchs joués
+3. VANDOEUVRE 5 — 5 pts, 2 matchs joués
+4. SAINT DIE 4 — 5 pts, 2 matchs joués
+5. GRAND NANCY 3 — 3 pts, 2 matchs joués
 6. SAINT DIE 3 — 2 pts, 2 matchs joués
-7. BAM VB — 0 pts, 2 matchs joués
-8. PONT A MOUSSON 3 — -1 pts, 1 matchs joués
-9. VILLERS 2 — -3 pts, 2 matchs joués
+7. PONT A MOUSSON 3 — 1 pts, 2 matchs joués
+8. BAM VB — 0 pts, 2 matchs joués
+9. VILLERS 2 — -2 pts, 3 matchs joués
 
-### Volley · Régionale masculine Grand Est · Poule A (7 nov. 2026 · FFVolley)
+### Volley · Régionale masculine Grand Est · Poule A (8 nov. 2026 · FFVolley)
 
 1. PLVB TROYES 2 — 6 pts, 2 matchs joués
 2. EPINAL GOLBEY 3 — 6 pts, 2 matchs joués
-3. CHAUMONT 4 — 3 pts, 1 matchs joués
-4. LUNEVILLE 1 — 3 pts, 2 matchs joués
-5. FROUARD POMPEY — 3 pts, 2 matchs joués
-6. GRAND NANCY 5 — 3 pts, 2 matchs joués
-7. REMIREMONT — 0 pts, 1 matchs joués
-8. LUNEVILLE 2 — 0 pts, 2 matchs joués
-9. PLVB TROYES 3 — 0 pts, 2 matchs joués
+3. CHAUMONT 4 — 6 pts, 2 matchs joués
+4. GRAND NANCY 5 — 6 pts, 3 matchs joués
+5. LUNEVILLE 1 — 3 pts, 2 matchs joués
+6. FROUARD POMPEY — 3 pts, 2 matchs joués
+7. REMIREMONT — 0 pts, 2 matchs joués
+8. PLVB TROYES 3 — 0 pts, 3 matchs joués
+9. LUNEVILLE 2 — 0 pts, 2 matchs joués
 
-### Volley · Prénationale masculine Hauts-de-France · Poule B (7 nov. 2026 · FFVolley)
+### Volley · Prénationale masculine Hauts-de-France · Poule B (8 nov. 2026 · FFVolley)
 
-1. LYS LEZ LANNOY 1 — 12 pts, 4 matchs joués
+1. LYS LEZ LANNOY 1 — 15 pts, 5 matchs joués
 2. AMIENS METTROPOLE 3 — 10 pts, 4 matchs joués
 3. BEAUVAIS 2 — 9 pts, 4 matchs joués
 4. VILLEREAU 1 — 8 pts, 4 matchs joués
-5. CAMBRAI 4 — 7 pts, 4 matchs joués
-6. BELLAING 2 — 6 pts, 4 matchs joués
-7. VILLENEUVE D'ASCQ 1 — 4 pts, 4 matchs joués
-8. LAON 1 — 2 pts, 4 matchs joués
-9. TINQUEUX 1 — 1 pts, 4 matchs joués
+5. CAMBRAI 4 — 8 pts, 5 matchs joués
+6. VILLENEUVE D'ASCQ 1 — 7 pts, 5 matchs joués
+7. BELLAING 2 — 6 pts, 5 matchs joués
+8. TINQUEUX 1 — 3 pts, 5 matchs joués
+9. LAON 1 — 2 pts, 5 matchs joués
 10. SAINT QUENTIN 2 — 1 pts, 4 matchs joués
 
-### Volley · Régionale 1 masculine Hauts-de-France · Poule C (7 nov. 2026 · FFVolley)
+### Volley · Régionale 1 masculine Hauts-de-France · Poule C (8 nov. 2026 · FFVolley)
 
-1. REIMS 5 — 12 pts, 4 matchs joués
+1. REIMS 5 — 15 pts, 5 matchs joués
 2. CAMBRAI 5 — 9 pts, 3 matchs joués
-3. FAMARS 3 — 9 pts, 4 matchs joués
+3. CAUDRY 4 — 9 pts, 4 matchs joués
 4. ORCHIES 1 — 9 pts, 4 matchs joués
-5. CAUDRY 4 — 6 pts, 3 matchs joués
-6. HELESMES 1 — 6 pts, 4 matchs joués
-7. DOUAI 1 — 5 pts, 4 matchs joués
-8. LE QUESNOY 1 — 1 pts, 4 matchs joués
-9. AULNOY LEZ VA 2 — 0 pts, 4 matchs joués
-10. NOYELLES SOUS LENS 1 — 0 pts, 4 matchs joués
+5. HELESMES 1 — 9 pts, 5 matchs joués
+6. FAMARS 3 — 9 pts, 5 matchs joués
+7. DOUAI 1 — 8 pts, 5 matchs joués
+8. LE QUESNOY 1 — 1 pts, 5 matchs joués
+9. AULNOY LEZ VA 2 — 0 pts, 5 matchs joués
+10. NOYELLES SOUS LENS 1 — 0 pts, 5 matchs joués
 
-### Volley · Régionale 1 masculine Hauts-de-France · Poule D (7 nov. 2026 · FFVolley)
+### Volley · Régionale 1 masculine Hauts-de-France · Poule D (8 nov. 2026 · FFVolley)
 
-1. VILLERS COTTERETS 1 — 12 pts, 4 matchs joués
-2. CAUDRY 3 — 11 pts, 4 matchs joués
-3. RANTIGNY-LIANCOURT 1 — 7 pts, 4 matchs joués
-4. LONGUEAU AMIENS 1 — 7 pts, 4 matchs joués
-5. COMPIEGNE 1 — 6 pts, 4 matchs joués
-6. BEAUVAIS 3 — 5 pts, 2 matchs joués
-7. REIMS 4 — 3 pts, 4 matchs joués
-8. CHATEAU THIERRY 1 — 2 pts, 4 matchs joués
-9. AMIENS METROPOLE 4 — 1 pts, 3 matchs joués
-10. TINQUEUX 2 — 0 pts, 3 matchs joués
+1. VILLERS COTTERETS 1 — 15 pts, 5 matchs joués
+2. CAUDRY 3 — 14 pts, 5 matchs joués
+3. BEAUVAIS 3 — 8 pts, 3 matchs joués
+4. COMPIEGNE 1 — 8 pts, 5 matchs joués
+5. RANTIGNY-LIANCOURT 1 — 7 pts, 5 matchs joués
+6. LONGUEAU AMIENS 1 — 7 pts, 5 matchs joués
+7. REIMS 4 — 4 pts, 5 matchs joués
+8. AMIENS METROPOLE 4 — 3 pts, 4 matchs joués
+9. CHATEAU THIERRY 1 — 2 pts, 5 matchs joués
+10. TINQUEUX 2 — 1 pts, 4 matchs joués
 
-### Volley · Prénationale féminine Hauts-de-France · Poule B (7 nov. 2026 · FFVolley)
+### Volley · Prénationale féminine Hauts-de-France · Poule B (8 nov. 2026 · FFVolley)
 
-1. BEAUVAIS 1 — 12 pts, 4 matchs joués
+1. BEAUVAIS 1 — 15 pts, 5 matchs joués
 2. MARCQ EN BAROEUL 3 — 9 pts, 4 matchs joués
 3. MOUVAUX 1 — 9 pts, 4 matchs joués
 4. SAINT ANDRE 1 — 8 pts, 4 matchs joués
 5. AULNOY LEZ VA 1 — 7 pts, 5 matchs joués
-6. FAMARS 1 — 6 pts, 3 matchs joués
+6. FAMARS 1 — 6 pts, 4 matchs joués
 7. VALENCIENNES 3 — 3 pts, 4 matchs joués
 8. VAL DE SAMBRE 1 — 3 pts, 4 matchs joués
 9. LONGUEAU AMIENS 2 — 3 pts, 4 matchs joués
 10. TINQUEUX 1 — 0 pts, 4 matchs joués
 
-### Volley · Régionale 1 féminine Hauts-de-France · Poule C (7 nov. 2026 · FFVolley)
+### Volley · Régionale 1 féminine Hauts-de-France · Poule C (8 nov. 2026 · FFVolley)
 
-1. AMIENS METROPOLE 1 — 12 pts, 4 matchs joués
+1. AMIENS METROPOLE 1 — 14 pts, 5 matchs joués
 2. ARRAS 1 — 12 pts, 4 matchs joués
-3. SOISSONS 1 — 9 pts, 4 matchs joués
-4. LIEVIN 2 — 7 pts, 4 matchs joués
+3. LIEVIN 2 — 10 pts, 5 matchs joués
+4. SOISSONS 1 — 10 pts, 5 matchs joués
 5. TINQUEUX 2 — 5 pts, 4 matchs joués
-6. AGNY 1 — 3 pts, 4 matchs joués
-7. LA FERE 1 — 3 pts, 3 matchs joués
+6. LA FERE 1 — 3 pts, 3 matchs joués
+7. AGNY 1 — 3 pts, 5 matchs joués
 8. CAUDRY 2 — 2 pts, 3 matchs joués
 9. VILLERS COTTERETS 2 — 1 pts, 4 matchs joués
 10. SAINT QUENTIN 1 — 0 pts, 2 matchs joués
+
+### Basket · Nationale masculine 3 · Poule G (8 nov. 2026 · FFBB)
+
+1. W.O.S.B. — 16 pts, 9 matchs joués
+2. IE CTC OZOIR VAL D'EUROPE — 16 pts, 9 matchs joués
+3. PARIS PANTHERS ASSOCIATION (PPA) — 15 pts, 9 matchs joués
+4. EFFORT BASKET MIRECOURT — 15 pts, 9 matchs joués
+5. IE BASKET PARIS 14 — 14 pts, 9 matchs joués
 
 ## Sources
 
