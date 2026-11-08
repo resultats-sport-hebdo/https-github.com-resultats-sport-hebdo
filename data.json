@@ -4,8 +4,7 @@
   "Ardennes (08)",
   "Aube (10)",
   "Haute-Marne (52)",
-  "Aisne (02)",
-  "Hors région"
+  "Aisne (02)"
  ],
  "zones": [
   {
@@ -249,16 +248,6 @@
    "villes": [
     "Château-Thierry",
     "Fère-en-Tardenois"
-   ]
-  },
-  {
-   "k": "grandest",
-   "l": "Clubs pros du Grand Est",
-   "dep": "Hors région",
-   "villes": [
-    "Strasbourg",
-    "Metz",
-    "Nancy"
    ]
   },
   {
@@ -894,32 +883,6 @@
    "club": "Rapaces de Reims B",
    "sport": "Roller hockey",
    "zone": "reims",
-   "level": "National"
-  },
-  {
-   "club": "RC Strasbourg",
-   "sport": "Football",
-   "zone": "grandest",
-   "level": "National",
-   "div": "National"
-  },
-  {
-   "club": "AS Nancy Lorraine",
-   "sport": "Football",
-   "zone": "grandest",
-   "level": "National",
-   "div": "National"
-  },
-  {
-   "club": "SIG Strasbourg",
-   "sport": "Basket",
-   "zone": "grandest",
-   "level": "National"
-  },
-  {
-   "club": "Metz Handball",
-   "sport": "Handball",
-   "zone": "grandest",
    "level": "National"
   },
   {
@@ -3230,21 +3193,6 @@
      "sport": "Football",
      "level": "National",
      "comp": "Ligue 1 · J10",
-     "home": "Toulouse",
-     "hz": null,
-     "away": "RC Strasbourg",
-     "az": "grandest",
-     "url": "https://www.foot-national.com/data/match-foot-toulouse-strasbourg-433495.html",
-     "src": "fn",
-     "date": "Ven. 6 nov.",
-     "sh": 3,
-     "sa": 1,
-     "note": ""
-    },
-    {
-     "sport": "Football",
-     "level": "National",
-     "comp": "Ligue 1 · J10",
      "home": "Paris SG",
      "hz": null,
      "away": "ESTAC Troyes",
@@ -3254,21 +3202,6 @@
      "date": "Sam. 7 nov.",
      "sh": 1,
      "sa": 0,
-     "note": ""
-    },
-    {
-     "sport": "Football",
-     "level": "National",
-     "comp": "Ligue 2 · J11",
-     "home": "Red Star FC",
-     "hz": null,
-     "away": "AS Nancy Lorraine",
-     "az": "grandest",
-     "url": "https://www.foot-national.com/data/match-foot-red-star-fc-nancy-434121.html",
-     "src": "fn",
-     "date": "Lun. 2 nov.",
-     "sh": 1,
-     "sa": 4,
      "note": ""
     },
     {
@@ -3302,21 +3235,6 @@
      "sa": 2,
      "note": "",
      "source": "https://www.foot-national.com/data/match-foot-grenoble-reims-434135.html"
-    },
-    {
-     "sport": "Football",
-     "level": "National",
-     "comp": "Ligue 2 · J12",
-     "home": "AS Nancy Lorraine",
-     "hz": "grandest",
-     "away": "Sochaux",
-     "az": null,
-     "url": "https://www.foot-national.com/data/match-foot-nancy-sochaux-434139.html",
-     "src": "fn",
-     "date": "Ven. 6 nov.",
-     "sh": 1,
-     "sa": 0,
-     "note": ""
     },
     {
      "sport": "Football",
@@ -9382,34 +9300,6 @@
      "genre": "F"
     },
     {
-     "sport": "Basket",
-     "level": "National",
-     "comp": "Betclic Élite",
-     "date": "Sam. 31 oct.",
-     "home": "SIG Strasbourg",
-     "hz": "grandest",
-     "away": "Cholet",
-     "az": null,
-     "sh": 88,
-     "sa": 82,
-     "note": "",
-     "url": "https://www.bebasket.fr/equipe/strasbourg/calendrier"
-    },
-    {
-     "sport": "Handball",
-     "level": "National",
-     "comp": "Ligue Butagaz Énergie",
-     "date": "Sam. 31 oct.",
-     "home": "Metz Handball",
-     "hz": "grandest",
-     "away": "Dijon",
-     "az": null,
-     "sh": 38,
-     "sa": 25,
-     "note": "Toujours invaincu et leader.",
-     "url": "https://www.radiomelodie.com/a/flash/19327-metz-handball-fait-un-sans-faute-et-garde-la-tete-de-la-ligue-butagaz-energie"
-    },
-    {
      "sport": "Volley",
      "level": "National",
      "comp": "Division 2 M · J4",
@@ -9790,21 +9680,6 @@
      "az": "troyes",
      "sh": 30,
      "sa": 25,
-     "url": "https://www.ffhandball.fr/",
-     "genre": "F",
-     "hbnew": 1
-    },
-    {
-     "sport": "Handball",
-     "level": "National",
-     "comp": "Nationale 1 féminine · Poule 3 · J6",
-     "date": "Sam. 17 oct.",
-     "home": "Metz Handball",
-     "hz": "grandest",
-     "away": "Entente Saône Mamirolle HB",
-     "az": null,
-     "sh": 32,
-     "sa": 13,
      "url": "https://www.ffhandball.fr/",
      "genre": "F",
      "hbnew": 1
@@ -10420,22 +10295,6 @@
      "level": "Régional",
      "div": "R3",
      "comp": "Régional 3 · Poule K",
-     "home": "AS Strasbourg",
-     "hz": "grandest",
-     "away": "FCO Strasbourg Koenigshoffen 2",
-     "az": null,
-     "url": "https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/3k/",
-     "src": "ldf",
-     "date": "Dim. 1er nov.",
-     "sh": 3,
-     "sa": 0,
-     "note": ""
-    },
-    {
-     "sport": "Football",
-     "level": "Régional",
-     "div": "R3",
-     "comp": "Régional 3 · Poule K",
      "home": "FC Sarrebourg",
      "hz": null,
      "away": "US Oberschaeffolsheim",
@@ -10753,21 +10612,6 @@
      "sport": "Football",
      "level": "National",
      "comp": "National 2 · Poule E",
-     "home": "FC Mulhouse",
-     "hz": null,
-     "away": "AS Nancy Lorraine 2",
-     "az": "grandest",
-     "url": "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/2e/",
-     "src": "ldf",
-     "date": "Sam. 31 oct.",
-     "sh": 2,
-     "sa": 5,
-     "note": ""
-    },
-    {
-     "sport": "Football",
-     "level": "National",
-     "comp": "National 2 · Poule E",
      "home": "US Torcy",
      "hz": null,
      "away": "Olympique Charleville Prix AM",
@@ -10792,21 +10636,6 @@
      "date": "Sam. 31 oct.",
      "sh": 2,
      "sa": 0,
-     "note": ""
-    },
-    {
-     "sport": "Football",
-     "level": "National",
-     "comp": "Ligue 2",
-     "home": "Red Star FC",
-     "hz": null,
-     "away": "AS Nancy Lorraine",
-     "az": "grandest",
-     "url": "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2/",
-     "src": "ldf",
-     "date": "Lun. 2 nov.",
-     "sh": 1,
-     "sa": 4,
      "note": ""
     },
     {
@@ -12532,19 +12361,6 @@
     },
     {
      "sport": "Basket",
-     "level": "National",
-     "day": "Dim. 8 nov.",
-     "time": "19:00",
-     "home": "SIG Strasbourg",
-     "hz": "grandest",
-     "away": "Le Mans",
-     "az": null,
-     "comp": "Betclic Élite",
-     "place": "Rhénus Sport",
-     "url": "https://www.bebasket.fr/equipe/strasbourg/calendrier"
-    },
-    {
-     "sport": "Basket",
      "level": "Régional",
      "day": "Sam. 7 nov.",
      "time": "17:15",
@@ -13430,21 +13246,6 @@
      "level": "Régional",
      "div": "R3",
      "comp": "Régional 3 · Poule K",
-     "home": "FC Truchtersheim",
-     "hz": null,
-     "away": "AS Strasbourg",
-     "az": "grandest",
-     "url": "https://www.liguesdefoot.fr/en/championnats/2026-2027/grand-est/regional/3k/",
-     "src": "ldf",
-     "day": "Dim. 8 nov.",
-     "time": "14:30",
-     "place": ""
-    },
-    {
-     "sport": "Football",
-     "level": "Régional",
-     "div": "R3",
-     "comp": "Régional 3 · Poule K",
      "home": "SS Weyersheim 2",
      "hz": null,
      "away": "FC Drusenheim",
@@ -13780,20 +13581,6 @@
      "src": "ldf",
      "day": "Sam. 7 nov.",
      "time": "18:00",
-     "place": ""
-    },
-    {
-     "sport": "Football",
-     "level": "National",
-     "comp": "National 2 · Poule E",
-     "home": "AS Nancy Lorraine 2",
-     "hz": "grandest",
-     "away": "SFC Neuilly-sur-Marne",
-     "az": null,
-     "url": "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/2e/",
-     "src": "ldf",
-     "day": "Sam. 7 nov.",
-     "time": "15:00",
      "place": ""
     },
     {
@@ -16030,14 +15817,6 @@
     }
    ],
    "genre": "F"
-  },
-  {
-   "sport": "Handball",
-   "level": "National",
-   "key": "Ligue Butagaz Énergie",
-   "maj": "",
-   "url": "https://www.ffhandball.fr/",
-   "rows": []
   },
   {
    "sport": "Volley",
