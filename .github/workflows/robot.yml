@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '59 22 * * 5'  # vendredi 23h59 (heure d'hiver de Paris)
     - cron: '59 22 * * 6'  # samedi 23h59
-    - cron: '0 20 * * 0'   # dimanche 21h
+    - cron: '0 19 * * 0'   # dimanche 20h (heure d'hiver de Paris)
     - cron: '0 4 * * 1'    # lundi 5h, bien avant la tâche de 6h42 (GitHub retarde parfois ses passages)
   workflow_dispatch:
     inputs:
@@ -53,7 +53,7 @@ jobs:
         env:
           # le week-end (vendredi, samedi, dimanche soir), le robot publie aussi le site public ;
           # le lundi, c'est la tâche de 6h42 qui publie l'édition complète
-          PUBLISH: ${{ github.event.schedule == '59 22 * * 5' || github.event.schedule == '59 22 * * 6' || github.event.schedule == '0 20 * * 0' || github.event.inputs.publish == 'true' }}
+          PUBLISH: ${{ github.event.schedule == '59 22 * * 5' || github.event.schedule == '59 22 * * 6' || github.event.schedule == '0 19 * * 0' || github.event.inputs.publish == 'true' }}
         run: |
           git config user.name "Robot Résultats"
           git config user.email "robot@users.noreply.github.com"
