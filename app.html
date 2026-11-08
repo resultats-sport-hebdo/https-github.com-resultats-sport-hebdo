@@ -53,7 +53,8 @@ button,select,input{font:inherit;color:inherit}
 .week select option{color:#0f1a2e}
 .headline{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 24px;padding:26px 0 18px}
 .headline .kick{display:block;margin:0 0 8px;font:700 13px var(--body);letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.8)}
-.headline h1{margin:0;font:800 clamp(52px,11vw,118px)/.86 var(--head);letter-spacing:-.01em;text-transform:none}
+.headline h1{margin:0;padding-bottom:.14em;font:800 clamp(52px,11vw,118px)/.86 var(--head);letter-spacing:-.01em;text-transform:none}
+.headline #lede{position:relative;margin-top:6px}
 .headline h1.long{font-size:clamp(44px,7.4vw,88px);line-height:.92}
 .headline p{margin:10px 0 0;max-width:620px;font-size:16.5px;color:rgba(255,255,255,.86)}
 .headline .when{font:700 clamp(18px,2.2vw,24px)/1.1 var(--head);letter-spacing:.02em;text-align:right}
@@ -172,6 +173,7 @@ main{padding:22px 0 50px}
 .une .k{font:700 12px var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
 .une h2{margin:6px 0 8px;font:800 clamp(30px,4.2vw,46px)/1 var(--head)}
 .une p{margin:0;color:var(--muted)}
+.une p.art{margin-top:10px}
 .une .big{display:flex;align-items:center;justify-content:center;gap:12px;padding:20px;border-radius:16px;background:var(--c);color:#fff}
 .une .big b{font:800 clamp(56px,8vw,84px)/1 var(--head)}
 .une .big span{font:600 14px var(--body);opacity:.85;text-align:center;max-width:120px}
@@ -344,7 +346,7 @@ footer a{color:var(--muted)}
 
 <script id="t-datajs" src="data.js"></script>
 <script id="app">
-const DEPS='Marne, Ardennes, Aube, Haute-Marne et Aisne';
+const DEPS='Marne - Ardennes - Aube - Haute-Marne et Aisne';
 (window.RSH_DATA ? Promise.resolve(window.RSH_DATA) : fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})).then(d=>{ try{ start(d); }catch(e){ console.error(e); rshFail(e); } }).catch(()=>{
   document.getElementById('main').innerHTML='<div class="empty">Les résultats n\'ont pas pu être chargés. Recharge la page dans un instant.</div>';
 });
@@ -365,14 +367,14 @@ function start(DATA){
 
   // ——— sports: order of the menu = order everywhere ———
   const SP={
-    'Football':{slug:'football',c:'#16794a',pat:'foot',unit:'buts',lede:'Du National à la D1 : tous les matchs de nos clubs, poule par poule.'},
-    'Basket':{slug:'basket',c:'#b4471b',pat:'basket',unit:'points',lede:'De la Betclic Élite aux championnats régionaux, masculins et féminins.'},
-    'Handball':{slug:'handball',c:'#1f55b3',pat:'hand',unit:'buts',lede:'De la Starligue à la Prénationale : les scores de nos équipes.'},
-    'Volley':{slug:'volley',c:'#9a6312',pat:'volley',unit:'sets',lede:'De la Ligue AM aux Nationales : les résultats set par set.'},
-    'Rugby':{slug:'rugby',c:'#8a1c3c',pat:'rugby',unit:'points',lede:'Fédérales et Régionales : les scores de nos clubs de rugby.'},
-    'Futsal':{slug:'futsal',c:'#5b3fb0',pat:'foot',unit:'buts',lede:'D2 et Régional : le futsal de nos clubs.'},
-    'Hockey sur glace':{slug:'hockey-sur-glace',c:'#0f6f8f',pat:'ice',unit:'buts',lede:'Le hockey sur glace de nos clubs, de la Division 2 aux équipes réserves.'},
-    'Roller hockey':{slug:'roller-hockey',c:'#a8306a',pat:'ice',unit:'buts',lede:'Le roller hockey de nos clubs, Nationale 1 et Nationale 3.'},
+    'Football':{slug:'football',c:'#16794a',pat:'foot',unit:'buts',lede:'De la Ligue 1 (ESTAC) au Départemental 1 : tous les matchs de nos clubs, poule par poule.'},
+    'Basket':{slug:'basket',c:'#b4471b',pat:'basket',unit:'points',lede:'De l\'Élite 2 et de la LF2 aux championnats régionaux, masculins et féminins.'},
+    'Handball':{slug:'handball',c:'#1f55b3',pat:'hand',unit:'buts',lede:'De la Nationale 1 à l\'Honneur régional : les scores de nos équipes.'},
+    'Volley':{slug:'volley',c:'#9a6312',pat:'volley',unit:'sets',lede:'De la Ligue A masculine aux Régionales : les résultats set par set.'},
+    'Rugby':{slug:'rugby',c:'#8a1c3c',pat:'rugby',unit:'points',lede:'De la Fédérale 3 aux Régionales : les scores de nos clubs de rugby.'},
+    'Futsal':{slug:'futsal',c:'#5b3fb0',pat:'foot',unit:'buts',lede:'De la D2 au Régional 1 : le futsal de nos clubs.'},
+    'Hockey sur glace':{slug:'hockey-sur-glace',c:'#0f6f8f',pat:'ice',unit:'buts',lede:'La Division 2 : les matchs du Phénix de Reims et des Gaulois de Châlons.'},
+    'Roller hockey':{slug:'roller-hockey',c:'#a8306a',pat:'ice',unit:'buts',lede:'De la Ligue Élite à la Nationale 4 : le roller hockey de nos clubs.'},
     'Water-polo':{slug:'water-polo',c:'#0b7a7a',pat:'pool',unit:'buts',lede:'La Nationale 3 Grand Est et Hauts-de-France : les matchs de nos clubs.'}
   };
   const HOME={c:'#12233d',pat:'home'};
@@ -481,6 +483,25 @@ function start(DATA){
   // where no standings are stored yet: the federation's competitions site of the sport
   const FED={'Football':'https://www.sportcorico.com/championnats-par-region/football/grand-est','Basket':'https://competitions.ffbb.com/','Handball':'https://www.ffhandball.fr/','Volley':'https://www.ffvbbeach.org/','Rugby':'https://competitions.ffr.fr/','Futsal':'https://www.sportcorico.com/championnats-par-region/football/grand-est','Hockey sur glace':'https://www.hockeyfrance.com/','Roller hockey':'https://ffroller-skateboard.fr/','Water-polo':'https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=111'};
   const clFor=(sport,key)=>CL.find(c=>c.sport===sport&&keyOf(c.key)===key);
+  // « À la une » : un match à enjeu (derby, haut de classement), de préférence régional et de football, avec un article
+  const PRESS_NO=/liguesdefoot|foot-national\.com\/data|ffvbbeach|ffhandball|ffbb\.com|hockeyfrance|scorenco|extranat|monclubhouse|fff\.fr|sportcorico|statfootball/i;
+  const isArticle=u=>!!u&&/^https?:/.test(u)&&!PRESS_NO.test(u);
+  const PRO=/ligue 1|ligue 2|betclic|[ée]lite 2|lf2|ligue a|ligue b|starligue|proligue|butagaz/i;
+  const rankIn=(r,team)=>{ const t=clFor(r.sport,keyOf(r.comp)); if(!t) return 99; const row=t.rows.find(x=>nrm(x.team)===nrm(team)); return row?row.r:99; };
+  function pickUne(res){
+    const score=r=>{ let s=0; const reg=r.level==='Régional';
+      if(isArticle(r.url)) s+=40; if(/sportclub-reims/i.test(r.url||'')) s+=10;
+      if(reg) s+=20; if(PRO.test(r.comp||'')) s-=25; if(r.div==='D1') s-=12;
+      if(r.hz&&r.az) s+=25;                                   // derby entre deux clubs de nos départements
+      const a=rankIn(r,r.home), b=rankIn(r,r.away);
+      if(a<=4&&b<=4) s+=22; else if(Math.min(a,b)<=3) s+=10;  // match du haut de tableau
+      if(r.sport==='Football') s+=12; else if(/Roller|Hockey|Handball|Basket/.test(r.sport)&&r.hz&&r.az) s+=8;
+      if(r.note) s+=3; return s; };
+    // il faut un article derrière : d'abord parmi les matchs amateurs qui en ont un, puis tous ceux qui en ont un
+    const withArt=res.filter(r=>isArticle(r.url)), amateur=withArt.filter(r=>!PRO.test(r.comp||''));
+    const pool=amateur.length?amateur:withArt.length?withArt:res;
+    return pool.slice().sort((a,b)=>score(b)-score(a))[0];
+  }
   const ourTeam=n=>{const c=clubMap.get(n); const z=c&&zoneOf(c.zone); return !!(z&&!/hors/i.test(z.dep||''));};
   function table(c,open){
     const cols=['g','n','p','bp','bc','diff'].filter(k=>c.rows.some(x=>x[k]!=null));
@@ -615,7 +636,7 @@ function start(DATA){
     $('tabs').innerHTML=`<a class="tab" href="${href(null,nx?'res':route.view)}" data-go="" data-view="${nx?'res':route.view}" ${!s&&!nx?'aria-current="page"':''}>À la une</a>`+
 
       PRIO.map(x=>`<a class="tab" style="--c:${SP[x].c}" href="${href(x,route.view)}" data-go="${SP[x].slug}" data-view="${route.view}" ${s===x?'aria-current="page"':''}>${esc(x)}</a>`).join('')+
-      `<a class="tab alt" href="${href(s,'next')}" data-go="${s?SP[s].slug:''}" data-view="next" ${nx?'aria-current="page"':''}><span aria-hidden="true">📅</span><span class="two">Le week-end<br>prochain</span></a>`;
+      `<a class="tab alt" href="${href(s,'next')}" data-go="${s?SP[s].slug:''}" data-view="next" ${nx?'aria-current="page"':''}><span aria-hidden="true">📅</span><span class="two">Ce<br>week-end</span></a>`;
     const act=$('tabs').querySelector('[aria-current]'); if(act){ const t=$('tabs'); if(act.offsetLeft+act.offsetWidth>t.scrollLeft+t.clientWidth||act.offsetLeft<t.scrollLeft) t.scrollLeft=Math.max(0,act.offsetLeft-40); }
   }
   function seo(res,fx){
@@ -671,9 +692,9 @@ function start(DATA){
     const prevEd=eds[eds.indexOf(cur)+1];
     const live=cur.enCours?`<div class="live"><b>Semaine en cours</b> · les scores arrivent au fil du week-end (vendredi et samedi soir, dimanche soir) ; l'édition complète paraît lundi matin.${prevEd?` <button type="button" class="lnk" data-prev>Voir la semaine précédente</button>`:''}</div>`:'';
     if(!route.sport){
-      const top=res.slice().sort((a,b)=>lvlRank(a)-lvlRank(b)||rank(a.sport)-rank(b.sport)||(b.note?1:0)-(a.note?1:0))[0];
+      const top=pickUne(res);
       const sports=PRIO.filter(s=>res.some(r=>r.sport===s));
-      main.innerHTML=live+(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2>${esc(top.home)} – ${esc(top.away)}</h2><p>${esc(cur.edito||top.note||'')}</p></div>
+      main.innerHTML=live+(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2>${esc(top.home)} – ${esc(top.away)}</h2><p>${esc(cur.edito||top.note||'')}</p>${isArticle(top.url)?`<p class="art"><a class="lnk" href="${esc(top.url)}" target="_blank" rel="noopener">Lire l'article →</a></p>`:''}</div>
         <div class="big"><span>${esc(top.home)}</span><b>${esc(top.sh)}–${esc(top.sa)}</b><span>${esc(top.away)}</span></div></article>`:'')+
         (sports.length?sports.map(s=>{const l=res.filter(r=>r.sport===s); return `<section class="sport" style="--sport:${SP[s].c}"><h2 class="sh"><a href="${href(s,'res')}" data-go="${SP[s].slug}">${esc(s)}</a><span class="cnt">${l.length} match${l.length>1?'s':''}</span><a class="go" href="${href(s,'res')}" data-go="${SP[s].slug}">Page ${esc(s.toLowerCase())} →</a></h2>${famsHtml(groups(l))}</section>`;}).join('')
           :`<div class="empty">Aucun résultat pour cette sélection. ${reset}</div>`)+
