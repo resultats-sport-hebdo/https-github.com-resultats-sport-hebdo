@@ -21,7 +21,7 @@ import argparse, json, re, sys, traceback
 from datetime import datetime, timedelta
 
 from common import MOIS, PARIS, Window, key_of, load_data, save_data, tokens, Zoner
-import footnational, foot, volley, hockey, handball, roller, scorenco, scr
+import footnational, foot, volley, hockey, handball, roller, scorenco, scr, scrres
 
 READERS = {"footnational": footnational, "foot": foot, "volley": volley, "hockey": hockey, "handball": handball, "roller": roller, "scorenco": scorenco}
 for _name in ("basket", "rugby"):
@@ -29,7 +29,9 @@ for _name in ("basket", "rugby"):
         READERS[_name] = __import__(_name)
     except ImportError:
         pass
-OWN_SRC = {"fn", "ldf", "ffvb", "ffbb", "ffr", "ffhg", "ffn", "ffhb", "scorenco"}
+READERS["scrres"] = scrres  # en dernier : ne complète que ce que les sources fédérales n'ont pas encore
+OWN_SRC = {"fn", "ldf", "ffvb", "ffbb", "ffr", "ffhg", "ffn", "ffhb", "scorenco", "scr"}
+UPSERT_SRC = {"scorenco", "scr"}  # sources partielles, remplacées dès qu'une source fédérale a le même match
 MOIS_N = {m: i + 1 for i, m in enumerate(MOIS)}
 
 
@@ -44,6 +46,24 @@ def parse_day(s, ref):
         return datetime(y, mo, int(m.group(1))).date()
     except ValueError:
         return None
+
+
+GENERIC = {"reims", "champagne", "marne", "ardennes", "aube", "aisne",
+           "feminin", "feminine", "feminines", "masculin", "metropole", "grand", "club", "sport", "sports"}
+
+
+def same_match(a, b, day, ref):
+    """Même match vu par deux sources : même jour et mêmes équipes, ou même score à deux jours près avec au moins
+    une équipe reconnue (Sport Club donne parfois le dimanche pour un match joué le samedi, et les noms varient)."""
+    if a.get("sport") != b.get("sport"): return False
+    th = set(tokens(a.get("home"))) & set(tokens(b.get("home")))
+    ta = set(tokens(a.get("away"))) & set(tokens(b.get("away")))
+    if a.get(day) == b.get(day) and th and ta: return True
+    strong = {t for t in th | ta if len(t) >= 4 and t not in GENERIC}  # « reims » seul ne suffit pas
+    if day != "date" or a.get("sh") is None or (a.get("sh"), a.get("sa")) != (b.get("sh"), b.get("sa")) or not strong:
+        return False
+    da, db = parse_day(a.get(day), ref), parse_day(b.get(day), ref)
+    return bool(da and db and abs((da - db).days) <= 2)
 
 
 def window_and_edition(D, today):
@@ -96,11 +116,10 @@ def run(today, dry, only=None):
             if P.get("mode") == "upsert":  # ajout match par match (source partielle) : rien d'autre n'est effacé
                 if (P["sport"], P["key"]) in owned: continue  # poule déjà lue en entier sur une source fédérale
                 def known(x, day):  # même match déjà fourni par une autre source du robot
-                    pool = (new_res + [r for r in E["results"] if r.get("src") and r.get("mid") != x["mid"]]) if day == "date" else \
+                    # (y compris les scores saisis à la main : ils restent prioritaires sur une source partielle)
+                    pool = (new_res + [r for r in E["results"] if r.get("mid") != x["mid"]]) if day == "date" else \
                            (new_ag + [a for a in E["agenda"] if a.get("src") and a.get("mid") != x["mid"]])
-                    tk = lambda t: set(tokens(t))
-                    return any(y.get("sport") == x["sport"] and y.get(day) == x.get(day) and tk(y.get("home")) & tk(x["home"])
-                               and tk(y.get("away")) & tk(x["away"]) for y in pool)
+                    return any(same_match(x, y, day, today) for y in pool)
                 P["results"] = [x for x in P["results"] if not known(x, "date")]
                 P["agenda"] = [x for x in P["agenda"] if not known(x, "day")]
                 upsert_sports.add(P["sport"])
@@ -120,8 +139,7 @@ def run(today, dry, only=None):
     read_sports = {sp for sp, _ in owned} | upsert_sports
     def tk(t): return frozenset(tokens(t))
     def same(a, b, day):
-        return (a.get("sport") == b.get("sport") and a.get(day) == b.get(day)
-                and (tk(a.get("home")) & tk(b.get("home"))) and (tk(a.get("away")) & tk(b.get("away"))))
+        return same_match(a, b, day, today)
     def dup(r, news, day):
         # même match déjà fourni par le robot sous un autre nom de compétition (saisie manuelle)
         return r.get("src") not in OWN_SRC and r.get("sport") in read_sports and any(same(r, n, day) for n in news)
@@ -130,6 +148,9 @@ def run(today, dry, only=None):
         return r.get("src") not in OWN_SRC and r.get("sh") is not None
     E["results"] = [r for r in E["results"] if (keep(r) or manual_kept(r)) and not dup(r, new_res, "date")] + new_res
     E["agenda"] = [a for a in E["agenda"] if keep(a) and not dup(a, new_ag, "day")] + new_ag
+    # un score venu d'une source partielle s'efface quand la source fédérale apporte le même match
+    fed = [r for r in E["results"] if r.get("src") in OWN_SRC - UPSERT_SRC]
+    E["results"] = [r for r in E["results"] if not (r.get("src") in UPSERT_SRC and any(same(r, f, "date") for f in fed))]
     # classements saisis à la main sous une autre clé et désormais lus par le robot
     robot_teams = {}
     for c in new_cl:
