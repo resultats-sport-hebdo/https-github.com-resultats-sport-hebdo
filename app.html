@@ -303,12 +303,27 @@ footer a{color:var(--muted)}
   .card,.teaser,.stat,.une{animation:rise .35s ease both}
   @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 }
+
+/* accueil : salle multisport la nuit (projecteurs + tracés de plusieurs sports au sol) */
+.hero.gym{background:radial-gradient(ellipse 80% 60% at 50% 100%,#24364f 0%,transparent 70%),linear-gradient(180deg,#03060d 0%,#0a1324 55%,#16233a 100%)}
+.hero .floor{display:none}
+.hero.gym .floor{display:block;position:absolute;left:-25%;right:-25%;bottom:-4px;height:620px;pointer-events:none;opacity:.85;
+  transform:perspective(900px) rotateX(56deg);transform-origin:50% 100%;
+  -webkit-mask-image:linear-gradient(to top,#000 22%,rgba(0,0,0,.3) 48%,transparent 74%);mask-image:linear-gradient(to top,#000 22%,rgba(0,0,0,.3) 48%,transparent 74%)}
+.hero.gym .floor svg{width:100%;height:100%;display:block}
+.hero.gym .illu{display:none}
+.hero.gym .headline{padding-right:0}
+.hero.gym h1,.hero.gym #lede,.hero.gym .kick{text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.hero.gym .tab:not([aria-current="page"]):not(.alt){background:rgba(5,10,20,.62)}
+.hero.gym .week select{background-color:rgba(0,0,0,.35)}
+@media (max-width:760px){ .hero.gym .floor{left:-90%;right:-90%;height:560px} .hero.gym .headline .kick{margin-right:0} }
 </style>
 <script id="ld" type="application/ld+json"></script>
 </head>
 <body>
 <header class="hero" id="hero">
   <svg class="pat" id="pat" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+  <div class="floor" aria-hidden="true"><svg viewBox="0 0 1200 520" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><defs><filter id="glw"><feGaussianBlur stdDeviation="0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g fill="none" stroke-width="3" filter="url(#glw)"> <g stroke="rgba(255,255,255,.75)"><rect x="40" y="30" width="1120" height="460"/><line x1="600" y1="30" x2="600" y2="490"/><circle cx="600" cy="260" r="80"/><rect x="40" y="150" width="120" height="220"/><rect x="1040" y="150" width="120" height="220"/></g> <g stroke="rgba(255,255,255,.55)"><path d="M160 60 v400"/><path d="M40 140 a150 120 0 0 1 150 120 a150 120 0 0 1 -150 120"/><path d="M1160 140 a150 120 0 0 0 -150 120 a150 120 0 0 0 150 120"/><path d="M40 110 a210 150 0 0 1 210 150 a210 150 0 0 1 -210 150" stroke-dasharray="16 14"/><path d="M1160 110 a210 150 0 0 0 -210 150 a210 150 0 0 0 210 150" stroke-dasharray="16 14"/></g> <g stroke="#e9883f"><rect x="40" y="200" width="190" height="120"/><circle cx="230" cy="260" r="60"/><path d="M40 70 h110 a260 190 0 0 1 0 380 h-110"/><rect x="970" y="200" width="190" height="120"/><circle cx="970" cy="260" r="60"/><path d="M1160 70 h-110 a260 190 0 0 0 0 380 h110"/><circle cx="600" cy="260" r="40"/></g> <g stroke="#f4c430"><rect x="330" y="110" width="540" height="300"/><line x1="510" y1="110" x2="510" y2="410"/><line x1="690" y1="110" x2="690" y2="410"/></g></g><g fill="#d63fd6"><circle cx="420" cy="200" r="7"/><circle cx="780" cy="330" r="7"/><circle cx="600" cy="260" r="6"/></g></svg></div>
   <div class="in">
     <div class="bar">
       <a class="logo" id="home-link" href="#"><i>RSH</i><b>Résultats Sport Hebdo</b></a>
@@ -645,6 +660,7 @@ function start(DATA){
   document.addEventListener('keydown',e=>{ if(e.key==='Escape') document.querySelectorAll('details.pop[open]').forEach(d=>d.open=false); });
   try{ const tools=$('tools'); const io=('IntersectionObserver' in window)?new IntersectionObserver(([en])=>tools.classList.toggle('lift',!en.isIntersecting)):null; if(io) io.observe($('hero')); }catch(e){}
 
+  const GYM='<defs><radialGradient id="hl"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".25" stop-color="#d9ecff" stop-opacity=".55"/><stop offset="1" stop-color="#9cc8ff" stop-opacity="0"/></radialGradient><linearGradient id="bm2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6ff" stop-opacity="0.18"/><stop offset="1" stop-color="#cfe6ff" stop-opacity="0"/></linearGradient></defs><polygon points="0,10 90,-10 520,440 60,440" fill="url(#bm2)"/><polygon points="1200,10 1110,-10 680,440 1140,440" fill="url(#bm2)"/><circle cx="30" cy="0" r="190" fill="url(#hl)"/><circle cx="1170" cy="0" r="190" fill="url(#hl)"/><g transform="translate(30 -6) rotate(-22)"><rect x="-58" y="-34" width="116" height="68" rx="6" fill="#1b2433" stroke="#3a475c" stroke-width="2"/><circle cx="-44" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="-44" cy="0" r="7.5" fill="#fffdf2"/><circle cx="-44" cy="20" r="7.5" fill="#fffdf2"/><circle cx="-22" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="-22" cy="0" r="7.5" fill="#fffdf2"/><circle cx="-22" cy="20" r="7.5" fill="#fffdf2"/><circle cx="0" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="0" cy="0" r="7.5" fill="#fffdf2"/><circle cx="0" cy="20" r="7.5" fill="#fffdf2"/><circle cx="22" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="22" cy="0" r="7.5" fill="#fffdf2"/><circle cx="22" cy="20" r="7.5" fill="#fffdf2"/><circle cx="44" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="44" cy="0" r="7.5" fill="#fffdf2"/><circle cx="44" cy="20" r="7.5" fill="#fffdf2"/></g><g transform="translate(1170 -6) rotate(22)"><rect x="-58" y="-34" width="116" height="68" rx="6" fill="#1b2433" stroke="#3a475c" stroke-width="2"/><circle cx="-44" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="-44" cy="0" r="7.5" fill="#fffdf2"/><circle cx="-44" cy="20" r="7.5" fill="#fffdf2"/><circle cx="-22" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="-22" cy="0" r="7.5" fill="#fffdf2"/><circle cx="-22" cy="20" r="7.5" fill="#fffdf2"/><circle cx="0" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="0" cy="0" r="7.5" fill="#fffdf2"/><circle cx="0" cy="20" r="7.5" fill="#fffdf2"/><circle cx="22" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="22" cy="0" r="7.5" fill="#fffdf2"/><circle cx="22" cy="20" r="7.5" fill="#fffdf2"/><circle cx="44" cy="-20" r="7.5" fill="#fffdf2"/><circle cx="44" cy="0" r="7.5" fill="#fffdf2"/><circle cx="44" cy="20" r="7.5" fill="#fffdf2"/></g>';
   const edSel=$('ed');
   edSel.innerHTML=eds.map(e=>`<option value="${esc(e.id)}">${esc(e.label)}</option>`).join('');
   edSel.addEventListener('change',()=>{cur=eds.find(e=>e.id===edSel.value)||eds[0]; render();});
@@ -654,7 +670,8 @@ function start(DATA){
     const s=route.sport, m=s?SP[s]:HOME;
     document.documentElement.style.setProperty('--sport',m.c);
     setA(document.querySelector('meta[name="theme-color"]'),'content',m.c);
-    $('pat').innerHTML=`<g fill="none" stroke="rgba(255,255,255,.17)" stroke-width="3">${PAT[m.pat]}</g>`;
+    $('hero').classList.toggle('gym',!s);
+    $('pat').innerHTML=s?`<g fill="none" stroke="rgba(255,255,255,.17)" stroke-width="3">${PAT[m.pat]}</g>`:GYM;
     const ik=s?({Futsal:'futsal','Roller hockey':'roller'}[s]||m.pat):'home'; $('illu').innerHTML=`<img src="${IMG}${ik}.png" alt="" width="450" height="450" decoding="async">`;
     $('h1').textContent=s?s:(route.view==='next'?'Agenda':route.view==='cl'?'Les classements':'Les résultats du week-end');
     $('lede').textContent=s?(route.view==='next'?`Les prochains matchs de nos clubs de ${s.toLowerCase()}.`:m.lede):(route.view==='next'?'Tous les matchs de nos clubs dans les 7 jours qui viennent, jour par jour.':'Les sports collectifs de la Marne, des Ardennes, de l\'Aube, de la Haute-Marne et de l\'Aisne, du national au régional. Chaque lundi matin.');
