@@ -2,7 +2,9 @@
 import json
 from datetime import datetime
 
-from common import PARIS, fdate, get
+import time
+
+from common import PARIS, fdate, session
 
 SPORT = "Hockey sur glace"
 AJAX = "https://www.hockeyfrance.com/competitions/wp-admin/admin-ajax.php"
@@ -15,8 +17,18 @@ def collect(D, Z, W, report):
     out = []
     for comp_id, phase, name, level in PHASES:
         report["poules"] += 1
-        t = get(f"{AJAX}?action=get_rencontres&page=&equipe_id=&competition_id={comp_id}&phase_id={phase}"
-                f"&date_min=&date_max=&par_page=400&journee=&limite=0")
+        t = None
+        for i in range(4):  # page lourde (toute la saison) : on laisse du temps et on réessaie
+            try:
+                r = session.get(f"{AJAX}?action=get_rencontres&page=&equipe_id=&competition_id={comp_id}&phase_id={phase}"
+                                f"&date_min=&date_max=&par_page=400&journee=&limite=0", timeout=120,
+                                headers={"Referer": PAGE.format(phase=phase), "X-Requested-With": "XMLHttpRequest"})
+                if r.status_code == 200 and r.text.lstrip().startswith("{"):
+                    t = r.text; break
+                report["erreurs"].append(f"hockey : réponse {r.status_code}")
+            except Exception as e:
+                report["erreurs"].append(f"hockey : {type(e).__name__}")
+            time.sleep(20 * (i + 1))
         try:
             rs = json.loads(t)["data"]["data"] if t else None
         except (ValueError, KeyError, TypeError):
