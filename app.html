@@ -64,6 +64,8 @@ button,select,input{font:inherit;color:inherit}
 @media (prefers-reduced-motion:no-preference){ .illu img{animation:bob 4s ease-in-out infinite} @keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(-3deg)}} }
 .headline{padding-right:240px}
 @media (max-width:760px){ .illu{width:96px;height:96px;top:56px;right:12px} .headline{padding-right:96px} }
+.headline .kick i{font-style:normal}
+@media (max-width:760px){ .headline .kick{margin-right:-96px;font-size:min(13px,2.85vw);letter-spacing:.05em} .headline .kick>span{display:block;white-space:nowrap} .headline .kick .kd i{display:none} .illu{top:114px} }
 .tabs{display:flex;align-items:flex-end;gap:5px;overflow-x:auto;scrollbar-width:none;padding:4px 0 0;margin:0 -20px;padding-left:20px;padding-right:20px}
 .tabs::-webkit-scrollbar{display:none}
 @media (min-width:761px){ .tabs{flex-wrap:wrap;overflow:visible;row-gap:5px} }
@@ -656,7 +658,7 @@ function start(DATA){
     const ik=s?({Futsal:'futsal','Roller hockey':'roller'}[s]||m.pat):'home'; $('illu').innerHTML=`<img src="${IMG}${ik}.png" alt="" width="450" height="450" decoding="async">`;
     $('h1').textContent=s?s:(route.view==='next'?'Ce week-end':route.view==='cl'?'Les classements':'Les résultats du week-end');
     $('lede').textContent=s?(route.view==='next'?`Les prochains matchs de nos clubs de ${s.toLowerCase()}.`:m.lede):(route.view==='next'?'Tous les matchs de nos clubs dans les 7 jours qui viennent, jour par jour.':'Les sports collectifs de la Marne, des Ardennes, de l\'Aube, de la Haute-Marne et de l\'Aisne, du national au régional. Chaque lundi matin.');
-    $('kick').textContent=cur?`${route.view==='next'?'Matchs à venir':route.view==='cl'?'Classements':'Résultats'} · ${cur.label||''} · ${DEPS}`:DEPS;
+    $('kick').innerHTML=cur?`<span class="k1">${route.view==='next'?'Matchs à venir':route.view==='cl'?'Classements':'Résultats'} · ${esc(cur.label||'')}</span><span class="kd"><i> · </i>${esc(DEPS)}</span>`:`<span class="kd">${esc(DEPS)}</span>`;
     $('stick').innerHTML=`<span><b>${esc(s||'Tous les sports')}</b>${cur?`<span class="stl">&nbsp;· ${esc(cur.label||'')}</span>`:''}&nbsp;· ${DEPS}</span>`;
     $('h1').classList.toggle('long',$('h1').textContent.length>12);
     $('home-link').setAttribute('href',href(null,'res')); $('home-link').dataset.go='';
