@@ -21,9 +21,9 @@ import argparse, json, re, sys, traceback
 from datetime import datetime, timedelta
 
 from common import MOIS, PARIS, Window, key_of, load_data, save_data, tokens, Zoner
-import footnational, foot, volley, hockey, handball, roller, scr
+import footnational, foot, volley, hockey, handball, roller, scorenco, scr
 
-READERS = {"footnational": footnational, "foot": foot, "volley": volley, "hockey": hockey, "handball": handball, "roller": roller}
+READERS = {"footnational": footnational, "foot": foot, "volley": volley, "hockey": hockey, "handball": handball, "roller": roller, "scorenco": scorenco}
 for _name in ("basket", "rugby"):
     try:
         READERS[_name] = __import__(_name)
@@ -94,6 +94,15 @@ def run(today, dry, only=None):
         s = report["par sport"].setdefault(mod.SPORT, {"poules": 0, "résultats": 0, "à venir": 0, "classements": 0})
         for P in got:
             if P.get("mode") == "upsert":  # ajout match par match (source partielle) : rien d'autre n'est effacé
+                if (P["sport"], P["key"]) in owned: continue  # poule déjà lue en entier sur une source fédérale
+                def known(x, day):  # même match déjà fourni par une autre source du robot
+                    pool = (new_res + [r for r in E["results"] if r.get("src") and r.get("mid") != x["mid"]]) if day == "date" else \
+                           (new_ag + [a for a in E["agenda"] if a.get("src") and a.get("mid") != x["mid"]])
+                    tk = lambda t: set(tokens(t))
+                    return any(y.get("sport") == x["sport"] and y.get(day) == x.get(day) and tk(y.get("home")) & tk(x["home"])
+                               and tk(y.get("away")) & tk(x["away"]) for y in pool)
+                P["results"] = [x for x in P["results"] if not known(x, "date")]
+                P["agenda"] = [x for x in P["agenda"] if not known(x, "day")]
                 upsert_sports.add(P["sport"])
                 mids = {x["mid"] for x in P["results"] + P["agenda"]}
                 E["results"] = [r for r in E["results"] if r.get("mid") not in mids]
