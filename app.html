@@ -549,7 +549,7 @@ function start(DATA){
   function table(c,open){
     const cols=['g','n','p','bp','bc','diff'].filter(k=>c.rows.some(x=>x[k]!=null));
     const lead=c.rows[0];
-    return `<details class="cl"${open?' open':''}><summary><span>Classement de la poule</span><small>${lead?`En tête : ${esc(lead.team)}, ${esc(lead.pts)} pts`:''}</small></summary>
+    return `<details class="cl"${open?' open':''}><summary><span>Classement de la poule</span><small>${lead?`En tête : ${esc(lead.team)} – ${esc(lead.pts)} pts`:''}</small></summary>
       <table><thead><tr><th>#</th><th class="tm">Équipe</th><th>Pts</th><th>J</th>${cols.map(k=>`<th>${({g:'G',n:'N',p:'P',bp:'BP',bc:'BC',diff:'Diff.'})[k]}</th>`).join('')}</tr></thead>
       <tbody>${c.rows.map(x=>`<tr class="${fav.has(x.team)?'fav ':''}${ourTeam(x.team)?'our':''}"><td>${esc(x.r)}</td><td class="tm">${star(x.team)}${esc(x.team)}</td><td><b>${esc(x.pts)}</b></td><td>${esc(x.j)}</td>${cols.map(k=>`<td>${esc(x[k]??'')}</td>`).join('')}</tr>`).join('')}</tbody></table>
       <p class="clsrc">Classement ${esc(c.maj||'')}${safeUrl(c.url)?` · <a href="${esc(c.url)}" target="_blank" rel="noopener">Source ↗</a>`:''}</p></details>`;
