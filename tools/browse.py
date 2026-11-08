@@ -9,6 +9,16 @@ with sync_playwright() as p:
     ctx = b.new_context(locale="fr-FR", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36")
     pg0 = None
     for u in urls:
+        if u.startswith("click:") and pg0:
+            txt = u[6:].replace("_", " ")
+            try:
+                pg0.get_by_text(txt, exact=False).first.click(timeout=15000); pg0.wait_for_timeout(6000)
+                n = "click_" + re.sub(r"[^a-zA-Z0-9]+", "_", txt)[:30]
+                (out / (n + ".html")).write_text(pg0.content()); (out / (n + ".txt")).write_text(pg0.inner_text("body"))
+                idx[n] = {"url": pg0.url, "click": txt}
+            except Exception as e:
+                idx["click_err"] = {"err": str(e)}
+            print(idx.get(n) if 'n' in dir() else e); continue
         if u.startswith("fetch:") and pg0:
             api = u[6:]; n = re.sub(r"[^a-zA-Z0-9]+", "_", api)[-50:] + "_" + hashlib.md5(api.encode()).hexdigest()[:6]
             try:
