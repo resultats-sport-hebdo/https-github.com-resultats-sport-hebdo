@@ -538,7 +538,7 @@ function start(DATA){
       <p class="clsrc">Classement ${esc(c.maj||'')}${safeUrl(c.url)?` · <a href="${esc(c.url)}" target="_blank" rel="noopener">Source ↗</a>`:''}</p></details>`;
   }
   function nextBlock(fx){ if(!fx.length) return '';
-    return `<h2 class="sec" id="prochain">Ce week-end</h2><div class="card"><header>${fx.length} match${fx.length>1?'s':''} à venir<small><a class="lnk" href="${href(route.sport,'next')}" data-go="${route.sport?SP[route.sport].slug:''}" data-view="next">Tout le programme →</a></small></header>${fx.slice(0,8).map(f=>`<div class="fx"><div class="h">${esc(f.time||'–')}<small>${esc(f.day)}</small></div><div><strong>${esc(f.home)} – ${esc(f.away)}</strong><span>${route.sport?'':esc(f.sport)+' · '}${esc(f.comp)}${f.place?' · '+esc(f.place):''}</span></div></div>`).join('')}</div>`; }
+    return `<h2 class="sec" id="prochain">Agenda</h2><div class="card"><header>${fx.length} match${fx.length>1?'s':''} à venir<small><a class="lnk" href="${href(route.sport,'next')}" data-go="${route.sport?SP[route.sport].slug:''}" data-view="next">Tout le programme →</a></small></header>${fx.slice(0,8).map(f=>`<div class="fx"><div class="h">${esc(f.time||'–')}<small>${esc(f.day)}</small></div><div><strong>${esc(f.home)} – ${esc(f.away)}</strong><span>${route.sport?'':esc(f.sport)+' · '}${esc(f.comp)}${f.place?' · '+esc(f.place):''}</span></div></div>`).join('')}</div>`; }
   // the clubs we follow in this sport, by département, so readers see who is covered even on a quiet week
   const nrm=t=>String(t||'').toLowerCase().normalize('NFD').replace(/[^a-z0-9]/g,'');
   // index of the standings table that contains this club (by exact name or the table's explicit club list)
@@ -587,7 +587,7 @@ function start(DATA){
   const IMG=STATIC?'/img/':'img/';
   // ——— toolbar ———
   function toolbar(){
-    $('view').innerHTML=[['res','Résultats'],['next','Ce week-end']].map(([k,l])=>`<button type="button" data-v="${k}" aria-pressed="${route.view===k}">${l}</button>`).join('');
+    $('view').innerHTML=[['res','Résultats'],['next','Agenda']].map(([k,l])=>`<button type="button" data-v="${k}" aria-pressed="${route.view===k}">${l}</button>`).join('');
     $('lvl').innerHTML=[['all','Tous niveaux'],['National','National'],['Régional','Régional']].map(([k,l])=>`<button type="button" data-l="${k}" aria-pressed="${lvl===k}">${l}</button>`).join('');
     $('gen').innerHTML=[['all','Tous'],['Masculin','Masculin'],['Féminin','Féminin']].map(([k,l])=>`<button type="button" data-g="${k}" aria-pressed="${gen===k}">${l}</button>`).join('');
     const onDeps=deps.filter(d=>DATA.zones.filter(z=>z.dep===d).some(z=>!offZ.has(z.k)));
@@ -656,7 +656,7 @@ function start(DATA){
     setA(document.querySelector('meta[name="theme-color"]'),'content',m.c);
     $('pat').innerHTML=`<g fill="none" stroke="rgba(255,255,255,.17)" stroke-width="3">${PAT[m.pat]}</g>`;
     const ik=s?({Futsal:'futsal','Roller hockey':'roller'}[s]||m.pat):'home'; $('illu').innerHTML=`<img src="${IMG}${ik}.png" alt="" width="450" height="450" decoding="async">`;
-    $('h1').textContent=s?s:(route.view==='next'?'Ce week-end':route.view==='cl'?'Les classements':'Les résultats du week-end');
+    $('h1').textContent=s?s:(route.view==='next'?'Agenda':route.view==='cl'?'Les classements':'Les résultats du week-end');
     $('lede').textContent=s?(route.view==='next'?`Les prochains matchs de nos clubs de ${s.toLowerCase()}.`:m.lede):(route.view==='next'?'Tous les matchs de nos clubs dans les 7 jours qui viennent, jour par jour.':'Les sports collectifs de la Marne, des Ardennes, de l\'Aube, de la Haute-Marne et de l\'Aisne, du national au régional. Chaque lundi matin.');
     $('kick').innerHTML=cur?`<span class="k1">${route.view==='next'?'Matchs à venir':route.view==='cl'?'Classements':'Résultats'} · ${esc(cur.label||'')}</span><span class="kd"><i> · </i>${esc(DEPS)}</span>`:`<span class="kd">${esc(DEPS)}</span>`;
     $('stick').innerHTML=`<span><b>${esc(s||'Tous les sports')}</b>${cur?`<span class="stl">&nbsp;· ${esc(cur.label||'')}</span>`:''}&nbsp;· ${DEPS}</span>`;
@@ -668,14 +668,14 @@ function start(DATA){
     $('tabs').innerHTML=`<a class="tab" href="${href(null,nx?'res':route.view)}" data-go="" data-view="${nx?'res':route.view}" ${!s&&!nx?'aria-current="page"':''}>À la une</a>`+
 
       PRIO.map(x=>`<a class="tab" style="--c:${SP[x].c}" href="${href(x,route.view)}" data-go="${SP[x].slug}" data-view="${route.view}" ${s===x?'aria-current="page"':''}>${esc(x)}</a>`).join('')+
-      `<a class="tab alt" href="${href(s,'next')}" data-go="${s?SP[s].slug:''}" data-view="next" ${nx?'aria-current="page"':''}><span aria-hidden="true">📅</span><span class="two">Ce week-end</span></a>`;
+      `<a class="tab alt" href="${href(s,'next')}" data-go="${s?SP[s].slug:''}" data-view="next" ${nx?'aria-current="page"':''}><span aria-hidden="true">📅</span><span class="two">Agenda</span></a>`;
     const act=$('tabs').querySelector('[aria-current]'); if(act){ const t=$('tabs'); if(act.offsetLeft+act.offsetWidth>t.scrollLeft+t.clientWidth||act.offsetLeft<t.scrollLeft) t.scrollLeft=Math.max(0,act.offsetLeft-40); }
   }
   function seo(res,fx){
     const s=route.sport, lab=cur?cur.label:'';
     const zonesTxt='Marne - Ardennes - Aube - Haute-Marne - Aisne';
     const title=s?(route.view==='next'?`${s} : les prochains matchs – ${zonesTxt} | Résultats Sport Hebdo`:`Résultats ${s.toLowerCase()} – ${zonesTxt} · ${lab} | Résultats Sport Hebdo`)
-      :(route.view==='next'?`Ce week-end : les matchs de nos clubs – ${zonesTxt} | Résultats Sport Hebdo`:`Résultats Sport Hebdo – sports collectifs en ${zonesTxt} · ${lab}`);
+      :(route.view==='next'?`Agenda : les matchs de nos clubs – ${zonesTxt} | Résultats Sport Hebdo`:`Résultats Sport Hebdo – sports collectifs en ${zonesTxt} · ${lab}`);
     const desc=s?(route.view==='next'?`Jour, heure et lieu des prochains matchs de ${s.toLowerCase()} des clubs de la ${zonesTxt}.`:`Tous les résultats de ${s.toLowerCase()} du week-end (${lab}) des clubs de la ${zonesTxt}, du national au régional, poule par poule.`)
       :`Les résultats du week-end (${lab}) et le programme de la semaine pour le football, le basket, le handball, le volley, le rugby et les autres sports collectifs en ${zonesTxt}.`;
     document.title=title; setA($('m-desc'),'content',desc); setA($('og-title'),'content',title); setA($('og-desc'),'content',desc);
