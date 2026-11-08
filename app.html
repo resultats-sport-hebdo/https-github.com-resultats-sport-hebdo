@@ -496,7 +496,7 @@ function start(DATA){
     const ct=/coupe|troph/i.test(r.comp||'')?null:clFor(r.sport,keyOf(r.comp));
     const cupR=/coupe|troph/i.test(r.comp||''), xr=!cupR&&!(ct&&ct.rows&&ct.rows.length)?((ct&&safeUrl(ct.url))||FED[r.sport]||''):'';
     const clink=cupR?'':(ct&&ct.rows&&ct.rows.length?`<button type="button" class="lnk mcl cl-go">Classement</button>`:(xr?`<a href="${esc(xr)}" target="_blank" rel="noopener">Classement ↗</a>`:''));
-    const meta=[esc(r.date), opt.comp?esc(r.comp):esc(jour(r.comp)), f?'<span class="fem">Féminin</span>':'', u?`<a href="${esc(u)}" target="_blank" rel="noopener">${isHome(u)?'Source':'Article'} ↗</a>`:'', opt.cl?clink:''].filter(Boolean).join(' · ');
+    const meta=[esc(r.date), opt.comp?esc(r.comp):esc(jour(r.comp)), f?'<span class="fem">Féminin</span>':'', u?`<a href="${esc(u)}" target="_blank" rel="noopener">${isHome(u)?'Source':'+ d\'infos'} ↗</a>`:'', opt.cl?clink:''].filter(Boolean).join(' · ');
     return `<li class="m${fav.has(r.home)||fav.has(r.away)?' fav':''}">
       <div class="line"><span class="t h${hw?' w':''}">${star(r.home)}<span>${esc(r.home)}</span></span>
       <span class="sc" aria-label="Score ${esc(r.sh)} à ${esc(r.sa)}"><b class="${hw?'w':''}">${esc(r.sh)}</b><i>–</i><b class="${aw?'w':''}">${esc(r.sa)}</b></span>
