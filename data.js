@@ -277,8 +277,8 @@ window.RSH_DATA = {
    "club": "Stade de Reims féminines",
    "sport": "Football",
    "zone": "reims",
-   "level": "National",
-   "div": "National",
+   "level": "Régional",
+   "div": "R1",
    "genre": "F"
   },
   {
