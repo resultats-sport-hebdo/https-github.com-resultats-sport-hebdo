@@ -80,7 +80,9 @@ def collect(D, Z, W, report):
     for path, region, level in todo:
         cslug = path.rstrip("/").rsplit("/", 1)[-1]
         base_name, genre = nice_name(cslug, region)
-        if "Nationale" in base_name: level = "National"
+        if "Nationale" in base_name:
+            if level == "Régional" and region and region not in base_name: base_name += f" {region}"
+            level = "National"
         comps = components(get(SITE + path, pause=0.2))
         eq = find(comps, "equipes").get("equipes", [])
         pl = find(comps, "poules").get("poules", [])
@@ -95,7 +97,8 @@ def collect(D, Z, W, report):
             zones = {t: (None if z == "grandest" else z) for t, z in zones.items()}
             if not any(zones.values()): continue
             multi = len(pl) > 1
-            name = base_name + (f" · {p['libelle'].title()}" if multi else "")
+            mp = re.search(r"POULE\s*([A-Z0-9]+)", (p.get("libelle") or "").upper())
+            name = base_name + ((f" · Poule {mp.group(1)}" if mp else f" · {p['libelle'].title()}") if multi else "")
             url = f"{SITE}{path}poule-{p['ext_pouleId']}/"
             first = components(get(url, pause=0.2))
             rc = find(first, "rencontres"); cl = find(first, "classements")
