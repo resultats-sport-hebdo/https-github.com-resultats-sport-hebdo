@@ -5,7 +5,7 @@ on:
     - cron: '59 22 * * 5'  # vendredi 23h59 (heure d'hiver de Paris)
     - cron: '59 22 * * 6'  # samedi 23h59
     - cron: '0 20 * * 0'   # dimanche 21h
-    - cron: '0 5 * * 1'    # lundi 6h, avant la tâche de 6h42
+    - cron: '0 4 * * 1'    # lundi 5h, bien avant la tâche de 6h42 (GitHub retarde parfois ses passages)
   workflow_dispatch:
     inputs:
       dry_run:

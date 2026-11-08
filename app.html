@@ -477,7 +477,7 @@ function start(DATA){
       .sort((a,b)=>a.rank-b.rank||a.f.localeCompare(b.f,'fr'));
   }
   // ——— standings (DATA.classements: {sport, key, level, div?, genre?, maj, url, rows:[{r,team,pts,j}]}) ———
-  const CL=(DATA.classements||[]);
+  const CL=(DATA.classements||[]).filter(t=>t.rows&&t.rows.length); // un classement vide ne s'affiche pas
   // where no standings are stored yet: the federation's competitions site of the sport
   const FED={'Football':'https://www.sportcorico.com/championnats-par-region/football/grand-est','Basket':'https://competitions.ffbb.com/','Handball':'https://www.ffhandball.fr/','Volley':'https://www.ffvbbeach.org/','Rugby':'https://competitions.ffr.fr/','Futsal':'https://www.sportcorico.com/championnats-par-region/football/grand-est','Hockey sur glace':'https://www.hockeyfrance.com/','Roller hockey':'https://ffroller-skateboard.fr/','Water-polo':'https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=111'};
   const clFor=(sport,key)=>CL.find(c=>c.sport===sport&&keyOf(c.key)===key);
