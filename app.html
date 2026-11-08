@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title id="t-title">Résultats Sport Hebdo – sports collectifs dans la Marne, les Ardennes, l'Aube, la Haute-Marne et l'Aisne</title>
-<meta id="m-desc" name="description" content="Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine, du national au régional, en Marne, Ardennes, Aube, Haute-Marne et Aisne.">
+<meta id="m-desc" name="description" content="Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine, du national au régional, en Marne - Ardennes - Aube - Haute-Marne - Aisne.">
 <meta name="theme-color" content="#12233d">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Résultats Sport Hebdo">
 <meta id="og-title" property="og:title" content="Résultats Sport Hebdo">
-<meta id="og-desc" property="og:description" content="Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine, en Marne, Ardennes, Aube, Haute-Marne et Aisne.">
+<meta id="og-desc" property="og:description" content="Chaque lundi matin : les résultats des sports collectifs du week-end et le programme de la semaine, en Marne - Ardennes - Aube - Haute-Marne - Aisne.">
 <meta id="og-url" property="og:url" content="https://resultats-sport-hebdo.netlify.app/">
 <meta property="og:image" content="https://resultats-sport-hebdo.netlify.app/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
@@ -360,7 +360,7 @@ footer a{color:var(--muted)}
 
 <script id="t-datajs" src="data.js"></script>
 <script id="app">
-const DEPS='Marne - Ardennes - Aube - Haute-Marne et Aisne';
+const DEPS='Marne - Ardennes - Aube - Haute-Marne - Aisne';
 (window.RSH_DATA ? Promise.resolve(window.RSH_DATA) : fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})).then(d=>{ try{ start(d); }catch(e){ console.error(e); rshFail(e); } }).catch(()=>{
   document.getElementById('main').innerHTML='<div class="empty">Les résultats n\'ont pas pu être chargés. Recharge la page dans un instant.</div>';
 });
@@ -671,7 +671,7 @@ function start(DATA){
   }
   function seo(res,fx){
     const s=route.sport, lab=cur?cur.label:'';
-    const zonesTxt='Marne, Ardennes, Aube, Haute-Marne et Aisne';
+    const zonesTxt='Marne - Ardennes - Aube - Haute-Marne - Aisne';
     const title=s?(route.view==='next'?`${s} : les prochains matchs – ${zonesTxt} | Résultats Sport Hebdo`:`Résultats ${s.toLowerCase()} – ${zonesTxt} · ${lab} | Résultats Sport Hebdo`)
       :(route.view==='next'?`Ce week-end : les matchs de nos clubs – ${zonesTxt} | Résultats Sport Hebdo`:`Résultats Sport Hebdo – sports collectifs en ${zonesTxt} · ${lab}`);
     const desc=s?(route.view==='next'?`Jour, heure et lieu des prochains matchs de ${s.toLowerCase()} des clubs de la ${zonesTxt}.`:`Tous les résultats de ${s.toLowerCase()} du week-end (${lab}) des clubs de la ${zonesTxt}, du national au régional, poule par poule.`)
