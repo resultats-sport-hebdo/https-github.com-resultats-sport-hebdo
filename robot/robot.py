@@ -143,7 +143,7 @@ def run(today, dry, only=None):
     report["classements remplacés"] = [c["key"] for c in old_cl if superseded(c)]
     D["classements"] = [c for c in old_cl if not superseded(c)] + new_cl
 
-    scr.enrich(new_res, W, report)  # liens vers sportclub-reims.fr quand l'article existe
+    scr.enrich(E["results"], W, report)  # liens vers sportclub-reims.fr quand l'article existe (résultats du robot et saisis à la main)
     report["édition"] = E.get("id")
     report["fenêtre"] = f"{W.start.date()} → {W.now.date()} / programme jusqu'au {W.end.date()}"
     report["reportés"] = sum(1 for a in E["agenda"] if a.get("report"))

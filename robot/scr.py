@@ -69,7 +69,9 @@ def enrich(results, W, report):
             hit_a = any(f" {t} " in p["text"] for t in ta) if ta else True
             if not (hit_h and hit_a): continue
             in_title = any(f" {t} " in f" {p['title']} " for t in th + ta)
-            rank = 0 if (in_title and not p["recap"]) else (1 if not p["recap"] else 2)
+            # un article de match doit parler de CE match dans son titre (sinon il ne fait que citer d'autres scores)
+            if not p["recap"] and not in_title: continue
+            rank = 0 if not p["recap"] else 2
             if not best or rank < best[0]: best = (rank, p)
         if best:
             if r.get("url") and r["url"] != best[1]["link"]: r["source"] = r["url"]
