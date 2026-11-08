@@ -21,15 +21,15 @@ import argparse, json, re, sys, traceback
 from datetime import datetime, timedelta
 
 from common import MOIS, PARIS, Window, key_of, load_data, save_data, tokens, Zoner
-import footnational, foot, volley, hockey, scr
+import footnational, foot, volley, hockey, handball, scr
 
-READERS = {"footnational": footnational, "foot": foot, "volley": volley, "hockey": hockey}
+READERS = {"footnational": footnational, "foot": foot, "volley": volley, "hockey": hockey, "handball": handball}
 for _name in ("basket", "rugby"):
     try:
         READERS[_name] = __import__(_name)
     except ImportError:
         pass
-OWN_SRC = {"fn", "ldf", "ffvb", "ffbb", "ffr", "ffhg", "ffn"}
+OWN_SRC = {"fn", "ldf", "ffvb", "ffbb", "ffr", "ffhg", "ffn", "ffhb"}
 MOIS_N = {m: i + 1 for i, m in enumerate(MOIS)}
 
 
