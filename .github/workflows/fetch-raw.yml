@@ -11,6 +11,9 @@ on:
       headers:
         description: "En-têtes JSON (développement)"
         default: ""
+      gql:
+        description: "Requête GraphQL Score'n'co (développement)"
+        default: ""
 permissions:
   contents: write
 
@@ -28,7 +31,12 @@ jobs:
         run: python tools/browse.py
         env:
           URLS: ${{ github.event.inputs.urls }}
-      - if: github.event.inputs.browser != 'true'
+      - if: github.event.inputs.gql != ''
+        run: python tools/gql.py
+        env:
+          QUERY: ${{ github.event.inputs.gql }}
+          VARS: ${{ github.event.inputs.headers }}
+      - if: github.event.inputs.browser != 'true' && github.event.inputs.gql == ''
         run: python tools/fetch_raw.py
         env:
           URLS: ${{ github.event.inputs.urls }}
