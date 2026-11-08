@@ -21,15 +21,15 @@ import argparse, json, re, sys, traceback
 from datetime import datetime, timedelta
 
 from common import MOIS, PARIS, Window, key_of, load_data, save_data, tokens, Zoner
-import footnational, foot, volley, scr
+import footnational, foot, volley, hockey, scr
 
-READERS = {"footnational": footnational, "foot": foot, "volley": volley}
+READERS = {"footnational": footnational, "foot": foot, "volley": volley, "hockey": hockey}
 for _name in ("basket", "rugby"):
     try:
         READERS[_name] = __import__(_name)
     except ImportError:
         pass
-OWN_SRC = {"fn", "ldf", "ffvb", "ffbb", "ffr"}
+OWN_SRC = {"fn", "ldf", "ffvb", "ffbb", "ffr", "ffhg", "ffn"}
 MOIS_N = {m: i + 1 for i, m in enumerate(MOIS)}
 
 
@@ -129,7 +129,8 @@ def run(today, dry, only=None):
         if c.get("src") in OWN_SRC or c.get("sport") not in robot_teams or not c.get("rows"): return False
         mine = [tk(x.get("team")) for x in c["rows"]]
         return any(sum(1 for t in mine if t in ts) * 2 >= len(mine) for ts in robot_teams[c["sport"]])
-    old_cl = [c for c in D["classements"] if (c.get("sport"), c.get("key")) not in owned]
+    cl_keys = {(c["sport"], c["key"]) for c in new_cl}  # un classement n'est remplacé que si le robot en fournit un
+    old_cl = [c for c in D["classements"] if (c.get("sport"), c.get("key")) not in cl_keys]
     report["classements remplacés"] = [c["key"] for c in old_cl if superseded(c)]
     D["classements"] = [c for c in old_cl if not superseded(c)] + new_cl
 

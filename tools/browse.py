@@ -21,7 +21,7 @@ with sync_playwright() as p:
         pg = ctx.new_page(); apis = []
         def on_resp(r, apis=apis):
             ct = r.headers.get("content-type", "")
-            if "json" in ct or "/api" in r.url:
+            if "json" in ct or "/api" in r.url or r.request.resource_type in ("xhr", "fetch"):
                 try: body = r.text()
                 except Exception: body = ""
                 apis.append({"url": r.url, "status": r.status, "method": r.request.method, "post": r.request.post_data, "headers": r.request.headers, "len": len(body), "body": body[:200000]})
