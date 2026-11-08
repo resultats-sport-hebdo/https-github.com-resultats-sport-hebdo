@@ -74,7 +74,7 @@ jobs:
           npm i --no-save --no-package-lock playwright@1.63.0
           npx playwright install --with-deps chromium
           node build.js
-          git add -A -- . ':!node_modules'
+          git add -A
           git diff --cached --quiet || git commit --amend --no-edit
       - name: Envoyer
         if: github.event.inputs.dry_run != 'true'
