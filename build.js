@@ -35,10 +35,10 @@ const ROUTES=['',...SPORTS.map(s=>s[0]),'week-end-prochain'];
   fs.writeFileSync(path.join(ROOT,'robots.txt'),`User-agent: *\nAllow: /\nDisallow: /admin.html\n\nSitemap: ${SITE}sitemap.xml\n`);
   const L=[];
   L.push('# Résultats Sport Hebdo','',`> Résultats hebdomadaires des sports collectifs (football, basket, handball, volley, rugby, futsal, hockey, water-polo) des clubs de la Marne (51), des Ardennes (08), de l'Aube (10), de la Haute-Marne (52) et de l'Aisne (02), équipes seniors masculines et féminines, du niveau national au niveau régional, plus le Départemental 1 en football. Mis à jour chaque lundi matin.`,'');
-  L.push('## Pages',''); L.push(`- [Accueil, à la une](${SITE})`); SPORTS.forEach(([sl,n])=>L.push(`- [Résultats ${n.toLowerCase()}](${SITE}${sl}/)`)); L.push(`- [Le week-end prochain : programme des 7 jours suivants](${SITE}week-end-prochain/)`,'');
+  L.push('## Pages',''); L.push(`- [Accueil, à la une](${SITE})`); SPORTS.forEach(([sl,n])=>L.push(`- [Résultats ${n.toLowerCase()}](${SITE}${sl}/)`)); L.push(`- [Ce week-end : les matchs à venir](${SITE}week-end-prochain/)`,'');
   L.push(`## Résultats · ${cur.label||''}`,'');
   SPORTS.forEach(([sl,n])=>{ const rs=(cur.results||[]).filter(r=>r.sport===n); if(!rs.length) return; L.push(`### ${n}`,''); rs.forEach(r=>L.push(`- ${r.date} · ${r.comp} : ${r.home} ${r.sh}–${r.sa} ${r.away}${r.url?` (source : ${r.url})`:''}`)); L.push(''); });
-  const ag=(cur.agenda||[]); if(ag.length){ L.push('## Le week-end prochain',''); ag.forEach(f=>L.push(`- ${f.day} ${f.time||''} · ${f.sport} · ${f.comp} : ${f.home} – ${f.away}${f.place?' ('+f.place+')':''}`)); L.push(''); }
+  const ag=(cur.agenda||[]); if(ag.length){ L.push('## Ce week-end',''); ag.forEach(f=>L.push(`- ${f.day} ${f.time||''} · ${f.sport} · ${f.comp} : ${f.home} – ${f.away}${f.place?' ('+f.place+')':''}`)); L.push(''); }
   const CL=DATA.classements||[]; if(CL.length){ L.push('## Classements',''); CL.forEach(c=>{ L.push(`### ${c.sport} · ${c.key} (${c.maj||''})`,''); c.rows.forEach(x=>L.push(`${x.r}. ${x.team} — ${x.pts} pts, ${x.j} matchs joués`)); L.push(''); }); }
   L.push('## Sources',''); (DATA.sources||[]).forEach(s=>L.push(`- [${s.name}](${s.url})`));
   fs.writeFileSync(path.join(ROOT,'llms.txt'),L.join('\n')+'\n');
