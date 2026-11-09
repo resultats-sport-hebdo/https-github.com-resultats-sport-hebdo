@@ -1,0 +1,27 @@
+{
+  "last_updated": "2026-11-07 10:59",
+  "matches": [
+    {
+      "id": "m1",
+      "sport": "Handball",
+      "league": "Nationale 1 M",
+      "homeTeam": "Beaune Handball",
+      "awayTeam": "AS St Brice",
+      "homeScore": 26,
+      "awayScore": 25,
+      "status": "Terminé",
+      "date": "Samedi 24 Oct."
+    },
+    {
+      "id": "m2",
+      "sport": "Football",
+      "league": "Coupe de France Féminine",
+      "homeTeam": "AS Taissy",
+      "awayTeam": "ESTAC Troyes",
+      "homeScore": 4,
+      "awayScore": 6,
+      "status": "Terminé",
+      "date": "Dimanche 1 Nov."
+    }
+  ]
+}
