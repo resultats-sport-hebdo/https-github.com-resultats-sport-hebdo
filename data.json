@@ -3155,7 +3155,7 @@
   {
    "id": "2026-11-09",
    "label": "Semaine du 2 nov. au 8 nov.",
-   "edito": "",
+   "edito": "Semaine contrastée pour les clubs professionnels, avec les défaites du Champagne Basket face à Évreux (59-89) et du Champagne Basket Féminin à Nice (107-77), tandis que Reims Volley 51 a battu Fréjus au tie-break et que le Stade de Reims Rugby s'est imposé 48-21 contre Saint-Louis. Chez les féminines, Charleville Prix OAM reste invaincu en tête de la Régionale 2 poule A après sa victoire 2-1 chez l'Olympique Rémoise, et les Tigresses du Stade de Reims Rugby ont dominé Lille 52-10 en Fédérale 2.",
    "results": [
     {
      "sport": "Basket",
@@ -7507,6 +7507,116 @@
      "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-6-au-8-novembre-2026/",
      "src": "scr",
      "mid": "scr-20261108-champagnebfb-aulnoyesb"
+    },
+    {
+     "sport": "Handball",
+     "level": "National",
+     "genre": "M",
+     "comp": "Coupe de France fédérale · 2e tour",
+     "date": "Week-end 7–8 nov.",
+     "home": "AS St Brice",
+     "hz": "reims",
+     "away": "Elite Axonaise Handball",
+     "az": "soissons",
+     "sh": 32,
+     "sa": 22,
+     "note": "Saint-Brice menait 16-8 à la pause et se qualifie pour le 3e tour.",
+     "url": "https://www.sportclub-reims.fr/2026/11/st-brice-soffre-un-troisieme-tour-en-coupe-de-france-federale/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R1",
+     "comp": "Régional 1 féminin",
+     "date": "Dim. 8 nov.",
+     "home": "Mulhouse Azzurri US",
+     "hz": null,
+     "away": "St Dizier 2MO",
+     "az": "stdizier",
+     "sh": 2,
+     "sa": 0,
+     "note": "",
+     "url": "https://www.sportcorico.com/clubs/saint-dizier-montier-ornel/sdmo"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "comp": "Régional 2 féminin · Poule C",
+     "date": "Dim. 8 nov.",
+     "home": "St Gilles F.C.",
+     "hz": "troyes",
+     "away": "Vaudoise JS",
+     "az": "troyes",
+     "sh": 1,
+     "sa": 2,
+     "note": "La JS Vaudoise reste invaincue en championnat.",
+     "url": "https://www.sportcorico.com/clubs/js-vaudoise/js-vaudoise-1"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "comp": "Régional 2 féminin · Poule C",
+     "date": "Dim. 8 nov.",
+     "home": "ASM2RA",
+     "hz": "chaumont",
+     "away": "St André Foot",
+     "az": "troyes",
+     "sh": 2,
+     "sa": 1,
+     "note": "",
+     "url": "https://www.sportcorico.com/clubs/as-sarrey-montigny-le-roi/sarrey-montigny-1"
+    },
+    {
+     "sport": "Football",
+     "level": "National",
+     "genre": "F",
+     "div": "National",
+     "comp": "D3 féminine · Groupe B · J6",
+     "date": "Dim. 8 nov.",
+     "home": "ESTAC Troyes féminines",
+     "hz": "troyes",
+     "away": "Montauban",
+     "az": null,
+     "sh": 0,
+     "sa": 3,
+     "note": "",
+     "url": "https://www.statsfootofeminin.fr/equipe.php?equipe=211&id=774"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "comp": "Régional 2 féminin Hauts-de-France · Poule A",
+     "date": "Dim. 8 nov.",
+     "home": "GPT Féminin BCV Laon",
+     "hz": "laon",
+     "away": "Vermelles US",
+     "az": null,
+     "sh": 4,
+     "sa": 0,
+     "note": "",
+     "url": "https://www.sportcorico.com/clubs/groupement-feminin-bcv-laon/gpt-feminin-bcv-laon-12"
+    },
+    {
+     "sport": "Rugby",
+     "level": "Régional",
+     "genre": "M",
+     "comp": "Régionale 2 Grand Est · Poule 3 · J5",
+     "date": "Dim. 8 nov.",
+     "home": "CO Châlonnais",
+     "hz": "chalons",
+     "away": "Ovalie Club du Bassin Toulois",
+     "az": null,
+     "sh": 47,
+     "sa": 13,
+     "note": "",
+     "url": "https://rugbyamateur.fr/grand-est-programme-7-8-novembre-2026/"
     }
    ],
    "agenda": [
@@ -10442,6 +10552,328 @@
      "day": "Ven. 13 nov.",
      "time": "20:00",
      "place": "Guinguette Arena · Charleville-Mézières"
+    },
+    {
+     "sport": "Basket",
+     "level": "National",
+     "day": "Ven. 13 nov.",
+     "time": "20:30",
+     "home": "Fos-sur-Mer",
+     "hz": null,
+     "away": "Champagne Basket",
+     "az": "reims",
+     "comp": "Élite 2 · J9",
+     "place": "Fos-sur-Mer",
+     "url": "https://www.sportclub-reims.fr/2026/11/le-champagne-basket-chute-severement-contre-evreux/"
+    },
+    {
+     "sport": "Futsal",
+     "level": "National",
+     "day": "Sam. 14 nov.",
+     "time": "16:00",
+     "home": "Reims Métropole Futsal",
+     "hz": "reims",
+     "away": "Béthune Essars Futsal",
+     "az": null,
+     "comp": "D2 Futsal · Poule A",
+     "place": "Reims",
+     "url": "https://www.sportcorico.com/clubs/reims-metropole-futsal/reims-metropole"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "day": "Mer. 11 nov.",
+     "time": "10:00",
+     "home": "Le Chesne US",
+     "hz": "charleville",
+     "away": "Charleville Prix OAM (féminines)",
+     "az": "charleville",
+     "comp": "Coupe féminine · 1er tour",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/as-de-prix-les-mezieres/charleville-prix-oam-3"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R1",
+     "day": "Mer. 11 nov.",
+     "time": "14:30",
+     "home": "St Dizier 2MO",
+     "hz": "stdizier",
+     "away": "Schiltigheim SC",
+     "az": null,
+     "comp": "Régional 1 féminin",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/saint-dizier-montier-ornel/sdmo"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Mer. 11 nov.",
+     "time": "14:30",
+     "home": "Sedan Ardennes CS (féminines)",
+     "hz": "charleville",
+     "away": "Gueux AS",
+     "az": "reims",
+     "comp": "Régional 2 féminin · Poule A",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/cs-sedan-ardennes/cs-sedan-ardennes"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R1",
+     "day": "Dim. 15 nov.",
+     "time": "14:30",
+     "home": "Magny RS",
+     "hz": null,
+     "away": "Stade de Reims féminines",
+     "az": "reims",
+     "comp": "Régional 1 féminin",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/stade-de-reims/stade-de-reims-2"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R1",
+     "day": "Dim. 15 nov.",
+     "time": "14:30",
+     "home": "St Dizier 2MO",
+     "hz": "stdizier",
+     "away": "Colmar SR FA",
+     "az": null,
+     "comp": "Régional 1 féminin",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/saint-dizier-montier-ornel/sdmo"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Dim. 15 nov.",
+     "time": "10:00",
+     "home": "Flize US",
+     "hz": "charleville",
+     "away": "Olympique Rémoise",
+     "az": "reims",
+     "comp": "Régional 2 féminin · Poule A",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/us-flize/flize-us-18"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Dim. 15 nov.",
+     "time": "10:00",
+     "home": "Gueux AS",
+     "hz": "reims",
+     "away": "Bétheny FC (féminines)",
+     "az": "reims",
+     "comp": "Régional 2 féminin · Poule A",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/a-s-gueux-football/gueux-football-as-1"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Dim. 15 nov.",
+     "time": "14:30",
+     "home": "Charleville Prix OAM (féminines)",
+     "hz": "charleville",
+     "away": "Sedan Ardennes CS (féminines)",
+     "az": "charleville",
+     "comp": "Régional 2 féminin · Poule A",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/as-de-prix-les-mezieres/charleville-prix-oam-3"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Dim. 15 nov.",
+     "time": "14:30",
+     "home": "Reims Bezannes Féminin",
+     "hz": "reims",
+     "away": "St Memmie O.",
+     "az": "chalons",
+     "comp": "Régional 2 féminin · Poule B",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/reims-bezannes-feminin-45/rbf"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Dim. 15 nov.",
+     "time": "10:30",
+     "home": "St Gilles F.C.",
+     "hz": "troyes",
+     "away": "Romilly Champagne FC (féminines)",
+     "az": "romilly",
+     "comp": "Régional 2 féminin · Poule C · J8",
+     "place": "",
+     "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-c"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Dim. 15 nov.",
+     "time": "14:30",
+     "home": "Vaudoise JS",
+     "hz": "troyes",
+     "away": "St André Foot",
+     "az": "troyes",
+     "comp": "Régional 2 féminin · Poule C · J8",
+     "place": "",
+     "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-c"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "day": "Dim. 15 nov.",
+     "time": "14:30",
+     "home": "Pont Ste Maxence US",
+     "hz": null,
+     "away": "GPT Féminin BCV Laon",
+     "az": "laon",
+     "comp": "Régional 2 féminin Hauts-de-France · Poule A",
+     "place": "",
+     "url": "https://www.sportcorico.com/clubs/groupement-feminin-bcv-laon/gpt-feminin-bcv-laon-12"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "day": "Ven. 13 nov.",
+     "time": "20:00",
+     "home": "Neuvillette Jamin",
+     "hz": "reims",
+     "away": "Valenciennes FC",
+     "az": null,
+     "comp": "Coupe de France · 7e tour",
+     "place": "",
+     "url": "https://news.footeo.com/2026/11/07/coupe-de-france-asse-nantes-reims-le-programme-complet-du-7e-tour-avec-les-dates-et-horaires-17127"
+    },
+    {
+     "sport": "Football",
+     "level": "National",
+     "day": "Sam. 14 nov.",
+     "time": "14:00",
+     "home": "Tourcoing US",
+     "hz": null,
+     "away": "Stade de Reims",
+     "az": "reims",
+     "comp": "Coupe de France · 7e tour",
+     "place": "",
+     "url": "https://news.footeo.com/2026/11/07/coupe-de-france-asse-nantes-reims-le-programme-complet-du-7e-tour-avec-les-dates-et-horaires-17127"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "day": "Sam. 14 nov.",
+     "time": "19:00",
+     "home": "Chauny US",
+     "hz": "laon",
+     "away": "Pays du Valois US",
+     "az": null,
+     "comp": "Coupe de France · 7e tour",
+     "place": "",
+     "url": "https://news.footeo.com/2026/11/07/coupe-de-france-asse-nantes-reims-le-programme-complet-du-7e-tour-avec-les-dates-et-horaires-17127"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "day": "Dim. 15 nov.",
+     "time": "14:00",
+     "home": "Sedan Ardennes CS",
+     "hz": "charleville",
+     "away": "Bourges FC",
+     "az": null,
+     "comp": "Coupe de France · 7e tour",
+     "place": "",
+     "url": "https://news.footeo.com/2026/11/07/coupe-de-france-asse-nantes-reims-le-programme-complet-du-7e-tour-avec-les-dates-et-horaires-17127"
+    },
+    {
+     "sport": "Football",
+     "level": "National",
+     "day": "Dim. 15 nov.",
+     "time": "14:00",
+     "home": "Charleville Prix OAM",
+     "hz": "charleville",
+     "away": "Marcq-en-Barœul",
+     "az": null,
+     "comp": "Coupe de France · 7e tour",
+     "place": "",
+     "url": "https://news.footeo.com/2026/11/07/coupe-de-france-asse-nantes-reims-le-programme-complet-du-7e-tour-avec-les-dates-et-horaires-17127"
+    },
+    {
+     "sport": "Water-polo",
+     "level": "Régional",
+     "day": "Sam. 14 nov.",
+     "time": "19:00",
+     "home": "SR Colmar",
+     "hz": null,
+     "away": "Stade de Reims Natation",
+     "az": "reims",
+     "comp": "Nationale 3 Grand Est · J1",
+     "place": "",
+     "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=111"
+    },
+    {
+     "sport": "Water-polo",
+     "level": "Régional",
+     "day": "Sam. 14 nov.",
+     "time": "20:00",
+     "home": "Olympique Grande-Synthe",
+     "hz": null,
+     "away": "FC Laon Water-Polo",
+     "az": "laon",
+     "comp": "Coupe de la Fédération Hauts-de-France · J1",
+     "place": "",
+     "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?structure=324&action=structure"
+    },
+    {
+     "sport": "Water-polo",
+     "level": "Régional",
+     "day": "Dim. 15 nov.",
+     "time": "13:00",
+     "home": "Douaisis Agglo Water-Polo",
+     "hz": null,
+     "away": "St-Quentin Natation",
+     "az": "stquentin",
+     "comp": "Nationale 3 Hauts-de-France · Poule B · J7",
+     "place": "",
+     "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=223"
+    },
+    {
+     "sport": "Water-polo",
+     "level": "Régional",
+     "day": "Dim. 15 nov.",
+     "time": "13:30",
+     "home": "Quiévrechain-Denain",
+     "hz": null,
+     "away": "Water-Polo Épernay-Champagne",
+     "az": "epernay",
+     "comp": "Nationale 3 Hauts-de-France · Poule A · J2",
+     "place": "",
+     "url": "https://www.extranat.fr/waterpolo/cgi-bin/wp_calendar.php?action=structure&structure=96"
     }
    ],
    "enCours": false
@@ -16848,6 +17280,30 @@
   {
    "name": "Score'n'co – roller hockey (Rethel, Épernay, Troyes, Reims)",
    "url": "https://scorenco.com/roller-hockey/clubs/roller-hockey-rethel-ardennes-38sg/1-5cv5"
+  },
+  {
+   "name": "SportCorico – R2 féminin Grand Est",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-a"
+  },
+  {
+   "name": "statsfootofeminin.fr – D3 féminine",
+   "url": "https://www.statsfootofeminin.fr/d3.php"
+  },
+  {
+   "name": "Footeo – Coupe de France 7e tour",
+   "url": "https://news.footeo.com/2026/11/07/coupe-de-france-asse-nantes-reims-le-programme-complet-du-7e-tour-avec-les-dates-et-horaires-17127"
+  },
+  {
+   "name": "Extranat – water-polo",
+   "url": "https://www.extranat.fr/waterpolo/"
+  },
+  {
+   "name": "Rugby Amateur – Fédérale 3",
+   "url": "https://rugbyamateur.fr/federales/federale-3/classement/"
+  },
+  {
+   "name": "Hockey France – classement D2",
+   "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/?phase=728"
   }
  ],
  "classements": [
@@ -17119,14 +17575,6 @@
   {
    "sport": "Rugby",
    "level": "National",
-   "key": "Fédérale 3",
-   "maj": "",
-   "url": "https://competitions.ffr.fr/",
-   "rows": []
-  },
-  {
-   "sport": "Rugby",
-   "level": "National",
    "key": "Excellence B",
    "maj": "",
    "url": "https://competitions.ffr.fr/",
@@ -17157,20 +17605,6 @@
     {
      "team": "Rapaces de Reims",
      "txt": "7e, 5 pts"
-    }
-   ]
-  },
-  {
-   "sport": "Hockey sur glace",
-   "level": "National",
-   "key": "Division 2",
-   "maj": "relevé le 6 nov. sur Sport Club Reims",
-   "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728",
-   "rows": [],
-   "pos": [
-    {
-     "team": "Phénix de Reims",
-     "txt": "4e, 10 pts"
     }
    ]
   },
@@ -17415,71 +17849,6 @@
      "diff": "-19"
     }
    ]
-  },
-  {
-   "sport": "Football",
-   "level": "Régional",
-   "div": "R2",
-   "genre": "F",
-   "key": "Régional 2 féminin · Poule A",
-   "maj": "7 nov. 2026",
-   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-a",
-   "rows": [
-    {
-     "r": 1,
-     "team": "Charleville Prix OAM",
-     "pts": 18,
-     "j": 6
-    },
-    {
-     "r": 2,
-     "team": "Olympique Rémoise",
-     "pts": 13,
-     "j": 6
-    },
-    {
-     "r": 3,
-     "team": "Sedan Ardennes CS",
-     "pts": 7,
-     "j": 5
-    },
-    {
-     "r": 4,
-     "team": "Flize US",
-     "pts": 6,
-     "j": 5
-    },
-    {
-     "r": 5,
-     "team": "Bétheny FC",
-     "pts": 2,
-     "j": 6
-    },
-    {
-     "r": 6,
-     "team": "Gueux AS",
-     "pts": 0,
-     "j": 4
-    }
-   ]
-  },
-  {
-   "sport": "Football",
-   "level": "Régional",
-   "div": "R2",
-   "key": "Régional 2 féminin · Poule B",
-   "maj": "",
-   "url": "https://www.sportcorico.com/championnats-par-region/football/grand-est",
-   "rows": []
-  },
-  {
-   "sport": "Football",
-   "level": "Régional",
-   "div": "R2",
-   "key": "Régional 2 féminin · Poule C",
-   "maj": "",
-   "url": "https://www.sportcorico.com/championnats-par-region/football/grand-est",
-   "rows": []
   },
   {
    "sport": "Handball",
@@ -26773,6 +27142,1017 @@
     }
    ],
    "src": "ffbb"
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R1",
+   "genre": "F",
+   "key": "Régional 1 féminin",
+   "maj": "relevé le 9 nov. sur SportCorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-1-feminine-idverde/phase-lgef/poule-unique",
+   "rows": [
+    {
+     "r": 1,
+     "team": "FC Vendenheim",
+     "pts": 18,
+     "j": 6,
+     "g": 6,
+     "n": 0,
+     "p": 0,
+     "bp": 25,
+     "bc": 2,
+     "diff": "+23"
+    },
+    {
+     "r": 2,
+     "team": "US Azzurri Mulhouse",
+     "pts": 16,
+     "j": 7,
+     "g": 5,
+     "n": 1,
+     "p": 1,
+     "bp": 16,
+     "bc": 6,
+     "diff": "+10"
+    },
+    {
+     "r": 3,
+     "team": "RC Strasbourg Alsace 2",
+     "pts": 13,
+     "j": 6,
+     "g": 4,
+     "n": 1,
+     "p": 1,
+     "bp": 16,
+     "bc": 3,
+     "diff": "+13"
+    },
+    {
+     "r": 4,
+     "team": "AS Nancy Lorraine",
+     "pts": 12,
+     "j": 7,
+     "g": 3,
+     "n": 3,
+     "p": 1,
+     "bp": 15,
+     "bc": 12,
+     "diff": "+3"
+    },
+    {
+     "r": 5,
+     "team": "Stadium Racing Colmar FA",
+     "pts": 12,
+     "j": 6,
+     "g": 4,
+     "n": 0,
+     "p": 2,
+     "bp": 24,
+     "bc": 8,
+     "diff": "+16"
+    },
+    {
+     "r": 6,
+     "team": "CS Orne Amnéville",
+     "pts": 12,
+     "j": 6,
+     "g": 4,
+     "n": 0,
+     "p": 2,
+     "bp": 21,
+     "bc": 3,
+     "diff": "+18"
+    },
+    {
+     "r": 7,
+     "team": "St Dizier 2MO",
+     "pts": 8,
+     "j": 6,
+     "g": 2,
+     "n": 2,
+     "p": 2,
+     "bp": 10,
+     "bc": 16,
+     "diff": "-6"
+    },
+    {
+     "r": 8,
+     "team": "Renaissance S. Magny",
+     "pts": 3,
+     "j": 7,
+     "g": 1,
+     "n": 0,
+     "p": 6,
+     "bp": 7,
+     "bc": 21,
+     "diff": "-14"
+    },
+    {
+     "r": 9,
+     "team": "Stade de Reims féminines",
+     "pts": 3,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 3,
+     "bc": 28,
+     "diff": "-25"
+    },
+    {
+     "r": 10,
+     "team": "FCSR Haguenau",
+     "pts": 1,
+     "j": 6,
+     "g": 0,
+     "n": 1,
+     "p": 5,
+     "bp": 5,
+     "bc": 23,
+     "diff": "-18"
+    },
+    {
+     "r": 11,
+     "team": "SC Schiltigheim",
+     "pts": 0,
+     "j": 5,
+     "g": 0,
+     "n": 0,
+     "p": 5,
+     "bp": 2,
+     "bc": 22,
+     "diff": "-20"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F",
+   "key": "Régional 2 féminin · Poule A",
+   "maj": "relevé le 9 nov. sur SportCorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-a",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Charleville Prix OAM (féminines)",
+     "pts": 21,
+     "j": 7,
+     "g": 7,
+     "n": 0,
+     "p": 0,
+     "bp": 39,
+     "bc": 4,
+     "diff": "+35"
+    },
+    {
+     "r": 2,
+     "team": "Olympique Rémoise",
+     "pts": 13,
+     "j": 7,
+     "g": 4,
+     "n": 1,
+     "p": 2,
+     "bp": 19,
+     "bc": 12,
+     "diff": "+7"
+    },
+    {
+     "r": 3,
+     "team": "Flize US",
+     "pts": 9,
+     "j": 6,
+     "g": 3,
+     "n": 0,
+     "p": 3,
+     "bp": 20,
+     "bc": 8,
+     "diff": "+12"
+    },
+    {
+     "r": 4,
+     "team": "Sedan Ardennes CS (féminines)",
+     "pts": 7,
+     "j": 5,
+     "g": 2,
+     "n": 1,
+     "p": 2,
+     "bp": 6,
+     "bc": 12,
+     "diff": "-6"
+    },
+    {
+     "r": 5,
+     "team": "Bétheny FC (féminines)",
+     "pts": 2,
+     "j": 7,
+     "g": 1,
+     "n": 0,
+     "p": 6,
+     "bp": 3,
+     "bc": 25,
+     "diff": "-22"
+    },
+    {
+     "r": 6,
+     "team": "Gueux AS",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "n": 0,
+     "p": 4,
+     "bp": 0,
+     "bc": 26,
+     "diff": "-26"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F",
+   "key": "Régional 2 féminin · Poule B",
+   "maj": "relevé le 9 nov. sur SportCorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-b",
+   "rows": [
+    {
+     "r": 1,
+     "team": "AS Taissy (féminines)",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "n": 0,
+     "p": 0,
+     "bp": 15,
+     "bc": 2,
+     "diff": "+13"
+    },
+    {
+     "r": 2,
+     "team": "Reims Bezannes Féminin",
+     "pts": 6,
+     "j": 2,
+     "g": 2,
+     "n": 0,
+     "p": 0,
+     "bp": 12,
+     "bc": 1,
+     "diff": "+11"
+    },
+    {
+     "r": 3,
+     "team": "St Memmie O.",
+     "pts": 6,
+     "j": 4,
+     "g": 2,
+     "n": 0,
+     "p": 2,
+     "bp": 15,
+     "bc": 8,
+     "diff": "+7"
+    },
+    {
+     "r": 4,
+     "team": "St Dizier 2MO 2",
+     "pts": 0,
+     "j": 4,
+     "g": 0,
+     "n": 0,
+     "p": 4,
+     "bp": 5,
+     "bc": 36,
+     "diff": "-31"
+    },
+    {
+     "r": 5,
+     "team": "Neuvillette Jamin (féminines)",
+     "pts": 0,
+     "j": 0,
+     "g": 0,
+     "n": 0,
+     "p": 0,
+     "bp": 0,
+     "bc": 0,
+     "diff": "0"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "Régional",
+   "div": "R2",
+   "genre": "F",
+   "key": "Régional 2 féminin · Poule C",
+   "maj": "relevé le 9 nov. sur SportCorico",
+   "url": "https://www.sportcorico.com/championnat/grand-est-regional-2-fem-escates-centre-ouest/phase-lgef/poule-c",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Vaudoise JS",
+     "pts": 18,
+     "j": 6,
+     "g": 6,
+     "n": 0,
+     "p": 0,
+     "bp": 27,
+     "bc": 2,
+     "diff": "+25"
+    },
+    {
+     "r": 2,
+     "team": "Romilly Champagne FC (féminines)",
+     "pts": 9,
+     "j": 5,
+     "g": 3,
+     "n": 0,
+     "p": 2,
+     "bp": 9,
+     "bc": 9,
+     "diff": "0"
+    },
+    {
+     "r": 3,
+     "team": "ASM2RA",
+     "pts": 5,
+     "j": 6,
+     "g": 1,
+     "n": 2,
+     "p": 3,
+     "bp": 6,
+     "bc": 16,
+     "diff": "-10"
+    },
+    {
+     "r": 4,
+     "team": "St Gilles F.C.",
+     "pts": 4,
+     "j": 5,
+     "g": 1,
+     "n": 1,
+     "p": 3,
+     "bp": 3,
+     "bc": 10,
+     "diff": "-7"
+    },
+    {
+     "r": 5,
+     "team": "St André Foot",
+     "pts": 3,
+     "j": 6,
+     "g": 1,
+     "n": 1,
+     "p": 4,
+     "bp": 10,
+     "bc": 18,
+     "diff": "-8"
+    },
+    {
+     "r": 6,
+     "team": "Chapelains RCS (féminines)",
+     "pts": 0,
+     "j": 0,
+     "g": 0,
+     "n": 0,
+     "p": 0,
+     "bp": 0,
+     "bc": 0,
+     "diff": "0"
+    }
+   ]
+  },
+  {
+   "sport": "Football",
+   "level": "National",
+   "div": "National",
+   "genre": "F",
+   "key": "D3 féminine · Groupe B",
+   "maj": "relevé le 9 nov. sur statsfootofeminin.fr (après 6 journées)",
+   "url": "https://www.statsfootofeminin.fr/d3.php",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Lyon B",
+     "pts": 15,
+     "j": 6,
+     "g": 5,
+     "n": 0,
+     "p": 1,
+     "bp": 26,
+     "bc": 7,
+     "diff": "+19"
+    },
+    {
+     "r": 2,
+     "team": "Rodez",
+     "pts": 13,
+     "j": 6,
+     "g": 4,
+     "n": 1,
+     "p": 1,
+     "bp": 14,
+     "bc": 6,
+     "diff": "+8"
+    },
+    {
+     "r": 3,
+     "team": "Clermont",
+     "pts": 13,
+     "j": 6,
+     "g": 4,
+     "n": 1,
+     "p": 1,
+     "bp": 12,
+     "bc": 5,
+     "diff": "+7"
+    },
+    {
+     "r": 4,
+     "team": "Montauban",
+     "pts": 11,
+     "j": 6,
+     "g": 3,
+     "n": 2,
+     "p": 1,
+     "bp": 15,
+     "bc": 4,
+     "diff": "+11"
+    },
+    {
+     "r": 5,
+     "team": "Albi Marssac",
+     "pts": 11,
+     "j": 6,
+     "g": 3,
+     "n": 2,
+     "p": 1,
+     "bp": 15,
+     "bc": 8,
+     "diff": "+7"
+    },
+    {
+     "r": 6,
+     "team": "Le Puy",
+     "pts": 9,
+     "j": 6,
+     "g": 3,
+     "n": 0,
+     "p": 3,
+     "bp": 6,
+     "bc": 14,
+     "diff": "-8"
+    },
+    {
+     "r": 7,
+     "team": "Montpellier B",
+     "pts": 9,
+     "j": 6,
+     "g": 2,
+     "n": 3,
+     "p": 1,
+     "bp": 12,
+     "bc": 6,
+     "diff": "+6"
+    },
+    {
+     "r": 8,
+     "team": "Marseille B",
+     "pts": 8,
+     "j": 6,
+     "g": 2,
+     "n": 2,
+     "p": 2,
+     "bp": 8,
+     "bc": 8,
+     "diff": "0"
+    },
+    {
+     "r": 9,
+     "team": "Bordeaux",
+     "pts": 7,
+     "j": 6,
+     "g": 2,
+     "n": 1,
+     "p": 3,
+     "bp": 8,
+     "bc": 14,
+     "diff": "-6"
+    },
+    {
+     "r": 10,
+     "team": "ESTAC Troyes féminines",
+     "pts": 2,
+     "j": 6,
+     "g": 0,
+     "n": 2,
+     "p": 4,
+     "bp": 5,
+     "bc": 14,
+     "diff": "-9"
+    },
+    {
+     "r": 11,
+     "team": "Rousset",
+     "pts": 1,
+     "j": 6,
+     "g": 0,
+     "n": 1,
+     "p": 5,
+     "bp": 6,
+     "bc": 23,
+     "diff": "-17"
+    },
+    {
+     "r": 12,
+     "team": "Longvic",
+     "pts": 1,
+     "j": 6,
+     "g": 0,
+     "n": 1,
+     "p": 5,
+     "bp": 4,
+     "bc": 22,
+     "diff": "-18"
+    }
+   ]
+  },
+  {
+   "sport": "Rugby",
+   "level": "National",
+   "key": "Fédérale 3 · Poule 2",
+   "maj": "relevé le 9 nov. sur Rugby Amateur (après la J6)",
+   "url": "https://rugbyamateur.fr/federales/federale-3/classement/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "RC Metz Moselle",
+     "pts": 30,
+     "j": 6,
+     "g": 6,
+     "n": 0,
+     "p": 0,
+     "bp": 365,
+     "bc": 103,
+     "diff": "+262"
+    },
+    {
+     "r": 2,
+     "team": "Gretz Tournan Ozoir Rugby Centre 77",
+     "pts": 28,
+     "j": 6,
+     "g": 6,
+     "n": 0,
+     "p": 0,
+     "bp": 233,
+     "bc": 100,
+     "diff": "+133"
+    },
+    {
+     "r": 3,
+     "team": "Stade Pontellois",
+     "pts": 21,
+     "j": 6,
+     "g": 5,
+     "n": 0,
+     "p": 1,
+     "bp": 181,
+     "bc": 153,
+     "diff": "+28"
+    },
+    {
+     "r": 4,
+     "team": "Rugby Club Sucy",
+     "pts": 17,
+     "j": 6,
+     "g": 3,
+     "n": 1,
+     "p": 2,
+     "bp": 188,
+     "bc": 135,
+     "diff": "+53"
+    },
+    {
+     "r": 5,
+     "team": "Rugby Club Haguenau",
+     "pts": 11,
+     "j": 6,
+     "g": 2,
+     "n": 0,
+     "p": 4,
+     "bp": 160,
+     "bc": 166,
+     "diff": "-6"
+    },
+    {
+     "r": 6,
+     "team": "Rugby Épernay Champagne",
+     "pts": 10,
+     "j": 6,
+     "g": 2,
+     "n": 0,
+     "p": 4,
+     "bp": 157,
+     "bc": 163,
+     "diff": "-6"
+    },
+    {
+     "r": 7,
+     "team": "Ovalie Club du Bassin Toulois",
+     "pts": 10,
+     "j": 6,
+     "g": 2,
+     "n": 0,
+     "p": 4,
+     "bp": 140,
+     "bc": 196,
+     "diff": "-56"
+    },
+    {
+     "r": 8,
+     "team": "Rugby Melun Combs Senart 77",
+     "pts": 6,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 136,
+     "bc": 199,
+     "diff": "-63"
+    },
+    {
+     "r": 9,
+     "team": "RC Pont-à-Mousson",
+     "pts": 4,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 109,
+     "bc": 315,
+     "diff": "-206"
+    },
+    {
+     "r": 10,
+     "team": "Strasbourg Alsace Rugby",
+     "pts": 3,
+     "j": 6,
+     "g": 1,
+     "n": 1,
+     "p": 4,
+     "bp": 102,
+     "bc": 241,
+     "diff": "-139"
+    }
+   ]
+  },
+  {
+   "sport": "Rugby",
+   "level": "Régional",
+   "key": "Régionale 1 Hauts-de-France",
+   "maj": "relevé le 9 nov. sur Rugby Amateur (après la J4)",
+   "url": "https://rugbyamateur.fr/regionales/hauts-de-france/regionale-1/classement/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "C. Léo Lagrange Armentières",
+     "pts": 18,
+     "j": 4,
+     "g": 4,
+     "n": 0,
+     "p": 0,
+     "bp": 150,
+     "bc": 95,
+     "diff": "+55"
+    },
+    {
+     "r": 2,
+     "team": "Amical Club de Soissons",
+     "pts": 14,
+     "j": 4,
+     "g": 3,
+     "n": 0,
+     "p": 1,
+     "bp": 149,
+     "bc": 94,
+     "diff": "+55"
+    },
+    {
+     "r": 3,
+     "team": "RC Compiègnois",
+     "pts": 13,
+     "j": 4,
+     "g": 3,
+     "n": 0,
+     "p": 1,
+     "bp": 122,
+     "bc": 97,
+     "diff": "+25"
+    },
+    {
+     "r": 4,
+     "team": "RC Béthunois",
+     "pts": 10,
+     "j": 4,
+     "g": 2,
+     "n": 0,
+     "p": 2,
+     "bp": 141,
+     "bc": 139,
+     "diff": "+2"
+    },
+    {
+     "r": 5,
+     "team": "Stade Villeneuvois Lille Métropole",
+     "pts": 9,
+     "j": 4,
+     "g": 2,
+     "n": 0,
+     "p": 2,
+     "bp": 108,
+     "bc": 127,
+     "diff": "-19"
+    },
+    {
+     "r": 6,
+     "team": "RC Laon",
+     "pts": 6,
+     "j": 4,
+     "g": 1,
+     "n": 0,
+     "p": 3,
+     "bp": 81,
+     "bc": 113,
+     "diff": "-32"
+    },
+    {
+     "r": 7,
+     "team": "Le Touquet Étaples Rugby Club",
+     "pts": 6,
+     "j": 4,
+     "g": 1,
+     "n": 0,
+     "p": 3,
+     "bp": 84,
+     "bc": 125,
+     "diff": "-41"
+    },
+    {
+     "r": 8,
+     "team": "XV Bailleulois",
+     "pts": 1,
+     "j": 4,
+     "g": 0,
+     "n": 0,
+     "p": 4,
+     "bp": 86,
+     "bc": 131,
+     "diff": "-45"
+    }
+   ]
+  },
+  {
+   "sport": "Rugby",
+   "level": "Régional",
+   "key": "Régionale 3 Hauts-de-France",
+   "maj": "relevé le 9 nov. sur Rugby Amateur (après la J6)",
+   "url": "https://rugbyamateur.fr/regionales/hauts-de-france/regionale-3/classement/",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Rugby Club Flandres Littoral Nord",
+     "pts": 30,
+     "j": 6,
+     "g": 6,
+     "n": 0,
+     "p": 0,
+     "bp": 348,
+     "bc": 71,
+     "diff": "+277"
+    },
+    {
+     "r": 2,
+     "team": "Rugby Club Anzinois",
+     "pts": 29,
+     "j": 6,
+     "g": 6,
+     "n": 0,
+     "p": 0,
+     "bp": 308,
+     "bc": 80,
+     "diff": "+228"
+    },
+    {
+     "r": 3,
+     "team": "Montdidier Rugby Club",
+     "pts": 25,
+     "j": 6,
+     "g": 5,
+     "n": 0,
+     "p": 1,
+     "bp": 315,
+     "bc": 102,
+     "diff": "+213"
+    },
+    {
+     "r": 4,
+     "team": "Ass. Anciens Élèves de Leforest",
+     "pts": 18,
+     "j": 6,
+     "g": 4,
+     "n": 0,
+     "p": 2,
+     "bp": 164,
+     "bc": 123,
+     "diff": "+41"
+    },
+    {
+     "r": 5,
+     "team": "Rugby Club Arras",
+     "pts": 16,
+     "j": 5,
+     "g": 3,
+     "n": 1,
+     "p": 1,
+     "bp": 181,
+     "bc": 103,
+     "diff": "+78"
+    },
+    {
+     "r": 6,
+     "team": "RC Noyonnais",
+     "pts": 15,
+     "j": 5,
+     "g": 3,
+     "n": 0,
+     "p": 2,
+     "bp": 185,
+     "bc": 112,
+     "diff": "+73"
+    },
+    {
+     "r": 7,
+     "team": "L'Ovale Racing Club Marquettois",
+     "pts": 12,
+     "j": 6,
+     "g": 3,
+     "n": 1,
+     "p": 2,
+     "bp": 104,
+     "bc": 132,
+     "diff": "-28"
+    },
+    {
+     "r": 8,
+     "team": "RC Amiénois",
+     "pts": 10,
+     "j": 6,
+     "g": 2,
+     "n": 0,
+     "p": 4,
+     "bp": 134,
+     "bc": 181,
+     "diff": "-47"
+    },
+    {
+     "r": 9,
+     "team": "Amical Club de Soissons",
+     "pts": 4,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 146,
+     "bc": 314,
+     "diff": "-168"
+    },
+    {
+     "r": 10,
+     "team": "Rugby Club Lens Liévin",
+     "pts": 4,
+     "j": 6,
+     "g": 1,
+     "n": 0,
+     "p": 5,
+     "bp": 120,
+     "bc": 309,
+     "diff": "-189"
+    },
+    {
+     "r": 11,
+     "team": "Rugby Club Hazebrouck",
+     "pts": 1,
+     "j": 6,
+     "g": 0,
+     "n": 0,
+     "p": 6,
+     "bp": 91,
+     "bc": 301,
+     "diff": "-210"
+    },
+    {
+     "r": 12,
+     "team": "RC Amandinois",
+     "pts": -2,
+     "j": 6,
+     "g": 0,
+     "n": 0,
+     "p": 6,
+     "bp": 49,
+     "bc": 317,
+     "diff": "-268"
+    }
+   ]
+  },
+  {
+   "sport": "Hockey sur glace",
+   "level": "National",
+   "key": "Division 2",
+   "maj": "relevé le 9 nov. sur hockeyfrance.com (poule A)",
+   "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/?phase=728",
+   "rows": [
+    {
+     "r": 1,
+     "team": "Hogly",
+     "pts": 11,
+     "j": 5,
+     "bp": 18,
+     "bc": 12
+    },
+    {
+     "r": 2,
+     "team": "Français Volants",
+     "pts": 10,
+     "j": 5,
+     "bp": 21,
+     "bc": 11
+    },
+    {
+     "r": 3,
+     "team": "Brest",
+     "pts": 10,
+     "j": 5,
+     "bp": 22,
+     "bc": 13
+    },
+    {
+     "r": 4,
+     "team": "Phénix de Reims",
+     "pts": 10,
+     "j": 5,
+     "bp": 17,
+     "bc": 16
+    },
+    {
+     "r": 5,
+     "team": "Évry-Viry",
+     "pts": 9,
+     "j": 4,
+     "bp": 15,
+     "bc": 7
+    },
+    {
+     "r": 6,
+     "team": "Gaulois de Châlons-en-Champagne",
+     "pts": 7,
+     "j": 4,
+     "bp": 11,
+     "bc": 10
+    },
+    {
+     "r": 7,
+     "team": "Orléans",
+     "pts": 5,
+     "j": 5,
+     "bp": 20,
+     "bc": 26
+    },
+    {
+     "r": 8,
+     "team": "Luxembourg",
+     "pts": 4,
+     "j": 5,
+     "bp": 11,
+     "bc": 18
+    },
+    {
+     "r": 9,
+     "team": "Wasquehal",
+     "pts": 3,
+     "j": 4,
+     "bp": 13,
+     "bc": 28
+    },
+    {
+     "r": 10,
+     "team": "Courbevoie",
+     "pts": 0,
+     "j": 4,
+     "bp": 13,
+     "bc": 20
+    }
+   ]
   }
  ]
 }
