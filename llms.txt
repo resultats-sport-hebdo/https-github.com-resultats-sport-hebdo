@@ -136,6 +136,13 @@
 - Dim. 8 nov. · Régional 2 féminin · Poule C : ASM2RA 2–1 St André Foot (source : https://www.sportcorico.com/clubs/as-sarrey-montigny-le-roi/sarrey-montigny-1)
 - Dim. 8 nov. · D3 féminine · Groupe B · J6 : ESTAC Troyes féminines 0–3 Montauban (source : https://www.statsfootofeminin.fr/equipe.php?equipe=211&id=774)
 - Dim. 8 nov. · Régional 2 féminin Hauts-de-France · Poule A : GPT Féminin BCV Laon 4–0 Vermelles US (source : https://www.sportcorico.com/clubs/groupement-feminin-bcv-laon/gpt-feminin-bcv-laon-12)
+- Mer. 11 nov. · National 1 · Poule C · J10 : Fréjus St Raphaël 4–1 ESTAC Troyes 2 (source : https://www.foot-national.com/data/resultat-national1-groupe-c.html)
+- Mer. 11 nov. · Régional 2 · Poule B : Alliance Sud Ouest F. Aubois 0–1 Chaumont FC (source : https://lgef.fff.fr/)
+- Mer. 11 nov. · District 1 Marne : ES Witry-lès-Reims 1–2 AS Gueux (source : https://marne.fff.fr/)
+- Mer. 11 nov. · Départemental 1 Haute-Marne : FC Saints-Geosmes 2 1–1 USIB Vaux-sur-Blaise 2 (source : https://hautemarne.fff.fr/)
+- Mer. 11 nov. · Départemental 1 Aisne : US Belleu 0–2 US Guise (source : https://aisne.fff.fr/)
+- Mer. 11 nov. · Coupe féminine · 1er tour : Le Chesne US 0–3 Charleville Prix OAM (féminines) (source : https://www.sportcorico.com/clubs/as-de-prix-les-mezieres/charleville-prix-oam-3)
+- Mer. 11 nov. · Régional 1 féminin : St Dizier 2MO 2–0 Schiltigheim SC (source : https://lgef.fff.fr/)
 
 ### Basket
 
@@ -319,13 +326,9 @@
 - Sam. 14 nov. 20:00 · Basket · Nationale masculine 3 · Poule G · J10 : MOISSY BASKET CLUB – IE BC SAINT ANDRE LES VERGERS (Gymnase Noyer Perrot · Moissy-Cramayel)
 - Sam. 14 nov. 20:00 · Basket · Nationale masculine 3 · Poule G · J10 : IE BASKET PARIS 14 – GAULOISE DE VITRY LE FRANCOIS (Salle Didot · Paris)
 - Sam. 14 nov. 18:00 · Basket · Betclic Élite · J8 : SASP SAINT QUENTIN BASKET BALL – CHOLET BASKET (Palais Des Sports Pierre Ratte · Saint-Quentin)
-- Dim. 8 nov. 16:15 · Rugby · Fédérale 3 · Poule 2 · J7 : Rugby Epernay Champagne – Rugby Melun Combs Senart 77
-- Dim. 8 nov. 14:30 · Rugby · Excellence B - Championnat de France · Poule 2 · J7 : Rugby Epernay Champagne – Rugby Melun Combs Senart 77
-- Dim. 8 nov. 16:00 · Rugby · Féminines Régionales à X Grand Est · Poule 2 · J4 : Piotes Ovalie – Entente Sud Haute Marne Féminines
 - Sam. 14 nov. 20:00 · Basket · Pré Régionale féminine · Poule A · J4 : ASG Gauchy (féminines) 2 – AAE Bohain (féminines)
 - Sam. 14 nov. 18:00 · Basket · Pré Régionale féminine · Poule A · J4 : FC Belleu Basket Ball (féminines) – Pals Athletic Club Guise (féminines)
 - Sam. 14 nov. 20:00 · Basket · Pré Régionale féminine · Poule A · J4 : Saint-Quentin Basket-Ball (féminines) – Soissons Cuffies Aisne BB (féminines) 2
-- Mer. 11 nov. 17:00 · Football · National 1 · Poule C · J10 : Fréjus St Raphaël – ESTAC Troyes 2
 - Dim. 15 nov. 14:30 · Football · Régional 1 · Poule A : Cormontreuil FC – FC Hettange-Grande
 - Dim. 15 nov. 14:30 · Football · Régional 1 · Poule A : US Thionville Lusitanos 2 – Stade De Reims 2
 - Dim. 15 nov. 14:30 · Football · Régional 1 · Poule A : USAG Uckange – Olympique Charleville Prix AM 2
@@ -336,7 +339,6 @@
 - Dim. 15 nov. 14:30 · Football · Régional 2 · Poule A : Reims FC Christo – Reims Murigny FP
 - Dim. 15 nov. 14:30 · Football · Régional 2 · Poule A : AS Val de l'Aisne – CS Veymerange
 - Dim. 15 nov. 14:30 · Football · Régional 2 · Poule A : Val de l'Orne FC – AS Saint-Brice Courcelles
-- Mer. 11 nov. 14:30 · Football · Régional 2 · Poule B : Alliance Sud Ouest F. Aubois – Chaumont FC
 - Sam. 14 nov. 18:30 · Football · Régional 2 · Poule B : RC Épernay Champagne 2 – FC Nogentais
 - Sam. 14 nov. 19:00 · Football · Régional 2 · Poule B : AS Chartreux – US Avize-Grauves
 - Sam. 14 nov. 20:00 · Football · Régional 2 · Poule B : JS Saint-Julien FC – Bar-le-Duc FC
@@ -367,7 +369,6 @@
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule D : DS Eurville Bienville – AS Sarrey Montigny
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule D : FC Toul – Chaumont FC 2
 - Dim. 15 nov. 14:30 · Football · Régional 3 · Poule D : USIB Vaux-sur-Blaise – FC Saints-Geosmes
-- Mer. 11 nov. 14:30 · Football · District 1 Marne : ES Witry-lès-Reims – AS Gueux
 - Dim. 15 nov. 14:30 · Football · District 1 Marne : US Avize-Grauves 2 – Reims FC Christo 2
 - Dim. 15 nov. 14:30 · Football · District 1 Marne : AS Cernay-Berru-Lavannes – US Oiry
 - Dim. 15 nov. 14:30 · Football · District 1 Marne : FCF La Neuvillette-Jamin 3 – Nord Champagne FC
@@ -386,14 +387,12 @@
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Aube : FC Saint-Méziéry 2 – AS Portugaise des Chartreux
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Aube : US Vendeuvre-Dienville – Rosières OS 2
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Aube : JS Vaudoise – AS Chartreux 2
-- Mer. 11 nov. 14:30 · Football · Départemental 1 Haute-Marne : FC Saints-Geosmes 2 – USIB Vaux-sur-Blaise 2
 - Sam. 14 nov. 19:00 · Football · Départemental 1 Haute-Marne : AS Sarrey Montigny 2 – FC Prez-Bourmont
 - Sam. 14 nov. 19:00 · Football · Départemental 1 Haute-Marne : FC Saints-Geosmes 2 – US Montier-en-Der
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Haute-Marne : ES Andelot Rimaucourt Bourdons – CO Langres
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Haute-Marne : Entente Colombey-Maranville-Rennepont – SR Neuilly-l'Évéque
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Haute-Marne : Marnaval SC 2 – USIB Vaux-sur-Blaise 2
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Haute-Marne : SL de l'Ornel à Chancenay – FC Joinville-Vecqueville
-- Mer. 11 nov. 15:00 · Football · Départemental 1 Aisne : US Belleu – US Guise
 - Jeu. 12 nov. 20:00 · Volley · Ligue AM · J6 : CHAUMONT VB 52 HAUTE-MARNE – SPACER'S TOULOUSE Volley-Ball (Palestra)
 - Sam. 14 nov. 19:00 · Volley · Ligue BM · J6 : CAMBRAI Volley – SAINT-QUENTIN Volley (Jm Vanpoulle)
 - Sam. 14 nov. 19:00 · Volley · Ligue BM · J6 : GRAND NANCY Volley-Ball – REIMS Volley 51 (Nations)
@@ -508,8 +507,6 @@
 - Ven. 13 nov. 20:00 · Basket · Nationale masculine 1 · Poule A · J11 : ETOILE DE CHARLEVILLE MEZIERES – LYONSO BASKET (Guinguette Arena · Charleville-Mézières)
 - Ven. 13 nov. 20:30 · Basket · Élite 2 · J9 : Fos-sur-Mer – Champagne Basket (Fos-sur-Mer)
 - Sam. 14 nov. 16:00 · Futsal · D2 Futsal · Poule A : Reims Métropole Futsal – Béthune Essars Futsal (Reims)
-- Mer. 11 nov. 10:00 · Football · Coupe féminine · 1er tour : Le Chesne US – Charleville Prix OAM (féminines)
-- Mer. 11 nov. 14:30 · Football · Régional 1 féminin : St Dizier 2MO – Schiltigheim SC
 - Mer. 11 nov. 14:30 · Football · Régional 2 féminin · Poule A : Sedan Ardennes CS (féminines) – Gueux AS
 - Dim. 15 nov. 14:30 · Football · Régional 1 féminin : Magny RS – Stade de Reims féminines
 - Dim. 15 nov. 14:30 · Football · Régional 1 féminin : St Dizier 2MO – Colmar SR FA
@@ -1617,19 +1614,19 @@
 4. SASP BC ORCHIES — 13 pts, 9 matchs joués
 5. BERCK — 13 pts, 8 matchs joués
 
-### Football · Régional 1 féminin (relevé le 9 nov. sur SportCorico)
+### Football · Régional 1 féminin (relevé le 11 nov. sur le site de la Ligue du Grand Est (lgef.fff.fr))
 
-1. FC Vendenheim — 18 pts, 6 matchs joués
-2. US Azzurri Mulhouse — 16 pts, 7 matchs joués
-3. RC Strasbourg Alsace 2 — 13 pts, 6 matchs joués
-4. AS Nancy Lorraine — 12 pts, 7 matchs joués
-5. Stadium Racing Colmar FA — 12 pts, 6 matchs joués
-6. CS Orne Amnéville — 12 pts, 6 matchs joués
-7. St Dizier 2MO — 8 pts, 6 matchs joués
-8. Renaissance S. Magny — 3 pts, 7 matchs joués
-9. Stade de Reims féminines — 3 pts, 6 matchs joués
-10. FCSR Haguenau — 1 pts, 6 matchs joués
-11. SC Schiltigheim — 0 pts, 5 matchs joués
+1. FC Vendenheim — 21 pts, 7 matchs joués
+2. US Azzurri Mulhouse — 19 pts, 8 matchs joués
+3. Stadium Racing Colmar FA — 15 pts, 7 matchs joués
+4. RC Strasbourg Alsace 2 — 14 pts, 7 matchs joués
+5. CS Orne Amnéville — 13 pts, 7 matchs joués
+6. AS Nancy Lorraine — 12 pts, 8 matchs joués
+7. St Dizier 2MO — 11 pts, 8 matchs joués
+8. Stade de Reims féminines — 6 pts, 7 matchs joués
+9. Renaissance S. Magny — 3 pts, 7 matchs joués
+10. FCSR Haguenau — 1 pts, 7 matchs joués
+11. SC Schiltigheim — 0 pts, 7 matchs joués
 
 ### Football · Régional 2 féminin · Poule A (relevé le 9 nov. sur SportCorico)
 
