@@ -311,7 +311,7 @@ window.RSH_DATA = {
    "div": "National"
   },
   {
-   "club": "Bogny FC",
+   "club": "FC Bogny",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -339,7 +339,7 @@ window.RSH_DATA = {
    "div": "R1"
   },
   {
-   "club": "Charleville Prix OAM 2",
+   "club": "Olympique Charleville Prix AM 2",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -374,28 +374,28 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "Val de l'Aisne AS",
+   "club": "AS Val de l'Aisne",
    "sport": "Football",
    "zone": "rethel",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "Sedan Ardennes CS 2",
+   "club": "CS Sedan 2",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "Fagnières ES",
+   "club": "ES Fagnières",
    "sport": "Football",
    "zone": "chalons",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "Reims Christo FC",
+   "club": "Reims FC Christo",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -409,7 +409,7 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "Reims Ste Anne",
+   "club": "Reims Sainte-Anne",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -423,7 +423,7 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "Chartreux AS",
+   "club": "AS Chartreux",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -437,21 +437,21 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "Côte des Blancs FC",
+   "club": "FC Côte des Blancs",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "Nogentais FC",
+   "club": "FC Nogentais",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
    "div": "R2"
   },
   {
-   "club": "St Julien JSFC",
+   "club": "JS Saint-Julien FC",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -465,7 +465,7 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "Avize Grauves US",
+   "club": "US Avize-Grauves",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
@@ -479,21 +479,21 @@ window.RSH_DATA = {
    "div": "R2"
   },
   {
-   "club": "Villers Semeuse CA",
+   "club": "CA Villers-Semeuse",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Cheveuges CO",
+   "club": "Cheveuges/Saint-Aignan CO",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Blagny Carignan FC",
+   "club": "FC Blagny Carignan",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -507,28 +507,28 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Torcy Sedan Olymp.",
+   "club": "Olympique Torcy-Sedan",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Bazeilles US",
+   "club": "US Bazeilles",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Les Ayvelles US",
+   "club": "US Les Ayvelles",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Bourg Rocroi AS",
+   "club": "AS Bourg Rocroi",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -570,70 +570,70 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Rémoise Espérance",
+   "club": "Espérance Rémoise CS",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Porcien FC",
+   "club": "FC Porcien",
    "sport": "Football",
    "zone": "rethel",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Tinqueux Champ. FC",
+   "club": "FC Tinqueux Champagne",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Neuvillette Jamin 2",
+   "club": "FCF La Neuvillette-Jamin 2",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Reims Ste Anne 2",
+   "club": "Reims Sainte-Anne 2",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Le Chesne USA",
+   "club": "USA Le Chesne",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Pont Ste Marie AS",
+   "club": "AS Pont-Sainte-Marie",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Châlons ASPTT",
+   "club": "ASPTT Châlons",
    "sport": "Football",
    "zone": "chalons",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Troyes Municipaux ES",
+   "club": "ES Municipaux de Troyes",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Étoile Chapelaine",
+   "club": "A. L'Etoile Chapelaine",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -647,7 +647,7 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Nogentais FC 2",
+   "club": "FC Nogentais 2",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
@@ -682,21 +682,21 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Chapelains RCS",
+   "club": "RCS La Chapelle",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Sézannais SC",
+   "club": "SC Sézannais",
    "sport": "Football",
    "zone": "sezanne",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Sarrey Montigny AS",
+   "club": "AS Sarrey Montigny",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
@@ -710,7 +710,7 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Diane Eurv. Bienv.",
+   "club": "DS Eurville Bienville",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
@@ -724,7 +724,7 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Bologne FC",
+   "club": "FC de Bologne",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
@@ -738,21 +738,21 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Chevillon Stade",
+   "club": "Stade Chevillonnais",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Éclaron US",
+   "club": "US Eclaron",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Vaux sur Blaise USI",
+   "club": "USIB Vaux-sur-Blaise",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
@@ -800,12 +800,6 @@ window.RSH_DATA = {
    "genre": "F"
   },
   {
-   "club": "Recy-Saint-Martin",
-   "sport": "Basket",
-   "zone": "chalons",
-   "level": "National"
-  },
-  {
    "club": "Saint-Quentin Basket-Ball",
    "sport": "Basket",
    "zone": "stquentin",
@@ -820,12 +814,6 @@ window.RSH_DATA = {
   },
   {
    "club": "Reims Volley 51",
-   "sport": "Volley",
-   "zone": "reims",
-   "level": "National"
-  },
-  {
-   "club": "Reims Volley 51 C",
    "sport": "Volley",
    "zone": "reims",
    "level": "National"
@@ -906,7 +894,7 @@ window.RSH_DATA = {
    "div": "National"
   },
   {
-   "club": "St Quentin O. 2",
+   "club": "Olympique Saint-Quentinois 2",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
@@ -951,21 +939,21 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "Itancourt Neuville",
+   "club": "Ent. Itancourt-Neuville",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
    "div": "R1"
   },
   {
-   "club": "Château T. Étampes I",
+   "club": "Int. Château-Thierry Étampes",
    "sport": "Football",
    "zone": "chthierry",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Saint Quentin Handball (féminines)",
+   "club": "Saint-Quentin Handball (féminines)",
    "sport": "Handball",
    "zone": "stquentin",
    "level": "National",
@@ -996,16 +984,18 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "SAINT QUENTIN",
+   "club": "Saint-Quentin Volley (féminines)",
    "sport": "Volley",
    "zone": "stquentin",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
-   "club": "SOISSONS",
+   "club": "Soissons Volley (féminines)",
    "sport": "Volley",
    "zone": "soissons",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "VILLERS COTTERETS",
@@ -1072,7 +1062,7 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "St Méziéry FC",
+   "club": "FC Saint-Méziéry",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -1166,7 +1156,7 @@ window.RSH_DATA = {
    "club": "Éveil Recy Saint-Martin Basket",
    "sport": "Basket",
    "zone": "chalons",
-   "level": "Régional"
+   "level": "National"
   },
   {
    "club": "Gauloise de Vitry-le-François",
@@ -1326,7 +1316,7 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "Alliance Sud Ouest F",
+   "club": "Alliance Sud Ouest F. Aubois",
    "sport": "Football",
    "zone": "sezanne",
    "level": "Régional",
@@ -1353,35 +1343,35 @@ window.RSH_DATA = {
    "div": "R3"
   },
   {
-   "club": "Premontre St Gobain",
+   "club": "US Prémontré Saint-Gobain",
    "sport": "Football",
    "zone": "laon",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Ribemont Mezieres US",
+   "club": "US Ribemont-Mézières",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Itancourt Neuville 2",
+   "club": "Ent. Itancourt-Neuville 2",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Buire Hirson US",
+   "club": "US Buire Hirson",
    "sport": "Football",
    "zone": "thierache",
    "level": "Régional",
    "div": "R3"
   },
   {
-   "club": "Origny Thierache SC",
+   "club": "SC Origny-en-Thiérache",
    "sport": "Football",
    "zone": "thierache",
    "level": "Régional",
@@ -1619,7 +1609,7 @@ window.RSH_DATA = {
    "genre": "F"
   },
   {
-   "club": "Elite Axonaise Handball (féminines)",
+   "club": "Élite Axonaise Handball (féminines)",
    "sport": "Handball",
    "zone": "soissons",
    "level": "Régional",
@@ -1806,7 +1796,7 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "Elite Axonaise Handball EXCMR",
+   "club": "Élite Axonaise Handball EXCMR",
    "sport": "Handball",
    "zone": "soissons",
    "level": "Régional"
@@ -1843,63 +1833,63 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Joinville Vecque FC",
+   "club": "FC Joinville-Vecqueville",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Sarrey Montigny AS 2",
+   "club": "AS Sarrey Montigny 2",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Langres CO",
+   "club": "CO Langres",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Montier en Der US",
+   "club": "US Montier-en-Der",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Prez Bourmont FC",
+   "club": "FC Prez-Bourmont",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Ornel Chanc SL",
+   "club": "SL de l'Ornel à Chancenay",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Vaux sur Blaise USIB 2",
+   "club": "USIB Vaux-sur-Blaise 2",
    "sport": "Football",
    "zone": "stdizier",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Andelot Rim ES",
+   "club": "ES Andelot Rimaucourt Bourdons",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Neuilly SR",
+   "club": "SR Neuilly-l'Évéque",
    "sport": "Football",
    "zone": "chaumont",
    "level": "Régional",
@@ -1920,7 +1910,7 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Itancourt Neuville 3",
+   "club": "Ent. Itancourt-Neuville 3",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
@@ -1934,98 +1924,98 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "La Fère US",
+   "club": "US La Fère",
    "sport": "Football",
    "zone": "laon",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Crécois ICS",
+   "club": "Créçois ICS",
    "sport": "Football",
    "zone": "laon",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Guise US",
+   "club": "US Guise",
    "sport": "Football",
    "zone": "thierache",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "St Quentin Portugais",
+   "club": "Stade Portugais de Saint-Quentin",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Bruyères Montbérault",
+   "club": "US Bruyères-et-Montbérault",
    "sport": "Football",
    "zone": "laon",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Courmelles FC",
+   "club": "FC Courmelles",
    "sport": "Football",
    "zone": "soissons",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Belleu US",
+   "club": "US Belleu",
    "sport": "Football",
    "zone": "soissons",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Bohain RC",
+   "club": "RC Bohain",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Seboncourt US",
+   "club": "US Séboncourt",
    "sport": "Football",
    "zone": "stquentin",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Guignicourt US",
+   "club": "US Guignicourt",
    "sport": "Football",
    "zone": "laon",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Charleville ES",
+   "club": "ES Charleville",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Villers Semeuse CA 2",
+   "club": "CA Villers-Semeuse 2",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Liart/Signy FC",
+   "club": "Liart/Signy-l'Abbaye FC",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Charleville Prix OAM 3",
+   "club": "Olympique Charleville Prix AM 3",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
@@ -2039,35 +2029,35 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Bazeilles US 2",
+   "club": "US Bazeilles 2",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Nouvion USC",
+   "club": "USC Nouvion-sur-Meuse",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Vivarois SC",
+   "club": "SC Vivarois",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Boulzicourt",
+   "club": "AS Boulzicourt",
    "sport": "Football",
    "zone": "charleville",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Asfeld AS",
+   "club": "AS Asfeld",
    "sport": "Football",
    "zone": "rethel",
    "level": "Régional",
@@ -2088,7 +2078,7 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "St Méziéry FC 2",
+   "club": "FC Saint-Méziéry 2",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -2102,28 +2092,28 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Morgendois FC",
+   "club": "FC du Morgendois",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "St Julien JSFC 2",
+   "club": "JS Saint-Julien FC 2",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Aube UFC",
+   "club": "UFC Aube",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "AS Chartreux Port",
+   "club": "AS Portugaise des Chartreux",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
@@ -2137,14 +2127,14 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Chartreux AS 2",
+   "club": "AS Chartreux 2",
    "sport": "Football",
    "zone": "troyes",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Nord Aubois ES",
+   "club": "ES Nord Aubois",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
@@ -2158,14 +2148,14 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Nogent / Port AS",
+   "club": "AS Portugaise de Nogent-sur-Seine",
    "sport": "Football",
    "zone": "romilly",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Neuvillette Jamin 3",
+   "club": "FCF La Neuvillette-Jamin 3",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -2179,14 +2169,14 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Oiry US",
+   "club": "US Oiry",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Reims Espérance 2",
+   "club": "Espérance Rémoise CS 2",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -2200,7 +2190,7 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Avize Grauves US 2",
+   "club": "US Avize-Grauves 2",
    "sport": "Football",
    "zone": "epernay",
    "level": "Régional",
@@ -2214,7 +2204,7 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Witry les Reims ES",
+   "club": "ES Witry-lès-Reims",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -2228,21 +2218,21 @@ window.RSH_DATA = {
    "div": "D1"
   },
   {
-   "club": "Fagnières ES 2",
+   "club": "ES Fagnières 2",
    "sport": "Football",
    "zone": "chalons",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Reims Christo FC 2",
+   "club": "Reims FC Christo 2",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
    "div": "D1"
   },
   {
-   "club": "Cernay Berru Lava AS",
+   "club": "AS Cernay-Berru-Lavannes",
    "sport": "Football",
    "zone": "reims",
    "level": "Régional",
@@ -2449,10 +2439,10 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "Nogent HB",
+   "club": "Réveil de Nogent HB",
    "sport": "Handball",
    "zone": "romilly",
-   "level": "Régional"
+   "level": "National"
   },
   {
    "club": "PL Bar-sur-Aube Handball",
@@ -3060,10 +3050,11 @@ window.RSH_DATA = {
    "level": "Régional"
   },
   {
-   "club": "Volley Ball Club Laférois",
+   "club": "Volley Ball Club Laférois (féminines)",
    "sport": "Volley",
    "zone": "laon",
-   "level": "Régional"
+   "level": "Régional",
+   "genre": "F"
   },
   {
    "club": "Volley Itancourtois",
@@ -3149,6 +3140,40 @@ window.RSH_DATA = {
    "sport": "Volley",
    "zone": "reims",
    "level": "National"
+  },
+  {
+   "club": "Éveil Recy Saint-Martin Basket 2",
+   "sport": "Basket",
+   "zone": "chalons",
+   "level": "Régional"
+  },
+  {
+   "club": "Stade de Reims Rugby (féminines)",
+   "sport": "Rugby",
+   "zone": "reims",
+   "level": "National",
+   "genre": "F"
+  },
+  {
+   "club": "Rugby en Fête Montreuil-aux-Lions (féminines)",
+   "sport": "Rugby",
+   "zone": "chthierry",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Tinqueux Volley-Ball (féminines)",
+   "sport": "Volley",
+   "zone": "reims",
+   "level": "Régional",
+   "genre": "F"
+  },
+  {
+   "club": "Tinqueux Volley-Ball (féminines) 2",
+   "sport": "Volley",
+   "zone": "reims",
+   "level": "Régional",
+   "genre": "F"
   }
  ],
  "editions": [
@@ -7725,6 +7750,53 @@ window.RSH_DATA = {
      "sa": 0,
      "note": "",
      "url": "https://lgef.fff.fr/"
+    },
+    {
+     "sport": "Football",
+     "level": "Régional",
+     "genre": "F",
+     "div": "R2",
+     "home": "Sedan Ardennes CS (féminines)",
+     "hz": "charleville",
+     "away": "Gueux AS",
+     "az": "reims",
+     "comp": "Régional 2 féminin · Poule A",
+     "date": "Mer. 11 nov.",
+     "sh": 8,
+     "sa": 0,
+     "note": "",
+     "url": "https://www.sportcorico.com/clubs/a-s-gueux-football/gueux-football-as-1"
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "genre": "F",
+     "comp": "Régionale féminine · Division 2 · Poule B · J3",
+     "home": "Champagne Basket Féminin",
+     "hz": "reims",
+     "away": "As Champigneulles Basketball",
+     "az": null,
+     "mid": "snc15250088",
+     "date": "Mer. 11 nov.",
+     "sh": 57,
+     "sa": 43,
+     "note": "",
+     "url": "https://competitions.ffbb.com/ligues/ges/competitions/rf2?phase=200000002897418&poule=200000003054932&journee=3"
+    },
+    {
+     "sport": "Volley",
+     "level": "National",
+     "genre": "M",
+     "comp": "Ligue AM · J6",
+     "home": "CHAUMONT VB 52 HAUTE-MARNE",
+     "hz": "chaumont",
+     "away": "SPACER'S TOULOUSE Volley-Ball",
+     "az": null,
+     "date": "Jeu. 12 nov.",
+     "sh": 3,
+     "sa": 0,
+     "note": "Sets : 25-19, 25-23, 25-23.",
+     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M"
     }
    ],
    "agenda": [
@@ -8804,21 +8876,6 @@ window.RSH_DATA = {
      "day": "Dim. 15 nov.",
      "time": "14:30",
      "place": ""
-    },
-    {
-     "sport": "Volley",
-     "level": "National",
-     "genre": "M",
-     "comp": "Ligue AM · J6",
-     "home": "CHAUMONT VB 52 HAUTE-MARNE",
-     "hz": "chaumont",
-     "away": "SPACER'S TOULOUSE Volley-Ball",
-     "az": null,
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M",
-     "src": "ffvb",
-     "day": "Jeu. 12 nov.",
-     "time": "20:00",
-     "place": "Palestra"
     },
     {
      "sport": "Volley",
@@ -10445,22 +10502,6 @@ window.RSH_DATA = {
      "sport": "Basket",
      "level": "Régional",
      "genre": "F",
-     "comp": "Régionale féminine · Division 2 · Poule B · J3",
-     "home": "Champagne Basket Féminin",
-     "hz": "reims",
-     "away": "As Champigneulles Basketball",
-     "az": null,
-     "url": "https://scorenco.com/basket/match-as-champigneulles-basketball-f1-champagne-basket-feminin-f1-1s7de?e=15250088",
-     "src": "scorenco",
-     "mid": "snc15250088",
-     "day": "Mer. 11 nov.",
-     "time": "20:30",
-     "place": ""
-    },
-    {
-     "sport": "Basket",
-     "level": "Régional",
-     "genre": "F",
      "comp": "Régionale féminine · Division 2 · Poule B · J5",
      "home": "Champagne Basket Féminin",
      "hz": "reims",
@@ -10561,21 +10602,6 @@ window.RSH_DATA = {
      "comp": "D2 Futsal · Poule A",
      "place": "Reims",
      "url": "https://www.sportcorico.com/clubs/reims-metropole-futsal/reims-metropole"
-    },
-    {
-     "sport": "Football",
-     "level": "Régional",
-     "genre": "F",
-     "div": "R2",
-     "day": "Mer. 11 nov.",
-     "time": "14:30",
-     "home": "Sedan Ardennes CS (féminines)",
-     "hz": "charleville",
-     "away": "Gueux AS",
-     "az": "reims",
-     "comp": "Régional 2 féminin · Poule A",
-     "place": "",
-     "url": "https://www.sportcorico.com/clubs/cs-sedan-ardennes/cs-sedan-ardennes"
     },
     {
      "sport": "Football",
@@ -10902,7 +10928,7 @@ window.RSH_DATA = {
      "date": "Week-end 30 oct.–1er nov.",
      "home": "Tremblay",
      "hz": null,
-     "away": "Recy-Saint-Martin",
+     "away": "Éveil Recy Saint-Martin Basket",
      "az": "chalons",
      "sh": 73,
      "sa": 63,
@@ -10943,7 +10969,7 @@ window.RSH_DATA = {
      "level": "National",
      "comp": "Nationale 2 M · J5",
      "date": "Week-end 30 oct.–1er nov.",
-     "home": "Reims Volley 51 C",
+     "home": "Reims Volley 51 – 3",
      "hz": "reims",
      "away": "Paris Amicale Camou",
      "az": null,
@@ -14484,7 +14510,7 @@ window.RSH_DATA = {
      "time": "14:00",
      "home": "Grand Nancy VB",
      "hz": null,
-     "away": "Reims Volley 51 C",
+     "away": "Reims Volley 51 – 3",
      "az": "reims",
      "comp": "Élite Avenir masculine · Poule A",
      "place": "",
@@ -28042,5 +28068,129 @@ window.RSH_DATA = {
     }
    ]
   }
- ]
+ ],
+ "renommages": {
+  "Bogny FC": "FC Bogny",
+  "Charleville Prix OAM 2": "Olympique Charleville Prix AM 2",
+  "Val de l'Aisne AS": "AS Val de l'Aisne",
+  "Sedan Ardennes CS 2": "CS Sedan 2",
+  "Fagnières ES": "ES Fagnières",
+  "Reims Christo FC": "Reims FC Christo",
+  "Reims Ste Anne": "Reims Sainte-Anne",
+  "Chartreux AS": "AS Chartreux",
+  "Côte des Blancs FC": "FC Côte des Blancs",
+  "Nogentais FC": "FC Nogentais",
+  "St Julien JSFC": "JS Saint-Julien FC",
+  "Avize Grauves US": "US Avize-Grauves",
+  "Villers Semeuse CA": "CA Villers-Semeuse",
+  "Cheveuges CO": "Cheveuges/Saint-Aignan CO",
+  "Blagny Carignan FC": "FC Blagny Carignan",
+  "Torcy Sedan Olymp.": "Olympique Torcy-Sedan",
+  "Bazeilles US": "US Bazeilles",
+  "Les Ayvelles US": "US Les Ayvelles",
+  "Bourg Rocroi AS": "AS Bourg Rocroi",
+  "Rémoise Espérance": "Espérance Rémoise CS",
+  "Porcien FC": "FC Porcien",
+  "Tinqueux Champ. FC": "FC Tinqueux Champagne",
+  "Neuvillette Jamin 2": "FCF La Neuvillette-Jamin 2",
+  "Reims Ste Anne 2": "Reims Sainte-Anne 2",
+  "Le Chesne USA": "USA Le Chesne",
+  "Pont Ste Marie AS": "AS Pont-Sainte-Marie",
+  "Châlons ASPTT": "ASPTT Châlons",
+  "Troyes Municipaux ES": "ES Municipaux de Troyes",
+  "Étoile Chapelaine": "A. L'Etoile Chapelaine",
+  "Nogentais FC 2": "FC Nogentais 2",
+  "Chapelains RCS": "RCS La Chapelle",
+  "Sézannais SC": "SC Sézannais",
+  "Sarrey Montigny AS": "AS Sarrey Montigny",
+  "Diane Eurv. Bienv.": "DS Eurville Bienville",
+  "Bologne FC": "FC de Bologne",
+  "Chevillon Stade": "Stade Chevillonnais",
+  "Éclaron US": "US Eclaron",
+  "Vaux sur Blaise USI": "USIB Vaux-sur-Blaise",
+  "St Quentin O. 2": "Olympique Saint-Quentinois 2",
+  "Itancourt Neuville": "Ent. Itancourt-Neuville",
+  "Saint Quentin Handball (féminines)": "Saint-Quentin Handball (féminines)",
+  "St Méziéry FC": "FC Saint-Méziéry",
+  "Premontre St Gobain": "US Prémontré Saint-Gobain",
+  "Ribemont Mezieres US": "US Ribemont-Mézières",
+  "Itancourt Neuville 2": "Ent. Itancourt-Neuville 2",
+  "Buire Hirson US": "US Buire Hirson",
+  "Origny Thierache SC": "SC Origny-en-Thiérache",
+  "Elite Axonaise Handball (féminines)": "Élite Axonaise Handball (féminines)",
+  "Elite Axonaise Handball EXCMR": "Élite Axonaise Handball EXCMR",
+  "Joinville Vecque FC": "FC Joinville-Vecqueville",
+  "Sarrey Montigny AS 2": "AS Sarrey Montigny 2",
+  "Langres CO": "CO Langres",
+  "Montier en Der US": "US Montier-en-Der",
+  "Prez Bourmont FC": "FC Prez-Bourmont",
+  "Ornel Chanc SL": "SL de l'Ornel à Chancenay",
+  "Vaux sur Blaise USIB 2": "USIB Vaux-sur-Blaise 2",
+  "Andelot Rim ES": "ES Andelot Rimaucourt Bourdons",
+  "Neuilly SR": "SR Neuilly-l'Évéque",
+  "Itancourt Neuville 3": "Ent. Itancourt-Neuville 3",
+  "La Fère US": "US La Fère",
+  "Crécois ICS": "Créçois ICS",
+  "Guise US": "US Guise",
+  "St Quentin Portugais": "Stade Portugais de Saint-Quentin",
+  "Bruyères Montbérault": "US Bruyères-et-Montbérault",
+  "Courmelles FC": "FC Courmelles",
+  "Belleu US": "US Belleu",
+  "Bohain RC": "RC Bohain",
+  "Seboncourt US": "US Séboncourt",
+  "Guignicourt US": "US Guignicourt",
+  "Charleville ES": "ES Charleville",
+  "Villers Semeuse CA 2": "CA Villers-Semeuse 2",
+  "Liart/Signy FC": "Liart/Signy-l'Abbaye FC",
+  "Charleville Prix OAM 3": "Olympique Charleville Prix AM 3",
+  "Bazeilles US 2": "US Bazeilles 2",
+  "Nouvion USC": "USC Nouvion-sur-Meuse",
+  "Vivarois SC": "SC Vivarois",
+  "Boulzicourt": "AS Boulzicourt",
+  "Asfeld AS": "AS Asfeld",
+  "St Méziéry FC 2": "FC Saint-Méziéry 2",
+  "Morgendois FC": "FC du Morgendois",
+  "St Julien JSFC 2": "JS Saint-Julien FC 2",
+  "Aube UFC": "UFC Aube",
+  "AS Chartreux Port": "AS Portugaise des Chartreux",
+  "Chartreux AS 2": "AS Chartreux 2",
+  "Nord Aubois ES": "ES Nord Aubois",
+  "Nogent / Port AS": "AS Portugaise de Nogent-sur-Seine",
+  "Neuvillette Jamin 3": "FCF La Neuvillette-Jamin 3",
+  "Oiry US": "US Oiry",
+  "Reims Espérance 2": "Espérance Rémoise CS 2",
+  "Avize Grauves US 2": "US Avize-Grauves 2",
+  "Witry les Reims ES": "ES Witry-lès-Reims",
+  "Fagnières ES 2": "ES Fagnières 2",
+  "Reims Christo FC 2": "Reims FC Christo 2",
+  "Cernay Berru Lava AS": "AS Cernay-Berru-Lavannes",
+  "Alliance Sud Ouest F": "Alliance Sud Ouest F. Aubois",
+  "Château T. Étampes I": "Int. Château-Thierry Étampes",
+  "SAINT QUENTIN": "Saint-Quentin Volley (féminines)",
+  "Nogent HB": "Réveil de Nogent HB",
+  "Reims Volley 51 C": "Reims Volley 51 – 3",
+  "Recy-Saint-Martin": "Éveil Recy Saint-Martin Basket",
+  "SOISSONS": "Soissons Volley (féminines)",
+  "Volley Ball Club Laférois": "Volley Ball Club Laférois (féminines)"
+ },
+ "alias": {
+  "Champagne BF B": "Champagne Basket Féminin B",
+  "Vitry lès Reims Basket": "Éveil laïque Witry-lès-Reims Basket",
+  "Vitry lès Reims Basket 2": "Éveil laïque Witry-lès-Reims Basket 2",
+  "Vitry lès Reims Basket (féminines)": "Éveil laïque Witry-lès-Reims Basket (féminines)",
+  "Olympique Charleville Prix AM": "Charleville Prix OAM",
+  "Olympique Saint-Quentinois": "St Quentin O.",
+  "ELITE AXONAISE HANDBALL PLUS DE 16 ANS MASCULIN - HONNEUR M": "Elite Axonaise Handball (Honneur M)",
+  "HBC Laonnois": "Hand Ball Club Laonnois",
+  "HBC Laonnois 2": "Hand Ball Club Laonnois 2",
+  "C OL Chalonnais": "CO Châlonnais",
+  "Racing Cl St Quentinois": "Racing Club Saint-Quentinois",
+  "Rug Champagne St Andre Vergers": "RC Saint-André-les-Vergers",
+  "Chateau-thierry/soissons/montruil-aux-lions R3 M+18": "Entente Soissons",
+  "Soissons / Château Thierry / Montreuil Aux Lions M+18": "Entente Soissons",
+  "CHAUMONT VB 52 HAUTE-MARNE": "Chaumont VB 52",
+  "CHAUMONT VOLLEY-BALL 52": "Chaumont VB 52 (Élite Avenir)",
+  "PATRONAGE LAIQUE 010 V.B.": "Patronage Laïque des Augustins Volley-Ball",
+  "LA FERE 1": "Volley Ball Club Laférois (féminines)"
+ }
 };

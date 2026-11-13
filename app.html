@@ -317,6 +317,8 @@ footer a{color:var(--muted)}
 .hero.gym .tab:not([aria-current="page"]):not(.alt){background:rgba(5,10,20,.62)}
 .hero.gym .week select{background-color:rgba(0,0,0,.35)}
 @media (max-width:760px){ .hero.gym .floor{left:-90%;right:-90%;height:560px} .hero.gym .headline .kick{margin-right:0} }
+#fpanel .club{cursor:pointer}
+.favnote{margin:12px 0 4px;padding:10px 14px;border-radius:10px;background:rgba(232,163,23,.14);border:1px solid rgba(232,163,23,.45);font-size:14px}
 </style>
 <script id="ld" type="application/ld+json"></script>
 <!-- mesure d'audience Umami (sans cookies), comptée seulement sur le site public -->
@@ -423,11 +425,45 @@ function start(DATA){
   const DIVRANK={National:4.5,R1:6,R2:7,R3:8,D1:9};
   const lvlRank=r=>{const c=r.comp||''; for(const [re,v] of LADDER) if(re.test(c)) return v; const d=divOf(r); if(d) return DIVRANK[d]; return (r.level||'National')==='National'?4.5:8.5;};
 
+  // Rattache les noms d'équipes des sources (robot…) aux clubs du catalogue, pour « Mes clubs ».
+  function buildAlias(DATA){
+    const STOP=new Set('fc cs us as es sc rc ac ol olympique club football foot ent entente de du des la le les et association asso sporting sport sportive sportif union stade racing jeunesse js amicale avenir gs fcs ass st saint ste sainte basket handball hb bc volley vb rugby hockey roller futsal natation wp water polo ca cercle etoile seniors senior feminines feminine feminin masculins masculin cfa'.split(' '));
+    const nrm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+    const key=n=>{ n=nrm(n).replace(/\(.*?\)/g,' '); const t=n.match(/[a-z0-9]+/g)||[]; const d=t.filter(x=>/^\d$/.test(x)); const lt=t.length>1&&/^[b-e]$/.test(t[t.length-1])?String('bcde'.indexOf(t[t.length-1])+2):null; const ww=t.filter(x=>!/^\d+$/.test(x)&&x.length>1&&!STOP.has(x)&&!/^u\d+$/.test(x)); return {num:lt||(d.length?d[d.length-1]:'1'), w:new Set(ww), first:ww[0]||''}; };
+    const sub=(a,b)=>{for(const x of a) if(!b.has(x)) return false; return true;};
+    const cat=(DATA.suivi||[]).map(c=>({c,k:key(c.club),f:c.genre==='F'||/f[ée]minin/i.test(c.club)}));
+    const out=new Map(); // "sport|nom" -> club du catalogue
+    const names=new Set((DATA.suivi||[]).map(c=>c.sport+'|'+c.club));
+    const look=(sport,name,zone,fem,only)=>{
+    if(zone===null) return; // équipe hors de nos 5 départements
+      const id=(fem?'F':'M')+'|'+name; if(out.has(id)) return; if(cat.some(x=>x.c.club===name&&x.c.sport===sport&&x.f===fem)) return;
+      const k=key(name); if(!k.w.size) return;
+      let best=null,bs=0,tie=false;
+      for(const x of cat){ if(x.c.sport!==sport||x.k.num!==k.num||x.f!==fem||!x.k.w.size) continue;
+        if(zone&&x.c.zone&&x.c.zone!==zone) continue;
+      if(only&&!only.has(x.c.club)) continue;
+        const inter=[...x.k.w].filter(t=>k.w.has(t)).length, uni=new Set([...x.k.w,...k.w]).size, j0=inter/uni, j=j0+(x.k.first&&x.k.first===k.first?0.01:0);
+        const ok=(sub(k.w,x.k.w)&&j0>=0.5)||(sub(x.k.w,k.w)&&j0>=0.6);
+        if(!ok) continue; if(j>bs){best=x.c.club;bs=j;tie=false;} else if(j===bs) tie=true; }
+      if(best&&!tie&&best!==name) out.set(id,best);
+    };
+    // correspondances saisies à la main (data : « alias »), prioritaires
+  Object.entries(DATA.alias||{}).forEach(([n,club])=>{ const x=cat.find(y=>y.c.club===club); if(x) out.set((x.f?'F':'M')+'|'+n,club); });
+  (DATA.editions||[]).forEach(e=>[...(e.results||[]),...(e.agenda||[])].forEach(r=>{ const f=r.genre==='F'||(r.genre!=='M'&&/f[ée]minin|féminines/i.test(r.comp||'')); look(r.sport,r.home,r.hz,f); look(r.sport,r.away,r.az,f); }));
+    // classements : seulement vers un club qui a joué dans cette poule
+  const pk=c=>String(c||'').replace(/\s*·\s*(J\d+|journée\s*\d+).*$/i,'').trim();
+  const inPoule=new Map(); const addP=(k,sp,n,f)=>{ const c=names.has(sp+'|'+n)?n:(out.get((f?'F':'M')+'|'+n)); if(!c) return; if(!inPoule.has(k)) inPoule.set(k,new Set()); inPoule.get(k).add(c); };
+  (DATA.editions||[]).forEach(e=>[...(e.results||[]),...(e.agenda||[])].forEach(r=>{ const f=r.genre==='F'; const k=r.sport+'|'+pk(r.comp); addP(k,r.sport,r.home,f); addP(k,r.sport,r.away,f); }));
+  (DATA.classements||[]).forEach(c=>{ const only=inPoule.get(c.sport+'|'+c.key); if(only) (c.rows||[]).forEach(x=>look(c.sport,x.team,undefined,c.genre==='F',only)); });
+    return out;
+  }
   const eds=DATA.editions.slice().sort((a,b)=>b.id.localeCompare(a.id));
   let cur=eds[0];
   const clubMap=new Map();
   DATA.suivi.forEach(s=>clubMap.set(s.club,{sport:s.sport,zone:s.zone,genre:s.genre==='F'?'Féminin':'Masculin'}));
-  eds.forEach(e=>[...(e.results||[]),...(e.agenda||[])].forEach(r=>{ if(r.hz&&!clubMap.has(r.home)) clubMap.set(r.home,{sport:r.sport,zone:r.hz}); if(r.az&&!clubMap.has(r.away)) clubMap.set(r.away,{sport:r.sport,zone:r.az}); }));
+  const ALIAS=buildAlias(DATA); const SUIVI=new Set((DATA.suivi||[]).map(c=>c.club)); const canon=(n,fem)=>fem===undefined?(SUIVI.has(n)?n:(ALIAS.get('M|'+n)||ALIAS.get('F|'+n)||n)):(ALIAS.get((fem?'F':'M')+'|'+n)||n); // noms des sources -> nom du catalogue
+  const aliased=n=>ALIAS.has('M|'+n)||ALIAS.has('F|'+n);
+  eds.forEach(e=>[...(e.results||[]),...(e.agenda||[])].forEach(r=>{ if(aliased(r.home)) {} else if(r.hz&&!clubMap.has(r.home)) clubMap.set(r.home,{sport:r.sport,zone:r.hz}); if(!aliased(r.away)&&r.az&&!clubMap.has(r.away)) clubMap.set(r.away,{sport:r.sport,zone:r.az}); }));
   const zoneOf=k=>DATA.zones.find(z=>z.k===k);
   const deps=(DATA.departements||[...new Set(DATA.zones.map(z=>z.dep))]).filter(d=>DATA.zones.some(z=>z.dep===d));
   const depShort=d=>String(d).replace(/\s*\(.*\)/,'');
@@ -435,10 +471,10 @@ function start(DATA){
   // ——— state: everything on by default; the reader unticks what he does not want ———
   let offZ=new Set(store.get('rsh3-offz',[])), offD=new Set(store.get('rsh3-offd',[]));
   let lvl=store.get('rsh3-lvl','all'), gen=store.get('rsh3-gen','all'), onlyFav=store.get('rsh3-onlyfav',false);
-  let fav=new Set(store.get('rsh3-fav',[]));
+  const REN=DATA.renommages||{}; let fav=new Set(store.get('rsh3-fav',[]).map(n=>canon(REN[n]||n))); const favN=(n,fem)=>fav.has(canon(n,fem)); const isF=r=>genreOf(r)==='Féminin';
   let q='';
   const save=()=>{store.set('rsh3-offz',[...offZ]);store.set('rsh3-offd',[...offD]);store.set('rsh3-lvl',lvl);store.set('rsh3-gen',gen);store.set('rsh3-onlyfav',onlyFav);store.set('rsh3-fav',[...fav]);};
-  const openAll=()=>{offZ.clear();offD.clear();lvl='all';gen='all';onlyFav=false;q='';$('q').value='';};
+  const openAll=keepFav=>{offZ.clear();offD.clear();lvl='all';gen='all';if(!keepFav) onlyFav=false;q='';$('q').value='';}; // keepFav : en changeant de sport, « Mes clubs » reste actif
 
   // ——— routes: '' (à la une) or a sport slug, view 'res' or 'next' ———
   const NEXT='week-end-prochain', CLS='classements';
@@ -454,16 +490,18 @@ function start(DATA){
   const href=(sport,view)=>{ const sl=sport?SP[sport].slug:''; const parts=[sl,view==='next'?NEXT:view==='cl'?CLS:''].filter(Boolean);
     return STATIC? '/'+parts.map(x=>x+'/').join('') : '#'+parts.join('/'); };
   let route=parseRoute();
+  // site public : chaque sport est une page ; arriver sur un autre sport rouvre aussi tous les filtres (comme dans l'application), sauf « Mes clubs »
+  { const last=store.get('rsh3-sport',null); if(last!==null&&last!==(route.sport||'')){ openAll(true); save(); } store.set('rsh3-sport',route.sport||''); }
   function go(sport,view,push=true){
     const changed=sport!==route.sport;
     route={sport,view};
-    if(changed) openAll();                       // choosing a sport switches every other filter back on
+    if(changed){ openAll(true); store.set('rsh3-sport',sport||''); } // choosing a sport switches every other filter back on (but keeps « Mes clubs »)
     save();
     if(push){ const u=href(sport,view); try{ if(STATIC) history.pushState({},'',u); else if(location.hash!==u&&!(u==='#'&&!location.hash)) history.pushState({},'',u); }catch(e){ try{ if(!STATIC) location.hash=u; }catch(x){} } }
     render(); try{ window.scrollTo(0,0); }catch(e){}
   }
-  window.addEventListener('popstate',()=>{const r=parseRoute(); if(r.sport!==route.sport) openAll(); route=r; render();});
-  window.addEventListener('hashchange',()=>{ if(STATIC) return; const r=parseRoute(); if(r.sport!==route.sport||r.view!==route.view){ if(r.sport!==route.sport) openAll(); route=r; render(); }});
+  window.addEventListener('popstate',()=>{const r=parseRoute(); if(r.sport!==route.sport){ openAll(true); store.set('rsh3-sport',r.sport||''); } route=r; render();});
+  window.addEventListener('hashchange',()=>{ if(STATIC) return; const r=parseRoute(); if(r.sport!==route.sport||r.view!==route.view){ if(r.sport!==route.sport){ openAll(true); store.set('rsh3-sport',r.sport||''); } route=r; render(); }});
   document.addEventListener('click',e=>{ const a=e.target.closest('a[data-go]'); if(!a||e.metaKey||e.ctrlKey||e.shiftKey) return; e.preventDefault(); go(a.dataset.go?bySlug(a.dataset.go):null,a.dataset.view||'res'); });
 
   // ——— filtering ———
@@ -472,11 +510,12 @@ function start(DATA){
   const matchQ=r=>{ if(!q) return true; const hay=' '+flat([r.home,r.away,r.comp,r.place,...zoneNames(r)].join(' '))+' '; return flat(q).split(' ').every(w=>hay.includes(w)); };
   const keep=(r,ignoreSport)=>{ const d=divOf(r);
     if(!ignoreSport && route.sport && r.sport!==route.sport) return false;
+    if(onlyFav && fav.size) return (favN(r.home,isF(r))||favN(r.away,isF(r))) && matchQ(r); // « Mes clubs » : seuls les clubs choisis comptent, les autres filtres sont ignorés
     if(lvl!=='all' && (r.level||'National')!==lvl) return false;
     if(gen!=='all' && genreOf(r)!==gen) return false;
     if(d && offD.has(d)) return false;
     if(!((r.hz&&!offZ.has(r.hz))||(r.az&&!offZ.has(r.az)))) return false;
-    if(onlyFav && !(fav.has(r.home)||fav.has(r.away))) return false;
+    if(onlyFav && !(favN(r.home,isF(r))||favN(r.away,isF(r)))) return false;
     return matchQ(r); };
 
   // ——— dates (for sorting and structured data) ———
@@ -487,9 +526,9 @@ function start(DATA){
 
   // ——— pieces of UI ———
   const win=(r,s)=>{const a=+r.sh,b=+r.sa; if(isNaN(a)||isNaN(b)||a===b) return false; return s==='h'?a>b:b>a;};
-  const star=name=>clubMap.has(name)?`<button type="button" class="starb" data-fav="${esc(name)}" aria-pressed="${fav.has(name)}" title="${fav.has(name)?'Retirer de mes clubs':'Ajouter à mes clubs'}">${fav.has(name)?'★':'☆'}</button>`:'';
+  const star=(raw,fem)=>{ const name=canon(raw,fem); return clubMap.has(name)?`<button type="button" class="starb" data-fav="${esc(name)}" aria-pressed="${fav.has(name)}" title="${fav.has(name)?'Retirer de mes clubs':'Ajouter à mes clubs'}">${fav.has(name)?'★':'☆'}</button>`:''; };
   // l'étoile reste collée au premier (domicile) ou au dernier mot (extérieur) du nom : jamais seule sur une ligne
-  const glue=(name,side)=>{ const st=star(name); if(!st) return esc(name); const w=String(name).split(' ');
+  const glue=(name,side,fem)=>{ const st=star(name,fem); if(!st) return esc(name); const w=String(name).split(' ');
     if(side==='h'){ const f=w.shift(); return `<span class="nw">${st}${esc(f)}</span>${w.length?' '+esc(w.join(' ')):''}`; }
     const l=w.pop(); return `${w.length?esc(w.join(' '))+' ':''}<span class="nw">${esc(l)}${st}</span>`; };
   const jour=c=>{const m=/·\s*(J\d+|journée\s*\d+)/i.exec(c||''); return m?m[1].replace(/^J/,'journée '):'';};
@@ -499,10 +538,10 @@ function start(DATA){
     const cupR=/coupe|troph/i.test(r.comp||''), xr=!cupR&&!(ct&&ct.rows&&ct.rows.length)?((ct&&safeUrl(ct.url))||FED[r.sport]||''):'';
     const clink=cupR?'':(ct&&ct.rows&&ct.rows.length?`<button type="button" class="lnk mcl cl-go">Classement</button>`:(xr?`<a href="${esc(xr)}" target="_blank" rel="noopener">Classement ↗</a>`:''));
     const meta=[esc(r.date), opt.comp?esc(r.comp):esc(jour(r.comp)), f?'<span class="fem">Féminin</span>':'', u?`<a href="${esc(u)}" target="_blank" rel="noopener">${isHome(u)?'Source':'+ d\'infos'} ↗</a>`:'', opt.cl?clink:''].filter(Boolean).join(' · ');
-    return `<li class="m${fav.has(r.home)||fav.has(r.away)?' fav':''}">
-      <div class="line"><span class="t h${hw?' w':''}">${star(r.home)}<span>${esc(r.home)}</span></span>
+    return `<li class="m${favN(r.home,isF(r))||favN(r.away,isF(r))?' fav':''}">
+      <div class="line"><span class="t h${hw?' w':''}">${star(r.home,isF(r))}<span>${esc(r.home)}</span></span>
       <span class="sc" aria-label="Score ${esc(r.sh)} à ${esc(r.sa)}"><b class="${hw?'w':''}">${esc(r.sh)}</b><i>–</i><b class="${aw?'w':''}">${esc(r.sa)}</b></span>
-      <span class="t a${aw?' w':''}"><span>${esc(r.away)}</span>${star(r.away)}</span></div>
+      <span class="t a${aw?' w':''}"><span>${esc(r.away)}</span>${star(r.away,isF(r))}</span></div>
       <div class="meta">${meta}</div>${r.note?`<p class="note">${esc(r.note)}</p>`:''}</li>`;
   }
   const SPONSOR=/\s+(Homiris|Allianz Leseur|CFA du B[aâ]timent 51|3 Brasseurs)\b/gi;   // sponsor names are dropped so the same championship groups together
@@ -551,7 +590,7 @@ function start(DATA){
     const lead=c.rows[0];
     return `<details class="cl"${open?' open':''}><summary><span>Classement de la poule</span><small>${lead?`En tête : ${esc(lead.team)} – ${esc(lead.pts)} pts`:''}</small></summary>
       <table><thead><tr><th>#</th><th class="tm">Équipe</th><th>Pts</th><th>J</th>${cols.map(k=>`<th>${({g:'G',n:'N',p:'P',bp:'BP',bc:'BC',diff:'Diff.'})[k]}</th>`).join('')}</tr></thead>
-      <tbody>${c.rows.map(x=>`<tr class="${fav.has(x.team)?'fav ':''}${ourTeam(x.team)?'our':''}"><td>${esc(x.r)}</td><td class="tm">${star(x.team)}${esc(x.team)}</td><td><b>${esc(x.pts)}</b></td><td>${esc(x.j)}</td>${cols.map(k=>`<td>${esc(x[k]??'')}</td>`).join('')}</tr>`).join('')}</tbody></table>
+      <tbody>${c.rows.map(x=>`<tr class="${favN(x.team,c.genre==='F')?'fav ':''}${ourTeam(x.team)?'our':''}"><td>${esc(x.r)}</td><td class="tm">${star(x.team,c.genre==='F')}${esc(x.team)}</td><td><b>${esc(x.pts)}</b></td><td>${esc(x.j)}</td>${cols.map(k=>`<td>${esc(x[k]??'')}</td>`).join('')}</tr>`).join('')}</tbody></table>
       <p class="clsrc">Classement ${esc(c.maj||'')}${safeUrl(c.url)?` · <a href="${esc(c.url)}" target="_blank" rel="noopener">Source ↗</a>`:''}</p></details>`;
   }
   function nextBlock(fx){ if(!fx.length) return '';
@@ -636,7 +675,7 @@ function start(DATA){
       <label class="chk"><input type="checkbox" id="only" ${onlyFav?'checked':''} ${fav.size?'':'disabled'}>N'afficher que mes clubs</label>
       <input type="search" id="fq" placeholder="Trouver un club…" value="${esc(fq)}" style="margin:8px 0 4px">
       <div class="clubs">${groupsF.map(([sp,l])=>`<div class="fhead"><span>${esc(sp)} · ${l.length}</span><button type="button" class="lnk" data-fall="${esc(sp)}">${l.every(c=>fav.has(c))?'Tout retirer':'Tout ajouter'}</button></div>${l.map(c=>`<div class="club">${star(c)}<span>${esc(c)}</span></div>`).join('')}`).join('')||'<span class="club">Aucun club trouvé.</span>'}</div>
-      <p style="margin:8px 0 0;font-size:12.5px;color:var(--muted)">Tes clubs sont gardés sur cet appareil et mis en avant dans les résultats.</p>`;
+      <p style="margin:8px 0 0;font-size:12.5px;color:var(--muted)">Cliquez sur un club : seuls ses résultats, son agenda et ses classements s'affichent. Décochez « N'afficher que mes clubs » pour tout revoir. Vos clubs sont gardés sur cet appareil.</p>`;
     if(pos!==null){const i=$('fq'); i.focus(); i.setSelectionRange(pos,pos);}
   }
   const setFilters=o=>{ const m=$('moref'); m.classList.toggle('open',o); $('ftog').setAttribute('aria-expanded',o); $('ftxt').textContent=o?'Fermer les filtres':'Filtrer';
@@ -653,11 +692,12 @@ function start(DATA){
     if(e.target.closest('[data-zclose]')){$('dpop').open=false;} });
   $('divs').addEventListener('click',e=>{const b=e.target.closest('[data-d]'); if(b){offD.has(b.dataset.d)?offD.delete(b.dataset.d):offD.add(b.dataset.d);} else if(e.target.closest('[data-dall]')) offD.clear(); else if(e.target.closest('[data-dnone]')) DIVS.forEach(d=>offD.add(d)); else return; save(); render();});
   $('q').addEventListener('input',e=>{q=e.target.value.trim(); try{ renderMain(); }catch(x){ rshFail(x); }});
-  document.addEventListener('click',e=>{const b=e.target.closest('[data-fav]'); if(!b) return; e.preventDefault(); const n=b.dataset.fav; fav.has(n)?fav.delete(n):fav.add(n); if(!fav.size) onlyFav=false; save(); render();});
+  document.addEventListener('click',e=>{const b=e.target.closest('[data-fav]'); if(!b) return; e.preventDefault(); const n=b.dataset.fav; let jump=null; if(fav.has(n)) fav.delete(n); else { fav.add(n); if(b.closest('#fpanel')){ onlyFav=true; /* choisi dans « Mes clubs » : on n'affiche plus que ses clubs */ const cs=clubMap.get(n)&&clubMap.get(n).sport; if(route.sport&&cs&&cs!==route.sport) jump=cs; /* club d'un autre sport : on va sur son sport */ } } if(!fav.size) onlyFav=false; save(); if(jump){ $('fpop').open=false; go(jump,route.view); } else render();});
   $('fpanel').addEventListener('change',e=>{ if(e.target.id==='only'){onlyFav=e.target.checked;save();render();} });
   $('fpanel').addEventListener('input',e=>{ if(e.target.id==='fq'){fq=e.target.value;favPanel();} });
   $('fpanel').addEventListener('click',e=>{ if(e.target.closest('[data-fclear]')){fav.clear();onlyFav=false;save();render();return;}
-    const b=e.target.closest('[data-fall]'); if(b){ const l=[...clubMap.keys()].filter(c=>clubMap.get(c).sport===b.dataset.fall&&(!fq||flat(c).includes(flat(fq)))); const allOn=l.every(c=>fav.has(c)); l.forEach(c=>allOn?fav.delete(c):fav.add(c)); if(!fav.size) onlyFav=false; save(); render(); } });
+    const cl=e.target.closest('.club'); if(cl && !e.target.closest('[data-fav]')){ const st=cl.querySelector('[data-fav]'); if(st) st.click(); return; } /* un clic sur le nom du club vaut un clic sur l'étoile */
+    const b=e.target.closest('[data-fall]'); if(b){ const l=[...clubMap.keys()].filter(c=>clubMap.get(c).sport===b.dataset.fall&&(!fq||flat(c).includes(flat(fq)))); const allOn=l.every(c=>fav.has(c)); l.forEach(c=>allOn?fav.delete(c):fav.add(c)); if(!allOn) onlyFav=true; if(!fav.size) onlyFav=false; save(); render(); } });
   document.addEventListener('click',e=>{ if(!e.target.isConnected) return; /* clic dans un panneau qui vient d'être redessiné (Tous / Aucun…) : on le laisse ouvert */ document.querySelectorAll('details.pop[open]').forEach(d=>{ if(!d.contains(e.target)) d.open=false; }); });
   document.addEventListener('keydown',e=>{ if(e.key==='Escape') document.querySelectorAll('details.pop[open]').forEach(d=>d.open=false); });
   try{ const tools=$('tools'); const io=('IntersectionObserver' in window)?new IntersectionObserver(([en])=>tools.classList.toggle('lift',!en.isIntersecting)):null; if(io) io.observe($('hero')); }catch(e){}
@@ -715,25 +755,33 @@ function start(DATA){
       {'@type':'ItemList',name:route.view==='next'?'Prochains matchs':'Résultats',numberOfItems:ev.length,itemListElement:ev.map((e,i)=>({'@type':'ListItem',position:i+1,item:e}))}]};
     if($('ld')) $('ld').textContent=JSON.stringify(ld);
   }
-  function renderMain(){
+  function renderMain(){ renderMain0();
+    if(onlyFav&&fav.size) $('main').insertAdjacentHTML('afterbegin',`<div class="favnote">★ Seuls vos clubs sont affichés (${fav.size}) : les filtres de département, de niveau, de division et masculin / féminin ne s'appliquent pas. <button type="button" class="lnk" data-favoff>Voir tous les matchs</button></div>`);
+  }
+  function renderMain0(){
     const main=$('main');
     if(!cur){ main.innerHTML='<div class="empty">Aucune édition publiée pour l\'instant.</div>'; return; }
     const res=(cur.results||[]).filter(r=>keep(r)).sort((a,b)=>rank(a.sport)-rank(b.sport)||lvlRank(a)-lvlRank(b));
     const fx=(cur.agenda||[]).filter(r=>keep(r)).sort((a,b)=>when(a)-when(b));
     const filtered=offZ.size||offD.size||lvl!=='all'||gen!=='all'||onlyFav||q;
     const reset=filtered?`<button type="button" class="lnk reset" data-reset>Tout réafficher</button>`:'';
+    const favSp=[...new Set([...fav].map(n=>clubMap.get(n)&&clubMap.get(n).sport).filter(Boolean))];
+    const why=(onlyFav&&fav.size)?(route.sport&&!favSp.includes(route.sport)&&favSp.length?` Aucun de vos clubs ne joue en ${esc(route.sport.toLowerCase())}. Vos clubs : ${favSp.map(x=>`<button type="button" class="lnk" data-gosport="${esc(x)}">${esc(x)}</button>`).join(' · ')}.`:' Vos clubs n\'ont pas de match ici.')
+      :(DATA.zones.every(z=>offZ.has(z.k))?' Aucun département n\'est coché : choisissez-en au moins un.'
+      :((!route.sport||route.sport==='Football')&&DIVS.every(x=>offD.has(x))?' Aucune division n\'est cochée.':''));
+
     const depTxt=!offZ.size?'les 5 départements':deps.filter(d=>DATA.zones.filter(z=>z.dep===d).some(z=>!offZ.has(z.k))).map(depShort).join(', ')||'aucun département';
     seo(res,fx);
     if(route.view==='next'){
       const days=new Map(); fx.forEach(f=>{const k=f.day||'À préciser'; if(!days.has(k)) days.set(k,[]); days.get(k).push(f);});
       main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
-        (fx.length?`<div class="days">${[...days.entries()].map(([d,l])=>`<section class="card"><header>${esc(d)}<small>${l.length} match${l.length>1?'s':''}</small></header>${(route.sport?[[null,l]]:[...l.reduce((m,f)=>(m.has(f.sport)||m.set(f.sport,[]),m.get(f.sport).push(f),m),new Map()).entries()].sort((a,b)=>rank(a[0])-rank(b[0]))).map(([sp,ll])=>(sp?`<div class="fxsp" style="--c:${esc((SP[sp]||{}).c||'#555')}"><span class="pill">${esc(sp)}</span><small>${ll.length} match${ll.length>1?'s':''}</small></div>`:'')+ll.map(f=>{const u=safeUrl(f.url);return `<div class="fx${sp?' tinted':''}"${sp?` style="--c:${esc((SP[sp]||{}).c||'#555')}"`:''}><div class="h">${esc(f.time||'–')}</div><div><strong>${glue(f.home,"h")}&nbsp;– ${glue(f.away,"a")}</strong><span>${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}${(()=>{const t=clFor(f.sport,keyOf(f.comp));return t&&t.rows&&t.rows.length?` · <button type="button" class="lnk fx-cl" data-ci="${CL.indexOf(t)}">Classement</button>`:'';})()}</span></div></div>`;}).join('')).join('')}</section>`).join('')}</div>`
-        :`<div class="empty">Pas de match annoncé pour cette sélection.</div>`);
+        (fx.length?`<div class="days">${[...days.entries()].map(([d,l])=>`<section class="card"><header>${esc(d)}<small>${l.length} match${l.length>1?'s':''}</small></header>${(route.sport?[[null,l]]:[...l.reduce((m,f)=>(m.has(f.sport)||m.set(f.sport,[]),m.get(f.sport).push(f),m),new Map()).entries()].sort((a,b)=>rank(a[0])-rank(b[0]))).map(([sp,ll])=>(sp?`<div class="fxsp" style="--c:${esc((SP[sp]||{}).c||'#555')}"><span class="pill">${esc(sp)}</span><small>${ll.length} match${ll.length>1?'s':''}</small></div>`:'')+ll.map(f=>{const u=safeUrl(f.url);return `<div class="fx${sp?' tinted':''}"${sp?` style="--c:${esc((SP[sp]||{}).c||'#555')}"`:''}><div class="h">${esc(f.time||'–')}</div><div><strong>${glue(f.home,"h",isF(f))}&nbsp;– ${glue(f.away,"a",isF(f))}</strong><span>${esc(f.comp)}${f.place?' · '+esc(f.place):''}${u?` · <a href="${esc(u)}" target="_blank" rel="noopener">Infos ↗</a>`:''}${(()=>{const t=clFor(f.sport,keyOf(f.comp));return t&&t.rows&&t.rows.length?` · <button type="button" class="lnk fx-cl" data-ci="${CL.indexOf(t)}">Classement</button>`:'';})()}</span></div></div>`;}).join('')).join('')}</section>`).join('')}</div>`
+        :`<div class="empty">Pas de match annoncé pour cette sélection.${why}</div>`);
       return;
     }
     if(route.view==='cl'){
-      const list=CL.filter(c=>(!route.sport||c.sport===route.sport)&&(lvl==='all'||c.level===lvl)&&(gen==='all'||(c.genre==='F'?'Féminin':'Masculin')===gen)&&!(c.div&&offD.has(c.div))
-        &&(!onlyFav||c.rows.some(x=>fav.has(x.team)))&&(!q||c.rows.some(x=>flat(x.team).includes(flat(q)))||flat(c.key).includes(flat(q))))
+      const favOn=onlyFav&&fav.size; const list=CL.filter(c=>(!route.sport||c.sport===route.sport)&&(favOn||((lvl==='all'||c.level===lvl)&&(gen==='all'||(c.genre==='F'?'Féminin':'Masculin')===gen)&&!(c.div&&offD.has(c.div))))
+        &&(!onlyFav||c.rows.some(x=>favN(x.team,c.genre==='F')))&&(!q||c.rows.some(x=>flat(x.team).includes(flat(q)))||flat(c.key).includes(flat(q))))
         .sort((a,b)=>rank(a.sport)-rank(b.sport)||lvlRank({comp:a.key,sport:a.sport,div:a.div,level:a.level})-lvlRank({comp:b.key,sport:b.sport,div:b.div,level:b.level}));
       main.innerHTML=(reset?`<div class="summary">${reset}</div>`:'')+
         (list.length?`<div class="cards">${list.map(c=>`<article class="card"><header>${esc(c.key)}${route.sport?'':`<small>${esc(c.sport)}</small>`}</header>${table(c,true)}</article>`).join('')}</div>`
@@ -748,7 +796,7 @@ function start(DATA){
       main.innerHTML=live+(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2><span class="tm">${esc(top.home)}</span><span class="tm">${esc(top.away)}</span></h2><p>${esc(cur.edito||top.note||'')}</p>${isArticle(top.url)?`<p class="art"><a class="lnk" href="${esc(top.url)}" target="_blank" rel="noopener">Lire l'article →</a></p>`:''}</div>
         <div class="big"><span class="bt">${esc(top.home)}</span><b>${esc(top.sh)}<i>–</i>${esc(top.sa)}</b><span class="bt">${esc(top.away)}</span></div></article>`:'')+
         (sports.length?sports.map(s=>{const l=res.filter(r=>r.sport===s); return `<section class="sport" style="--sport:${SP[s].c}"><h2 class="sh"><a href="${href(s,'res')}" data-go="${SP[s].slug}">${esc(s)}</a><span class="cnt">${l.length} match${l.length>1?'s':''}</span><a class="go" autofocus href="${href(s,'res')}" data-go="${SP[s].slug}">Page ${esc(s.toLowerCase())} →</a></h2>${famsHtml(groups(l))}</section>`;}).join('')
-          :`<div class="empty">Aucun résultat pour cette sélection. ${reset}</div>`)+
+          :`<div class="empty">Aucun résultat pour cette sélection.${why} ${reset}</div>`)+
         nextBlock(fx);
       fitUne();
       return;
@@ -756,8 +804,9 @@ function start(DATA){
     const gs=groups(res);
     main.innerHTML=live+(reset?`<div class="summary">${reset}</div>`:'')+
       (res.length?famsHtml(gs)
-      :`<div class="empty">Aucun résultat de ${esc(route.sport.toLowerCase())} cette semaine pour cette sélection.<br>${reset}</div>`)+nextBlock(fx)+clubsBlock(route.sport);
+      :`<div class="empty">Aucun résultat de ${esc(route.sport.toLowerCase())} cette semaine pour cette sélection.${why}<br>${reset}</div>`)+nextBlock(fx)+clubsBlock(route.sport);
   }
+  $('main').addEventListener('click',e=>{ if(e.target.closest('[data-favoff]')){ onlyFav=false; save(); render(); return; } const gs=e.target.closest('[data-gosport]'); if(gs) go(gs.dataset.gosport,route.view); });
   $('main').addEventListener('click',e=>{ if(e.target.closest('[data-reset]')){ openAll(); save(); render(); return; }
     if(e.target.closest('[data-prev]')){ const i=eds.indexOf(cur); if(eds[i+1]){ cur=eds[i+1]; edSel.value=cur.id; render(); window.scrollTo({top:0,behavior:'smooth'}); } return; }
     const fc=e.target.closest('.fx-cl'); if(fc){ const row=fc.closest('.fx'), nx=row.nextElementSibling; if(nx&&nx.classList.contains('fxcl')){ nx.remove(); return; } const t=CL[+fc.dataset.ci]; if(t){ row.insertAdjacentHTML('afterend',`<div class="fxcl">${table(t,true)}</div>`); } return; }

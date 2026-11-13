@@ -143,6 +143,7 @@
 - Mer. 11 nov. · Départemental 1 Aisne : US Belleu 0–2 US Guise (source : https://aisne.fff.fr/)
 - Mer. 11 nov. · Coupe féminine · 1er tour : Le Chesne US 0–3 Charleville Prix OAM (féminines) (source : https://www.sportcorico.com/clubs/as-de-prix-les-mezieres/charleville-prix-oam-3)
 - Mer. 11 nov. · Régional 1 féminin : St Dizier 2MO 2–0 Schiltigheim SC (source : https://lgef.fff.fr/)
+- Mer. 11 nov. · Régional 2 féminin · Poule A : Sedan Ardennes CS (féminines) 8–0 Gueux AS (source : https://www.sportcorico.com/clubs/a-s-gueux-football/gueux-football-as-1)
 
 ### Basket
 
@@ -184,6 +185,7 @@
 - Sam. 7 nov. · Nationale masculine 2 · Poule D · J9 : Éveil Recy Saint-Martin Basket 82–72 Phénix Basket Monéteau - Héry (source : https://scorenco.com/basket/match-as-hery-basket-eveil-recy-saint-martin-basket-1r3vv?e=15062606)
 - Ven. 6 nov. · Nationale masculine 1 · Poule A · J10 : VAL DE SEINE BASKET 88–72 ETOILE DE CHARLEVILLE MEZIERES (source : https://competitions.ffbb.com/competitions/nm1/match/200000014596884)
 - Dim. 8 nov. · Nationale 3 féminine · J8 : Champagne BF B 58–59 Aulnoyes B (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-6-au-8-novembre-2026/)
+- Mer. 11 nov. · Régionale féminine · Division 2 · Poule B · J3 : Champagne Basket Féminin 57–43 As Champigneulles Basketball (source : https://competitions.ffbb.com/ligues/ges/competitions/rf2?phase=200000002897418&poule=200000003054932&journee=3)
 
 ### Handball
 
@@ -284,6 +286,7 @@
 - Sam. 7 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : SOISSONS 1 2–3 AMIENS METROPOLE 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
 - Dim. 8 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : SAINT QUENTIN 1 1–3 ARRAS 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
 - Dim. 8 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : TINQUEUX 2 3–0 LA FERE 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
+- Jeu. 12 nov. · Ligue AM · J6 : CHAUMONT VB 52 HAUTE-MARNE 3–0 SPACER'S TOULOUSE Volley-Ball (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M)
 
 ### Rugby
 
@@ -393,7 +396,6 @@
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Haute-Marne : Entente Colombey-Maranville-Rennepont – SR Neuilly-l'Évéque
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Haute-Marne : Marnaval SC 2 – USIB Vaux-sur-Blaise 2
 - Dim. 15 nov. 14:30 · Football · Départemental 1 Haute-Marne : SL de l'Ornel à Chancenay – FC Joinville-Vecqueville
-- Jeu. 12 nov. 20:00 · Volley · Ligue AM · J6 : CHAUMONT VB 52 HAUTE-MARNE – SPACER'S TOULOUSE Volley-Ball (Palestra)
 - Sam. 14 nov. 19:00 · Volley · Ligue BM · J6 : CAMBRAI Volley – SAINT-QUENTIN Volley (Jm Vanpoulle)
 - Sam. 14 nov. 19:00 · Volley · Ligue BM · J6 : GRAND NANCY Volley-Ball – REIMS Volley 51 (Nations)
 - Sam. 14 nov. 20:30 · Volley · Prénationale féminine Grand Est · Poule A · J6 : METZ VOLLEY-BALL – SAINT-DIE 2 (Gymnase  Jean Rostand)
@@ -499,7 +501,6 @@
 - Sam. 14 nov. 20:30 · Basket · Pré Nationale masculine · Poule A · J5 : Metz Bc - 2 – Amicale des Jeunes de Bétheny
 - Ven. 13 nov. 20:00 · Basket · Nationale masculine 1 · Poule A · J11 : Étoile de Charleville-Mézières Basket – Oullins Ste Foy Basket Ball
 - Sam. 14 nov. 20:00 · Basket · Nationale féminine 2 · Poule D · J9 : Templeuve L P - 2 – Flammes Carolo Basket (féminines) 2
-- Mer. 11 nov. 20:30 · Basket · Régionale féminine · Division 2 · Poule B · J3 : Champagne Basket Féminin – As Champigneulles Basketball
 - Sam. 14 nov. 20:30 · Basket · Régionale féminine · Division 2 · Poule B · J5 : Champagne Basket Féminin – Dukes De Fameck
 - Dim. 15 nov. 15:30 · Basket · Régionale féminine · Division 2 · Poule B · J5 : Us Boulange Fontoy Bb – Vitry lès Reims Basket (féminines)
 - Dim. 15 nov. 15:30 · Basket · Nationale féminine 3 · Poule F · J9 : Basket Feminin Escaudain Porte D – Champagne Basket Féminin 2
@@ -507,7 +508,6 @@
 - Ven. 13 nov. 20:00 · Basket · Nationale masculine 1 · Poule A · J11 : ETOILE DE CHARLEVILLE MEZIERES – LYONSO BASKET (Guinguette Arena · Charleville-Mézières)
 - Ven. 13 nov. 20:30 · Basket · Élite 2 · J9 : Fos-sur-Mer – Champagne Basket (Fos-sur-Mer)
 - Sam. 14 nov. 16:00 · Futsal · D2 Futsal · Poule A : Reims Métropole Futsal – Béthune Essars Futsal (Reims)
-- Mer. 11 nov. 14:30 · Football · Régional 2 féminin · Poule A : Sedan Ardennes CS (féminines) – Gueux AS
 - Dim. 15 nov. 14:30 · Football · Régional 1 féminin : Magny RS – Stade de Reims féminines
 - Dim. 15 nov. 14:30 · Football · Régional 1 féminin : St Dizier 2MO – Colmar SR FA
 - Dim. 15 nov. 10:00 · Football · Régional 2 féminin · Poule A : Flize US – Olympique Rémoise
