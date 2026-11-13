@@ -20,10 +20,10 @@
 
 ### Football
 
-- Sam. 7 nov. · Ligue 1 · J10 : Paris SG 1–0 ESTAC Troyes (source : https://www.foot-national.com/data/match-foot-paris-sg-troyes-433491.html)
+- Sam. 7 nov. · Ligue 1 · J10 : Paris SG 1–0 ESTAC Troyes (source : https://www.estac.fr/psg-1-0-estac-entre-deception-et-satisfaction/)
 - Lun. 2 nov. · Ligue 2 · J11 : Stade de Reims 2–0 Sochaux (source : https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-domine-sochaux-et-retrouve-le-podium/)
 - Ven. 6 nov. · Ligue 2 · J12 : Grenoble 3–2 Stade de Reims (source : https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-chute-pour-la-premiere-fois-de-la-saison-a-grenoble/)
-- Sam. 7 nov. · National 1 · Poule C · J9 : ESTAC Troyes 2 1–0 Canet RFC (source : https://www.foot-national.com/data/match-foot-troyes-canet-rfc-442597.html)
+- Sam. 7 nov. · National 1 · Poule C · J9 : ESTAC Troyes 2 1–0 Canet RFC (source : https://www.estac.fr/n1-estac-1-0-canet-roussillon-fc-la-reaction-de-gharib-amzine/)
 - Sam. 7 nov. · National 2 · Poule D · J7 : Croix 3–1 St Quentin O. (source : https://www.foot-national.com/data/match-foot-croix-saint-quentin-443945.html)
 - Sam. 7 nov. · National 2 · Poule E · J7 : Charleville Prix OAM 1–4 Belfort (source : https://www.foot-national.com/data/match-foot-charleville-belfort-443391.html)
 - Sam. 7 nov. · Régional 1 · Poule A : Stade De Reims 2 3–0 ES Villerupt Thil (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-6-au-8-novembre-2026/)
@@ -134,7 +134,7 @@
 - Dim. 8 nov. · Régional 1 féminin : Mulhouse Azzurri US 2–0 St Dizier 2MO (source : https://www.sportcorico.com/clubs/saint-dizier-montier-ornel/sdmo)
 - Dim. 8 nov. · Régional 2 féminin · Poule C : St Gilles F.C. 1–2 Vaudoise JS (source : https://www.sportcorico.com/clubs/js-vaudoise/js-vaudoise-1)
 - Dim. 8 nov. · Régional 2 féminin · Poule C : ASM2RA 2–1 St André Foot (source : https://www.sportcorico.com/clubs/as-sarrey-montigny-le-roi/sarrey-montigny-1)
-- Dim. 8 nov. · D3 féminine · Groupe B · J6 : ESTAC Troyes féminines 0–3 Montauban (source : https://www.statsfootofeminin.fr/equipe.php?equipe=211&id=774)
+- Dim. 8 nov. · D3 féminine · Groupe B · J6 : ESTAC Troyes féminines 0–3 Montauban (source : https://www.estac.fr/academie-un-bilan-presque-parfait-pour-nos-jeunes/)
 - Dim. 8 nov. · Régional 2 féminin Hauts-de-France · Poule A : GPT Féminin BCV Laon 4–0 Vermelles US (source : https://www.sportcorico.com/clubs/groupement-feminin-bcv-laon/gpt-feminin-bcv-laon-12)
 - Mer. 11 nov. · National 1 · Poule C · J10 : Fréjus St Raphaël 4–1 ESTAC Troyes 2 (source : https://www.foot-national.com/data/resultat-national1-groupe-c.html)
 - Mer. 11 nov. · Régional 2 · Poule B : Alliance Sud Ouest F. Aubois 0–1 Chaumont FC (source : https://lgef.fff.fr/)
@@ -183,7 +183,7 @@
 - Dim. 8 nov. · Régionale féminine · Division 2 · Poule B · J4 : Asp Ste Marie Aux Chenes - 2 49–46 Champagne Basket Féminin (source : https://scorenco.com/basket/match-asp-basket-ste-marie-aux-chenes-f2-champagne-basket-feminin-f1-1s7dj?e=15250104)
 - Dim. 8 nov. · Nationale féminine 3 · Poule F · J8 : Champagne Basket Féminin 2 58–59 Aulnoye AS 2 (source : https://scorenco.com/basket/match-as-aulnoye-basket-2-feminine-champagne-basket-feminin-f2-1t5bl?e=15064570)
 - Sam. 7 nov. · Nationale masculine 2 · Poule D · J9 : Éveil Recy Saint-Martin Basket 82–72 Phénix Basket Monéteau - Héry (source : https://scorenco.com/basket/match-as-hery-basket-eveil-recy-saint-martin-basket-1r3vv?e=15062606)
-- Ven. 6 nov. · Nationale masculine 1 · Poule A · J10 : VAL DE SEINE BASKET 88–72 ETOILE DE CHARLEVILLE MEZIERES (source : https://competitions.ffbb.com/competitions/nm1/match/200000014596884)
+- Ven. 6 nov. · Nationale masculine 1 · Poule A · J10 : VAL DE SEINE BASKET 88–72 ETOILE DE CHARLEVILLE MEZIERES (source : https://www.etoile-charleville.fr/actualite/nm1/on-lache-rien-1)
 - Dim. 8 nov. · Nationale 3 féminine · J8 : Champagne BF B 58–59 Aulnoyes B (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-6-au-8-novembre-2026/)
 - Mer. 11 nov. · Régionale féminine · Division 2 · Poule B · J3 : Champagne Basket Féminin 57–43 As Champigneulles Basketball (source : https://competitions.ffbb.com/ligues/ges/competitions/rf2?phase=200000002897418&poule=200000003054932&journee=3)
 
@@ -237,7 +237,7 @@
 
 ### Volley
 
-- Ven. 6 nov. · Ligue AM · J5 : NICE Volley-Ball 3–1 CHAUMONT VB 52 HAUTE-MARNE (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M)
+- Ven. 6 nov. · Ligue AM · J5 : NICE Volley-Ball 3–1 CHAUMONT VB 52 HAUTE-MARNE (source : https://cvb52.com/2026/11/06/nice-cvb52-defaite-3-1-5e-journee-alterna-volstar/)
 - Sam. 7 nov. · Ligue BM · J5 : REIMS Volley 51 3–2 FREJUS VAR Volley (source : https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-soffre-frejus-au-bout-du-suspens/)
 - Sam. 7 nov. · Ligue BM · J5 : SAINT-QUENTIN Volley 1–3 HARNES Volley-Ball (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D2M)
 - Sam. 7 nov. · Élite Avenir · Poule A · J5 : GRAND NANCY VOLLEY-BALL 1–3 REIMS VOLLEY 51 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-6-au-8-novembre-2026/)
@@ -286,7 +286,7 @@
 - Sam. 7 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : SOISSONS 1 2–3 AMIENS METROPOLE 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
 - Dim. 8 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : SAINT QUENTIN 1 1–3 ARRAS 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
 - Dim. 8 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J5 : TINQUEUX 2 3–0 LA FERE 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
-- Jeu. 12 nov. · Ligue AM · J6 : CHAUMONT VB 52 HAUTE-MARNE 3–0 SPACER'S TOULOUSE Volley-Ball (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M)
+- Jeu. 12 nov. · Ligue AM · J6 : CHAUMONT VB 52 HAUTE-MARNE 3–0 SPACER'S TOULOUSE Volley-Ball (source : https://cvb52.com/2026/11/12/cvb52-toulouse-victoire-3-0-alterna-volstar-2026/)
 
 ### Rugby
 

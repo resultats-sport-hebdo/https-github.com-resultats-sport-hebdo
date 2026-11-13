@@ -3320,12 +3320,13 @@
      "hz": null,
      "away": "ESTAC Troyes",
      "az": "troyes",
-     "url": "https://www.foot-national.com/data/match-foot-paris-sg-troyes-433491.html",
+     "url": "https://www.estac.fr/psg-1-0-estac-entre-deception-et-satisfaction/",
      "src": "fn",
      "date": "Sam. 7 nov.",
      "sh": 1,
      "sa": 0,
-     "note": ""
+     "note": "",
+     "source": "https://www.foot-national.com/data/match-foot-paris-sg-troyes-433491.html"
     },
     {
      "sport": "Football",
@@ -3367,12 +3368,13 @@
      "hz": "troyes",
      "away": "Canet RFC",
      "az": null,
-     "url": "https://www.foot-national.com/data/match-foot-troyes-canet-rfc-442597.html",
+     "url": "https://www.estac.fr/n1-estac-1-0-canet-roussillon-fc-la-reaction-de-gharib-amzine/",
      "src": "fn",
      "date": "Sam. 7 nov.",
      "sh": 1,
      "sa": 0,
-     "note": ""
+     "note": "",
+     "source": "https://www.foot-national.com/data/match-foot-troyes-canet-rfc-442597.html"
     },
     {
      "sport": "Football",
@@ -5069,12 +5071,13 @@
      "hz": null,
      "away": "CHAUMONT VB 52 HAUTE-MARNE",
      "az": "chaumont",
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M",
+     "url": "https://cvb52.com/2026/11/06/nice-cvb52-defaite-3-1-5e-journee-alterna-volstar/",
      "src": "ffvb",
      "date": "Ven. 6 nov.",
      "sh": 3,
      "sa": 1,
-     "note": "Sets : 23-25, 25-23, 25-22, 36-34."
+     "note": "Sets : 23-25, 25-23, 25-22, 36-34.",
+     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M"
     },
     {
      "sport": "Volley",
@@ -7250,12 +7253,13 @@
      "hz": null,
      "away": "ETOILE DE CHARLEVILLE MEZIERES",
      "az": "charleville",
-     "url": "https://competitions.ffbb.com/competitions/nm1/match/200000014596884",
+     "url": "https://www.etoile-charleville.fr/actualite/nm1/on-lache-rien-1",
      "src": "ffbb",
      "date": "Ven. 6 nov.",
      "sh": 88,
      "sa": 72,
-     "note": ""
+     "note": "",
+     "source": "https://competitions.ffbb.com/competitions/nm1/match/200000014596884"
     },
     {
      "sport": "Rugby",
@@ -7610,7 +7614,8 @@
      "sh": 0,
      "sa": 3,
      "note": "",
-     "url": "https://www.statsfootofeminin.fr/equipe.php?equipe=211&id=774"
+     "url": "https://www.estac.fr/academie-un-bilan-presque-parfait-pour-nos-jeunes/",
+     "source": "https://www.statsfootofeminin.fr/equipe.php?equipe=211&id=774"
     },
     {
      "sport": "Football",
@@ -7796,7 +7801,8 @@
      "sh": 3,
      "sa": 0,
      "note": "Sets : 25-19, 25-23, 25-23.",
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M"
+     "url": "https://cvb52.com/2026/11/12/cvb52-toulouse-victoire-3-0-alterna-volstar-2026/",
+     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M"
     }
    ],
    "agenda": [
@@ -28192,5 +28198,20 @@
   "CHAUMONT VOLLEY-BALL 52": "Chaumont VB 52 (Élite Avenir)",
   "PATRONAGE LAIQUE 010 V.B.": "Patronage Laïque des Augustins Volley-Ball",
   "LA FERE 1": "Volley Ball Club Laférois (féminines)"
+ },
+ "sites_clubs": {
+  "Chaumont VB 52": "https://cvb52.com/",
+  "ESTAC Troyes": "https://www.estac.fr/",
+  "Saint-Quentin Volley": "https://www.saintquentin-volley.fr/",
+  "Saint-Quentin Basket-Ball": "https://sqbb.fr/",
+  "Étoile de Charleville-Mézières Basket": "https://www.etoile-charleville.fr/",
+  "Champagne Basket": "https://champagne-basket.fr/",
+  "Éveil Recy Saint-Martin Basket": "https://ersmbasket.fr/",
+  "Flammes Carolo Basket Ardennes": "https://fan.lesflammes.com/",
+  "Charleville Prix OAM": "https://www.ocpam.fr/",
+  "St Quentin O.": "https://osqfootball.footeo.com/",
+  "Diables de Rethel": "http://www.rhra.fr/",
+  "Ent. Sainte-Maure-Troyes HB féminin": "https://saintemauretroyeshandball.fr/",
+  "AS St Brice": "https://handstbrice.fr/"
  }
 }

@@ -242,6 +242,7 @@ details.cl[open]>summary::after{transform:rotate(225deg)}
 #clubcl .clh{margin:14px 0 6px;font-size:15px}
 .cchip i{font-style:normal;font-size:11px;font-weight:700;color:var(--fem)}
 h2.sec{margin:34px 0 12px;font:800 32px var(--head)}
+p.edito{margin:-4px 0 18px;max-width:860px;color:var(--muted);font-size:15.5px;line-height:1.55}
 
 /* fixtures */
 .days{columns:2;column-gap:16px}
@@ -604,6 +605,9 @@ function start(DATA){
       if(r.sport==='Football') s+=12; else if(/Roller|Hockey|Handball|Basket/.test(r.sport)&&r.hz&&r.az) s+=8;
       if(r.note) s+=3; return s; };
     // il faut un article derrière : d'abord parmi les matchs amateurs qui en ont un, puis tous ceux qui en ont un
+    // en semaine : le dernier match joué après le week-end qui a un article passe à la une (le plus récent d'abord)
+    const late=cur&&cur.id?res.filter(r=>isArticle(r.url)&&(isoDay(r.date,cur)||'')>=cur.id):[];
+    if(late.length) return late.slice().sort((a,b)=>(when(b)-when(a))||(score(b)-score(a)))[0];
     const withArt=res.filter(r=>isArticle(r.url)), amateur=withArt.filter(r=>!PRO.test(r.comp||''));
     const pool=amateur.length?amateur:withArt.length?withArt:res;
     return pool.slice().sort((a,b)=>score(b)-score(a))[0];
@@ -633,7 +637,7 @@ function start(DATA){
         return `<section class="fam"><h2>${esc(g.f)} <span class="badge">${esc(lv)}</span>${fem?'<span class="badge f">Féminin</span>':''}<span class="cnt">${g.n} match${g.n>1?'s':''}</span></h2><div class="cards${g.cards.length===1?' solo':''}">${g.cards.map(c=>{const t=c.k===g.f?(g.cards.length>1?'Autres matchs':''):(c.k.startsWith(g.f)?c.k.slice(g.f.length).replace(/^\s*·\s*/,''):c.k); const cl0=clFor(c.rs[0].sport,c.k), cl=cl0&&cl0.rows&&cl0.rows.length?cl0:null; const cup=/coupe|troph/i.test(c.k); const xu=!cl&&!cup?(cl0&&safeUrl(cl0.url)||FED[c.rs[0].sport]||''):'';
           const lk=cl?`<button type="button" class="lnk cl-go">Voir le classement</button>`:(xu?`<a class="lnk" href="${esc(xu)}" target="_blank" rel="noopener">Voir le classement ↗</a>`:'');
           const pos=cl0&&!cl&&cl0.pos&&cl0.pos.length?`<p class="clpos">Classement : ${cl0.pos.map(x=>`<b>${esc(x.team)}</b> ${esc(x.txt)}`).join(' · ')}${cl0.maj?` <span>(${esc(cl0.maj)})</span>`:''}</p>`:'';
-          return `<article class="card">${t||lk?`<header>${esc(t||'')}<small>${lk||`${c.rs.length} match${c.rs.length>1?'s':''}`}</small></header>`:''}<ul>${c.rs.map(r=>row(r)).join('')}</ul>${pos}${cl?table(cl,false):''}</article>`;}).join('')}</div></section>`;}).join(''); }
+          return `<article class="card">${t||lk?`<header>${esc(t||'')}<small>${lk||`${c.rs.length} match${c.rs.length>1?'s':''}`}</small></header>`:''}<ul>${[...c.rs].sort((a,b)=>when(b)-when(a)).map(r=>row(r)).join('')}</ul>${pos}${cl?table(cl,false):''}</article>`;}).join('')}</div></section>`;}).join(''); }
   function stats(res,sport){
     const v=res.filter(r=>!isNaN(+r.sh)&&!isNaN(+r.sa));
     const home=v.filter(r=>+r.sh>+r.sa).length;
@@ -816,11 +820,16 @@ function start(DATA){
     const live=cur.enCours?`<div class="live"><b>Semaine en cours</b> · les scores arrivent au fil du week-end (vendredi et samedi soir, dimanche soir) ; l'édition complète paraît lundi matin.${prevEd?` <button type="button" class="lnk" data-prev>Voir la semaine précédente</button>`:''}</div>`:'';
     if(!route.sport){
       const top=pickUne(res);
-      const sports=PRIO.filter(s=>res.some(r=>r.sport===s));
-      main.innerHTML=live+(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2><span class="tm">${esc(top.home)}</span><span class="tm">${esc(top.away)}</span></h2><p>${esc(cur.edito||top.note||'')}</p>${isArticle(top.url)?`<p class="art"><a class="lnk" href="${esc(top.url)}" target="_blank" rel="noopener">Lire l'article →</a></p>`:''}</div>
+      // matchs joués après le week-end de l'édition (en semaine) : affichés en premier, du plus récent au plus ancien
+      const recent=cur.id?res.filter(r=>{const d=isoDay(r.date,cur); return d&&d>=cur.id;}).sort((a,b)=>when(b)-when(a)):[];
+      const rest=res.filter(r=>!recent.includes(r));
+      const rSports=[...new Set(recent.map(r=>r.sport))];
+      const recentHtml=recent.length?`<h2 class="sec">Derniers résultats</h2>`+rSports.map(s=>{const l=recent.filter(r=>r.sport===s); return `<section class="sport" style="--sport:${SP[s].c}"><h2 class="sh"><a href="${href(s,'res')}" data-go="${SP[s].slug}">${esc(s)}</a><span class="cnt">${l.length} match${l.length>1?'s':''}</span></h2>${famsHtml(groups(l))}</section>`;}).join('')+`<h2 class="sec">Toute la semaine</h2>${top&&recent.includes(top)&&cur.edito?`<p class="edito">${esc(cur.edito)}</p>`:''}`:'';
+      const sports=PRIO.filter(s=>rest.some(r=>r.sport===s));
+      main.innerHTML=live+(top?`<article class="une" style="--c:${SP[top.sport]?SP[top.sport].c:HOME.c}"><div><span class="k">À la une · ${esc(top.sport)} · ${esc(top.comp)}</span><h2><span class="tm">${esc(top.home)}</span><span class="tm">${esc(top.away)}</span></h2><p>${esc(recent.includes(top)?(top.note||''):(cur.edito||top.note||''))}</p>${isArticle(top.url)?`<p class="art"><a class="lnk" href="${esc(top.url)}" target="_blank" rel="noopener">Lire l'article →</a></p>`:''}</div>
         <div class="big"><span class="bt">${esc(top.home)}</span><b>${esc(top.sh)}<i>–</i>${esc(top.sa)}</b><span class="bt">${esc(top.away)}</span></div></article>`:'')+
-        (sports.length?sports.map(s=>{const l=res.filter(r=>r.sport===s); return `<section class="sport" style="--sport:${SP[s].c}"><h2 class="sh"><a href="${href(s,'res')}" data-go="${SP[s].slug}">${esc(s)}</a><span class="cnt">${l.length} match${l.length>1?'s':''}</span><a class="go" autofocus href="${href(s,'res')}" data-go="${SP[s].slug}">Page ${esc(s.toLowerCase())} →</a></h2>${famsHtml(groups(l))}</section>`;}).join('')
-          :`<div class="empty">Aucun résultat pour cette sélection.${why} ${reset}</div>`)+
+        recentHtml+(sports.length?sports.map(s=>{const l=rest.filter(r=>r.sport===s); return `<section class="sport" style="--sport:${SP[s].c}"><h2 class="sh"><a href="${href(s,'res')}" data-go="${SP[s].slug}">${esc(s)}</a><span class="cnt">${l.length} match${l.length>1?'s':''}</span><a class="go" href="${href(s,'res')}" data-go="${SP[s].slug}">Page ${esc(s.toLowerCase())} →</a></h2>${famsHtml(groups(l))}</section>`;}).join('')
+          :(recent.length?'':`<div class="empty">Aucun résultat pour cette sélection.${why} ${reset}</div>`))+
         nextBlock(fx);
       fitUne();
       return;
