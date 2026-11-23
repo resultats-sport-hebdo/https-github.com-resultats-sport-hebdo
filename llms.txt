@@ -32,25 +32,66 @@
 - Sam. 21 nov. · Régional 3 · Poule D : Chaumont FC 2 15–2 DS Eurville Bienville (source : https://www.sportcorico.com/championnat/grand-est-regional-3-ihe-energies-1/phase-lgef/poule-d)
 - Sam. 21 nov. · Régional 3 · Poule D : AS Sarrey Montigny 4–0 FC de Bologne (source : https://www.sportcorico.com/championnat/grand-est-regional-3-ihe-energies-1/phase-lgef/poule-d)
 - Sam. 21 nov. · Coupe de France féminine : GPT Féminin BCV Laon 0–2 Red Star FC (source : https://epreuves.fff.fr/competition/engagement/13-coupe-de-france-feminine/phase/2/1/resultats-et-calendrier)
+- Sam. 21 nov. · National 2 · Poule D · J8 : St Quentin O. null–null Bastia SC (source : https://www.foot-national.com/data/match-foot-saint-quentin-bastia-sc-443977.html)
 - Sam. 21 nov. · Régional 3 · Poule B : USA Le Chesne null–null Châlons FCO (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/2/resultats-et-calendrier)
 - Sam. 21 nov. · Régional 3 · Poule B : Cormontreuil FC 2 5–2 ASTRM (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/2/resultats-et-calendrier)
 - Dim. 22 nov. · Départemental 1 Haute-Marne : US Montier-en-Der null–null AS Sarrey Montigny 2 (source : https://epreuves.fff.fr/competition/engagement/449271-departemental-1-allianz-leseur/phase/1/1/accueil)
 - Dim. 22 nov. · Départemental 1 Haute-Marne : USIB Vaux-sur-Blaise 2 null–null SR Neuilly-l'Évéque (source : https://epreuves.fff.fr/competition/engagement/449271-departemental-1-allianz-leseur/phase/1/1/accueil)
+- Dim. 22 nov. · District 1 Marne : Vitry FC 2 1–2 Neuvillette Jamin 3 (source : https://www.sportcorico.com/championnat/marne-seniors-district-1-cfa-du-batiment-51-2/phase-unique/poule-unique)
+- Dim. 22 nov. · District 1 Marne : Nord Champagne FC 3–0 Cernay Berru Lava AS (source : https://www.sportcorico.com/championnat/marne-seniors-district-1-cfa-du-batiment-51-2/phase-unique/poule-unique)
+- Dim. 22 nov. · District 1 Marne : Fagnières ES 2 4–0 Avize Grauves US 2 (source : https://www.sportcorico.com/championnat/marne-seniors-district-1-cfa-du-batiment-51-2/phase-unique/poule-unique)
+- Dim. 22 nov. · District 1 Marne : Reims Christo FC 2 2–1 Rémoise Espérance 2 (source : https://www.sportcorico.com/championnat/marne-seniors-district-1-cfa-du-batiment-51-2/phase-unique/poule-unique)
+- Dim. 22 nov. · District 1 Marne : Argonne FC 1–2 St Brice Courcelles 2 (source : https://www.sportcorico.com/championnat/marne-seniors-district-1-cfa-du-batiment-51-2/phase-unique/poule-unique)
+- Dim. 22 nov. · Départemental 1 Haute-Marne : Marnaval SC 2 2–0 Langres CO (source : https://www.sportcorico.com/clubs/co-langres/langres)
+- Dim. 22 nov. · Départemental 1 Haute-Marne : Joinville Vecque FC 1–0 Andelot Rim ES (source : https://www.sportcorico.com/clubs/fc-joinville-vecqueville)
+- Dim. 22 nov. · Départemental 1 Haute-Marne : Prez Bourmont FC 1–3 Ornel Chanc SL (source : https://www.sportcorico.com/clubs/f-c-prez-bourmont)
+- Dim. 22 nov. · Régional 2 · Poule A : Reims Sainte-Anne 2–0 FC Val de l'Orne (source : https://www.sportcorico.com/clubs/reims-sainte-anne)
+- Dim. 22 nov. · Régional 1 · Poule A : Cormontreuil FC 3–0 FC Bogny (source : https://www.sportcorico.com/clubs/cormontreuil-f-c/cormontreuil-fc)
+- Dim. 22 nov. · Régional 1 · Poule A : Marnaval SC 2–1 US Thionville Lusitanos 2 (source : https://www.sportcorico.com/clubs/s-marnaval-c-st-dizier/marnaval-sc)
+- Dim. 22 nov. · Régional 1 · Poule A : FC Saint-Méziéry 2–1 CS Orne Amnéville (source : https://www.sportcorico.com/clubs/fc-saint-meziery/fc-st-meziery)
+- Dim. 22 nov. · Régional 2 · Poule A : St Brice Courcelles 5–0 Reims FC Christo (source : https://www.sportcorico.com/clubs/as-st-brice-courcelles/st-brice-cour)
+- Dim. 22 nov. · Régional 2 · Poule B : US Avize-Grauves 3–0 FC Côte des Blancs (source : https://www.sportcorico.com/clubs/us-avize-grauves/avize-grauves-us)
+- Dim. 22 nov. · Régional 2 · Poule B : Ent. Centre Ornain 1–2 Épernay Champagne RC 2 (source : https://www.sportcorico.com/clubs/rc-epernay-champagne/epernay-rc-5)
+- Dim. 22 nov. · Régional 3 · Poule A : Ent. Villerupt-Thil 2 1–2 CA Villers-Semeuse (source : https://www.sportcorico.com/clubs/ca-villers-semeuse/villers-semeuse)
+- Dim. 22 nov. · Régional 3 · Poule A : JS Audunoise 3–2 Olympique Torcy-Sedan (source : https://www.sportcorico.com/clubs/o-torcy-sedan/sedan-torcy)
+- Dim. 22 nov. · Régional 3 · Poule B : Espérance Rémoise CS 4–3 AS Bourg Rocroi (source : https://www.sportcorico.com/clubs/esperance-remoise-pour-la-culture-et-le-sport/remoise-esperance)
+- Dim. 22 nov. · Régional 3 · Poule C : ASPTT Châlons 3–3 ES Municipaux de Troyes (source : https://www.sportcorico.com/clubs/asptt-chalons/asptt-chalons)
+- Dim. 22 nov. · Régional 3 · Poule C : AS Pont-Sainte-Marie 3–3 Bar Essoyes CFC (source : https://www.sportcorico.com/clubs/academie-sportive-de-pont-sainte-marie/aspsm)
+- Dim. 22 nov. · Coupe du Grand Est féminine : Stade de Reims féminines 5–1 AS Sarrey Montigny (féminines) (source : https://www.sportcorico.com/clubs/stade-de-reims/stade-de-reims-2)
+- Dim. 22 nov. · Coupe du Grand Est féminine : Reims Bezannes Féminin 5–0 Flize US (source : https://www.sportcorico.com/clubs/reims-bezannes-feminin-45/rbf)
+- Dim. 22 nov. · Coupe du Grand Est féminine : Vaudoise JS 3–0 St Gilles F.C. (source : https://www.sportcorico.com/clubs/js-vaudoise/js-vaudoise-1)
+- Dim. 22 nov. · Régional 1 Hauts-de-France · Poule A : Soissons IFC 2–2 Ent. Itancourt-Neuville (source : https://www.sportcorico.com/clubs/soissons-inter-football-club/soissons-ifc-3)
 - Ven. 20 nov. · Ligue 1 · J11 : ESTAC Troyes 3–1 Le Havre (source : https://www.foot-national.com/data/match-foot-troyes-le-havre-433513.html)
 - Sam. 21 nov. · Ligue 2 · J13 : Stade de Reims 0–1 Saint-Etienne (source : https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-sincline-dans-le-choc-face-a-saint-etienne/)
 - Sam. 21 nov. · National 1 · Poule C · J11 : ESTAC Troyes 2 0–1 Lyon La Duchere (source : https://www.foot-national.com/data/match-foot-troyes-lyon-la-duchere-442665.html)
 - Sam. 21 nov. · National 2 · Poule E · J8 : Metz 1–1 Charleville Prix OAM (source : https://www.foot-national.com/data/match-foot-metz-charleville-443435.html)
+- Dim. 22 nov. · Régional 3 · Poule C : St Martin la VE FC 3–0 Romilly Champagne FC (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/3/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 · Poule C : Sézannais SC 3–3 Étoile Chapelaine (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/3/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 · Poule C : Chapelains RCS 2–1 Nogentais FC 2 (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/3/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 · Poule C : Rosières OS 3–1 Fontaine OV FC (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/3/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 · Poule D : Sorcy Void Vacon ENT. 2–1 St Geosmois FC (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/4/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 · Poule D : Eclaron US 3–4 Toul FC (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/4/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 · Poule D : Stade Chevillonnais null–null USIB Vaux-sur-Blaise (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/4/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 · Poule D : Treveray AS null–null Bar-sur-Aube FC (source : https://epreuves.fff.fr/competition/engagement/449973-regional-3-ihe-energies/phase/1/4/resultats-et-calendrier)
+- Dim. 22 nov. · D1 Ardennes : Villers Semeuse CA 2 2–2 Vivarois SC (source : https://epreuves.fff.fr/competition/engagement/451477-seniors-h-d1-3-brasseurs/phase/1/1/accueil)
+- Dim. 22 nov. · D1 Ardennes : Tournes Ren. Maz. AS 2 null–null Nouvion USC (source : https://epreuves.fff.fr/competition/engagement/451477-seniors-h-d1-3-brasseurs/phase/1/1/accueil)
+- Dim. 22 nov. · D1 Ardennes : Bazeilles US 2 null–null Boulzicourt (source : https://epreuves.fff.fr/competition/engagement/451477-seniors-h-d1-3-brasseurs/phase/1/1/accueil)
+- Dim. 22 nov. · District 1 Marne : Oiry US null–null Gueux AS (source : https://epreuves.fff.fr/competition/engagement/451347-seniors-district-1-cfa-du-batiment-51/phase/1/1/accueil)
+- Dim. 22 nov. · Régional 2 Hauts-de-France · Poule B : US Choisy-au-Bac null–null US Laon (source : https://epreuves.fff.fr/competition/engagement/452055-seniors-regional-2/phase/1/2/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 2 Hauts-de-France · Poule B : ESC Longueau 2 null–null Olympique Saint-Quentinois 2 (source : https://epreuves.fff.fr/competition/engagement/452055-seniors-regional-2/phase/1/2/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 Hauts-de-France · Poule C : Int. Château-Thierry Étampes null–null US Lamorlaye (source : https://epreuves.fff.fr/competition/engagement/452056-seniors-regional-3/phase/1/3/resultats-et-calendrier)
+- Dim. 22 nov. · Régional 3 Hauts-de-France · Poule C : RC Salouël Saleux null–null Soissons IFC 2 (source : https://epreuves.fff.fr/competition/engagement/452056-seniors-regional-3/phase/1/3/resultats-et-calendrier)
+- Sam. 21 nov. · Départemental 1 Haute-Marne : FC Saints-Geosmes 2 null–null Entente Colombey-Maranville-Rennepont (source : https://epreuves.fff.fr/competition/engagement/449271-departemental-1-allianz-leseur/phase/1/1/accueil)
 
 ### Basket
 
-- Mar. 17 nov. · Nationale masculine 1 · Poule A · J12 : SO MARITIME BOULOGNE 85–92 ETOILE DE CHARLEVILLE MEZIERES (source : https://competitions.ffbb.com/competitions/nm1/match/200000014596914)
+- Dim. 22 nov. · LF2 · J8 : Champagne Basket Féminin 61–51 Feytiat Basket 87 (source : https://www.sportclub-reims.fr/2026/11/le-champagne-basket-feminin-serieux-pour-dominer-feytiat/)
 - Ven. 20 nov. · Élite 2 · J11 : ASA Gries Souffel 70–88 Champagne Basket (source : https://www.sportclub-reims.fr/2026/11/le-champagne-basket-enchaine-en-alsace/)
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule A · J6 : Bcv Verdun 50–72 La Fertonne Fère-Champenoise (source : https://competitions.ffbb.com/ligues/ges/competitions/rm2?phase=200000002897416&poule=200000003054926&journee=6)
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule A · J6 : Asc Charny Sur Meuse 87–74 Villers Semeuse Basket (source : https://competitions.ffbb.com/ligues/ges/competitions/rm2?phase=200000002897416&poule=200000003054926&journee=6)
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule A · J6 : Thionville BC 89–58 Vitry lès Reims Basket 2 (source : https://competitions.ffbb.com/ligues/ges/competitions/rm2?phase=200000002897416&poule=200000003054926&journee=6)
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule A · J6 : Basket Sancéo Troyen 88–67 Gauloise de Vitry-le-François 2 (source : https://competitions.ffbb.com/ligues/ges/competitions/rm2?phase=200000002897416&poule=200000003054926&journee=6)
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule A · J6 : Entente Chaumontaise AC Basket 72–87 Association Cormontreuil Champagne Basket 2 (source : https://competitions.ffbb.com/ligues/ges/competitions/rm2?phase=200000002897416&poule=200000003054926&journee=6)
-- Sam. 21 nov. · Pré Nationale masculine · Poule A · J6 : Éveil Recy Saint-Martin Basket 2 76–78 Metz Bc - 2 (source : https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6)
 - Sam. 21 nov. · Pré Nationale masculine · Poule A · J6 : Energie Troyenne 78–87 Association Cormontreuil Champagne Basket (source : https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6)
 - Sam. 21 nov. · Pré Nationale masculine · Poule A · J6 : Vitry lès Reims Basket 80–71 Entente Gaillarde Muizonnaise (source : https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6)
 - Sam. 21 nov. · Pré Nationale masculine · Poule A · J6 : Cos Villers Les Nancy 99–80 Espé Basket Châlons-en-Champagne 2 (source : https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6)
@@ -62,20 +103,30 @@
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule C · J7 : Pals Athletic Club Guise 98–85 FC Belleu Basket Ball (source : https://competitions.ffbb.com/ligues/hdf/competitions/rm2?phase=200000002897555&poule=200000003055249&journee=7)
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule C · J7 : ASCC Margny 2 73–80 ESC Tergnier (source : https://competitions.ffbb.com/ligues/hdf/competitions/rm2?phase=200000002897555&poule=200000003055249&journee=7)
 - Sam. 21 nov. · Régionale masculine · Division 2 · Poule C · J7 : ASG Gauchy 54–86 Carnières BC (source : https://competitions.ffbb.com/ligues/hdf/competitions/rm2?phase=200000002897555&poule=200000003055249&journee=7)
-- Sam. 21 nov. · Pré Nationale masculine · Poule B · J7 : Gricourt Basket 93–98 Saint-Quentin Basket-Ball 2 (source : https://competitions.ffbb.com/ligues/hdf/competitions/pnm?phase=200000002897554&poule=200000003055244&journee=7)
 - Sam. 21 nov. · Nationale féminine 2 Espoirs · Phase 2 · Poule H · J2 : Roche Vendée BC (espoirs) 59–82 Flammes Carolo Basket (féminines) (source : https://competitions.ffbb.com/competitions/nf2?phase=200000002897185&poule=200000003054391&journee=2)
+- Sam. 21 nov. · Pré Nationale masculine · Poule A · J6 : Éveil Recy Saint-Martin Basket 2 76–78 Metz Bc - 2 (source : https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6)
+- Sam. 21 nov. · Pré Nationale masculine · Poule B · J7 : Gricourt Basket 93–98 Saint-Quentin Basket-Ball 2 (source : https://competitions.ffbb.com/ligues/hdf/competitions/pnm?phase=200000002897554&poule=200000003055244&journee=7)
+- Mar. 17 nov. · Nationale masculine 1 · Poule A · J12 : SO MARITIME BOULOGNE 85–92 ETOILE DE CHARLEVILLE MEZIERES (source : https://competitions.ffbb.com/competitions/nm1/match/200000014596914)
 - Dim. 22 nov. · Pré Régionale féminine · Poule A · J5 : Gricourt Basket (féminines) 64–44 ESC Tergnier (féminines) 2 (source : https://scorenco.com/basket/match-esc-tergnier-f2-gricourt-basket-f1-1g935?e=15404351)
 - Sam. 21 nov. · Betclic Élite · Poule A · J9 : Elan Chalon 104–89 Saint-Quentin Basket-Ball (source : https://scorenco.com/basket/match-elan-chalon-basket-saint-quentin-basketball-jsc-8g91?e=15538001)
+- Dim. 22 nov. · Pré Nationale féminine · Poule A · J6 : Bc Neufchatel Hardelot 71–61 Soissons Cuffies Aisne BB (féminines) (source : https://scorenco.com/basket/match-bc-neufchatel-hardelot-f1-soissons-cuffies-aisne-bb-f1-1r37r?e=15059866)
+- Dim. 22 nov. · Pré Nationale féminine · Poule A · J5 : AS Saint-Brice-Courcelles Basket (féminines) 69–56 Duttlenheim Lc - 2 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 - Dim. 22 nov. · Régionale masculine · Division 3 · Poule D · J7 : ESC Tergnier 2 76–66 Us Crepy En Valois - 2 (source : https://scorenco.com/basket/match-esc-tergnier-2-us-crepy-en-valois-basket-2-1r33b?e=15059380)
 - Dim. 22 nov. · Régionale féminine · Division 3 · Poule D · J7 : ESC Tergnier (féminines) 53–67 Verberie Bc (source : https://scorenco.com/basket/match-esc-tergnier-f1-verberie-bc-f1-kq21?e=15059740)
 - Dim. 22 nov. · Régionale masculine · Division 3 · Poule C · J7 : Gricourt Basket 2 76–63 Gayant Basket (source : https://scorenco.com/basket/match-gayant-basket-gricourt-basket-2-xqwi?e=15060534)
+- Dim. 22 nov. · Pré Régionale féminine · Poule A · J5 : Laon BB (féminines) 26–107 Pals Athletic Club Guise (féminines) (source : https://competitions.ffbb.com/ligues/hdf/comites/0002/competitions/prf?phase=200000002899283&poule=200000003059329&journee=5)
+- Dim. 22 nov. · Pré Régionale féminine · Poule A · J5 : Saint-Quentin Basket-Ball (féminines) 74–35 FC Belleu Basket Ball (féminines) (source : https://competitions.ffbb.com/ligues/hdf/comites/0002/competitions/prf?phase=200000002899283&poule=200000003059329&journee=5)
+- Dim. 22 nov. · Pré Régionale féminine · Poule A · J5 : Soissons Cuffies Aisne BB (féminines) 2 57–37 AAE Bohain (féminines) (source : https://competitions.ffbb.com/ligues/hdf/comites/0002/competitions/prf?phase=200000002899283&poule=200000003059329&journee=5)
+- Sam. 21 nov. · Pré Régionale masculine · Poule A · J5 : BC Saint Michel null–null FC Belleu Basket Ball 2 (source : https://competitions.ffbb.com/ligues/hdf/comites/0002/competitions/prm?phase=200000002898851&poule=200000003057958&journee=5)
+- Sam. 21 nov. · Pré Nationale masculine · Poule A · J6 : As Haut Du Lievre  Nancy null–null Reims Champagne Basket (source : https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6)
+- Dim. 22 nov. · Pré Régionale masculine · Poule A · J5 : BB Cotterézien 81–63 Club Cantonal Anizien Basket (source : https://competitions.ffbb.com/ligues/hdf/comites/0002/competitions/prm?phase=200000002898851&poule=200000003057958&journee=5)
 
 ### Handball
 
 - Sam. 21 nov. · Nationale 1 féminine · Poule 3 · J9 : NOISY-LE-GRAND HB 39–21 ROSIERES ST-JULIEN HB (source : https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-1-feminine-2026-2027-32608/poule-191236/rencontre-2648525/)
 - Sam. 21 nov. · Nationale 1 féminine · Poule 3 · J9 : ENTENTE SAONE MAMIROLLE HB 31–26 ENT. SAINTE-MAURE-TROYES HB FEMININ (source : https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-1-feminine-2026-2027-32608/poule-191236/rencontre-2648527/)
 - Sam. 21 nov. · Nationale 1 masculine · Poule 3 · J8 : AS ST BRICE 35–29 VILLEURBANNE HANDBALL ASSOCIATION (source : https://www.sportclub-reims.fr/2026/11/saint-brice-courcelles-a-la-relance-face-a-villeurbanne/)
-- Sam. 21 nov. · Nationale 2 féminine · Poule 5 · J9 : HBC SERRIS VAL D'EUROPE 33–27 REIMS CHAMPAGNE HANDBALL (source : https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-2-feminine-2026-2027-32609/poule-191245/rencontre-2649318/)
+- Sam. 21 nov. · Nationale 2 féminine · Poule 5 · J9 : HBC SERRIS VAL D'EUROPE 33–27 REIMS CHAMPAGNE HANDBALL (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 - Sam. 21 nov. · Nationale 2 masculine · Poule 3 · J8 : SO CALAIS HB 27–25 REVEIL DE NOGENT HB (source : https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-2-masculine-2026-2027-32501/poule-190843/rencontre-2638944/)
 - Sam. 21 nov. · Nationale 2 masculine · Poule 4 · J8 : ALC LONGVIC 30–31 ENT. ELITE AXONAISE HB (source : https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-2-masculine-2026-2027-32501/poule-190844/rencontre-2639077/)
 - Sam. 21 nov. · Nationale 3 masculine · Poule 5 · J8 : AS ST BRICE 39–25 RC EPERNAY HB (source : https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-3-masculine-2026-2027-32502/poule-190853/rencontre-2640003/)
@@ -86,10 +137,10 @@
 - Jeu. 19 nov. · Ligue AM · J7 : MONTPELLIER HERAULT SCV 3–0 CHAUMONT VB 52 HAUTE-MARNE (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D1M)
 - Ven. 20 nov. · Ligue BM · J7 : REIMS Volley 51 3–0 HARNES Volley-Ball (source : https://www.sportclub-reims.fr/2026/11/le-reims-volley-51-na-pas-tremble-face-a-harnes/)
 - Sam. 21 nov. · Ligue BM · J7 : VBC CHALON-SUR-SAÔNE 1–3 SAINT-QUENTIN Volley (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=AALNV&poule=D2M)
-- Dim. 22 nov. · Élite Avenir · Poule A · J6 : REIMS VOLLEY 51 3–0 CHAUMONT VOLLEY-BALL 52 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=EAA)
-- Dim. 22 nov. · Nationale 2 masculine · Poule B · J7 : REIMS VOLLEY 51 3 3–2 PARIS VOLLEY CLUB (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=2MB)
+- Dim. 22 nov. · Élite Avenir · Poule A · J6 : REIMS VOLLEY 51 3–0 CHAUMONT VOLLEY-BALL 52 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
+- Dim. 22 nov. · Nationale 2 masculine · Poule B · J7 : REIMS VOLLEY 51 3 3–2 PARIS VOLLEY CLUB (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 - Dim. 22 nov. · Nationale 3 féminine · Poule G · J7 : VILLERS COTTERETS VOLLEY-BALL 1–3 LEVALLOIS SPORTING CLUB (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=3FG)
-- Dim. 22 nov. · Nationale 3 féminine · Poule G · J7 : GRAND NANCY VOLLEY-BALL 3–1 REIMS VOLLEY 51 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=3FG)
+- Dim. 22 nov. · Nationale 3 féminine · Poule G · J7 : GRAND NANCY VOLLEY-BALL 3–1 REIMS VOLLEY 51 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 - Dim. 22 nov. · Nationale 3 masculine · Poule C · J7 : PATRONAGE LAIQUE 010 V.B. 0–3 CERCLE JULES FERRY FLEURY (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=3MC)
 - Sam. 21 nov. · Prénationale féminine Grand Est · Poule A · J7 : SAINT-DIE 2 1–3 ASVB YUTZ THIONVILLE (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA)
 - Sam. 21 nov. · Prénationale féminine Grand Est · Poule A · J7 : PONT-A-MOUSSON 2 3–0 LUNEVILLE (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LILO&poule=PFA)
@@ -110,7 +161,7 @@
 - Sam. 21 nov. · Régionale 1 masculine Hauts-de-France · Poule C · J6 : AULNOY LEZ VA 2 2–3 ORCHIES 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC)
 - Sam. 21 nov. · Régionale 1 masculine Hauts-de-France · Poule C · J6 : DOUAI 1 3–0 CAUDRY 4 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC)
 - Dim. 22 nov. · Régionale 1 masculine Hauts-de-France · Poule C · J6 : REIMS 5 3–0 NOYELLES SOUS LENS 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MC)
-- Sam. 21 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J6 : LONGUEAU AMIENS 1 2–3 REIMS 4 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
+- Sam. 21 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J6 : LONGUEAU AMIENS 1 2–3 REIMS 4 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 - Sam. 21 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J6 : CAUDRY 3 2–3 VILLERS COTTERETS 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
 - Sam. 21 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J6 : CHATEAU THIERRY 1 1–3 AMIENS METROPOLE 4 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
 - Dim. 22 nov. · Régionale 1 masculine Hauts-de-France · Poule D · J6 : RANTIGNY-LIANCOURT 1 3–0 BEAUVAIS 3 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD)
@@ -122,8 +173,9 @@
 - Dim. 22 nov. · Prénationale féminine Hauts-de-France · Poule B · J6 : MARCQ EN BAROEUL 3 3–1 AULNOY LEZ VA 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=PFB)
 - Sam. 21 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J6 : AGNY 1 3–0 CAUDRY 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
 - Sam. 21 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J6 : SOISSONS 1 3–1 SAINT QUENTIN 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
-- Sam. 21 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J6 : AMIENS METROPOLE 1 3–0 TINQUEUX 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
+- Sam. 21 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J6 : AMIENS METROPOLE 1 3–0 TINQUEUX 2 (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 - Sam. 21 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J6 : LA FERE 1 0–3 LIEVIN 2 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
+- Sam. 21 nov. · Régionale 1 féminine Hauts-de-France · Poule C · J6 : VILLERS COTTERETS 2 null–null ARRAS 1 (source : https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC)
 
 ### Rugby
 
@@ -137,14 +189,14 @@
 ### Hockey sur glace
 
 - Sam. 21 nov. · Division 2 · J8 : Tornado Luxembourg 2–4 Gaulois de Châlons-en-Champagne (source : https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728)
-- Sam. 21 nov. · Division 2 · J8 : Français Volants de Paris 3–2 Phénix de Reims (source : https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728)
+- Sam. 21 nov. · Division 2 · J8 : Français Volants de Paris 3–2 Phénix de Reims (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 
 ### Roller hockey
 
 - Sam. 21 nov. · Nationale 3 M · Groupe 3 · J6 : Rapaces de Reims B 10–3 Diables de Rethel 2 (source : https://scorenco.com/roller-hockey/clubs/roller-hockey-rethel-ardennes-38sg)
 - Sam. 21 nov. · Nationale 3 M · Groupe 3 · J6 : Bombardiers d'Épernay 2 10–3 OK Roller Beaune (source : https://www.rolskanet.fr/sportif/synthese/rencontres/LH)
 - Sam. 21 nov. · Nationale 3 M · Groupe 3 · J6 : Roller Hockey Collegien 6–5 Troyes Roller (source : https://www.rolskanet.fr/sportif/synthese/rencontres/LH)
-- Sam. 21 nov. · Nationale 1 M · Groupe 1 · J7 : Rapaces de Reims 3–8 Roller Skating Amienois (source : https://scorenco.com/roller-hockey/match-les-rapaces-de-reims-roller-skating-amienois-n5lq?e=15855836)
+- Sam. 21 nov. · Nationale 1 M · Groupe 1 · J7 : Rapaces de Reims 3–8 Roller Skating Amienois (source : https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/)
 
 ### Water-polo
 
@@ -153,19 +205,32 @@
 
 ## Agenda
 
-- Dim. 22 nov. 13:00 · Basket · Pré Régionale féminine · Poule A · J5 : Laon BB (féminines) – Pals Athletic Club Guise (féminines)
-- Dim. 22 nov. 13:30 · Basket · Pré Régionale féminine · Poule A · J5 : Soissons Cuffies Aisne BB (féminines) 2 – AAE Bohain (féminines)
-- Dim. 22 nov. 13:00 · Basket · Pré Régionale féminine · Poule A · J5 : Saint-Quentin Basket-Ball (féminines) – FC Belleu Basket Ball (féminines)
+- Sam. 28 nov. 18:30 · Football · Régional 3 · Poule A : Nord Ardennes – Godbrange Hussigny CS
+- Dim. 29 nov. 10:30 · Football · Régional 2 féminin · Poule C : AS Sarrey Montigny (féminines) – St Gilles FC (féminines)
+- Dim. 29 nov. 14:30 · Football · Régional 2 féminin · Poule C : JS Vaudoise (féminines) – Romilly Champagne FC (féminines)
+- Dim. 29 nov.  · Football · Régional 2 féminin · Poule C : St André Foot (féminines) – RCS Chapelains (féminines)
+- Sam. 28 nov. 20:00 · Football · Régional 1 · Poule A : Neuvillette Jamin – FC Saint-Méziéry
+- Dim. 29 nov. 14:30 · Football · Régional 1 · Poule A : FC Bogny – CS Orne Amnéville
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : Marnaval SC – Vitry FC
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : ES Fagnières – St Brice Courcelles
+- Sam. 28 nov. 17:00 · Football · Coupe de France · 8e tour : Cosne UCS – Sedan Ardennes CS
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : Alliance Sud Ouest F. Aubois – US Avize-Grauves
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : FC Nogentais – Rosières OS
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : AS Chartreux – A. L'Etoile Chapelaine
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : CA Villers-Semeuse – Olympique Charleville Prix AM 2
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : USIB Vaux-sur-Blaise – Chaumont FC
+- Dim. 29 nov. 14:30 · Football · Régional 1 féminin : Stade de Reims féminines – AS Nancy Lorraine
+- Dim. 29 nov. 14:30 · Football · Régional 2 féminin · Poule A : Charleville Prix OAM (féminines) – Flize US
+- Dim. 29 nov. 14:30 · Football · Régional 2 féminin · Poule A : Olympique Rémoise – Gueux AS
+- Dim. 29 nov. 14:30 · Football · Régional 2 féminin · Poule B : AS Taissy (féminines) – Reims Bezannes Féminin
+- Dim. 29 nov.  · Football · Régional 2 féminin · Poule B : St Dizier 2MO 2 – Neuvillette Jamin (féminines)
+- Sam. 28 nov. 19:00 · Football · Départemental 1 Haute-Marne : AS Sarrey Montigny 2 – St Geosmois FC 2
+- Dim. 29 nov. 14:30 · Football · Coupe Hauts-de-France : Laon US – Raismes FC
+- Sam. 28 nov. 13:30 · Football · Coupe de France · 8e tour : Charleville Prix OAM – Stade de Reims
+- Dim. 29 nov. 14:30 · Football · D1 Ardennes : Olympique Charleville Prix AM 3 – USC Nouvion-sur-Meuse
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : US Eclaron – Épernay Champagne RC
 - Sam. 28 nov. 20:00 · Basket · Nationale masculine 2 · Poule D · J11 : Holtzheim Vogesia – Éveil Recy Saint-Martin Basket
-- Sam. 28 nov. 20:00 · Basket · Nationale masculine 2 · Poule D · J11 : HOLTZHEIM VOGESIA – EVEIL RECY SAINT MARTIN BASKET (Salle De La Bruche · Holtzheim)
-- Dim. 22 nov. 15:30 · Basket · LF2 · J8 : CHAMPAGNE BASKET FEMININ – FEYTIAT BASKET 87 (Salle Principale Rene Tys · Reims)
 - Sam. 28 nov. 20:00 · Basket · LF2 · J9 : ROCHE VENDEE BC – CHAMPAGNE BASKET FEMININ (Salle Des Oudairies · La Roche-sur-Yon)
-- Dim. 22 nov. 14:00 · Rugby · Féminines Régionales à X · Poule 1 · J5 : C OL Chalonnais (féminines) – Harpies
-- Dim. 22 nov. 14:30 · Rugby · Féminines Régionales à X · Poule 2 · J5 : Écac Rugby Chaumont (féminines) – Association Sportive des Chemino
-- Dim. 22 nov. 14:30 · Rugby · Féminines Régionales à X · Poule 2 · J5 : RC Lunevillois – Club Ovalie de Saint-Dizier (féminines)
-- Dim. 22 nov. 11:00 · Basket · Pré Régionale masculine · Poule A · J5 : BB Cotterézien – Club Cantonal Anizien Basket
-- Dim. 22 nov. 16:00 · Basket · Pré Nationale féminine · Poule A · J6 : Bc Neufchatel Hardelot – Soissons Cuffies Aisne BB (féminines)
-- Dim. 22 nov. 16:00 · Basket · Pré Nationale féminine · Poule A · J5 : AS Saint-Brice-Courcelles Basket (féminines) – Duttlenheim Lc - 2
 - Sam. 28 nov. 20:45 · Football · Ligue 1 · J12 : Nice – ESTAC Troyes
 - Sam. 28 nov. 20:00 · Volley · Ligue AM · J8 : CHAUMONT VB 52 HAUTE-MARNE – AS CANNES Volley-Ball (Palestra)
 - Sam. 28 nov. 19:30 · Volley · Ligue BM · J8 : SAINT-QUENTIN Volley – REIMS Volley 51 (Palais Des Sports Pierre Ratte)
@@ -206,7 +271,6 @@
 - Sam. 28 nov. 18:00 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J7 : CAUDRY 2 – LA FERE 1 (Palais Des Sports)
 - Sam. 28 nov. 18:30 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J7 : LIEVIN 2 – AMIENS METROPOLE 1 (Salle Noel Josephe)
 - Sam. 28 nov. 20:30 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J7 : ARRAS 1 – AGNY 1 (Salle Lycee Jules Ferry)
-- Dim. 29 nov. 14:00 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J7 : SAINT QUENTIN 1 – VILLERS COTTERETS 2 Forfait Général (Gymnase Pierre Laroche)
 - Dim. 29 nov. 14:00 · Volley · Régionale 1 féminine Hauts-de-France · Poule C · J7 : TINQUEUX 2 – SOISSONS 1 (Gymnase De La Croix Cordier)
 - Sam. 28 nov. 18:30 · Hockey sur glace · Division 2 · J9 : Gaulois de Châlons-en-Champagne – Coqs de Courbevoie (Chalons-en-Champagne - Cité glace)
 - Sam. 28 nov. 20:15 · Handball · Nationale 1 masculine · Poule 3 · J9 : ANNECY CSAV HANDBALL – AS ST BRICE
@@ -284,7 +348,7 @@
 - Dim. 29 nov. 13:00 · Rugby · Régionale 3 · Poule 1 · J8 : Rugby Club Bar Le Duc – Rethel S Rugby XV 2
 - Dim. 29 nov. 12:00 · Rugby · Féminines Régionales à X · Poule 1 · J6 : Harpies – Club Rugby Aube Champagne Ossey Marigny (féminines)
 - Dim. 29 nov. 14:30 · Rugby · Féminines Régionales à X · Poule 1 · J6 : C OL Chalonnais (féminines) – Arduinnas
-- Dim. 29 nov. 14:30 · Rugby · Féminines Régionales à X · Poule 2 · J6 : R C Naborien – Écac Rugby Chaumont (féminines)
+- Dim. 29 nov. 13:00 · Rugby · Féminines Régionales à X · Poule 2 · J6 : R C Naborien – Écac Rugby Chaumont (féminines)
 - Dim. 29 nov. 14:30 · Rugby · Féminines Régionales à X · Poule 2 · J6 : Club Ovalie de Saint-Dizier (féminines) – H'euses
 - Dim. 29 nov. 15:15 · Rugby · Fédérale 3 · Poule 2 · J9 : Rugby Épernay Champagne – R C Pont A Mousson
 - Sam. 28 nov. 19:00 · Basket · Pré Régionale féminine · Poule A · J1 : AAE Bohain (féminines) – Laon BB (féminines)
@@ -315,7 +379,18 @@
 - Sam. 28 nov. 17:15 · Basket · Nationale féminine 2 · Poule D · J10 : Flammes Carolo Basket (féminines) 2 – C'Chartres Metropole Basket Femi
 - Dim. 29 nov. 15:30 · Basket · Nationale féminine 3 · Poule F · J10 : Champagne Basket Féminin 2 – Lambersart B L M - 2
 - Dim. 29 nov. 13:15 · Basket · Régionale féminine · Division 2 · Poule B · J7 : Champagne Basket Féminin – Us Silvange Basket
-- Dim. 29 nov. 15:30 · Basket · Régionale féminine · Division 2 · Poule B · J7 : Dukes De Fameck – Vitry lès Reims Basket (féminines)
+- Dim. 29 nov. 17:30 · Basket · Régionale féminine · Division 2 · Poule B · J7 : Dukes De Fameck – Vitry lès Reims Basket (féminines)
+- Sam. 28 nov. 20:00 · Basket · Nationale masculine 2 · Poule D · J11 : HOLTZHEIM VOGESIA – EVEIL RECY SAINT MARTIN BASKET (Salle De La Bruche · Holtzheim)
+- Dim. 29 nov. 12:30 · Football · Départemental 1 Haute-Marne : USIB Vaux-sur-Blaise 2 – ECMR
+- Dim. 29 nov. 14:30 · Football · Départemental 1 Haute-Marne : SL de l'Ornel à Chancenay – US Montier-en-Der
+- Dim. 29 nov. 14:30 · Football · Départemental 1 Haute-Marne : SR Neuilly-l'Évéque – CO Langres
+- Dim. 29 nov. 14:30 · Football · Départemental 1 Haute-Marne : Marnaval SC 2 – FC Joinville-Vecqueville
+- Dim. 29 nov. 14:30 · Football · Départemental 1 Haute-Marne : ES Andelot Rimaucourt Bourdons – FC Prez-Bourmont
+- Dim. 29 nov. 14:30 · Football · D1 Ardennes : AS Boulzicourt – FC de Haybes
+- Sam. 28 nov. 18:00 · Football · Coupe du Grand Est : Reims FC Christo – Cormontreuil FC
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : FC Côte des Blancs – Reims Murigny FP
+- Dim. 29 nov. 14:30 · Football · Coupe du Grand Est : AS Tournes Renwez Mazures – ES des Coteaux Sud
+- Dim. 29 nov. 14:30 · Football · Régional 2 féminin · Poule A : CS Sedan Ardennes (féminines) – Bétheny FC (féminines)
 
 ## Classements
 
@@ -514,20 +589,20 @@
 5. St André Foot — 3 pts, 6 matchs joués
 6. Chapelains RCS (féminines) — 0 pts, 0 matchs joués
 
-### Football · D3 féminine · Groupe B (relevé le 9 nov. sur statsfootofeminin.fr (après 6 journées))
+### Football · D3 féminine · Groupe B (relevé le 23 nov. sur statsfootofeminin.fr (J7))
 
-1. Lyon B — 15 pts, 6 matchs joués
-2. Rodez — 13 pts, 6 matchs joués
-3. Clermont — 13 pts, 6 matchs joués
-4. Montauban — 11 pts, 6 matchs joués
-5. Albi Marssac — 11 pts, 6 matchs joués
-6. Le Puy — 9 pts, 6 matchs joués
-7. Montpellier B — 9 pts, 6 matchs joués
-8. Marseille B — 8 pts, 6 matchs joués
-9. Bordeaux — 7 pts, 6 matchs joués
-10. ESTAC Troyes féminines — 2 pts, 6 matchs joués
-11. Rousset — 1 pts, 6 matchs joués
-12. Longvic — 1 pts, 6 matchs joués
+1. Clermont — 16 pts, 7 matchs joués
+2. Lyon B — 15 pts, 7 matchs joués
+3. Albi Marssac — 14 pts, 7 matchs joués
+4. Rodez — 13 pts, 7 matchs joués
+5. Montauban — 12 pts, 7 matchs joués
+6. Montpellier B — 12 pts, 7 matchs joués
+7. Marseille B — 11 pts, 7 matchs joués
+8. Le Puy — 10 pts, 7 matchs joués
+9. Bordeaux — 7 pts, 7 matchs joués
+10. Rousset — 4 pts, 7 matchs joués
+11. ESTAC Troyes féminines — 2 pts, 7 matchs joués
+12. Longvic — 1 pts, 7 matchs joués
 
 ### Rugby · Régionale 1 Hauts-de-France (relevé le 9 nov. sur Rugby Amateur (après la J4))
 
@@ -554,19 +629,6 @@
 10. Rugby Club Lens Liévin — 4 pts, 6 matchs joués
 11. Rugby Club Hazebrouck — 1 pts, 6 matchs joués
 12. RC Amandinois — -2 pts, 6 matchs joués
-
-### Hockey sur glace · Division 2 (relevé le 16 nov. sur hockeyfrance.com (poule A))
-
-1. Hogly — 16 pts, 7 matchs joués
-2. Français Volants — 14 pts, 7 matchs joués
-3. Brest — 13 pts, 7 matchs joués
-4. Évry-Viry — 12 pts, 6 matchs joués
-5. Gaulois de Châlons-en-Champagne — 11 pts, 6 matchs joués
-6. Phénix de Reims — 10 pts, 7 matchs joués
-7. Luxembourg — 10 pts, 7 matchs joués
-8. Orléans — 7 pts, 7 matchs joués
-9. Courbevoie — 3 pts, 6 matchs joués
-10. Wasquehal — 3 pts, 6 matchs joués
 
 ### Rugby · Fédérale 3 · Poule 2 (relevé le 16 nov. sur Rugby Amateur (J8 ; Strasbourg : 4 points de pénalité inclus))
 
@@ -1533,6 +1595,19 @@
 10. ELITE AXONAISE HANDBALL PLUS DE 16 ANS FEMININ — 8 pts, 6 matchs joués
 11. HANDBALL HAZEBROUCK 71 - 2 — 6 pts, 6 matchs joués
 12. TOURCOING HAND BALL - SF2 - PRENAT F — 5 pts, 6 matchs joués
+
+### Hockey sur glace · Division 2 (relevé le 23 nov. sur hockeyfrance.com (poule A))
+
+1. Hogly — 19 pts, 8 matchs joués
+2. Français Volants — 17 pts, 8 matchs joués
+3. Brest — 16 pts, 8 matchs joués
+4. Gaulois de Châlons-en-Champagne — 14 pts, 7 matchs joués
+5. Évry-Viry — 12 pts, 7 matchs joués
+6. Phénix de Reims — 10 pts, 8 matchs joués
+7. Luxembourg — 10 pts, 8 matchs joués
+8. Orléans — 7 pts, 8 matchs joués
+9. Wasquehal — 5 pts, 7 matchs joués
+10. Courbevoie — 4 pts, 7 matchs joués
 
 ## Sources
 

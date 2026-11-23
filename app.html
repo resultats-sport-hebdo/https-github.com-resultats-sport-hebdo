@@ -319,6 +319,7 @@ footer a{color:var(--muted)}
 .hero.gym .week select{background-color:rgba(0,0,0,.35)}
 @media (max-width:760px){ .hero.gym .floor{left:-90%;right:-90%;height:560px} .hero.gym .headline .kick{margin-right:0} }
 #fpanel .club{cursor:pointer}
+.sc.nc{background:#6b7280;color:#fff;border-radius:8px;padding:6px 10px;font-weight:700;font-size:11.5px;letter-spacing:.02em;white-space:nowrap}
 .sc.rep{background:#c62828;color:#fff;border-radius:8px;padding:7px 12px;font-weight:800;font-size:13px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
 .favnote{margin:12px 0 4px;padding:10px 14px;border-radius:10px;background:rgba(232,163,23,.14);border:1px solid rgba(232,163,23,.45);font-size:14px}
 </style>
@@ -542,7 +543,7 @@ function start(DATA){
     const meta=[esc(r.date), opt.comp?esc(r.comp):esc(jour(r.comp)), f?'<span class="fem">Féminin</span>':'', u?`<a href="${esc(u)}" target="_blank" rel="noopener">${isHome(u)?'Source':'+ d\'infos'} ↗</a>`:'', opt.cl?clink:''].filter(Boolean).join(' · ');
     return `<li class="m${favN(r.home,isF(r))||favN(r.away,isF(r))?' fav':''}">
       <div class="line"><span class="t h${hw?' w':''}">${star(r.home,isF(r))}<span>${esc(r.home)}</span></span>
-      ${r.reporte?`<span class="sc rep" aria-label="Match reporté">Reporté</span>`:`<span class="sc" aria-label="Score ${esc(r.sh)} à ${esc(r.sa)}"><b class="${hw?'w':''}">${esc(r.sh)}</b><i>–</i><b class="${aw?'w':''}">${esc(r.sa)}</b></span>`}
+      ${r.reporte?`<span class="sc rep" aria-label="Match reporté">Reporté</span>`:r.forfait?`<span class="sc nc" aria-label="Forfait">Forfait</span>`:r.nc?`<span class="sc nc" aria-label="Résultat non communiqué">Rés. non communiqué</span>`:`<span class="sc" aria-label="Score ${esc(r.sh)} à ${esc(r.sa)}"><b class="${hw?'w':''}">${esc(r.sh)}</b><i>–</i><b class="${aw?'w':''}">${esc(r.sa)}</b></span>`}
       <span class="t a${aw?' w':''}"><span>${esc(r.away)}</span>${star(r.away,isF(r))}</span></div>
       <div class="meta">${meta}</div>${r.note?`<p class="note">${esc(r.note)}</p>`:''}</li>`;
   }
@@ -572,7 +573,7 @@ function start(DATA){
     while(over()&&fs>22){ fs-=1; h.style.fontSize=fs+'px'; }
     if(over()) h.classList.add('wrap'); }
   addEventListener('resize',()=>{ clearTimeout(fitUne.t); fitUne.t=setTimeout(fitUne,120); });
-  function pickUne(res){ res=res.filter(r=>!r.reporte);
+  function pickUne(res){ res=res.filter(r=>!r.reporte&&!r.nc&&!r.forfait);
     const score=r=>{ let s=0; const reg=r.level==='Régional';
       if(isArticle(r.url)) s+=40; if(/sportclub-reims/i.test(r.url||'')) s+=10;
       if(reg) s+=20; if(PRO.test(r.comp||'')) s-=25; if(r.div==='D1') s-=12;
