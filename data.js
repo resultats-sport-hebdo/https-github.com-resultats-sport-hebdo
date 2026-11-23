@@ -3234,7 +3234,8 @@ window.RSH_DATA = {
      "sh": 1,
      "sa": 3,
      "note": "",
-     "url": "https://www.sportcorico.com/clubs/f-c-de-formation-la-neuvillette-jamin/rs-neuvillette-jamin-3"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "source": "https://www.sportcorico.com/clubs/f-c-de-formation-la-neuvillette-jamin/rs-neuvillette-jamin-3"
     },
     {
      "sport": "Football",
@@ -3249,7 +3250,8 @@ window.RSH_DATA = {
      "sh": 0,
      "sa": 0,
      "note": "",
-     "url": "https://www.sportcorico.com/clubs/usavt-g-uckange/uckange-usag-2"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "source": "https://www.sportcorico.com/clubs/usavt-g-uckange/uckange-usag-2"
     },
     {
      "sport": "Football",
@@ -3264,7 +3266,8 @@ window.RSH_DATA = {
      "sh": 1,
      "sa": 5,
      "note": "",
-     "url": "https://www.sportcorico.com/clubs/reims-murigny-franco-portugais/rs-murigny-frpo"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "source": "https://www.sportcorico.com/clubs/reims-murigny-franco-portugais/rs-murigny-frpo"
     },
     {
      "sport": "Football",
@@ -3398,7 +3401,8 @@ window.RSH_DATA = {
      "sh": 70,
      "sa": 88,
      "note": "Vitale-Boiteux a marqué 23 points et le Champagne Basket reste co-leader.",
-     "url": "https://www.sportclub-reims.fr/2026/11/le-champagne-basket-enchaine-en-alsace/"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "source": "https://www.sportclub-reims.fr/2026/11/le-champagne-basket-enchaine-en-alsace/"
     },
     {
      "sport": "Basket",
@@ -3548,7 +3552,8 @@ window.RSH_DATA = {
      "sh": 89,
      "sa": 100,
      "note": "",
-     "url": "https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "source": "https://competitions.ffbb.com/ligues/ges/competitions/pnm?phase=200000002897412&poule=200000003054918&journee=6"
     },
     {
      "sport": "Basket",
@@ -3578,7 +3583,8 @@ window.RSH_DATA = {
      "sh": 10,
      "sa": 3,
      "note": "",
-     "url": "https://scorenco.com/roller-hockey/clubs/roller-hockey-rethel-ardennes-38sg"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "source": "https://scorenco.com/roller-hockey/clubs/roller-hockey-rethel-ardennes-38sg"
     },
     {
      "sport": "Football",
@@ -3669,7 +3675,8 @@ window.RSH_DATA = {
      "sh": 10,
      "sa": 3,
      "note": "",
-     "url": "https://www.rolskanet.fr/sportif/synthese/rencontres/LH"
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "source": "https://www.rolskanet.fr/sportif/synthese/rencontres/LH"
     },
     {
      "sport": "Roller hockey",
@@ -3957,12 +3964,13 @@ window.RSH_DATA = {
      "hz": "reims",
      "away": "CHAUMONT VOLLEY-BALL 52",
      "az": "chaumont",
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=EAA",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "ffvb",
      "date": "Dim. 22 nov.",
      "sh": 3,
      "sa": 0,
-     "note": "Sets : 25-22, 25-23, 25-16."
+     "note": "Sets : 25-22, 25-23, 25-16.",
+     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=EAA"
     },
     {
      "sport": "Volley",
@@ -3973,12 +3981,13 @@ window.RSH_DATA = {
      "hz": "reims",
      "away": "PARIS VOLLEY CLUB",
      "az": null,
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=2MB",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "ffvb",
      "date": "Dim. 22 nov.",
      "sh": 3,
      "sa": 2,
-     "note": "Sets : 22-25, 25-18, 25-16, 21-25, 17-15."
+     "note": "Sets : 22-25, 25-18, 25-16, 21-25, 17-15.",
+     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=2MB"
     },
     {
      "sport": "Volley",
@@ -4005,12 +4014,13 @@ window.RSH_DATA = {
      "hz": null,
      "away": "REIMS VOLLEY 51",
      "az": "reims",
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=3FG",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "ffvb",
      "date": "Dim. 22 nov.",
      "sh": 3,
      "sa": 1,
-     "note": "Sets : 25-15, 27-25, 19-25, 25-22."
+     "note": "Sets : 25-15, 27-25, 19-25, 25-22.",
+     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=ABCCS&poule=3FG"
     },
     {
      "sport": "Volley",
@@ -4341,12 +4351,13 @@ window.RSH_DATA = {
      "hz": null,
      "away": "REIMS 4",
      "az": "reims",
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "ffvb",
      "date": "Sam. 21 nov.",
      "sh": 2,
      "sa": 3,
-     "note": "Sets : 25-23, 23-25, 16-25, 25-22, 7-15."
+     "note": "Sets : 25-23, 23-25, 16-25, 25-22, 7-15.",
+     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1MD"
     },
     {
      "sport": "Volley",
@@ -4533,12 +4544,13 @@ window.RSH_DATA = {
      "hz": null,
      "away": "TINQUEUX 2",
      "az": "reims",
-     "url": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "ffvb",
      "date": "Sam. 21 nov.",
      "sh": 3,
      "sa": 0,
-     "note": "Sets : 25-11, 25-15, 25-11."
+     "note": "Sets : 25-11, 25-15, 25-11.",
+     "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026/2027&codent=LIFL&poule=1FC"
     },
     {
      "sport": "Volley",
@@ -4581,12 +4593,13 @@ window.RSH_DATA = {
      "hz": null,
      "away": "Phénix de Reims",
      "az": "reims",
-     "url": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "ffhg",
      "date": "Sam. 21 nov.",
      "sh": 3,
      "sa": 2,
-     "note": ""
+     "note": "",
+     "source": "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/?journee=&equipe=&poule=728"
     },
     {
      "sport": "Handball",
@@ -4646,12 +4659,13 @@ window.RSH_DATA = {
      "hz": null,
      "away": "REIMS CHAMPAGNE HANDBALL",
      "az": "reims",
-     "url": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-2-feminine-2026-2027-32609/poule-191245/rencontre-2649318/",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "ffhb",
      "date": "Sam. 21 nov.",
      "sh": 33,
      "sa": 27,
-     "note": "Mi-temps : 17-13."
+     "note": "Mi-temps : 17-13.",
+     "source": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/nationale-2-feminine-2026-2027-32609/poule-191245/rencontre-2649318/"
     },
     {
      "sport": "Handball",
@@ -4726,13 +4740,14 @@ window.RSH_DATA = {
      "hz": "reims",
      "away": "Roller Skating Amienois",
      "az": null,
-     "url": "https://scorenco.com/roller-hockey/match-les-rapaces-de-reims-roller-skating-amienois-n5lq?e=15855836",
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
      "src": "scorenco",
      "date": "Sam. 21 nov.",
      "sh": 3,
      "sa": 8,
      "note": "",
-     "mid": "snc15855836"
+     "mid": "snc15855836",
+     "source": "https://scorenco.com/roller-hockey/match-les-rapaces-de-reims-roller-skating-amienois-n5lq?e=15855836"
     },
     {
      "sport": "Basket",
@@ -4767,6 +4782,41 @@ window.RSH_DATA = {
      "sh": 104,
      "sa": 89,
      "note": ""
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "genre": "F",
+     "comp": "Pré Nationale féminine · Poule A · J6",
+     "home": "Bc Neufchatel Hardelot",
+     "hz": null,
+     "away": "Soissons Cuffies Aisne BB (féminines)",
+     "az": "soissons",
+     "url": "https://scorenco.com/basket/match-bc-neufchatel-hardelot-f1-soissons-cuffies-aisne-bb-f1-1r37r?e=15059866",
+     "src": "scorenco",
+     "mid": "snc15059866",
+     "date": "Dim. 22 nov.",
+     "sh": 71,
+     "sa": 61,
+     "note": ""
+    },
+    {
+     "sport": "Basket",
+     "level": "Régional",
+     "genre": "F",
+     "comp": "Pré Nationale féminine · Poule A · J5",
+     "home": "AS Saint-Brice-Courcelles Basket (féminines)",
+     "hz": "reims",
+     "away": "Duttlenheim Lc - 2",
+     "az": null,
+     "url": "https://www.sportclub-reims.fr/2026/11/resultats-week-end-du-20-au-22-novembre-2026/",
+     "src": "scorenco",
+     "mid": "snc15249527",
+     "date": "Dim. 22 nov.",
+     "sh": 69,
+     "sa": 56,
+     "note": "",
+     "source": "https://scorenco.com/basket/match-as-saint-brice-courcelles-f1-duttlenheim-lc-f2-1s79p?e=15249527"
     },
     {
      "sport": "Basket",
@@ -5026,38 +5076,6 @@ window.RSH_DATA = {
      "mid": "snc15404352",
      "day": "Dim. 22 nov.",
      "time": "11:00",
-     "place": ""
-    },
-    {
-     "sport": "Basket",
-     "level": "Régional",
-     "genre": "F",
-     "comp": "Pré Nationale féminine · Poule A · J6",
-     "home": "Bc Neufchatel Hardelot",
-     "hz": null,
-     "away": "Soissons Cuffies Aisne BB (féminines)",
-     "az": "soissons",
-     "url": "https://scorenco.com/basket/match-bc-neufchatel-hardelot-f1-soissons-cuffies-aisne-bb-f1-1r37r?e=15059866",
-     "src": "scorenco",
-     "mid": "snc15059866",
-     "day": "Dim. 22 nov.",
-     "time": "16:00",
-     "place": ""
-    },
-    {
-     "sport": "Basket",
-     "level": "Régional",
-     "genre": "F",
-     "comp": "Pré Nationale féminine · Poule A · J5",
-     "home": "AS Saint-Brice-Courcelles Basket (féminines)",
-     "hz": "reims",
-     "away": "Duttlenheim Lc - 2",
-     "az": null,
-     "url": "https://scorenco.com/basket/match-as-saint-brice-courcelles-f1-duttlenheim-lc-f2-1s79p?e=15249527",
-     "src": "scorenco",
-     "mid": "snc15249527",
-     "day": "Dim. 22 nov.",
-     "time": "16:00",
      "place": ""
     },
     {
@@ -6855,7 +6873,7 @@ window.RSH_DATA = {
      "src": "scorenco",
      "mid": "snc15774864",
      "day": "Dim. 29 nov.",
-     "time": "14:30",
+     "time": "13:00",
      "place": ""
     },
     {
@@ -7351,11 +7369,11 @@ window.RSH_DATA = {
      "src": "scorenco",
      "mid": "snc15250133",
      "day": "Dim. 29 nov.",
-     "time": "15:30",
+     "time": "17:30",
      "place": ""
     }
    ],
-   "enCours": true
+   "enCours": false
   },
   {
    "id": "2026-11-16",
